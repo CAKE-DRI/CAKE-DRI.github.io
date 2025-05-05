@@ -75,6 +75,12 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 footer:
   links:
     - label: "Twitter"
