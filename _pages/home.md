@@ -23,7 +23,7 @@ feature_row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home-events.webp
+  - image_path: /assets/images/home-events.png
     alt: "100% free"
     title: "DRI events"
     excerpt: "There are a wide range of events going on across the UK's DRI"
