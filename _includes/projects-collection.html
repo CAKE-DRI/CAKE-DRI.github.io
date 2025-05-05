@@ -1,6 +1,8 @@
 
 {% assign entries = site[include.collection] %}
 
+Entries are {{ entries }}
+
 {% if include.sort_by == 'title' %}
   {% if include.sort_order == 'reverse' %}
     {% assign entries = entries | where: "group", "projects" | sort: 'title' | reverse %}
