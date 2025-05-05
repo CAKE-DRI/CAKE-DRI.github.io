@@ -39,8 +39,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 feed:
   path: atom.xml
 
-#include:
-#  - _pages
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
