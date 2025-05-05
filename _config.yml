@@ -107,12 +107,10 @@ defaults:
       layout: single
       author_profile: false
   - scope:
-      path: "projects"
+      path: "_pages/projects"
       type: projects
     values:
-      layout: post
-      comments: false
-      share: false
+      layout: single
 
 # Collections
 collections:
