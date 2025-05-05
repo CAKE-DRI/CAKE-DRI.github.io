@@ -107,7 +107,7 @@ defaults:
       layout: single
       author_profile: false
   - scope:
-      path: "_pages/projects"
+      path: "projects"
       type: projects
     values:
       layout: single
