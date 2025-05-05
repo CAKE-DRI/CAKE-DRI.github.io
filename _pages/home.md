@@ -9,13 +9,13 @@ excerpt: >
   Digital Research Infrastructure (DRI) involves computing for scientific and data intensive workloads. Ranging from traditional supercomputers to specialised data processing.
 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/home-projects.webp
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "Projects"
+    excerpt: "There are a wide range of DRI projects that are active across the ecosystem."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Find out more"
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "fully responsive"
     title: "Responsive layouts"
