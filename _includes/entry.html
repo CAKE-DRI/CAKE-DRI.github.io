@@ -37,10 +37,4 @@
       <u>More...</u>
     </div>
   {% endunless %}
-  {% if site.read_time or entry.date and page.layout != 'collection' %}
-    <footer class="entry-meta">
-      {% if site.read_time %}{% include read-time.html %}{% endif %}
-      {% if entry.date %}{% include entry-date.html %}{% endif %}
-    </footer>
-  {% endif %}
 </article>
