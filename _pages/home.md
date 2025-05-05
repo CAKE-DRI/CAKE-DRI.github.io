@@ -9,7 +9,7 @@ excerpt: >
   Digital Research Infrastructure (DRI) involves computing for scientific and data intensive workloads. Ranging from traditional supercomputers to specialised data processing.
 
 feature_row:
-  - image_path: /assets/images/home-projects.webp
+  - image_path: /assets/images/home-projects.png
     alt: "customizable"
     title: "Projects"
     excerpt: "There are a wide range of DRI projects that are active across the ecosystem."
