@@ -11,25 +11,25 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/home-projects.png
     alt: "customizable"
-    title: "Projects"
+    title: "DRI projects"
     excerpt: "There are a wide range of DRI projects that are active across the ecosystem."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Find out more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - image_path: /assets/images/home-events.png
     alt: "100% free"
     title: "DRI events"
     excerpt: "There are a wide range of events going on across the UK's DRI"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "View schedule"      
+    btn_label: "View schedule"
+  - image_path: /assets/images/home-resources.webp
+    alt: "fully responsive"
+    title: "DRI resources"
+    excerpt: "A range of resources are available across the DRI programme"
+    url: "/docs/layouts/"
+    btn_class: "btn--primary"
+    btn_label: "Access these"
 ---
 
 {% include feature_row %}
