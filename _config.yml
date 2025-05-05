@@ -108,10 +108,10 @@ defaults:
       author_profile: false
 
 # Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+#  projects:
+#    output: true
+#    permalink: /:collection/:path/
 
 #category_archive:
 #  type: liquid
