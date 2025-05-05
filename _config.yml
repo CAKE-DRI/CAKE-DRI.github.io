@@ -106,11 +106,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-  - scope:
-      path: "projects"
-      type: projects
-    values:
-      layout: single
 
 # Collections
 collections:
