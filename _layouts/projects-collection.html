@@ -1,25 +1,7 @@
-{% assign entries = site[include.collection] %}
+---
+layout: no-title-page
+---
 
-{% if include.sort_by == 'title' %}
-  {% if include.sort_order == 'reverse' %}
-    {% assign entries = entries | where: "group", "projects" | sort: 'title' | reverse %}
-  {% else %}
-    {% assign entries = entries | where: "group", "projects" | sort: 'title' %}
-  {% endif %}
-{% elsif include.sort_by == 'date' %}
-  {% if include.sort_order == 'reverse' %}
-    {% assign entries = entries | where: "group", "projects" | sort: 'date' | reverse %}
-  {% else %}
-    {% assign entries = entries | where: "group", "projects" | sort: 'date' %}
-  {% endif %}
-{% elsif include.sort_by == 'order' %}
-  {% if include.sort_order == 'reverse' %}
-    {% assign entries = entries | where: "group", "projects" | sort: 'order' | reverse %}
-  {% else %}
-    {% assign entries = entries | where: "group", "projects" | sort: 'order' %}
-  {% endif %}
-{% endif %}
-
-{%- for entry in entries -%}
-  {% include entry.html %}
-{%- endfor -%}
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% include projects-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
+</div>
