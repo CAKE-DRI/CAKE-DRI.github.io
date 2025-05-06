@@ -16,6 +16,52 @@
   }
 }
 
+.project-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.project-title {
+  margin-bottom: 0.5rem;
+  font-family: $title-font-family;
+  font-weight: $entry-title-weight;
+  font-style: italic;
+  letter-spacing: -1px;
+  word-wrap: break-word; /* break long words that could overflow */
+
+  a {
+    text-decoration: none;
+  }
+
+  a[rel="bookmark"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.project-image {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.project-excerpt a,
+.u-bookmark-of {
+  position: relative;
+  z-index: 10;
+}
+
 .project__item {
   margin-bottom: 2em;
 
