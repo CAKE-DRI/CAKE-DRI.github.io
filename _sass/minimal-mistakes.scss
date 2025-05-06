@@ -5,7 +5,7 @@
 @import "minimal-mistakes/variables";
 
 /* Mixins and functions */
-@import "minimal-mistakes/functions";
+@import "minimal-mistakes/functions/fluid-type";
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
 @import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
