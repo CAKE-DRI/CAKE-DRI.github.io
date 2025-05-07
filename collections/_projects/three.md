@@ -7,6 +7,7 @@ group: projects
 layout: post
 order: 1
 image: assets/images/project_3.webp
+project-type: Code development
 contact-name: Test Person
 contact-email: test@test.com
 web-page: https://www.myproject.com
