@@ -6,6 +6,9 @@
 
 <article class="project">
   <header class="project-header">
+    <p class="project-type p-name">
+      {{ entry.project-type}}
+    </p>
     <h3 class="project-title p-name">
       {% if entry.icon %} 
         <img src="{{ entry.icon }}" alt="{{ entry.icon_alt }}" style="height: 48px;">
@@ -25,16 +28,4 @@
       <img class="project-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
-  {% unless page.show_excerpts == false %}
-    <div class="project-excerpt p-summary">
-      {% if entry.excerpt %}
-        {% if page.entries_layout == 'list' %}
-          {{ entry.excerpt | strip_html  | markdownify }}
-        {% else %}
-          {{ entry.excerpt | markdownify }}
-        {% endif %}
-      {% endif %}
-      <u>More...</u>
-    </div>
-  {% endunless %}
 </article>
