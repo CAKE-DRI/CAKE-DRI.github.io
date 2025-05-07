@@ -7,6 +7,7 @@ group: projects
 layout: post
 order: 2
 image: assets/images/project_2.webp
+project-type: Community building
 contact-name: Test Person
 contact-email: test@test.com
 ---
