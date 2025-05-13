@@ -3,6 +3,17 @@ permalink: /events/
 title: "DRI events"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Below is a list of upcoming events. Want to add one? [Submit a pull request!](https://github.com/YOUR-REPO/events-site)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+<ul>
+  {% assign events = site.data.events | sort: "date" %}
+  {% for event in events %}
+    <li>
+      <strong>{{ event.title }}</strong><br>
+      📅 {{ event.date | date: "%B %-d, %Y @ %H:%M" }}{% if event.end %} – {{ event.end | date: "%H:%M" }}{% endif %}<br>
+      📍 {{ event.location }}<br>
+      📝 {{ event.description }}<br>
+      {% if event.url %}<a href="{{ event.url }}">More info</a>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
