@@ -79,7 +79,11 @@
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
-  width: 100%;
+  width: 100%; /* fill the grid cell */
+  height: 200px; /* fixed height for uniformity */
+  object-fit: cover; /* crops & scales image */
+  display: block;
+  border-radius: 6px; /* optional, for rounded corners */
   margin-bottom: 0.5rem;
 }
 
