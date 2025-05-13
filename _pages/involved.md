@@ -53,7 +53,7 @@ You don’t need to be a developer to help us. Sharing your events, promoting ou
 
 ### Code of Conduct
 
-To ensure a welcoming and inclusive environment, we ask that all contributors and community members follow our [Code of Conduct](#code-of-conduct). It’s important that we all adhere to these guidelines to keep our space safe and friendly.
+To ensure a welcoming and inclusive environment, we ask that all contributors and community members follow our [Code of Conduct](/code-of-conduct/). It’s important that we all adhere to these guidelines to keep our space safe and friendly.
 
 ---
 
