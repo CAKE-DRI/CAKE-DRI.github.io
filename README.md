@@ -12,7 +12,30 @@ To make a contribution:
 
 ## How to: add an upcoming event 
 
+Create a new `.md` file under `collections/_projects` for your project, using the following template: 
+```bash 
+---
+title: "Event"
+icon_alt: Award icon
+categories:
+  - National
+group: events
+date: 2025-05-14
+layout: post
+image: assets/images/event-images/your-event-image.png
+project-type: National Event
+web-page: https://www.your-url-for-cake-event.ac.uk
+---
+
+More information soon to be added! 
+```
+
+If you wish, add an image into `assets/images/your_project_image_here.webp` and updated the above template. 
+
 ## How to: add your DRI project 
+
+<!-- What is a DRI project? 
+Who do we want to add to here? -->
 
 Create a new `.md` file under `collections/_projects` for your project, using the following template: 
 ```bash 
@@ -24,14 +47,14 @@ categories:
 group: projects
 layout: post
 order: 1
-image: assets/images/project_1.webp
+image: assets/images/project-images/project_1.webp
 project-type: Training
 contact-name: Test Person
 contact-email: test@test.com
-web-page: https://www.myproject.com
+web-page: https://www.your-url-for-project.ac.uk
 ---
 
 More information soon to be added! 
 ```
 
-If you wish, add an image into `assets/images/your_project_image_here.webp` and updated the above template. 
+If you wish, add an image into `assets/images/project-images/your_project_image_here.webp` and updated the above template. 

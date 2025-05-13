@@ -6,7 +6,7 @@ categories:
 group: projects
 layout: post
 order: 6
-image: assets/images/project_6.webp
+image: assets/images/project-images/project_6.webp
 project-type: Data intensive computing
 contact-name: Test Person
 contact-email: test@test.com

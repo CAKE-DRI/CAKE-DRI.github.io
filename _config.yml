@@ -119,6 +119,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  events:
+    output: true
+    permalink: /:collection/:path/
 
 #category_archive:
 #  type: liquid

@@ -6,7 +6,7 @@ categories:
 group: projects
 layout: post
 order: 1
-image: assets/images/project_1.webp
+image: assets/images/project-images/project_1.webp
 project-type: Training
 contact-name: Test Person
 contact-email: test@test.com

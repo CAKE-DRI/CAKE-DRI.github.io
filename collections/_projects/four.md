@@ -6,7 +6,7 @@ categories:
 group: projects
 layout: post
 Order: 4
-image: assets/images/project_4.webp
+image: assets/images/project-images/project_4.webp
 project-type: Code development
 contact-name: Test Person
 contact-email: test@test.com
