@@ -1,5 +1,5 @@
 ---
-title: DRI Events
+title: Upcoming Events
 layout: events-collection
 permalink: /events/
 collection: events

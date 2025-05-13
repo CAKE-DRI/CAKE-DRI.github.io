@@ -20,5 +20,10 @@
     <h3 class="project-title p-name">
         {{ title }}
     </h3>
+    {% if entry.group == "events" and entry.date %}
+      <p class="event-date">
+        {{ entry.date | date: "%B %-d, %Y" }} <!-- This formats the date as: "Month Day, Year" -->
+      </p>
+    {% endif %}
     </a>
 </article>

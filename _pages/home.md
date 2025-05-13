@@ -6,30 +6,35 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home-banner.png
 excerpt: >
-  Digital Research Infrastructure (DRI) involves computing for scientific and data intensive workloads. Ranging from traditional supercomputers to specialised data processing.
+  Facilitating knowledge exchange and sustainable collaboration across the full range of UK Digital Research Infrastructure (DRI) communities. 
 
 feature_row:
   - image_path: /assets/images/home-projects.png
     alt: "projects"
     title: "DRI projects"
-    excerpt: "There are a wide range of DRI projects that are active across the ecosystem."
+    excerpt: "Explore the a wide range of active DRI projects."
     url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Find out more"
   - image_path: /assets/images/home-events.png
     alt: "Events schedule"
-    title: "DRI events"
-    excerpt: "There are a wide range of events going on across the UK's DRI"
+    title: "Upcoming events"
+    excerpt: "Discover upcoming events, training and opportunities happening across the UK."
     url: "/events/"
     btn_class: "btn--primary"
     btn_label: "View schedule"
   - image_path: /assets/images/home-resources.webp
     alt: "resources"
-    title: "DRI resources"
-    excerpt: "A range of resources are available across the DRI programme"
+    title: "Resources"
+    excerpt: "Investigate our road and extensive catalogue of resources."
     url: "/resources/"
     btn_class: "btn--primary"
     btn_label: "Access these"
----
 
-{% include feature_row %}
+--- 
+
+{% include feature_row %}    
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="/involved/" class="btn btn--success btn--x-large">Click here to find out how to get involved!</a>
+</div>

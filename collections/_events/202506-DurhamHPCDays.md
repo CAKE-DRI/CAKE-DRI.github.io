@@ -4,6 +4,7 @@ icon_alt: Award icon
 categories:
   - National
 group: events
+date: 2025-06-02
 layout: post
 image: assets/images/event-images/DurhamHPCDays25.png
 project-type: National Event

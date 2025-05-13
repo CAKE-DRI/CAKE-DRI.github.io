@@ -83,16 +83,14 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+    - label: "Code of Conduct"
+      url: "/code-of-conduct/"
+    - label: "Contact us"
+      url: "/contact-us/"
+      
 defaults:
   # _posts
   - scope:
@@ -112,6 +110,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+future: true 
 
 # Collections
 collections_dir: collections

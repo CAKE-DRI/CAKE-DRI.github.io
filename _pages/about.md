@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+The Computational Abilities Knowledge Exchange (CAKE) Network+ is dedicated to providing a sense of community within the Digital Research Infrastructure (DRI) programme and the UK’s wider large-scale computing community. Outward facing and keen to attract new communities, this network is a central hub that brings projects together to enable them to share their successes, achievements and explore how to most effectively work together and leverage each other’s work.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+We remove barriers that prevent effective knowledge exchange: taking care of the best practices, tools and resources, so you can focus on connecting, collaborating and driving progress.

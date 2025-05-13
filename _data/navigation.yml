@@ -1,9 +1,9 @@
 main:
-  - title: "Projects"
-    url: /projects/
-  - title: "News and Events"
-    url: /posts/
-  - title: "Get involved"
-    url: /involved/
   - title: "About"
     url: /about/
+  - title: "Get involved"
+    url: /involved/
+  - title: "Projects"
+    url: /projects/
+  - title: "Events"
+    url: /events/

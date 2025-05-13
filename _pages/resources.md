@@ -1,8 +1,31 @@
 ---
 permalink: /resources/
 title: "DRI resources"
+layout: title-page
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## Discover Useful Tools, Guides, and More
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+This page will host a curated selection of resources to support individuals and organisations involved in Digital Research Infrastructure (DRI). Whether you're looking for best practices, technical guidance, funding opportunities, or community support materials — you'll find them here.
+
+---
+
+### What You'll Find Here
+
+- **Toolkits & Guides**  
+  Best practices, how-to documents, and step-by-step guides for researchers, developers, and project managers.
+
+- **Training & Learning Materials**  
+  Links to webinars, courses, and documentation to help you build and improve skills relevant to DRI.
+
+- **Useful Links & Services**  
+  Directories, government resources, and community hubs that support collaboration and innovation.
+
+- **Templates & Standards**  
+  Helpful templates for project planning, collaboration agreements, data management, and more.
+
+---
+
+### Coming Soon
+
+We’re actively gathering and curating high-quality materials. If you have a resource to recommend or would like to contribute, [get involved](/involved/)!
