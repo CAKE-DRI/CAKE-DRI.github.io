@@ -36,5 +36,5 @@ feature_row:
 {% include feature_row %}    
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="/involved/" class="btn btn--success btn--x-large">Click here to find out how to get involved!</a>
+  <a href="{{ '/involved/' | relative_url }}" class="btn btn--success btn--x-large">Click here to find out how to get involved!</a>
 </div>
