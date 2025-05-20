@@ -90,9 +90,9 @@ footer:
       url: "https://cake-dri.github.io/cake.github.io/code-of-conduct/"
     - label: "Contact us"
       url: "https://cake-dri.github.io/cake.github.io/contact-us/"
-      
+
 defaults:
-  # _posts
+  _posts
   - scope:
       path: ""
       type: posts
@@ -111,7 +111,7 @@ defaults:
       layout: single
       author_profile: false
 
-future: true 
+future: true
 
 # Collections
 collections_dir: collections
