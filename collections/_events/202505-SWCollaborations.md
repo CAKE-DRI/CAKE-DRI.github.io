@@ -1,5 +1,5 @@
 ---
-title: "SW Collaborations Workshop 2025"
+title: "SSI Collaborations Workshop 2025"
 icon_alt: Award icon
 categories:
   - National
