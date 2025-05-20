@@ -14,11 +14,11 @@ tags:
 
 At the 2025 Collaboration Workshop (CW25) of the Software Sustainability Institute (SSI), the Computational Abilities Knowledge Exchange (CAKE) team ran their very first miniworkshop. This event was organised in collaboration with members of the EDIA (Equality, Diversity, Inclusion and Accessibility) team of the Society of Research Software Engineering (SocRSE), namely Oscar Seip, Andy Gait and Stef Piatek, who are interested in outreach. Our aim was to present the plan for our brand-new knowledge exchange (KE) project, and to gather feedback and thoughts from an audience which has experience with community work, training, outreach and fellowships. And that is what we did!
 
-![Mentimeter result slide showing the answers to the question how KE and Outreach related (different, the same, overlapping, one part of the other) all over the place, except that there are no votes for "the same"](/assets/images/event-images/ke_vs_outreach.png “KE vs Outreach")
-
 While there was no consensus in the workshop group about the exact relationship of knowledge exchange and outreach, we agreed that they are not the same thing. Already in the preparation phase of the workshop, working with Oscar, Andy and Stef, we discussed how outreach is generally a one-directional activity (“I tell you something you don’t know”), while KE is bidirectional (“You know something, I know something – let’s share!”). We may assume that they also differ with respect to an unspecified audience addressed in a broadcast mode vs a targeted, specific, reasonably known audience. 
 
-![Mentimeter result slide showing a word cloud of KE activities, such as 'workshops', 'discussion',  'mentoring', 'hack days', etc.](/assets/images/event-images/ke_activities.png “KE Activities”)
+![Mentimeter result slide showing the answers to the question how KE and Outreach related (different, the same, overlapping, one part of the other) all over the place, except that there are no votes for "the same"](https://github.com/CAKE-DRI/CAKE-DRI.github.io/blob/main/assets/images/event-images/ke_vs_outreach.png)
+
+![Mentimeter result slide showing a word cloud of KE activities, such as 'workshops', 'discussion',  'mentoring', 'hack days', etc.](https://github.com/CAKE-DRI/CAKE-DRI.github.io/blob/main/assets/images/event-images/ke_activities.png)
 
 In that sense, our workshop was already knowledge exchange: We shared ideas for KE fellowship, retreats and placements programmes, and the CAKE team received valuable input on making those work, and making them more accessible.
 
