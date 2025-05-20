@@ -92,7 +92,7 @@ footer:
       url: "https://cake-dri.github.io/cake.github.io/contact-us/"
 
 defaults:
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
