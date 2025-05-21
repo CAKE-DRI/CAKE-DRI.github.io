@@ -4,7 +4,7 @@ date: 2025-05-20
 full-width: true 
 classes: wide
 categories:
-  - blog
+  - news
 tags:
   - workshop
   - outreach
