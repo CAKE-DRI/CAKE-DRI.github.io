@@ -20,7 +20,7 @@ While there was no consensus in the workshop group about the exact relationship 
 
 <img src="https://cake-dri.github.io/assets/images/event-images/ke_vs_outreach.png">
 
-![Mentimeter result slide showing a word cloud of KE activities, such as 'workshops', 'discussion',  'mentoring', 'hack days', etc.](https://github.com/CAKE-DRI/CAKE-DRI.github.io/blob/main/assets/images/event-images/ke_activities.png)
+<img src="https://cake-dri.github.io/assets/images/event-images/ke_activities.png">
 
 In that sense, our workshop was already knowledge exchange: We shared ideas for KE fellowship, retreats and placements programmes, and the CAKE team received valuable input on making those work, and making them more accessible.
 
