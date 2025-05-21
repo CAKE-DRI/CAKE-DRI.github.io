@@ -1,6 +1,6 @@
 ---
 title: "News by Year"
-permalink: /posts/
+permalink: /news/
 classes: wide
 layout: posts
 author_profile: true
