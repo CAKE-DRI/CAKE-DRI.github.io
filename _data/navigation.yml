@@ -1,8 +1,8 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Get involved"
-    url: /involved/
+  - title: "News"
+    url: /news/
   - title: "Projects"
     url: /projects/
   - title: "Events"
