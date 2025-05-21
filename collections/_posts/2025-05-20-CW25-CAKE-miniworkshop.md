@@ -2,6 +2,7 @@
 title: "Computational Abilities Knowledge Exchange: Everyone likes CAKE - How do we make it better? "
 date: 2025-05-20
 full-width: true 
+classes: wide
 categories:
   - blog
 tags:
