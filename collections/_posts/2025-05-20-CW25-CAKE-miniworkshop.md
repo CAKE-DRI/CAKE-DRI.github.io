@@ -18,7 +18,7 @@ At the 2025 Collaboration Workshop (CW25) of the Software Sustainability Institu
 
 While there was no consensus in the workshop group about the exact relationship of knowledge exchange and outreach, we agreed that they are not the same thing. Already in the preparation phase of the workshop, working with Oscar, Andy and Stef, we discussed how outreach is generally a one-directional activity (“I tell you something you don’t know”), while KE is bidirectional (“You know something, I know something – let’s share!”). We may assume that they also differ with respect to an unspecified audience addressed in a broadcast mode vs a targeted, specific, reasonably known audience. 
 
-![Mentimeter result slide showing the answers to the question how KE and Outreach related (different, the same, overlapping, one part of the other) all over the place, except that there are no votes for "the same"](https://github.com/CAKE-DRI/CAKE-DRI.github.io/blob/main/assets/images/event-images/ke_vs_outreach.png)
+<img src="https://cake-dri.github.io/assets/images/event-images/ke_vs_outreach.png">
 
 ![Mentimeter result slide showing a word cloud of KE activities, such as 'workshops', 'discussion',  'mentoring', 'hack days', etc.](https://github.com/CAKE-DRI/CAKE-DRI.github.io/blob/main/assets/images/event-images/ke_activities.png)
 
