@@ -5,7 +5,7 @@
 {% endif %}
 
 <article class="project">
-    <a href="{{ entry.url | relative_url }}" rel="bookmark">
+    <a href="{{ entry.url | relative_url }}" rel="bookmark" style="text-decoration: none;">
       <img class="project-image u-photo" src="{{ entry.summary-image }}" alt="">
         <strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i></strong>
         {{ entry.date | date: "%B %-d, %Y" }} <!-- This formats the date as: "Month Day, Year" -->
