@@ -6,13 +6,7 @@
 
 <article class="project">
     <a href="{{ entry.url | relative_url }}" rel="bookmark">
-      {% if entry.image %}
-      {% assign entry_image = entry.summary-image %}
-      {% unless entry_image contains '://' %}
-        {% assign entry_image = entry_image | relative_url %}
-      {% endunless %}
-      {% assign entry_image = entry_image | escape %}
-      <img class="project-image u-photo" src="{{ entry_image }}" alt="">
+      <img class="project-image u-photo" src="{{ entry.summary-image }}" alt="">
     {% endif %}
     <p class="project-type p-name">
       {{ entry.project-type}}
