@@ -7,13 +7,12 @@
 <article class="project">
     <a href="{{ entry.url | relative_url }}" rel="bookmark">
       <img class="project-image u-photo" src="{{ entry.summary-image }}" alt="">
+      <p class="event-date">
+        <strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i></strong>
+        {{ entry.date | date: "%B %-d, %Y" }} <!-- This formats the date as: "Month Day, Year" -->
+      </p>
     <h3 class="project-title p-name" style="margin: 0em;">
         {{ title }}
     </h3>
-    {% if entry.group == "events" and entry.date %}
-      <p class="event-date">
-        {{ entry.date | date: "%B %-d, %Y" }} <!-- This formats the date as: "Month Day, Year" -->
-      </p>
-    {% endif %}
     </a>
 </article>
