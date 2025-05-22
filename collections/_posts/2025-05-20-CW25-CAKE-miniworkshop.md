@@ -3,6 +3,7 @@ title: "Computational Abilities Knowledge Exchange: Everyone likes CAKE - How do
 date: 2025-05-20
 full-width: true 
 classes: wide
+summary-image: https://cake-dri.github.io/assets/images/event-images/ke_vs_outreach.png
 categories:
   - news
 tags:
