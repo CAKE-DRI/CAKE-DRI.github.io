@@ -1,6 +1,6 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
-    <div class="author__avatar">
+    <div style="max-width: 110px;" class="">
         <img src="{{ page.summary-image }}" alt="Post summary image" itemprop="image" class="u-photo">
     </div>
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
