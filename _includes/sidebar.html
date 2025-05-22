@@ -1,7 +1,16 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
-    <div style="max-width: 110px;" class="">
+    <div>
         <img src="{{ page.summary-image }}" alt="Post summary image" itemprop="image" class="u-photo">
+    </div>
+    <div class="author__urls-wrapper">
+      <ul class="author__urls social-icons">
+        <li>
+          <a href="https://x.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      </ul>
     </div>
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   </div>
