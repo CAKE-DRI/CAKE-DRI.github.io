@@ -12,7 +12,7 @@ To make a contribution:
 
 ## How to: add an upcoming event 
 
-Create a new `.md` file under `collections/_projects` for your project, using the following template: 
+Create a new `.md` file under `collections/_events` for your event, using the following template: 
 ```bash 
 ---
 title: "Event"
