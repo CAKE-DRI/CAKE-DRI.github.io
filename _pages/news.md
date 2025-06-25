@@ -1,5 +1,5 @@
 ---
-title: Latest news
+title: Latest News
 layout: news-collection
 permalink: /news/
 collection: news
