@@ -1,4 +1,4 @@
-{% assign entries = site[include.collection] %}
+{% assign entries = site[include.collection] | last_month_filter %}
 
 {% if entries %}
   {% if include.sort_by == 'title' %}
