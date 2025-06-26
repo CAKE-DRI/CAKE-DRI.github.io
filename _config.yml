@@ -62,6 +62,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll_filter_by_date.rb
 
 author:
   name   : "First Lastname"
