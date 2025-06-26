@@ -1,4 +1,5 @@
-{% assign entries = site[include.collection] | last_month_filter %}
+{% assign entries = site[include.collection] %}
+{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
 
 {% if entries %}
   {% if include.sort_by == 'title' %}
@@ -14,7 +15,10 @@
   {% endif %}
 
   {%- for entry in entries -%}
+    {% capture date %}{{entry.date | date: '%s' | plus: 0 %}}{% endcapture %}
+    {% if date > now %}
     {% include entry.html %}
+    {% endif %}
   {%- endfor -%}
 {% else %}
   <p>No entries found in collection: {{ include.collection }}</p>
