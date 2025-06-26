@@ -8,5 +8,5 @@ layout: title-page
 </br>
 
 <div class="project-grid">
-  {% include events-collection.html collection="events" sort_by=page.sort_by sort_order=page.sort_order archive=true%}
+  {% include events-collection.html collection="events" sort_by=page.sort_by sort_order=page.sort_order archive=true %}
 </div>
