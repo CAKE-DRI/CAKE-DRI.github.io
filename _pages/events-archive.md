@@ -5,7 +5,7 @@ permalink: /events-archive/
 collection: events
 entries_layout: grid
 sort_by: order
-sort_order: 
+sort_order: normal
 classes: wide
 ---
 
