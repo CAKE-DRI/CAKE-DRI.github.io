@@ -1,5 +1,5 @@
 {% assign entries = site[include.collection] %}
-{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+{% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
 
 {% if entries %}
   {% if include.sort_by == 'title' %}
@@ -15,7 +15,7 @@
   {% endif %}
 
   {%- for entry in entries -%}
-    {% capture date %}{{entry.date | date: '%s' | plus: 0 %}}{% endcapture %}
+    {% capture date %}{{entry.date | date: '%s' | plus: 0 }}{% endcapture %}
     {% if date > now %}
     {% include entry.html %}
     {% endif %}
