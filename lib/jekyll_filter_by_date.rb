@@ -6,8 +6,8 @@ def last_month_filter(posts)
     posts.select do |post|
         postedOn = post.data['posted_on'].to_datetime
 
-        if postedOn < today && postedOn > target
-            post
-        end
+        #if postedOn < today && postedOn > target
+            #post
+        #end
     end
 end
