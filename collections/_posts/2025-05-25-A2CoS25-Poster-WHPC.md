@@ -45,5 +45,8 @@ Check out the [WHPC Chapters & Affiliates GitHub Repository](https://github.com/
 
 It’s really important to keep these challenges fresh in our minds so solutions are central to our future development. 
 
-(Next time, we’ll bring actual cake to fuel the discussions!) 
+(Next time, we’ll bring actual 🎂 to fuel the discussions!) 
+
+
+Written by: Eleanor Broadway 
 
