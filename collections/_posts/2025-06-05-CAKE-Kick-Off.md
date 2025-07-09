@@ -45,7 +45,7 @@ Nick Brown, Principal Investigator of CAKE, presented an overview of the initiat
   * Knowledge Exchange Fellowships
   * Placements and visits
   * Themed retreats
-* Our commitment to building up UKRI’s presence at key national and international events by supporting a UK booth at SC and ISC a space where researchers can showcase their work, host meetings, and trengthen collaborations.
+* Our commitment to building up UKRI’s presence at key national and international events by supporting a UK booth at SC and ISC, a space where researchers can showcase their work, host meetings, and strengthen collaborations.
 
 We’re really looking forward to working with the community to help support your knowledge exchange and collaboration! This is just the first step! 
 
