@@ -22,8 +22,16 @@
     </h3>
     {% if entry.group == "events" and entry.date %}
       <p class="event-date">
-        {{ entry.date | date: "%B %-d, %Y" }} <!-- This formats the date as: "Month Day, Year" -->
+        {% if entry.start_date %}
+          {{ entry.start_date | date: "%b %-d" }} - {{ entry.date | date: "%b %-d, %Y" }}
+        {% else %}
+          {{ entry.date | date: "%b %-d, %Y" }}
+        {% endif %}
       </p>
+    {% endif %}
+
+    {% if entry.location %}
+      <p class="event-location" style="font-size: 0.85em;">{{ entry.location }}</p>
     {% endif %}
     </a>
 </article>

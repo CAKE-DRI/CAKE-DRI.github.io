@@ -9,12 +9,22 @@ layout: default
       <header class="page-header">
         {% assign title = page.title | markdownify | strip_html %}
         {% if page.link %}
-          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 id="page-title" class="page-title p-name">
+            <a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a>
+          </h1>
         {% else %}
           <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
         {% endif %}
+      
+        {% if page.web-page %}
+          <p class="page-webpage">
+            <a href="{{ page['web-page'] }}" target="_blank" rel="noopener noreferrer">
+              Visit Event Page &rarr;
+            </a>
+          </p>
+        {% endif %}
       </header>
-
+      
       <div class="page-content">
         <div class="e-content">
           {{ content }}
