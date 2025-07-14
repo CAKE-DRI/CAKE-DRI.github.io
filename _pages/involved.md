@@ -57,4 +57,4 @@ To ensure a welcoming and inclusive environment, we ask that all contributors an
 
 ---
 
-We’re excited to have you join us and look forward to seeing your contributions! If you have any questions, don't hesitate to reach out via our [Contact Us page](#contact-us).
+We’re excited to have you join us and look forward to seeing your contributions! If you have any questions, don't hesitate to reach out via our [Contact Us page](/contact-us/).
