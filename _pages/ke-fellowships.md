@@ -10,7 +10,7 @@ The Computational Abilities Knowledge Exchange (CAKE) project aims to facilitate
 
 CAKE is searching for KE champions who will, supported through a CAKE fellowship, support and enable knowledge exchange for a part of the DRI community. These KE fellows will be part of the CAKE network with the aim to learn more about how to do KE, assemble and exchange best practices, and thus enhance knowledge exchange in the DRI and computational science domain. They will also be offered the opportunity to help shape and lead the DRI KE community.
 
-If knowledge exchange in your DRI subcommunity is something you are passionate about then this is your chance to become one of up to five KE fellows in the very first DRI KE Fellowship cohort! 
+If knowledge exchange in your DRI subcommunity is something you are passionate about and you have an idea for a specific intervention how to improve it then this is your chance to become one of up to five KE fellows in the very first DRI KE Fellowship cohort! 
 
 Fellowships run for one year from the respective cohort kick-off date. After the fellowship term, fellows are invited to continue to be involved in the CAKE network as mentors, reviewers, and in other roles.
 
