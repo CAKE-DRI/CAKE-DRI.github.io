@@ -25,7 +25,8 @@ Fellowships run for one year from the respective cohort kick-off date. After the
 
 ## What we expect from you:
 
-- A clear and actionable plan to promote and facilitate knowledge exchange in the UK DRI community.
+- A well-defined project with a clear objective that promotes and facilitates knowledge exchange in the UK DRI community.
+- A clear and actionable plan for the project.
 - Active engagement in the KE network and with the CAKE leadership team.
 - Regular attendance of the monthly KE meet-ups.
 - Attendance of both in-person and virtual CAKE events.
