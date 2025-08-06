@@ -5,8 +5,10 @@ main:
       url: /about/ke-fellowships
     - title: "Reviewers"
       url: /about/reviewers
+    - title: "What is CAKE?"
+      url: /about/who-are-we
     - title: "CAKE Partners"
-      url: /about/partners
+      url: /about/who-are-we#partners
   - title: "News"
     url: /news/
   - title: "Projects"
