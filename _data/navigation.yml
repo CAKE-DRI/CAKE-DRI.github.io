@@ -3,6 +3,8 @@ main:
     sublinks:
     - title: "KE Fellowships"
       url: /about/ke-fellowships
+    - title: "Reviewers"
+      url: /about/reviewers
     - title: "CAKE Partners"
       url: /about/partners
   - title: "News"
