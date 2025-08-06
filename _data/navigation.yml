@@ -2,7 +2,7 @@ main:
   - title: "About"
     sublinks:
     - title: "Fellowships"
-    - url: /about/fellowships
+      url: /about/fellowships
   - title: "News"
     url: /news/
   - title: "Projects"
