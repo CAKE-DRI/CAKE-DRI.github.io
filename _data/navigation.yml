@@ -1,7 +1,7 @@
 main:
   - title: "About"
     sublinks:
-    - title "Fellowships"
+    - title: "Fellowships"
     - url: /about/fellowships
   - title: "News"
     url: /news/
