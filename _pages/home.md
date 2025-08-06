@@ -26,10 +26,10 @@ feature_row:
   - image_path: /assets/images/home-resources.webp
     alt: "resources"
     title: "Resources"
-    excerpt: "Investigate our road and extensive catalogue of resources."
-    url: "/resources/"
+    excerpt: "CAKEbox is our knowledge base of resources"
+    url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
-    btn_label: "Access these"
+    btn_label: "Go to CAKEbox"
 
 --- 
 
