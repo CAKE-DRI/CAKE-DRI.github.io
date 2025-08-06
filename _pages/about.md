@@ -1,6 +1,6 @@
 ---
 permalink: /about/who-are-we
-title: "About"
+title: "What is CAKE?"
 layout: title-page
 ---
 
@@ -18,3 +18,6 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 CAKE realises the majority of its day-to-day work through a joint Slack.  The Slack is open to the whole UK community and friends. To receive an invite please contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE management</a>.
 
 # Partners
+
+We are proud to be supported by the following project partners and thank them for their continued support and advice.
+
