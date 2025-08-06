@@ -1,6 +1,6 @@
 ---
 title: Knowledge Exchange Fellowships
-permalink: /ke-fellowships/
+permalink: /about/ke-fellowships/
 layout: title-page
 ---
 
