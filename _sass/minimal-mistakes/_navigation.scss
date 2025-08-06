@@ -266,6 +266,7 @@
       display: none;
       position: absolute;
       background-color: darken($background-color, 3%);
+      font-size: $type-size-4;
       min-width: 160px;
       box-shadow: $box-shadow;
       z-index: 1;
