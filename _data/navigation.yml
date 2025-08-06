@@ -1,14 +1,14 @@
 main:
   - title: "About"
     sublinks:
-    - title: "KE Fellowships"
-      url: /about/ke-fellowships
-    - title: "Reviewers"
-      url: /about/reviewers
     - title: "What is CAKE?"
       url: /about/who-are-we
     - title: "CAKE Partners"
       url: /about/who-are-we#partners
+    - title: "KE Fellowships"
+      url: /about/ke-fellowships
+    - title: "Reviewers"
+      url: /about/reviewers    
   - title: "News"
     url: /news/
   - title: "Projects"
