@@ -1,8 +1,10 @@
 main:
   - title: "About"
     sublinks:
-    - title: "Fellowships"
+    - title: "KE Fellowships"
       url: /about/fellowships
+    - title: "CAKE Partners"
+      url: /about/partners
   - title: "News"
     url: /news/
   - title: "Projects"
