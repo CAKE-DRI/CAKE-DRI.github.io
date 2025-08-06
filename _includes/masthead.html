@@ -13,7 +13,7 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            {% if link.subfolderitems[0] %}
+            {% if link.sublinks[0] %}
               <li class="masthead__menu-item">
                <ul>
                 {% for entry in link.subfolderitems %}
