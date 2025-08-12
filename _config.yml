@@ -88,7 +88,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CAKE-DRI"
     - label: "Code of Conduct"
-      url: "https://cake-dri.github.io/code-of-conduct/"
+      url: "https://cake-dri.github.io/CAKEbox/code-of-conduct/"
     - label: "Contact us"
       url: "https://cake-dri.github.io/contact-us/"
 
