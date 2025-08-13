@@ -4,6 +4,15 @@ permalink: /involved/
 layout: title-page
 ---
 
+<table>
+<tr>
+  <td><img src="/assets/images/Slack-logo.png" style="min-width:33%; max-width: 33%"></td>
+  <td><img src="/assets/images/email.jpg" style="min-width:33%; max-width: 33%"></td>
+  <td><img src="/assets/images/people-involved" style="min-width:33%; max-width: 33%"></td>
+</tr>
+  
+</table>
+
 We are excited to welcome new contributors to our project! Whether you're: 
 
 * An expert in your field or a complete newbie to DRI,
