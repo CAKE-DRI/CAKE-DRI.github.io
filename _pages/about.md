@@ -23,7 +23,7 @@ We are proud to be supported by the following project partners and thank them fo
 
 <table style="border: 0px;">
 <tr>
-  <td style="min-width:120px"><img src="/assets/images/partners/archer2_logo_small.png"></td>
+  <td style="min-width:160px"><img src="/assets/images/partners/archer2_logo_small.png"></td>
   <td>ARCHER2 is the latest iteration of the UK National Supercomputing Service. The ARCHER2 service aims to provide a flexible and responsive resource to support world-class research in the UK; to improve the skill sets of researchers and RSEs to equip them for the future; to improve the sustainability, maintainability of the HPC software base; and to enable collaboration and outreach to the wider, worldwide HPC community and beyond.</td>
 </tr>  
 </table>
