@@ -24,7 +24,7 @@
    {% endfor %}
 
    {% for f in feature_row %}
-   <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
         <div class="archive__item-body">
           {% if f.title %}
             <h2 class="archive__item-title">{{ f.title }}</h2>
@@ -41,7 +41,6 @@
           {% endif %}
         </div>
       </div>
-    </div>
   {% endfor %}
 
 </div>
