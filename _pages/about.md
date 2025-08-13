@@ -77,6 +77,12 @@ We are proud to be supported by the following project partners and thank them fo
   </td>
 </tr>
 <tr>
+  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://www.ukcp.ac.uk/"><img src="/assets/images/partners/ukcp_logo.png"></a></td>
+  <td>
+   The United Kingdom Car-Parrinello Consortium (UKCP) is a group of researchers across the UK who develop first principles quantum mechanical techniques for studying atomistic systems and apply them to a very wide variety of systems. UKCP develops the methods and software to perform computer simulations of a wide range of chemical and material systems, these may then be applied to a vast range of chemical, physical and materials-related problems.
+  </td>
+</tr>
+<tr>
   <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://mmmhub.ac.uk/"><img src="/assets/images/partners/mmm_hub.png"></a></td>
   <td>
    Materials and Molecular Modelling (MMM) crosses traditional disciplines of physics, chemistry, materials science, nanotechnology, biophysics, earth sciences, life sciences, chemical-, mechanical, and more. The MMM Hub drives science forward in each of these disciplines. By speeding up and improving the quality of the predictions, the Hub benefits the entire international MMM community and our experimental and industrial collaborators.
