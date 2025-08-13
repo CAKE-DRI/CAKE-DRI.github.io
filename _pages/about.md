@@ -41,13 +41,13 @@ We are proud to be supported by the following project partners and thank them fo
   </td>
 </tr>
 <tr>
-  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://womeninhpc.org/"><img src="/assets/images/partners/WHPC_logo_web.jpg"></a></td>
+  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://womeninhpc.org/"><img src="/assets/images/partners/wihpc.png"></a></td>
   <td>
    Through collaboration and networking, WHPC strives to bring together women in HPC and technical computing while encouraging women to engage in outreach activities and improve the visibility of inspirational role models. 
   </td>
 </tr>
 <tr>
-  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://dirac.ac.uk/"><img src="/assets/images/partners/cropped-DiRAC-Logo.png"></a></td>
+  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://dirac.ac.uk/"><img src="/assets/images/partners/dirac.webp"></a></td>
   <td>
    Established in 2009, DiRAC provides high performance computing (HPC) services to the UK’s Scientific Research Communities in theoretical cosmology, nuclear physics, astrophysics, particle physics, and solar and planetary science. 
   </td>
