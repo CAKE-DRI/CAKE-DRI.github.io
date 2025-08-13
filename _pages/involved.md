@@ -2,7 +2,6 @@
 title: How to Get Involved
 permalink: /involved/
 layout: splash
----
 
 feature_row:
   - image_path: /assets/images/home-projects.png
@@ -26,6 +25,8 @@ feature_row:
     url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
     btn_label: "Go to CAKEbox"
+
+---
 
 <table>
 <tr>
