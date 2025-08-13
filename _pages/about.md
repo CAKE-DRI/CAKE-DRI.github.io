@@ -29,7 +29,7 @@ We are proud to be supported by the following project partners and thank them fo
   </td>
 </tr>  
 <tr>
-  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://www.cosec.ac.uk/"><img src="/assets/images/partners/CoSeC_Logo_high-res.jpg"></a></td>
+  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://www.cosec.ac.uk/"><img src="/assets/images/partners/cosec_logo.png"></a></td>
   <td>
     The Computational Science Centre for Research Communities (CoSeC) enables and supports collaborative computational research communities that are funded across UKRI. It has a mission to deliver research software as an infrastructure in order to enable world-class UK Research and Innovation.
   </td>
