@@ -7,17 +7,17 @@ feature_row:
   - image_path: /assets/images/Slack-logo.png
     alt: "slack"    
     url: "https://cake-dri.slack.com/"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary btn-archive-centre"
     btn_label: "Chat on Slack"
   - image_path: /assets/images/email.jpg
     alt: "email"    
     url: "https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary btn-archive-centre"
     btn_label: "Join the email announce list"
   - image_path: /assets/images/people-involved.jpg
     alt: "resources"   
     url: "https://cake-dri.github.io/CAKEbox/"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary btn-archive-centre"
     btn_label: "Contribute to CAKEbox"
 
 ---
