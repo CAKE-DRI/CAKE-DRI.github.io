@@ -1,7 +1,7 @@
 ---
 title: How to Get Involved
 permalink: /involved/
-layout: splash
+layout: title-page
 
 feature_row:
   - image_path: /assets/images/home-projects.png
@@ -27,6 +27,8 @@ feature_row:
     btn_label: "Go to CAKEbox"
 
 ---
+
+{% include feature_row %}    
 
 <table>
 <tr>
