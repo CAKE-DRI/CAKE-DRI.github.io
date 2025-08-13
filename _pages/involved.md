@@ -8,14 +8,14 @@ feature_row:
     alt: "slack"
     title: "Chat on Slack"
     excerpt: "Discuss DRI and KE on the CAKE Slack"
-    url: "[/projects/](https://cake-dri.slack.com/)"
+    url: "https://cake-dri.slack.com/"
     btn_class: "btn--primary"
     btn_label: "Find out more"
   - image_path: /assets/images/email.jpg
     alt: "email"
     title: "Join the CAKE email announce list"
     excerpt: "We post announcements and information to the CAKE email announcement list"
-    url: "[/events/](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE)"
+    url: "https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE"
     btn_class: "btn--primary"
     btn_label: "View schedule"
   - image_path: /assets/images/people-involved.jpg
