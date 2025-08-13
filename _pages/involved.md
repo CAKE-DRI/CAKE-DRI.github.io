@@ -5,26 +5,20 @@ layout: title-page
 
 feature_row:
   - image_path: /assets/images/Slack-logo.png
-    alt: "slack"
-    title: "Chat on Slack"
-    excerpt: "Discuss DRI and KE on the CAKE Slack"
+    alt: "slack"    
     url: "https://cake-dri.slack.com/"
     btn_class: "btn--primary"
-    btn_label: "Find out more"
+    btn_label: "Chat on Slack"
   - image_path: /assets/images/email.jpg
-    alt: "email"
-    title: "Join the CAKE email announce list"
-    excerpt: "We post announcements and information to the CAKE email announcement list"
+    alt: "email"    
     url: "https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE"
     btn_class: "btn--primary"
-    btn_label: "View schedule"
+    btn_label: "Join the email announce list"
   - image_path: /assets/images/people-involved.jpg
-    alt: "resources"
-    title: "Contribute CAKEbox"
-    excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community"
+    alt: "resources"   
     url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
-    btn_label: "Go to CAKEbox"
+    btn_label: ""Contribute CAKEbox"
 
 ---
 
