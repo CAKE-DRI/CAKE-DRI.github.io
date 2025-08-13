@@ -18,7 +18,7 @@ feature_row:
     alt: "resources"   
     url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
-    btn_label: ""Contribute CAKEbox"
+    btn_label: "Contribute to CAKEbox"
 
 ---
 
