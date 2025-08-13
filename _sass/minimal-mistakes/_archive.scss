@@ -85,6 +85,11 @@
   }
 }
 
+.btn-archive-centre {
+	justify-content: center;
+	display: flex;
+}
+
 .archive__item-teaser {
   position: relative;
   border-radius: $border-radius;
