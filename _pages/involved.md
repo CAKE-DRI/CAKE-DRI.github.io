@@ -18,7 +18,7 @@ feature_row:
     url: "[/events/](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE)"
     btn_class: "btn--primary"
     btn_label: "View schedule"
-  - image_path: /assets/images/people-involved
+  - image_path: /assets/images/people-involved.jpg
     alt: "resources"
     title: "Contribute CAKEbox"
     excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community"
