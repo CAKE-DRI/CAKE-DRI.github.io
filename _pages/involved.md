@@ -4,23 +4,23 @@ permalink: /involved/
 layout: title-page
 
 feature_row:
-  - image_path: /assets/images/home-projects.png
-    alt: "projects"
-    title: "DRI projects"
-    excerpt: "Explore the a wide range of active DRI projects."
-    url: "/projects/"
+  - image_path: /assets/images/Slack-logo.png
+    alt: "slack"
+    title: "Chat on Slack"
+    excerpt: "Discuss DRI and KE on the CAKE Slack"
+    url: "[/projects/](https://cake-dri.slack.com/)"
     btn_class: "btn--primary"
     btn_label: "Find out more"
-  - image_path: /assets/images/home-events.png
-    alt: "Events schedule"
-    title: "Upcoming events"
-    excerpt: "Discover upcoming events, training and opportunities happening across the UK."
-    url: "/events/"
+  - image_path: /assets/images/email.jpg
+    alt: "email"
+    title: "Join the CAKE email announce list"
+    excerpt: "We post announcements and information to the CAKE email announcement list"
+    url: "[/events/](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE)"
     btn_class: "btn--primary"
     btn_label: "View schedule"
-  - image_path: /assets/images/home-resources.webp
+  - image_path: /assets/images/people-involved
     alt: "resources"
-    title: "Resources"
+    title: "Contribute CAKEbox"
     excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community"
     url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
@@ -29,15 +29,6 @@ feature_row:
 ---
 
 {% include feature_row %}    
-
-<table>
-<tr>
-  <td><img src="/assets/images/Slack-logo.png" style="min-width:33%; max-width: 33%"></td>
-  <td><img src="/assets/images/email.jpg" style="min-width:33%; max-width: 33%"></td>
-  <td><img src="/assets/images/people-involved" style="min-width:33%; max-width: 33%"></td>
-</tr>
-  
-</table>
 
 We are excited to welcome new contributors to our project! Whether you're: 
 
