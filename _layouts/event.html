@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% if page.start_date %}
-  {% assign from_date = page.start_date | date: "%H:%M %e %B %Y" %}  
-  {% assign to_date = page.date | date: "%H:%M %e %B %Y" %}  
+  {% assign from_date = page.start_date | date: "%e %B %Y" %}  
+  {% assign to_date = page.date | date: "%e %B %Y" %}  
 {% else %}
   {% assign from_date = page.date | date: "%H:%M %e %B %Y" %}  
 {% endif %}
@@ -25,9 +25,9 @@ layout: default
         {% assign title = page.title | markdownify | strip_html %}
         <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
         {% if page.start_date %}
-        <h2>When: </h2> {{from_date}} to {{ to_date }}
+        <h2>When:  {{from_date}} to {{ to_date }} </h2>
         {% else %}
-        <h2>When: </h2> {{from_date}}
+        <h2>When: {{from_date}} </h2>
         {% endif %}
       
         {% if page.web-page %}
