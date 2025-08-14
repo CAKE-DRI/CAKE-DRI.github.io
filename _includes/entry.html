@@ -5,6 +5,7 @@
 {% endif %}
 
 <article class="project">
+     {% include news-sidebar.html %}
     <a href="{{ entry.url | relative_url }}" rel="bookmark" style="text-decoration: none;">
       {% if entry.image %}
       {% assign entry_image = entry.image %}
