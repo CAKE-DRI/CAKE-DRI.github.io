@@ -2,6 +2,13 @@
 layout: default
 ---
 
+{% if entry.start_date %}
+  {% assign from_date = entry.start_date | date: %H:%M %e %B %Y" %}  
+  {% assign to_date = entry.date | date: "%H:%M %e %B %Y" %}  
+{% else %}
+  {% assign from_date = entry.date | date: "%H:%M %e %B %Y" %}  
+{% endif %}
+
 <main id="main" class="main-content" aria-label="Content">
   <article class="h-entry">
     <div class="page-wrapper">
@@ -16,12 +23,11 @@ layout: default
         {% endif %}
         
         {% assign title = page.title | markdownify | strip_html %}
-        {% if page.link %}
-          <h1 id="page-title" class="page-title p-name">
-            <a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a>
-          </h1>
+        <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% if page.start_date %}
+        <h2>When: </h2> {{from_date}} to {{ to_date }}
         {% else %}
-          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        <h2>When: </h2> {{from_date}}
         {% endif %}
       
         {% if page.web-page %}
