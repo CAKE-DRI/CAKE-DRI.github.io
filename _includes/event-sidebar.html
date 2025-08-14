@@ -11,7 +11,7 @@
     <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 
       {{ site.data.ui-text[site.locale].date_label | default: "" }}</strong> 
       {% if page.start_date %}
-        <time class="dt-published" datetime="{{ page.start_date | date_to_xmlschema }}">{{ page.start_date | date: date_format }}</time> - <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
+        <time class="dt-published" datetime="{{ page.start_date | date_to_xmlschema }}">{{ page.start_date | date: date_format }}</time> to <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
       {% else %}
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
       {% endif %}
