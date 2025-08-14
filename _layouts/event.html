@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.start_date %}
-  {% assign from_date = page.start_date | date: %H:%M %e %B %Y" %}  
+  {% assign from_date = page.start_date | date: "%H:%M %e %B %Y" %}  
   {% assign to_date = page.date | date: "%H:%M %e %B %Y" %}  
 {% else %}
   {% assign from_date = page.date | date: "%H:%M %e %B %Y" %}  
