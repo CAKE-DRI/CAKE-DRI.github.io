@@ -16,6 +16,8 @@
   {% assign from_month_year = entry.date | date: "%b %Y" %}
 {% endif %}
 
+{% capture date %}{{entry.date | date: '%s' | plus: 0 }}{% endcapture %}
+
 <div class="events-block__wrapper">
     <div class="events-block__date">
       <div class="events-block__date_wrapper">
