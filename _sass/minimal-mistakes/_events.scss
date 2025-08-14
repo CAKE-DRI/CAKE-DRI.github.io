@@ -4,8 +4,15 @@
   }
 }
 
-.events-image {
-  object-fix: cover;
+.single-event-image {  
+  border-radius: 6px;
+  width: 40%;
+  max-height: 400px;
+  float: right;
+  margin-left: 10px;
+}
+
+.events-image {  
   border-radius: 6px;
   width: 20%;
   height: 200px;
