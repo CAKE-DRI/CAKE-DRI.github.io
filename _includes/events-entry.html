@@ -51,6 +51,9 @@
 
   <div class="events-block__infos">
     <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
+    {% if entry.image %}
+      <img src="{{ entry.image }}">
+    {% endif %}
     <p class="events-block__description">
     {% if entry.summary %}
       {{ entry.summary }}
