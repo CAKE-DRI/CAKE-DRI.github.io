@@ -53,9 +53,8 @@
       </div>  
     </div>
 
-  <a href="{{ entry.url | relative_url }}">
   <div class="events-block__infos">
-    <p class="event-title"><u>{{ title }}</u></p>
+    <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
     {% if entry.image %}
       {% assign entry_image = entry.image %}
       {% unless entry_image contains '://' %}
@@ -72,7 +71,6 @@
     {% endif %}
     </p>
   </div>
-  </a>
 </div>
 
 {% if date < now %}
