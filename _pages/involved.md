@@ -1,5 +1,4 @@
 ---
-title: How to Get Involved
 permalink: /involved/
 layout: title-page
 
