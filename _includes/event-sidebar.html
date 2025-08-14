@@ -16,6 +16,19 @@
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
       {% endif %}
     </p>
+
+    {% if page.location %}
+         <p class="page__date"><strong><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i> 
+            {{ page.location }}
+         </p>
+    {% endif %}
+
+    {% if page.web-page %}
+        <p class="page__date"><strong><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i> 
+            <a href="{{ page.web-page }}" target="_blank" rel="noopener noreferrer">Event website</a>
+        </p>
+    {% endif %}
+    
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
     <div class="author__urls-wrapper">
       <ul class="author__urls social-icons">
