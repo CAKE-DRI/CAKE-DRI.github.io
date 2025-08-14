@@ -12,7 +12,7 @@ layout: default
             {% assign page_image = page_image | relative_url %}
           {% endunless %}
           {% assign page_image = page_image | escape %}
-          <img class="events-image" src="{{ page_image }}" alt="">
+          <img class="single-event-image" src="{{ page_image }}" alt="">
         {% endif %}
         
         {% assign title = page.title | markdownify | strip_html %}
