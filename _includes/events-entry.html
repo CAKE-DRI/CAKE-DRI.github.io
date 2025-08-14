@@ -4,34 +4,47 @@
   {% assign title = entry.title %}
 {% endif %}
 
+{% if entry.start_date %}
+  {% assign from_day = entry.start_date | date: "%d" }
+  {% assign from_month_year = entry.start_date | date: "%b %Y" }
+  {% assign to_day = entry.date | date: "%d" }
+  {% assign to_month_year = entry.date | date: "%b %Y" }
+{% else %}
+  {% assign from_day = entry.date | date: "%d" }
+  {% assign from_month_year = entry.date | date: "%b %Y" }
+{% endif %}
+
 <div class="events-block__wrapper">
     <div class="events-block__date">
       <div class="events-block__date_wrapper">
-        <div class="event-date two-dates ">
+        {% if entry.start_date %}
+          <div class="event-date two-dates">
+        {% endif %}
           <div class="flex-event">
             <div class="event-day">
-                2
+                {{ from_day }}
             </div>
             <div>
-                <p>Jun 2025</p>
+                <p>{{ from_month_year }}</p>
             </div>
           </div>
-        
+          {% if entry.start_date %}
           <div class="flex-event">
             <div class="event-day">
-              7
+              {{ to_day }}
             </div>
             <div>
-              <p>Jun 2025</p>
+              <p>{{ to_month_year }}</p>
             </div>
-          </div>      
+          </div>                
         </div>    
+        {% endif %}
       	<span class="events-block__closed">Past Event</span>              
       </div>  
     </div>
 
   <div class="events-block__infos">
-    <a href="https://excalibur.ac.uk/events/durham-hpc-days/" class="event-title">Durham HPC Days</a>
+    <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
     <p class="events-block__description">Following successful events in 2023 and 2024, we are happy to announce the 2025 Durham HPC Days in the week predating the ISC Conference in Hamburg. Our 2025 theme focuses on the fact that there is, despite people claiming different things, no gap betw…</p>
   </div>
 </div>
