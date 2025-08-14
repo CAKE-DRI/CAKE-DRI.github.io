@@ -18,11 +18,12 @@
 
 {% capture date %}{{entry.date | date: '%s' | plus: 0 }}{% endcapture %}
 
-<div class="events-block__wrapper">
-  {% if date < now %}
+{% if date < now %}
   <div class="events-past">
-  {% endif %}
-    <div class="events-block__date">
+{% endif %}
+  
+<div class="events-block__wrapper">  
+    <div class="events-block__date">      
       <div class="events-block__date_wrapper">
         {% if entry.start_date %}
           <div class="event-date two-dates">
@@ -47,8 +48,7 @@
         </div>    
         {% endif %}
         {% if date < now %}
-      	<span class="events-block__closed">Past Event</span>    
-        </div>
+      	<span class="events-block__closed">Past Event</span>            
         {% endif %}
       </div>  
     </div>
@@ -72,4 +72,8 @@
     </p>
   </div>
 </div>
+
+{% if date < now %}
+  </div>
+{% endif %}        
 
