@@ -124,3 +124,38 @@
 .two-dates .flex-event:nth-child(2) {
   border-left: .5px solid #fff
 }
+
+.events-block-group {
+  padding-top: 4em;
+  padding-bottom: 4em
+}
+
+.events-block-group__inner-container :last-child {
+  margin-bottom: 0
+}
+
+@media (min-width: 1200px) {
+  .alignfull .events-block-group__inner-container {
+    max-width:1200px;
+    margin: 0 auto
+  }
+}
+
+@media (max-width: 1200px) {
+  .events-block-group {
+    padding:3em
+  }
+
+  .events-block-group .events-block-group {
+    padding: 1.5em
+  }
+}
+
+.events-block-group {
+  box-sizing: border-box
+}
+
+.events-block-group {
+  padding-top: 2em;
+  padding-bottom: 2em
+}
