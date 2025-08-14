@@ -17,11 +17,12 @@
 {% endif %}
 
 {% capture date %}{{entry.date | date: '%s' | plus: 0 }}{% endcapture %}
+
+{% if date < now %}
+<div class="events-past">
+{% endif %}
   
 <div class="events-block__wrapper">  
-  {% if date < now %}
-  <div class="events-past">
-  {% endif %}
     <div class="events-block__date">      
       <div class="events-block__date_wrapper">
         {% if entry.start_date %}
@@ -50,11 +51,7 @@
       	<span class="events-block__closed">Past Event</span>            
         {% endif %}
       </div>  
-    </div>
-
-  {% if date < now %}
-    </div>
-  {% endif %}    
+    </div> 
 
   <div class="events-block__infos">
     <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
@@ -77,3 +74,6 @@
     </p>
   </div>
 </div>    
+{% if date < now %}
+</div>
+{% endif %}   
