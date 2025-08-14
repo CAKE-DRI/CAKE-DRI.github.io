@@ -4,6 +4,15 @@
   }
 }
 
+.events-image {
+  object-fix: cover;
+  border-radius: 6px;
+  width: 20%;
+  height: 200px;
+  float: right;
+  margin-left: 10px;
+}
+
 .events-block__date {
   color: #fff;
   background-color: #0092ca;
