@@ -45,7 +45,13 @@
 
   <div class="events-block__infos">
     <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
-    <p class="events-block__description">{{ entry.content | truncate: 200 }} </p>
+    <p class="events-block__description">
+    {% if entry.summary %}
+      {{ entry.summary }}
+    {% else %}
+      {{ entry.content | truncatewords: 50 }} 
+    {% endif %}
+    </p>
   </div>
 </div>
 
