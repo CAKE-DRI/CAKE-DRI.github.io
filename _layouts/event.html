@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% if entry.start_date %}
-  {% assign from_date = entry.start_date | date: %H:%M %e %B %Y" %}  
-  {% assign to_date = entry.date | date: "%H:%M %e %B %Y" %}  
+{% if page.start_date %}
+  {% assign from_date = page.start_date | date: %H:%M %e %B %Y" %}  
+  {% assign to_date = page.date | date: "%H:%M %e %B %Y" %}  
 {% else %}
-  {% assign from_date = entry.date | date: "%H:%M %e %B %Y" %}  
+  {% assign from_date = page.date | date: "%H:%M %e %B %Y" %}  
 {% endif %}
 
 <main id="main" class="main-content" aria-label="Content">
