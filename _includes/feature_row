@@ -11,7 +11,7 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
-          <div class="archive__item-teaser">
+          <div class="archive__item-teaser"  {% if f.max-width %}style="max-width: {{f.max-width}}; justify-content: center; display: flex;"{% endif %}>
             <a href="{{ f.url | relative_url }}">
             <img src="{{ f.image_path | relative_url }}"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}">
