@@ -16,9 +16,15 @@
 
   {%- for entry in entries -%}
     {% capture date %}{{entry.date | date: '%s' | plus: 0 }}{% endcapture %}
-    {% if date >= now or include.archive %}
-    {% include events-entry.html %}
-    {% endif %}
+    {% if include.archive %}
+      {% if date < now %}
+        {% include events-entry.html %}
+      {% endif %}
+    {% else %}
+      {% if date >= now %}
+        {% include events-entry.html %}
+      {% endif %}
+    {% endif %}    
   {%- endfor -%}
 {% else %}
   <p>No entries found in collection: {{ include.collection }}</p>
