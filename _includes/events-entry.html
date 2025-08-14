@@ -53,9 +53,9 @@
       </div>  
     </div>
 
-  <a href="{{ entry.url | relative_url }}" class="event-title" style="font-weight:normal;text-decoration:none;">
+  <a href="{{ entry.url | relative_url }}" style="font-weight:normal;text-decoration:none;">
   <div class="events-block__infos">
-    <u>{{ title }}</u>
+    <p class="event-title"><u>{{ title }}</u></p>
     {% if entry.image %}
       {% assign entry_image = entry.image %}
       {% unless entry_image contains '://' %}
