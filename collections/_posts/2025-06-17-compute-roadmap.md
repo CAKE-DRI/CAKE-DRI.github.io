@@ -1,4 +1,4 @@
---
+---
 title: "UK government announces UK Compute Roadmap and CAKE"
 date: 2025-06-17
 full-width: true 
