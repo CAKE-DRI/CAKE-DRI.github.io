@@ -45,7 +45,7 @@
 
   <div class="events-block__infos">
     <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
-    <p class="events-block__description">Following successful events in 2023 and 2024, we are happy to announce the 2025 Durham HPC Days in the week predating the ISC Conference in Hamburg. Our 2025 theme focuses on the fact that there is, despite people claiming different things, no gap betw…</p>
+    <p class="events-block__description">{{ entry.content | truncate: 200 }} </p>
   </div>
 </div>
 
