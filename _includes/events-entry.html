@@ -52,7 +52,12 @@
   <div class="events-block__infos">
     <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
     {% if entry.image %}
-      <img src="{{ entry.image }}">
+      {% assign entry_image = entry.image %}
+      {% unless entry_image contains '://' %}
+        {% assign entry_image = entry_image | relative_url %}
+      {% endunless %}
+      {% assign entry_image = entry_image | escape %}
+      <img class="project-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
     <p class="events-block__description">
     {% if entry.summary %}
