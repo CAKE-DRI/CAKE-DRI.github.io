@@ -25,13 +25,13 @@ layout: default
         {% assign title = page.title | markdownify | strip_html %}
         <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
         {% if page.start_date %}
-        <h3>When:  {{ from_date }} to {{ to_date }} </h3>
+        <h3 style="padding: 0; margin: 5px; font-style: italic;">When:  {{ from_date }} to {{ to_date }} </h3>
         {% else %}
-        <h3>When: {{ from_date }} </h3>
+        <h3 style="padding: 0; margin: 5px; font-style: italic;" >When: {{ from_date }} </h3>
         {% endif %}
 
         {% if page.location %}
-        <h3>Where: {{ page.location }} </h3>
+        <h3 style="padding: 0; margin: 5px; font-style: italic;">Where: {{ page.location }} </h3>
         {% endif %}
       
         {% if page.web-page %}
