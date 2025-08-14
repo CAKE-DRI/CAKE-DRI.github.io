@@ -54,14 +54,14 @@
     </div>
 
   <div class="events-block__infos">
-    <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}
+    <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
     {% if entry.image %}
       {% assign entry_image = entry.image %}
       {% unless entry_image contains '://' %}
         {% assign entry_image = entry_image | relative_url %}
       {% endunless %}
       {% assign entry_image = entry_image | escape %}
-      <img class="events-image" src="{{ entry_image }}" alt=""></a>
+      <a href="{{ entry.url | relative_url }}" style="font-weight:normal;text-decoration:none;"><img class="events-image" src="{{ entry_image }}" alt=""></a>
     {% endif %}
     <p class="events-block__description">
       <a href="{{ entry.url | relative_url }}" style="font-weight:normal;text-decoration:none;">
