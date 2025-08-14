@@ -4,6 +4,8 @@
   {% assign title = entry.title %}
 {% endif %}
 
+{% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+
 {% if entry.start_date %}
   {% assign from_day = entry.start_date | date: "%d" %}
   {% assign from_month_year = entry.start_date | date: "%b %Y" %}
@@ -39,7 +41,9 @@
           </div>                
         </div>    
         {% endif %}
+        {% if date < now %}
       	<span class="events-block__closed">Past Event</span>              
+        {% endif %}
       </div>  
     </div>
 
