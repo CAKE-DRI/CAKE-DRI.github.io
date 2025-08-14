@@ -5,7 +5,7 @@ categories:
   - National
 group: events
 date: 2025-05-13
-layout: post
+layout: event
 image: assets/images/event-images/CW25357 copy.png
 project-type: National Event
 web-page: https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25
