@@ -5,13 +5,13 @@
 {% endif %}
 
 {% if entry.start_date %}
-  {% assign from_day = entry.start_date | date: "%d" }
-  {% assign from_month_year = entry.start_date | date: "%b %Y" }
-  {% assign to_day = entry.date | date: "%d" }
-  {% assign to_month_year = entry.date | date: "%b %Y" }
+  {% assign from_day = entry.start_date | date: "%d" %}
+  {% assign from_month_year = entry.start_date | date: "%b %Y" %}
+  {% assign to_day = entry.date | date: "%d" %}
+  {% assign to_month_year = entry.date | date: "%b %Y" %}
 {% else %}
-  {% assign from_day = entry.date | date: "%d" }
-  {% assign from_month_year = entry.date | date: "%b %Y" }
+  {% assign from_day = entry.date | date: "%d" %}
+  {% assign from_month_year = entry.date | date: "%b %Y" %}
 {% endif %}
 
 <div class="events-block__wrapper">
