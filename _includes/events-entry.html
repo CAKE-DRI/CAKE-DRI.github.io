@@ -1,0 +1,79 @@
+{% if entry.id %}
+  {% assign title = entry.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = entry.title %}
+{% endif %}
+
+{% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+
+{% if entry.start_date %}
+  {% assign from_day = entry.start_date | date: "%d" %}
+  {% assign from_month_year = entry.start_date | date: "%b %Y" %}
+  {% assign to_day = entry.date | date: "%d" %}
+  {% assign to_month_year = entry.date | date: "%b %Y" %}
+{% else %}
+  {% assign from_day = entry.date | date: "%d" %}
+  {% assign from_month_year = entry.date | date: "%b %Y" %}
+{% endif %}
+
+{% capture date %}{{entry.date | date: '%s' | plus: 0 }}{% endcapture %}
+
+{% if date < now %}
+<div class="events-past">
+{% endif %}
+  
+<div class="events-block__wrapper">  
+    <div class="events-block__date">      
+      <div class="events-block__date_wrapper">
+        {% if entry.start_date %}
+          <div class="event-date two-dates">
+        {% endif %}
+          <div class="flex-event">
+            <div class="event-day">
+                {{ from_day }}
+            </div>
+            <div>
+                <p>{{ from_month_year }}</p>
+            </div>
+          </div>
+          {% if entry.start_date %}
+          <div class="flex-event">
+            <div class="event-day">
+              {{ to_day }}
+            </div>
+            <div>
+              <p>{{ to_month_year }}</p>
+            </div>
+          </div>                
+        </div>    
+        {% endif %}
+        {% if date < now %}
+      	<span class="events-block__closed">Past Event</span>            
+        {% endif %}
+      </div>  
+    </div> 
+
+  <div class="events-block__infos">
+    <a href="{{ entry.url | relative_url }}" class="event-title">{{ title }}</a>
+    {% if entry.image %}
+      {% assign entry_image = entry.image %}
+      {% unless entry_image contains '://' %}
+        {% assign entry_image = entry_image | relative_url %}
+      {% endunless %}
+      {% assign entry_image = entry_image | escape %}
+      <a href="{{ entry.url | relative_url }}" style="font-weight:normal;text-decoration:none;"><img class="events-image" src="{{ entry_image }}" alt=""></a>
+    {% endif %}
+    <p class="events-block__description">
+      <a href="{{ entry.url | relative_url }}" style="font-weight:normal;text-decoration:none;">
+    {% if entry.summary %}
+      {{ entry.summary }}
+    {% else %}
+      {{ entry.content | truncatewords: 30 }} 
+    {% endif %}
+      </a>
+    </p>
+  </div>
+</div>    
+{% if date < now %}
+</div>
+{% endif %}   

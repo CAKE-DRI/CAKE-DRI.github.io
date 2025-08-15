@@ -1,9 +1,17 @@
 main:
   - title: "About"
-    url: /about/
+    sublinks:
+    - title: "What is CAKE?"
+      url: /about/who-are-we
+    - title: "CAKE Partners"
+      url: /about/who-are-we#partners
+    - title: "KE Fellowships"
+      url: /about/ke-fellowships
+    - title: "CAKE Reviewers"
+      url: /about/reviewers    
   - title: "News"
     url: /news/
   - title: "Projects"
     url: /projects/
-  - title: "Events"
+  - title: "Calendar"
     url: /events/

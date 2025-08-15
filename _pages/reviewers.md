@@ -1,6 +1,6 @@
 ---
 title: CAKE Reviewers
-permalink: /reviewers/
+permalink: /about/reviewers/
 layout: title-page
 ---
 

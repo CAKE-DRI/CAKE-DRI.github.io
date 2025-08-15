@@ -22,14 +22,14 @@ feature_row:
     excerpt: "Discover upcoming events, training and opportunities happening across the UK."
     url: "/events/"
     btn_class: "btn--primary"
-    btn_label: "View schedule"
+    btn_label: "View calendar"
   - image_path: /assets/images/home-resources.webp
     alt: "resources"
     title: "Resources"
-    excerpt: "Investigate our road and extensive catalogue of resources."
-    url: "/resources/"
+    excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community"
+    url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
-    btn_label: "Access these"
+    btn_label: "Go to CAKEbox"
 
 --- 
 

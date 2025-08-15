@@ -1,14 +1,14 @@
 ---
 title: Knowledge Exchange Fellowships
-permalink: /ke-fellowships/
+permalink: /about/ke-fellowships/
 layout: title-page
 ---
 
-**Become part of the first cohort of DRI Knowledge Exchange Fellows!**
+**DRI knowledge exchange fellows**
 
 The Computational Abilities Knowledge Exchange (CAKE) project aims to facilitate knowledge exchange (KE) and sustainable collaboration across the full range of UK Digital Research Infrastructure (DRI) communities. 
 
-CAKE is searching for KE champions who will, supported through a CAKE fellowship, support and enable knowledge exchange for a part of the DRI community. These KE fellows will be part of the CAKE network with the aim to learn more about how to do KE, assemble and exchange best practices, and thus enhance knowledge exchange in the DRI and computational science domain. They will also be offered the opportunity to help shape and lead the DRI KE community.
+CAKE is searching for KE fellows who will, supported through a CAKE fellowship, champion and enable knowledge exchange for a part of the DRI community. These KE fellows will be part of the CAKE network with the aim to learn more about how to do KE, assemble and exchange best practices, and thus enhance knowledge exchange in the DRI and computational science domain. They will also be offered the opportunity to help shape and lead the DRI KE community.
 
 If knowledge exchange in your DRI subcommunity is something you are passionate about and you have an idea for a specific intervention to improve it then this is your chance to become one of up to five KE fellows in the very first DRI KE Fellowship cohort! 
 
@@ -18,7 +18,7 @@ Fellowships run for one year from the respective cohort kick-off date. After the
 
 ## We are offering you:
 
-- £4000 fellowship money for travel, events and other activities as part of your fellowship.
+- £4000 fellowship money for travel, events and other activities as part of your fellowship (at 80% FEC).
 - Peer-support within your cohort and the wider KE network.
 - Mentoring by the CAKE leadership team.
 - Regular meet-ups and invitations to CAKE workshops.
@@ -42,7 +42,6 @@ The following reviewing criteria will be applied:
 - Individual’s knowledge and understanding of the subcommunity the proposed project intends to target. (30%)
 - Justification and usefulness of proposed resources. (20%)
 - Feasibility of  the proposed timeline.  (20%)
-
 
 ---
 

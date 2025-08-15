@@ -1,8 +1,30 @@
 ---
-title: How to Get Involved
 permalink: /involved/
 layout: title-page
+
+feature_row:
+  - image_path: /assets/images/Slack-logo.png
+    max-height: 250px
+    alt: "slack"    
+    url: "https://cake-dri.slack.com/"
+    btn_class: "btn--primary btn-archive-centre"
+    btn_label: "Chat on Slack"
+  - image_path: /assets/images/email.jpg
+    max-height: 250px
+    alt: "email"    
+    url: "https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE"
+    btn_class: "btn--primary btn-archive-centre"
+    btn_label: "Join the email announce list"
+  - image_path: /assets/images/people-involved.jpg
+    max-height: 250px
+    alt: "resources"   
+    url: "https://cake-dri.github.io/CAKEbox/"
+    btn_class: "btn--primary btn-archive-centre"
+    btn_label: "Contribute to CAKEbox"
+
 ---
+
+{% include feature_row %}    
 
 We are excited to welcome new contributors to our project! Whether you're: 
 
