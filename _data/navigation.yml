@@ -11,7 +11,19 @@ main:
       url: /about/reviewers    
   - title: "News"
     url: /news/
-  - title: "Projects"
-    url: /projects/
+  - title: "Activities"
+    sublinks:
+    - title: "Systems"
+    url: /activities/systems
+    - title: "High end consortia"
+    url: /activities/consortia
+    - title: "New approaches to software"
+    url: /activities/dri-new-sw
+    - title: "New approaches to skills"
+    url: /activities/dri-new-skills
+    - title: "Embedded GPU CSE"
+    url: /activities/eCSE-GPU
+    - title: "RTP skills, hubs and platforms"
+    url: /activities/rtp    
   - title: "Calendar"
     url: /events/
