@@ -52,6 +52,8 @@ To apply, please fill in the form below and submit before XX.XX.2025 . You will 
 
 Before applying you have to discuss and get approval from your linemanager. There are a number of institutions who have already confirmed their support for staff participating in this programme.  See XXXXX.
 
+DRI KE Fellows are awarded £4000 fellowship money for travel, events and other activities as part of your fellowship. Awards are granted at 80% FEC, applicants must confirm their institution is able to cover the remaining 20%. 
+
 The data in the form will be stored and used for the purposes of the fellowship and the CAKE project only, and not shared with external parties.
 
 
