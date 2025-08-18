@@ -6,6 +6,7 @@ categories:
 group: events
 date: 2025-10-28
 layout: event
+summary-image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_square.png
 image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_draft_04_01.png
 project-type: National events
 location: Room 1.4, Edinburgh Futures Institute
