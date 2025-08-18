@@ -8,7 +8,7 @@ start_date: 2025-09-22
 date: 2025-09-23
 layout: event
 web-page: https://www.archer2.ac.uk/news/2025/08/13/newsletter.html#national-federated-compute-services-networkplus
-image: assets/images/event-images/edinburgh_castle.png
+image: assets/images/event-images/edinburgh_castle.jpg
 project-type: National events
 location: South Hall meeting room, 18 Holyrood Park Rd, Edinburgh
 location-link: https://maps.app.goo.gl/KB2CCiLDyLBj9jsr9
