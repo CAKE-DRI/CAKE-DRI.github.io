@@ -1,6 +1,12 @@
+{% if page.image %}
+    {% assign image_to_show = page.image %}
+{% elsif page.summary-image %}
+    {% assign image_to_show = page.summary-image %}  
+{% endif %}
+
 <div class="sidebar sticky">
     <div>
-        {% assign entry_image = page.image %}
+        {% assign entry_image = image_to_show %}
         {% unless entry_image contains '://' %}
           {% assign entry_image = entry_image | relative_url %}
         {% endunless %}
@@ -19,7 +25,11 @@
 
     {% if page.location %}
          <p class="page__date"><strong><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i></strong>
+            {% if page.location-link %}
+                <a href="{{ page.location-link }}" target="_blank">
+            {% endif %}
             {{ page.location }}
+            {% if page.location-link %}</a>{% endif %}
          </p>
     {% endif %}
 
