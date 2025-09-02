@@ -23,7 +23,7 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 
 ## Engage
 
-CAKE realises the majority of its day-to-day work through a joint Slack.  
+CAKE does a lot of its day-to-day communication through a joint Slack.  
 The Slack is open to the whole UK community and friends. 
 To receive an invite please contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE management</a>.
 
