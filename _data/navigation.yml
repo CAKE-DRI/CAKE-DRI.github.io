@@ -27,8 +27,6 @@ main:
       url: /landscape/rtp    
   - title: "Activities"
     sublinks:
-    - title: "Fellowships"
-      url: /activities/ke-fellowships
     - title: "Outreach"
       url: /activities/outreach
   - title: "Calendar"
