@@ -12,7 +12,7 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 - **Outreach** CAKE represents DRI projects on national and international 
   conferences such as CIUK or the Supercomputing conference series. If your
   project has outreach material (give aways, posters, videos, flyers, ...) 
-  but you do not want to go the events yourself, CAKE can accept your
+  CAKE can display your
   dissemination material and ensure it is presented to our target audience.
 - **Best Practices** Designing EDI guidelines, code of conducts, conference
   instructions, ... can quickly become an overwhelming task. CAKE collects
