@@ -11,19 +11,23 @@ main:
       url: /about/reviewers    
   - title: "News"
     url: /news/
-  - title: "Activities"
+  - title: "DRI Landscape"
     sublinks:
     - title: "Systems"
-      url: /activities/systems
+      url: /landscape/systems
     - title: "High end consortia"
-      url: /activities/consortia
+      url: /landscape/consortia
     - title: "New approaches to software"
-      url: /activities/dri-new-sw
+      url: /landscape/dri-new-sw
     - title: "New approaches to skills"
-      url: /activities/dri-new-skills
+      url: /landscape/dri-new-skills
     - title: "Embedded GPU CSE"
-      url: /activities/eCSE-GPU
+      url: /landscape/eCSE-GPU
     - title: "RTP skills, hubs and platforms"
-      url: /activities/rtp    
+      url: /landscape/rtp    
+  - title: "Activities"
+    sublinks:
+    - title: "Outreach"
+      url: /activities/outreach
   - title: "Calendar"
     url: /events/
