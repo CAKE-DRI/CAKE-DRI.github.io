@@ -1,6 +1,5 @@
 ---
 title: Outreach
-layout: projects-collection
 permalink: /activities/outreach
 ---
 

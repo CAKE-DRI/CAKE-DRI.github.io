@@ -1,6 +1,5 @@
 ---
 title: DRI Projects
-layout: projects-collection
 permalink: /landscape/rtp
 ---
 
