@@ -2,11 +2,12 @@
 layout: splash
 permalink: /
 hidden: true
+title: Computational Abilities Knowledge Exchange
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home-banner.png
 excerpt: >
-  Facilitating knowledge exchange and sustainable collaboration across the full range of UK Digital Research Infrastructure (DRI) communities. 
+  The CAKE Network+ facilitates knowledge exchange and sustainable collaboration across the UK Digital Research Infrastructure (DRI) communities. 
 
 feature_row:
   - image_path: /assets/images/home-projects.png
@@ -22,19 +23,19 @@ feature_row:
     excerpt: "Discover upcoming events, training and opportunities happening across the UK."
     url: "/events/"
     btn_class: "btn--primary"
-    btn_label: "View schedule"
+    btn_label: "View calendar"
   - image_path: /assets/images/home-resources.webp
     alt: "resources"
     title: "Resources"
-    excerpt: "Investigate our road and extensive catalogue of resources."
-    url: "/resources/"
+    excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community"
+    url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
-    btn_label: "Access these"
+    btn_label: "Go to CAKEbox"
 
 --- 
 
 {% include feature_row %}    
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '/involved/' | relative_url }}" class="btn btn--success btn--x-large">Click here to find out how to get involved!</a>
+  <a href="{{ '/involved/' | relative_url }}" class="btn btn--secondary btn--x-large">Click here to find out how to get involved!</a>
 </div>

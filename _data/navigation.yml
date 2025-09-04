@@ -1,9 +1,33 @@
 main:
   - title: "About"
-    url: /about/
+    sublinks:
+    - title: "What is CAKE?"
+      url: /about/who-are-we
+    - title: "CAKE Partners"
+      url: /about/who-are-we#partners
+    - title: "KE Fellowships"
+      url: /about/ke-fellowships
+    - title: "CAKE Reviewers"
+      url: /about/reviewers    
   - title: "News"
     url: /news/
-  - title: "Projects"
-    url: /projects/
-  - title: "Events"
+  - title: "DRI Landscape"
+    sublinks:
+    - title: "Systems"
+      url: /landscape/systems
+    - title: "High end consortia"
+      url: /landscape/consortia
+    - title: "New approaches to software"
+      url: /landscape/dri-new-sw
+    - title: "New approaches to skills"
+      url: /landscape/dri-new-skills
+    - title: "Embedded GPU CSE"
+      url: /landscape/eCSE-GPU
+    - title: "RTP skills, hubs and platforms"
+      url: /landscape/rtp    
+  - title: "Activities"
+    sublinks:
+    - title: "Outreach"
+      url: /activities/outreach
+  - title: "Calendar"
     url: /events/

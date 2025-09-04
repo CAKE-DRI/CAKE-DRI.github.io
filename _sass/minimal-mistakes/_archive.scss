@@ -49,6 +49,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: center;
 
   a[rel="permalink"]::before {
     content: '';
@@ -72,14 +73,21 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
-
+  text-align: center;
   & + p {
     text-indent: 0;
+	justify-content: center;
+	display: flex;
   }
 
   a {
     position: relative;
   }
+}
+
+.btn-archive-centre {
+	justify-content: center;
+	display: flex;
 }
 
 .archive__item-teaser {
