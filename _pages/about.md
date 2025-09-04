@@ -14,7 +14,6 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 - **Best Practices** Designing EDI guidelines, code of conducts, conference instructions, ... can quickly become an overwhelming task. CAKE collects templates for these tasks to allow projects to focus on their unique core mission.
 - **Support** CAKE runs events and fellowship programmes to facilitate and encourage knowledge exchange between the various DRI projects and the wider UK community.
 
-
 ## Engage
 
 CAKE realises the majority of its day-to-day work through a joint Slack.  The Slack is open to the whole UK community and friends. To receive an invite please contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE management</a>.
