@@ -15,4 +15,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll_filter_by_date"
+  gem "generate_ids"
 end
