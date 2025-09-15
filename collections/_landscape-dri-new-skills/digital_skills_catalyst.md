@@ -2,7 +2,7 @@
 title: UKRI Digital Skills Catalyst
 group: landscape-dri-new-skills
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_2.jpg
 contact: Emma Rand
 contact-link: https://www.york.ac.uk/biology/people/emma-rand/
 web-page: https://www.york.ac.uk/biology/about/news/2025/ukridigitalresearchskillscatalyst/
