@@ -126,7 +126,7 @@ future: true
 # Collections
 collections_dir: collections
 collections:
-  projects:
+  landscape-rtp:
     output: true
     permalink: /:collection/:path/
   events:
