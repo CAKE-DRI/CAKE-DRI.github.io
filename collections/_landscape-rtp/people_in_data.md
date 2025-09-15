@@ -2,7 +2,7 @@
 title: People in Data
 group: landscape-rtp
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_2.jpg
 contact: Ann-Marie Mallon
 contact-link: https://eit.org/people/annie-mallon
 web-page: https://www.turing.ac.uk/research/research-projects/people-data
