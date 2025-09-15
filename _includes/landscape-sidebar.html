@@ -11,31 +11,16 @@
           {% assign entry_image = entry_image | relative_url %}
         {% endunless %}
         {% assign entry_image = entry_image | escape %}
-        <img src="{{ entry_image }}" alt="Event summary image" itemprop="image" class="u-photo">
+        <img src="{{ entry_image }}" alt="Project summary image" itemprop="image" class="u-photo">
     </div>
     {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-    <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 
-      {{ site.data.ui-text[site.locale].date_label | default: "" }}</strong> 
-      {% if page.start_date %}
-        <time class="dt-published" datetime="{{ page.start_date | date_to_xmlschema }}">{{ page.start_date | date: date_format }}</time> to <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
-      {% else %}
-        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
-      {% endif %}
-    </p>
-
-    {% if page.location %}
-         <p class="page__date"><strong><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i></strong>
-            {% if page.location-link %}
-                <a href="{{ page.location-link }}" target="_blank">
-            {% endif %}
-            {{ page.location }}
-            {% if page.location-link %}</a>{% endif %}
-         </p>
-    {% endif %}
+    <p class="page__date"><strong><i class="fas fa-fw fa-regular fa-user" aria-hidden="true"></i> 
+      {{ site.data.ui-text[site.locale].date_label | default: "" }}</strong>       
+    </p>   
 
     {% if page.web-page %}
         <p class="page__date"><strong><i class="fas fa-fw fa-laptop" aria-hidden="true"></i></strong>
-            <a href="{{ page.web-page }}" target="_blank" rel="noopener noreferrer">Event website</a>
+            <a href="{{ page.web-page }}" target="_blank" rel="noopener noreferrer">Project website</a>
         </p>
     {% endif %}
     
