@@ -1,0 +1,14 @@
+{% if entry.id %}
+  {% assign title = entry.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = entry.title %}
+{% endif %}
+
+<article class="project">
+    <a href="{{ entry.url | relative_url }}" rel="bookmark" style="text-decoration: none;">
+      <img class="project-image u-photo" src="{{ entry.image }}" alt="">        
+    <h3 class="project-title p-name" style="margin: 0em;">
+        {{ title }}
+    </h3>
+    </a>
+</article>
