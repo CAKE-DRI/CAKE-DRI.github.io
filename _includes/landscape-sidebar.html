@@ -13,10 +13,16 @@
         {% assign entry_image = entry_image | escape %}
         <img src="{{ entry_image }}" alt="Project summary image" itemprop="image" class="u-photo">
     </div>
-    {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-    <p class="page__date"><strong><i class="fas fa-fw fa-regular fa-user" aria-hidden="true"></i> 
-      {{ site.data.ui-text[site.locale].date_label | default: "" }}</strong>       
-    </p>   
+
+    {% if page.contact %}
+         <p class="page__date"><strong><i class="fas fa-fw fa-regular fa-user" aria-hidden="true"></i></strong>
+            {% if page.contact-link %}
+                <a href="{{ page.contact-link }}" target="_blank">
+            {% endif %}
+            {{ page.contact }}
+            {% if page.contact-link %}</a>{% endif %}
+         </p>
+    {% endif %}
 
     {% if page.web-page %}
         <p class="page__date"><strong><i class="fas fa-fw fa-laptop" aria-hidden="true"></i></strong>
