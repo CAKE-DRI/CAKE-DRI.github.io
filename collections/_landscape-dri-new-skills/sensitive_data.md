@@ -2,7 +2,7 @@
 title: Evidence‑led curation skills for sensitive data
 group: landscape-dri-new-skills
 layout: landscape
-image: A
+image: assets/images/landscape/sensitive_data.jpg
 contact: Simon Hettrick
 contact-link: https://www.southampton.ac.uk/people/5x57jz/professor-simon-hettrick
 web-page: https://www.hdruk.ac.uk/study-and-train/transforming-sensitive-data-curation/
