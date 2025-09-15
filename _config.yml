@@ -129,6 +129,9 @@ collections:
   landscape-rtp:
     output: true
     permalink: /:collection/:path/
+  landscape-dri-new-software:
+    output: true
+    permalink: /:collection/:path/
   landscape-systems:
     output: true
     permalink: /:collection/:path/
