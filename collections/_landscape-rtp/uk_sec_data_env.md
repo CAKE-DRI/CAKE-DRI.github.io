@@ -2,7 +2,7 @@
 title: Developing Technical Capability and Capacity for UK Secure Data Environments
 group: landscape-rtp
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_4.jpg
 contact: Philip Couch
 contact-link: https://research.manchester.ac.uk/en/persons/philip.couch
 ---
