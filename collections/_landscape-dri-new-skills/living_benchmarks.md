@@ -1,5 +1,5 @@
 ---
-title: UKRI Living Benchmarks - skills to maximise the value of Digital Research Infrastructure investments
+title: UKRI Living Benchmarks
 group: landscape-dri-new-skills
 layout: landscape
 image: A
