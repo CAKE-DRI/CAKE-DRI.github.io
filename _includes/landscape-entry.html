@@ -4,9 +4,21 @@
   {% assign title = entry.title %}
 {% endif %}
 
+{% if entry.summary-image %}
+  {% assign image_to_show = entry.summary-image %}
+{% elsif entry.image %}
+  {% assign image_to_show = entry.image %}
+{% endif %}
+
+{% assign entry_image = image_to_show %}
+{% unless entry_image contains '://' %}
+        {% assign entry_image = entry_image | relative_url %}
+{% endunless %}
+{% assign entry_image = entry_image | escape %}
+
 <article class="project">
     <a href="{{ entry.url | relative_url }}" rel="bookmark" style="text-decoration: none;">
-      <img class="project-image u-photo" src="{{ entry.image }}" alt="">        
+      <img class="project-image u-photo" src="{{ entry_image }}" alt="">        
     <h3 class="project-title p-name" style="margin: 0em;">
         {{ title }}
     </h3>
