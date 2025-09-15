@@ -2,7 +2,7 @@
 title: Building computational capacity among global data service staff
 group: landscape-dri-new-skills
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_1.jpg
 contact: Vanessa Higgins
 contact-link: https://research.manchester.ac.uk/en/persons/vanessa.higgins
 ---
