@@ -2,7 +2,7 @@
 title: Digital Skills in Arts and Humanities (DISKAH)
 group: landscape-systems
 layout: landscape
-image: A
+image: assets/images/landscape/diskah.png
 contact: Karina Rodriguez Echavarria
 contact-link: https://research.brighton.ac.uk/en/persons/karina-rodriguez-echavarria
 web-page: https://culturedigitalskills.org/
