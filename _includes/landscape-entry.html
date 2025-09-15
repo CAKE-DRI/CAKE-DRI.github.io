@@ -8,8 +8,6 @@
   {% assign image_to_show = entry.summary-image %}
 {% elsif entry.image %}
   {% assign image_to_show = entry.image %}
-{% else %}
-  {% assign image_to_show = "generic_" | append: entry.unique_id | append: ".jpg" %}
 {% endif %}
 
 {% assign entry_image = image_to_show %}
