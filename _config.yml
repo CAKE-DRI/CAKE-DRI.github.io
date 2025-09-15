@@ -66,7 +66,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll_filter_by_date.rb
-  - generate_ids.rb
 
 author:
   name   : "First Lastname"
@@ -123,8 +122,6 @@ defaults:
       author_profile: false
   - scope:
       path: ""
-    values:
-      unique_id: "default"
 
 future: true
 
