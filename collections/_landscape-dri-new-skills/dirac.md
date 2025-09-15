@@ -2,7 +2,7 @@
 title: DiRAC Training Skills
 group: landscape-systems
 layout: landscape
-image: A
+image: assets/images/partners/dirac.webp
 contact: Clare Jenner
 contact-link: https://www.ucl.ac.uk/mathematical-physical-sciences/dr-clare-jenner-deputy-director
 web-page: http://www.dirac.ac.uk/
