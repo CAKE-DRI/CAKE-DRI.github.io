@@ -1,6 +1,6 @@
 require 'securerandom'
 
-Dir.glob("collections/**/*.md") do |file|
+Dir.glob("collections/_landscape-ecse-gpu/*.md") do |file|
   content = File.read(file)
   unless content =~ /unique_id:/
     unique_id = SecureRandom.random_number(10000).to_i # Generates a 8-character hex ID (e.g., "a1b2c3d4")
