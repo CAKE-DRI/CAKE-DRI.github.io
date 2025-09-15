@@ -1,5 +1,5 @@
 ---
-title: GLASS: A GPU-enabled ecosystem for simulating the universe
+title: "GLASS: A GPU-enabled ecosystem for simulating the universe"
 group: landscape-ecse-gpu
 layout: landscape
 image: A
