@@ -2,7 +2,7 @@
 title: FAIRification of Structural Biology Experimental Metadata
 group: landscape-systems
 layout: landscape
-image: assets/images/landscape/generic/generic_0.jpg
+image: assets/images/landscape/generic/generic_2.jpg
 web-page: https://www.ebi.ac.uk/about/news/perspectives/fairification-framework-making-your-data-findable-accessible-interoperable-and-reusable/
 ---
 
