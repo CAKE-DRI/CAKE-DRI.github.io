@@ -2,7 +2,7 @@
 title: MUSCAT – Meet Future Needs of Antenna Measurements and RF Characterization
 group: landscape-rtp
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_7.jpg
 contact: Max Munoz Torrico
 contact-link: https://www.qmul.ac.uk/eecs/people/profiles/munoztorricomaxovidio.html
 ---
