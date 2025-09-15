@@ -2,7 +2,7 @@
 title: Data Curation Service for DiRAC and IRIS
 group: landscape-dri-new-software
 layout: landscape
-image: x
+image: assets/images/landscape/generic/generic_0.jpg
 contact: Mark Wilkinson
 contact-link: https://dirac.ac.uk/person/mark-wilkinson/
 ---
