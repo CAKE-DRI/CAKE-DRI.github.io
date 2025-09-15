@@ -2,7 +2,7 @@
 title: UKRI Living Benchmarks
 group: landscape-dri-new-skills
 layout: landscape
-image: A
+image: assets/images/landscape/benchmarking.jpg
 contact: Garth Wells
 contact-link: https://www.eng.cam.ac.uk/profiles/gnw20
 web-page: https://ukri-bench.github.io/
