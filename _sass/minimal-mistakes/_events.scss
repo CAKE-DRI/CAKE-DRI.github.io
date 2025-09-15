@@ -162,6 +162,11 @@
   padding-bottom: 4em
 }
 
+.landscape-block-group {
+  padding-top: 0em;
+  padding-bottom: 0em
+}
+
 .events-block-group__inner-container :last-child {
   margin-bottom: 0
 }
@@ -178,16 +183,26 @@
     padding:3em
   }
 
-  .events-block-group .events-block-group {
+  .landscape-block-group {
+    padding-top: 0em;
+    padding-bottom: 0em
+  }
+
+  .events-block-group .events-block-group .landscape-block-group {
     padding: 1.5em
   }
 }
 
-.events-block-group {
+.events-block-group .landscape-block-group {
   box-sizing: border-box
 }
 
 .events-block-group {
   padding-top: 2em;
   padding-bottom: 2em
+}
+
+.landscape-block-group {
+  padding-top: 0em;
+  padding-bottom: 0em
 }
