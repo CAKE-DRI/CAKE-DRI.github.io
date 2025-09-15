@@ -1,5 +1,5 @@
 ---
-title: WacaSoft: Weather and Climate Workflow at Scale
+title: WacaSoft - Weather and Climate Workflow at Scale
 group: landscape-dri-new-software
 layout: landscape
 image: A
