@@ -66,6 +66,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll_filter_by_date.rb
+  - generate_ids.rb
 
 author:
   name   : "First Lastname"
