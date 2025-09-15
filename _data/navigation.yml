@@ -15,8 +15,6 @@ main:
     sublinks:
     - title: "Systems"
       url: /landscape/systems
-    - title: "High end consortia"
-      url: /landscape/consortia
     - title: "New approaches to software"
       url: /landscape/dri-new-software
     - title: "New approaches to skills"
