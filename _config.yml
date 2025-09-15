@@ -134,6 +134,9 @@ collections:
     permalink: /:collection/:path/
   landscape-dri-new-skills:
     output: true
+    permalink: /:collection/:path/  
+  landscape-ecse-gpu:
+    output: true
     permalink: /:collection/:path/    
   landscape-systems:
     output: true
