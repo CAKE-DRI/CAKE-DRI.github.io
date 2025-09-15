@@ -2,7 +2,7 @@
 title: "NPRAISE – National Platform for RTPs on AI for Science and Engineering"
 group: landscape-rtp
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_0.jpg
 contact: Jeyan Thiyagalingam
 contact-link: https://eng.ox.ac.uk/people/jeyan-thiyagalingam/
 ---
