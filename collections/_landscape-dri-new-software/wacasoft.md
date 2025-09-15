@@ -2,7 +2,7 @@
 title: WacaSoft - Weather and Climate Workflow at Scale
 group: landscape-dri-new-software
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_5.jpg
 contact: Bryan Lawrence
 contact-link: https://www.bnlawrence.net/
 ---
