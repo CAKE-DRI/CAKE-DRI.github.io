@@ -7,14 +7,13 @@ group: events
 date: 2025-09-18
 layout: event
 image: assets/images/landscape/casdar.png
-summary-image: assets/images/casdar_2.png
 project-type: National events
 web-page: https://www.eventbrite.com/e/careers-and-skills-for-data-driven-research-casdar-hybrid-event-launch-tickets-1496323607189
 location: Birmingham Library
 location-link: https://www.birmingham.gov.uk/libraryofbirmingham
 ---
 
-Registration is now open for the hybrid townhall event launching Careers and Skills for Data driven Research (CaSDaR), taking place on Thursday, 18 September 2025, from 09:30 to 16:30 at The Library of Birmingham and online.
+<img src="/assets/images/casdar_2.png" align="left"> Registration is now open for the hybrid townhall event launching Careers and Skills for Data driven Research (CaSDaR), taking place on Thursday, 18 September 2025, from 09:30 to 16:30 at The Library of Birmingham and online.
 
 As the volume of data continues to grow, so does the critical need for Data Stewards, the professionals who ensure data is shareable, reusable, and FAIR-compliant. Yet in the UK, the role of the Data Steward remains under-defined and often under-recognised.
 
