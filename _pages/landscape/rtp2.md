@@ -1,6 +1,6 @@
 ---
 title: 
-layout: landscaoe-collection
+layout: landscape-collection
 permalink: /landscape/rtp
 collection: landscape-rtp
 entries_layout: grid
