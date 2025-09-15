@@ -25,7 +25,7 @@ github_username: username
 minimal_mistakes_skin: cake
 search: true
 logo: assets/images/cake-logo/CAKE_logo1.png
-favicon: assets/images/cake-logo/favicon.ico
+favicon: favicon.ico
 
 # Liquid
 liquid:

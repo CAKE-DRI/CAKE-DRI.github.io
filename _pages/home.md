@@ -12,22 +12,22 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/home-projects.png
     alt: "projects"
-    title: "DRI projects"
-    excerpt: "Explore the a wide range of active DRI projects."
-    url: "/projects/"
+    title: "DRI Landscape"
+    excerpt: "Explore the landscape of the UK's Digital Research Infrastructure (DRI)."
+    url: "/landscape/"
     btn_class: "btn--primary"
-    btn_label: "Find out more"
+    btn_label: "Explore DRI"
   - image_path: /assets/images/home-events.png
     alt: "Events schedule"
-    title: "Upcoming events"
+    title: "Upcoming Events"
     excerpt: "Discover upcoming events, training and opportunities happening across the UK."
     url: "/events/"
     btn_class: "btn--primary"
-    btn_label: "View calendar"
+    btn_label: "View Events"
   - image_path: /assets/images/home-resources.webp
     alt: "resources"
     title: "Resources"
-    excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community"
+    excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community."
     url: "https://cake-dri.github.io/CAKEbox/"
     btn_class: "btn--primary"
     btn_label: "Go to CAKEbox"
@@ -37,5 +37,5 @@ feature_row:
 {% include feature_row %}    
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '/involved/' | relative_url }}" class="btn btn--secondary btn--x-large">Click here to find out how to get involved!</a>
+  <a href="{{ '/involved/' | relative_url }}" class="btn btn--secondary btn--large">Find out more and get involved with CAKE today!</a>
 </div>

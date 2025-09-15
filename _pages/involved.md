@@ -1,6 +1,7 @@
 ---
 permalink: /involved/
 layout: title-page
+title: How to get involved
 
 feature_row:
   - image_path: /assets/images/Slack-logo.png
@@ -24,59 +25,22 @@ feature_row:
 
 ---
 
+We’re excited to welcome new contributors! Whether you’re an expert or just getting started, looking for help or offering solutions, sharing events or opportunities, or simply wanting to support others — there are plenty of ways to get involved. 
+
 {% include feature_row %}    
 
-We are excited to welcome new contributors to our project! Whether you're: 
+CAKE is here to help the DRI community share knowledge and discover what’s happening across our diverse and busy community! Here’s how you can help:
 
-* An expert in your field or a complete newbie to DRI,
-* Seeking help on a tricky problem or have experience solving tricky problems, 
-* Are interested in getting involved with a friendly and welcoming community, 
-* Have events or opportunities you want to advertise, 
-* Simply want to help others, 
+* Join the community → meet us at [events](/events/), jump into conversations on Slack, and help shape the discussion
+* Showcase your work → highlight your [projects](/landscape/), advertise upcoming [events or training opportunities](/events), or post [updates](/news/) to our blog
+* Build up the knowledge base → contribute guides, tutorials, and resources to [CAKEbox](https://cake-dri.github.io/CAKEbox/) so others can learn from your expertise
+* Spread the word → write a [blog](/news/), share (soon!) on social media, and invite your colleagues to get involved
 
-There are many ways to get involved and share your knowledgeI Here’s how you can contribute:
-
----
-
-## 1. Contribute to this website 
-
-We want to make this website a one-stop resource for the DRI community. Help us to make it easy to discover what is going on in our diverse and busy community! There are many ways you can help:
-
-- **Add your project**: If you have a project you'd like to share with the community, add it to our list. This helps us signpost important work within the community.
-- **Advertise your events**: Have upcoming events or training opportunities? Share them on our site! This way, you can connect with more people, increase event attendance, and expand the benefits of your events.
-- **Share your knowledge**: Contribute to our resources hub by sharing guides, tutorials, and valuable resources. This will help others learn and benefit from your expertise. 
-
-### How? 
-We welcome all kinds of contributions from the community. Whether it's adding new content, fixing existing issues, or sharing new resources, your contributions help make this project better for everyone.
-
-**Check out our [GitHub repository](https://github.com/CAKE-DRI/cake.github.io) for detailed instructions on how to fork, clone, and submit your contributions.**
-
----
-
-## 2. Join Our Community
-
-We believe in building an inclusive, friendly community. If you're looking to connect with others, share ideas, or get involved in discussions, here are some ways to engage:
-
-- **Coming soon! Join our chat**: We are planning to use Slack for real-time conversations. Soon, you will be able to join our community and participate in discussions!
-- **Attend our events**: Keep an eye on our events page to see if we’re hosting webinars, meetups, or hackathons. These are great opportunities to meet like-minded people and learn more about what we do.
-- **Follow us on social media**: Stay updated on our progress and spread the word by following us on social media. We regularly post about new developments, releases, and community events. **Coming soon!**
-
----
-
-## 3. Spread the Word
-
-You don’t need to be a developer to help us. Sharing your events, promoting our work, and telling others about our project are all incredibly valuable contributions. Help us expand our reach and make a bigger impact!
-
-- **Tell your friends**: Share the project with your friends, colleagues, and anyone who might be interested.
-- **Write a blog post**: Write about our project on your blog or social media.
-- **Give us a shoutout**: Mention us on social media!
-
----
+Check out our **[GitHub repository](https://github.com/CAKE-DRI/cake.github.io)** for instructions on how to add to the CAKE website.
 
 ### Code of Conduct
 
-To ensure a welcoming and inclusive environment, we ask that all contributors and community members follow our [Code of Conduct](/code-of-conduct/). It’s important that we all adhere to these guidelines to keep our space safe and friendly.
+To ensure a welcoming and inclusive environment, we ask that all contributors and community members follow our [Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/). It’s important that we all adhere to these guidelines to keep our space safe and friendly.
 
----
 
-We’re excited to have you join us and look forward to seeing your contributions! If you have any questions, don't hesitate to reach out via our [Contact Us page](/contact-us/).
+If you have any questions, please don't hesitate to get in touch via our [Contact Us](/contact-us/) page.

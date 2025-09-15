@@ -1,10 +1,10 @@
 ---
-title: Knowledge Exchange Fellowships
+title: DRI Knowledge Exchange Fellowships
 permalink: /about/ke-fellowships/
 layout: title-page
 ---
 
-**DRI knowledge exchange fellows**
+<!-- **DRI Knowledge Exchange Fellows** -->
 
 The Computational Abilities Knowledge Exchange (CAKE) project aims to facilitate knowledge exchange (KE) and sustainable collaboration across the full range of UK Digital Research Infrastructure (DRI) communities. 
 

@@ -4,4 +4,4 @@ layout: title-page
 permalink: /contact-us/
 ---
 
-Contact the committee at: **cake-management@mlist.is.ed.ac.uk**
+Have questions or ideas? Contact the committee at: **cake-management@mlist.is.ed.ac.uk**

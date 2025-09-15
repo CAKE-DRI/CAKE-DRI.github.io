@@ -10,13 +10,13 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 
 ## What we provide
 
-- **Outreach** CAKE represents DRI projects on national and international  conferences such as CIUK or the Supercomputing conference series. If your project has outreach material (give aways, posters, videos, flyers, ...)  but you do not want to go the events yourself, CAKE can accept your dissemination material and ensure it is presented to our target audience.
-- **Best Practices** Designing EDI guidelines, code of conducts, conference instructions, ... can quickly become an overwhelming task. CAKE collects templates for these tasks to allow projects to focus on their unique core mission.
-- **Support** CAKE runs events and fellowship programmes to facilitate and encourage knowledge exchange between the various DRI projects and the wider UK community.
+- **Support:** CAKE runs events and [fellowship programmes](/about/ke-fellowships) to facilitate and encourage knowledge exchange between the various DRI projects and the wider UK community.
+- **Outreach:** CAKE represents DRI projects on national and international conferences, such as CIUK and the Supercomputing conference series. If your project has outreach material - giveaways, posters, videos, flyers, etc. - but you're unavle to attend, CAKE can present your materials to the right audience on your behalf. 
+- **Best Practices:** Developing EDI guidelines, Code of Conducts, conference instructions, and similar resources can quickly become an overwhelming task. CAKE collects templates and examples to help projects focus on their unique core mission while maintaining high standards.
 
 ## Engage
 
-CAKE realises the majority of its day-to-day work through a joint Slack.  The Slack is open to the whole UK community and friends. To receive an invite please contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE management</a>.
+Most of CAKE's day-to-day collaboration happens on Slack, which is open to the whole UK community and friends. To receive an invite, please contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE Management Team</a>.
 
 # Partners
 
