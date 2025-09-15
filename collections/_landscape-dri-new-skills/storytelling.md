@@ -2,7 +2,7 @@
 title: Data Storytelling for Digital Research Infrastructure
 group: landscape-dri-new-skills
 layout: landscape
-image: A
+image: assets/images/landscape/generic/generic_7.jpg
 contact: Igor Tkalec
 contact-link: https://profiles.ucl.ac.uk/91845-igor-tkalec
 ---
