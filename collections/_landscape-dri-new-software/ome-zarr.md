@@ -2,7 +2,7 @@
 title: Open Software Tools to Accelerate Adoption of OME-Zarr
 group: landscape-dri-new-software
 layout: landscape
-image: X
+image: assets/images/landscape/generic/generic_4.jpg
 contact: Madeline Parsons
 contact-link: https://www.kcl.ac.uk/people/maddy-parsons
 ---
