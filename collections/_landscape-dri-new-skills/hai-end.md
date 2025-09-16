@@ -33,12 +33,12 @@ insight propagates into all computational disciplines.
 
 ## Outcomes
 
-Since early 2025, HAI-End is integrated into the SHAREing inititive (https://shareing-dri.github.io/).
+Since early 2025, HAI-End is integrated into the <a href="https://shareing-dri.github.io/">SHAREing project</a>.
 One workpackage of SHAREing builds up performance assessment services for the UK, and therefore benefits directly from HAI-End's outcomes.
 SHAREing also hosts a training workpackage, which uses HAI-End events to curate and create advanced training material.
-This material ultimately is fed into the DiRAC Training Academy where it becomes available to the whole UK community.
+This material ultimately is fed into the <a href="https://dirac.ac.uk/dirac-training-academy/">DiRAC Training Academy</a> where it becomes available to the whole UK community.
 
 ## Links 
 
-- SHAREing (https://shareing-dri.github.io/)
-- DiRAC Training Academy (https://dirac.ac.uk/dirac-training-academy/)
+- SHAREing (<a href="https://shareing-dri.github.io/">https://shareing-dri.github.io/</a>)
+- DiRAC Training Academy (<a href="https://dirac.ac.uk/dirac-training-academy/">https://dirac.ac.uk/dirac-training-academy/</a>)
