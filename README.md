@@ -39,7 +39,19 @@ If you wish, add an image into `assets/images/event-images/your_event_image_here
 <!-- What is a DRI project? 
 Who do we want to add to here? -->
 
-Create a new `.md` file under `collections/_projects` for your project, using the following template: 
+If your project is not enlisted yet or you want to make changes to your existing project description, first of all search for the DRI funding stream supporting you. At the moment, we have 
+
+- Systems
+- New approaches to software
+- New approaches to skills
+- Embedded GPU CSE
+- RTP Skills, hubs and platforms
+
+If your rubric is not here, please contact the cake-management@mlist.is.ed.ac.uk.
+
+Every rubric has its own subdirectory under `collections`. Per project, there should be one .md file which is simple markup.
+
+If your project is not there yet, create a new `.md` file under `collections/_projects` for your project, using the following template: 
 ```bash 
 ---
 title: "Project"
