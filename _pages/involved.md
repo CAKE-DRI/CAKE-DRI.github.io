@@ -7,7 +7,7 @@ feature_row:
   - image_path: /assets/images/Slack-logo.png
     max-height: 250px
     alt: "slack"    
-    url: "https://cake-dri.slack.com/"
+    url: "https://join.slack.com/t/cake-dri/shared_invite/zt-3dvw46q4g-eode0z4zTvpzoBv~fsQv~w"
     btn_class: "btn--primary btn-archive-centre"
     btn_label: "Chat on Slack"
   - image_path: /assets/images/email.jpg
