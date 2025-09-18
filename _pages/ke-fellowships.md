@@ -43,4 +43,23 @@ The following reviewing criteria will be applied:
 - Justification and usefulness of proposed resources. (20%)
 - Feasibility of  the proposed timeline.  (20%)
 
-_Applications for the first cohort will open in Autumn 2025_
+---
+
+## Application
+
+To apply, please fill in the form below and submit before XX.XX.2025 . You will be notified of the outcome by XX.XX.2025, and the fellowship term will start on XX.XX.2025
+
+Before applying you have to discuss and get approval from your linemanager. There are a number of institutions who have already confirmed their support for staff participating in this programme.  See XXXXX.
+
+DRI KE Fellows are awarded £4000 fellowship money for travel, events and other activities as part of your fellowship. Awards are granted at 80% FEC, applicants must confirm their institution is able to cover the remaining 20%. 
+
+Applicants must be from UK institutions which are eligible for UKRI funding.
+
+The data in the form will be stored and used for the purposes of the fellowship and the CAKE project only, and not shared with external parties.
+
+
+[APPLY HERE](https://docs.google.com/forms/d/e/1FAIpQLSdhwvavSkr7T_B_OCQPd-ATFjspyb0W_Ga0qM0qOLBD-sp9DQ/viewform?usp=header)
+
+---
+
+If you have any questions, don't hesitate to reach out via our [Contact Us page](/contact-us/).
