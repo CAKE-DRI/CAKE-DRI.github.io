@@ -11,4 +11,5 @@ Welcome to the DRI Landscape! This section will provide an overview of the UK’
 * [Embedded GPU CSE (eCSE)](ecse-gpu.md)
 * [RTP skills, hubs and platforms](rtp.md) 
 
-Please check back soon for more details as we continue to build a complete picture of the UK’s Digital Research Infrastructure.
+Is your project missing? <p><a href="https://github.com/CAKE-DRI/cake.github.io" target="_blank">Submit a pull request</a> to have it featured and help connect others with your work!</p>
+

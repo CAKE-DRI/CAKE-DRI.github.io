@@ -16,7 +16,7 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 
 ## Engage
 
-Most of CAKE's day-to-day collaboration happens on Slack, which is open to the whole UK community and friends. To receive an invite, please contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE Management Team</a>.
+Most of CAKE's day-to-day collaboration happens [on Slack](/involved/), which is open to the whole UK community and friends. This community is just getting started, so head on over to get involved! 
 
 # Partners
 
