@@ -50,7 +50,7 @@ Interested in getting involved with CAKE, apply to our calls for [fellows](/abou
 
 The following institutions have confirmed their support for staff joining CAKE activities:
 - University College London
-- EPCC
+- EPCC, The University of Edinburgh
 - Durham University
 
 Is your institution not on here? Ask your senior leadership team to fill in our [Institutional Support Form](https://forms.gle/VUaU7y3Z6LwFu31Q8)!
