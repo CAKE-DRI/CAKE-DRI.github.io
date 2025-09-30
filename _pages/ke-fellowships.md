@@ -12,7 +12,7 @@ CAKE is searching for KE fellows who will, supported through a CAKE fellowship, 
 
 If knowledge exchange in your DRI subcommunity is something you are passionate about and you have an idea for a specific intervention to improve it then this is your chance to become one of up to five KE fellows in the very first DRI KE Fellowship cohort! 
 
-Fellowships run for one year from the respective cohort kick-off date. After the fellowship term, fellows are invited to continue to be involved in the CAKE network as mentors, reviewers, and in other roles.
+Fellowships run for six months from the respective cohort kick-off date. After the fellowship term, fellows are invited to continue to be involved in the CAKE network as mentors, reviewers, and in other roles.
 
 ---
 
@@ -47,16 +47,15 @@ The following reviewing criteria will be applied:
 
 ## Application
 
-To apply, please fill in the form below and submit before XX.XX.2025 . You will be notified of the outcome by XX.XX.2025, and the fellowship term will start on XX.XX.2025
+To apply, please fill in the form below and submit before 30.11.2025 . You will be notified of the outcome by 18.12.2025, and the fellowship term will start on 01.01.2026.
 
-Before applying you have to discuss and get approval from your linemanager. There are a number of institutions who have already confirmed their support for staff participating in this programme.  See XXXXX.
+Before applying you have to discuss and get approval from your linemanager. There are a number of institutions who have already confirmed their support for staff participating in this programme.  See [the "get involved" page](/involved/).
 
 DRI KE Fellows are awarded £4000 fellowship money for travel, events and other activities as part of your fellowship. Awards are granted at 80% FEC, applicants must confirm their institution is able to cover the remaining 20%. 
 
 Applicants must be from UK institutions which are eligible for UKRI funding.
 
 The data in the form will be stored and used for the purposes of the fellowship and the CAKE project only, and not shared with external parties.
-
 
 [APPLY HERE](https://docs.google.com/forms/d/e/1FAIpQLSdhwvavSkr7T_B_OCQPd-ATFjspyb0W_Ga0qM0qOLBD-sp9DQ/viewform?usp=header)
 
