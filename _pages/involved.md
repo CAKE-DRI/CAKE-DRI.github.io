@@ -42,5 +42,16 @@ Check out our **[GitHub repository](https://github.com/CAKE-DRI/cake.github.io)*
 
 To ensure a welcoming and inclusive environment, we ask that all contributors and community members follow our [Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/). It’s important that we all adhere to these guidelines to keep our space safe and friendly.
 
-
 If you have any questions, please don't hesitate to get in touch via our [Contact Us](/contact-us/) page.
+
+### Institutional Support
+
+Interested in getting involved with CAKE, apply to our calls for [fellows](/about/ke-fellowships/),[reviewers](/about/reviewers/), interships and placements, or other initiatives?
+
+The following institutions have confirmed their support for staff joining CAKE activities:
+- University College London
+- EPCC, The University of Edinburgh
+- Durham University
+
+Is your institution not on here? Ask your senior leadership team to fill in our [Institutional Support Form](https://forms.gle/VUaU7y3Z6LwFu31Q8)!
+
