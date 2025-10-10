@@ -12,7 +12,7 @@ CAKE is searching for KE fellows who will, supported through a CAKE fellowship, 
 
 If knowledge exchange in your DRI subcommunity is something you are passionate about and you have an idea for a specific intervention to improve it then this is your chance to become one of up to five KE fellows in the very first DRI KE Fellowship cohort! 
 
-Fellowships run for six months from the respective cohort kick-off date. After the fellowship term, fellows are invited to continue to be involved in the CAKE network as mentors, reviewers, and in other roles.
+Fellowships run for twelve months from the respective cohort kick-off date. After the fellowship term, fellows are invited to continue to be involved in the CAKE network as mentors, reviewers, and in other roles.
 
 ---
 
@@ -35,7 +35,7 @@ Fellowships run for six months from the respective cohort kick-off date. After t
 
 ## How your application will be assessed:
 
-Your application will be assessed by a minimum of four reviewers from our reviewing committee.
+Your application will be assessed by a minimum of three reviewers from our reviewing committee.
 The following reviewing criteria will be applied:
 
 - How well the proposed project addresses timely and relevant issues within the target subcommunity. (30%)
