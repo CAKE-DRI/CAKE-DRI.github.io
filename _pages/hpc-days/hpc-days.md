@@ -4,7 +4,7 @@ permalink: /hpc-days/
 title: HPC Days Durham
 ---
 
-Durham HPC Days 2026: Theme TBC
+# Durham HPC Days 2026: Theme TBC
  
 Durham University, Department of Computer Science, Durham, UK
 
