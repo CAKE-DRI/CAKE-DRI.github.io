@@ -19,7 +19,17 @@ layout: default
         Talks schedule
       {% else %}
         <a href="https://www.cake.ac.uk/hpc-days/talks">Talks schedule</a>
-      {% endif %}      
+      {% endif %}   
+      {% if page.purpose == "tutorials" %}
+        Tutorials
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/tutorials">Tutorials</a>
+      {% endif %}
+      {% if page.purpose == "keynote-speakers" %}
+        Keynote Speakers
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/keynote-speakers">Keynote Speakers</a>
+      {% endif %}
     </li>
     </ul>
   </div>
