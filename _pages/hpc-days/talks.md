@@ -1,6 +1,6 @@
 ---
 layout: hpc-days
-permalink: /hpc-days/
+permalink: /hpc-days/talks
 title: HPC Days Durham
 ---
 
