@@ -2,6 +2,7 @@
 layout: hpc-days
 permalink: /hpc-days/
 title: HPC Days Durham
+purpose: home
 ---
 
 # Durham HPC Days 2026: Theme TBC
