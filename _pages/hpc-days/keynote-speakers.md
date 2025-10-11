@@ -5,6 +5,6 @@ title: HPC Days Durham
 purpose: keynote-speakers
 ---
 
-# HPC Days Keynote Speakers
+# HPC Days keynote speakers
 
 TBC
