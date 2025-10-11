@@ -1,5 +1,5 @@
 ---
-layout: title-page
+layout: hpc-days
 permalink: /hpc-days/
 title: HPC Days Durham
 ---
