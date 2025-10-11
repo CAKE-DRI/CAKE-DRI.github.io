@@ -5,8 +5,20 @@ layout: default
 <main id="main" class="main-content layout--single wide" aria-label="Content">
   <div class="sidebar sticky">
     <ul>
-    <li><a href="https://www.cake.ac.uk/hpc-days/">HPC Days</a></li>
-    <li><a href="https://www.cake.ac.uk/hpc-days/talks">Talks schedule</a></li>
+    <li>
+      {% if page.purpose == "home" %}
+        HPC Days
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/">HPC Days</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.purpose == "talks" %}
+        Talks schedule
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/talks">Talks schedule</a>
+      {% endif %}      
+    </li>
     </ul>
   </div>
   <article class="page">
