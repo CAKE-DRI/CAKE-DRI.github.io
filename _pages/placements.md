@@ -1,6 +1,6 @@
 ---
-title: CAKE Placements and Visits
-permalink: /about/placements-and-visits/
+title: DRI Knowledge Exchange Placements and Visits
+permalink: /about/placements/
 layout: title-page
 ---
 
@@ -57,7 +57,7 @@ PhD students are eligible to apply, provided they include a letter of support fr
 The CAKE Placements and Visits Programme runs from October 2025 through to April 2028, at which time all visits must be complete and expenses claimed.
 
 ## Process 
-There is a rolling deadline of the 1st of each month, where applications received by then will be collated and reviewed. Each application will be assessed by a minimum of four reviewers from the CAKE Review Committee.
+There is a rolling deadline of the 1st of each month, where applications received by then will be collated and reviewed. Each application will be assessed by a minimum of three reviewers from the CAKE Review Committee.
 
 The following reviewing criteria will be applied:
 * Importance of the benefits from this visit and UKRI-wide relevance of specific outputs (40%), 
@@ -87,7 +87,7 @@ To apply, click the button below.
 There is a rolling deadline of the 1st of each month, where applications received by then will be collated and reviewed. We aim for all decisions to be communicated within 4-6 weeks from when the application was submitted. 
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '...' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+  <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
 </div>
 
 This data will be stored and used for the purposes of the CAKE Placements & Visits only, and not shared with external parties.  
@@ -98,11 +98,19 @@ This data will be stored and used for the purposes of the CAKE Placements & Visi
 
 # Support 
 
+**Coming soon!**
+We have several support opportunities that will soon be in place to help you make the most of your placements and visits. In the meantime, please contact the CAKE management team, who are very happy to assist, helping you navigate options and connect with the right collaborators.
+
+
 ## Structured Framework for Placements and Visits
 
+We’re developing a clear framework to help participants and hosts get the most out of every placement and visit. Stay tuned for guidance, templates, and tips to make your experience as productive and rewarding as possible.
 
 ## Mentoring Opportunities 
 
+CAKE will soon offer mentoring support for all applicants, connecting you with experienced members of the network to guide your placement, provide advice, and help you achieve your goals.
 
 ## Match-making Support 
+
+We’re building tools and support to help participants find the right hosts, and vice versa, so that collaborations are effective, meaningful, and aligned with your research interests.
 
