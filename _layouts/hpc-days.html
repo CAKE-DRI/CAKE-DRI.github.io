@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<main id="main" class="main-content layout--single wide" aria-label="Content">
+  <div class="sidebar sticky">
+    <img src="/assets/images/durham.webp" style="width: 80%; margin: auto;">
+    <h2>Durham HPC Days</h2>
+    <ul>
+    <li>
+      {% if page.purpose == "home" %}
+        Home
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/">Home</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.purpose == "talks" %}
+        Talks schedule
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/talks">Talks schedule</a>
+      {% endif %}   
+    </li>
+    <li>
+      {% if page.purpose == "tutorials" %}
+        Tutorials
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/tutorials">Tutorials</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.purpose == "keynote-speakers" %}
+        Keynote speakers
+      {% else %}
+        <a href="https://www.cake.ac.uk/hpc-days/keynote-speakers">Keynote speakers</a>
+      {% endif %}
+    </li>
+    </ul>
+  </div>
+  <article class="page">
+    <div class="page__inner-wrap">
+      <div class="page__content">
+        <div class="e-content">
+          {{ content }}          
+        </div>        
+      </div>
+    </div>
+  </article>
+</main>
