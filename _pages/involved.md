@@ -52,6 +52,7 @@ The following institutions have confirmed their support for staff joining CAKE a
 - University College London
 - EPCC, The University of Edinburgh
 - Durham University
+- University of York
 
 Is your institution not on here? Ask your senior leadership team to fill in our [Institutional Support Form](https://forms.gle/VUaU7y3Z6LwFu31Q8)!
 
