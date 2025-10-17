@@ -4,13 +4,13 @@ icon_alt: Award icon
 categories:
   - National
 group: events
-date: 2025-10-28
+date: 2026-03-TBA
 layout: event
 summary-image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_square.png
 image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_draft_04_01.png
 project-type: National events
-location: Room 1.4, Edinburgh Futures Institute
-location-link: https://maps.app.goo.gl/DWrEyDWtnkTakhvL8
+location: TBA
+location-link: TBA
 ---
  
 ACIT-Hub is developing efficient and sustainable training solutions, to future proof the skills development of RTPs including SysOps, Infrastructure Engineers, DevOps, System Administrators and Technical Support, who underpin large-scale Accelerated Compute.
