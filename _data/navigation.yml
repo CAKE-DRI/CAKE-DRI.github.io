@@ -25,6 +25,10 @@ main:
       url: /landscape/eCSE-GPU
     - title: "RTP skills, hubs and platforms"
       url: /landscape/rtp    
+    - title: "Research communities"
+      url: /landscape/research-communities   
+    - title: "Centres and institutes"
+      url: /landscape/centres-institutes   
   - title: "Activities"
     sublinks:
     - title: "Outreach"
