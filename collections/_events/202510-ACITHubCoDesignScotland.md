@@ -4,7 +4,6 @@ icon_alt: Award icon
 categories:
   - National
 group: events
-date: 2026-03-TBA
 layout: event
 summary-image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_square.png
 image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_draft_04_01.png
@@ -12,7 +11,9 @@ project-type: National events
 location: TBA
 location-link: TBA
 ---
- 
+
+Date to be announced! 
+
 ACIT-Hub is developing efficient and sustainable training solutions, to future proof the skills development of RTPs including SysOps, Infrastructure Engineers, DevOps, System Administrators and Technical Support, who underpin large-scale Accelerated Compute.
 
 Join us at the University of Edinburgh for the ACIT-Hub Scotland training co-design day, we will be exploring the unique needs of technician RTPs to then feed into our plans for the development of bespoke training courses and events covering accelerators, networking, storage, and orchestration and management software.
