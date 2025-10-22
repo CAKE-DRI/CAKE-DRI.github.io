@@ -139,6 +139,12 @@ collections:
   landscape-systems:
     output: true
     permalink: /:collection/:path/
+  landscape-centres-institutes:
+    output: true
+    permalink: /:collection/:path/
+  landscape-research-communities:
+    output: true
+    permalink: /:collection/:path/
   events:
     output: true
     permalink: /:collection/:path/
