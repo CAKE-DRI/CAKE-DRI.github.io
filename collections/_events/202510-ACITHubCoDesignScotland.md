@@ -13,7 +13,7 @@ location: TBA
 location-link: TBA
 ---
 
-Date to be confirmed! 
+Date to be confirmed!  
 
 ACIT-Hub is developing efficient and sustainable training solutions, to future proof the skills development of RTPs including SysOps, Infrastructure Engineers, DevOps, System Administrators and Technical Support, who underpin large-scale Accelerated Compute.
 
