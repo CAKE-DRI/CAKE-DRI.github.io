@@ -38,3 +38,6 @@ main:
 
   - title: "Calendar"
     url: /events/
+
+  - title: "Funds"
+    url: /funds/        
