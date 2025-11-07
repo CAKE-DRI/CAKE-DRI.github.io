@@ -22,7 +22,7 @@
 
 <div class="events-block__wrapper funds-card">
   <div class="landscape-block__infos">
-    <div class="event-title">{{ title }}</div>
+    <div class="event-title"><a href="{{ web_page }}" target="_blank" rel="noopener">{{ title }}</a></div>
     <img class="events-image" src="{{ entry_image }}" alt="{{ title }}">
     {%- assign web_label = web_page | replace: 'https://','' | replace: 'http://','' | replace: 'www.','' -%}
     {%- assign web_label = web_label | truncate: 50 -%}
