@@ -1,0 +1,40 @@
+/* Make Funds cards shorter without changing image size */
+.events-block__wrapper.funds-card {
+  margin: 0 0 14px;           /* tighter gap between cards */
+}
+
+@media (min-width: 992px) {
+  .events-block__wrapper.funds-card {
+    min-height: 50px;        /* was 220px in events */
+    display: flex;
+    align-items: stretch;
+  }
+}
+
+/* Reduce the inner padding + remove big bottom padding used by events */
+.events-block__wrapper.funds-card .landscape-block__infos {
+  padding: 12px 14px;         /* was 30px */
+  min-height: auto;           /* override 200px */
+  padding-bottom: 12px;       /* was 80px */
+}
+
+/* Tighten text spacing only (leave .events-image as-is) */
+.events-block__wrapper.funds-card .event-title {
+  margin: 0 0 4px;
+  line-height: 1.15;
+}
+
+.events-block__wrapper.funds-card p {
+  margin: 4px 0;
+  line-height: 1.3;
+}
+
+.events-block__wrapper.funds-card .events-image {
+  border-radius: 6px;
+  width: 20%;
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

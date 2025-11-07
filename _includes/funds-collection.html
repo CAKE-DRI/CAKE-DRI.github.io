@@ -1,0 +1,6 @@
+{% assign entries = site[include.collection] %}
+{% assign entries = entries | sort_natural: "title" %}
+
+{%- for entry in entries -%}
+  {% include funds-entry.html entry=entry %}
+{%- endfor -%}

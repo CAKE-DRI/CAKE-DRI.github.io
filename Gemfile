@@ -17,3 +17,5 @@ group :jekyll_plugins do
   gem "jekyll_filter_by_date"
   gem "generate_ids"
 end
+
+gem "webrick", "~> 1.9"

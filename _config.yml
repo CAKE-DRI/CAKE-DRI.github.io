@@ -148,6 +148,9 @@ collections:
   events:
     output: true
     permalink: /:collection/:path/
+  funds:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid

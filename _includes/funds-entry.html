@@ -1,0 +1,44 @@
+{% if entry.id %}
+  {% assign title = entry.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = entry.title %}
+{% endif %}
+
+{% if entry.summary-image %}
+  {% assign image_to_show = entry.summary-image %}
+{% elsif entry.image %}
+  {% assign image_to_show = entry.image %}
+{% endif %}
+
+{% assign entry_image = image_to_show %}
+{% unless entry_image contains '://' %}
+        {% assign entry_image = entry_image | relative_url %}
+{% endunless %}
+
+{%assign web_page = entry['web-page']%}
+{%assign contact = entry['contact']%}
+{%- assign closing_deadline = entry['closing-deadline'] | default: entry.deadline -%}
+
+
+<div class="events-block__wrapper funds-card">
+  <div class="landscape-block__infos">
+    <div class="event-title">{{ title }}</div>
+    <img class="events-image" src="{{ entry_image }}" alt="{{ title }}">
+    {%- assign web_label = web_page | replace: 'https://','' | replace: 'http://','' | replace: 'www.','' -%}
+    {%- assign web_label = web_label | truncate: 50 -%}
+    <p>
+      📣 Call page:&nbsp
+      <a href="{{ web_page }}" target="_blank" rel="noopener">{{ web_label }}</a>
+      <br>
+      📧 Contact:&nbsp
+      <a href="{{ contact }}" target="_blank" rel="noopener">{{ contact }}</a>
+      <br>
+      ⏰ Closing deadline:&nbsp
+      {%- if closing_deadline -%}
+        <a target="_blank" rel="noopener">{{ closing_deadline | date: "%Y-%m-%d" }}</a>
+      {%- else -%}
+        TBD
+      {%- endif -%}
+    </p>
+  </div>
+</div>
