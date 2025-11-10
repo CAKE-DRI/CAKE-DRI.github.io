@@ -31,4 +31,4 @@ We are hoping to better outline and understand the whole dRTP ecosystem, therefo
 * Registration form link: https://bit.ly/dRTP_landscape_workshop/
 * Registration deadline: Noon on Tuesday 28th October 2025
 
-More information about the event is available here: https://drtp-skills.ac.uk/drtp-november-workshop/. 
+More information about the event is available [here](https://drtp-skills.ac.uk/drtp-november-workshop).
