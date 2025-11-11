@@ -8,7 +8,7 @@ We are currently seeking reviewers to join the CAKE Review Committee.
 
 ## Our CAKE Reviewing Committee
 
-Our current CAKE Reviwing Committee are
+Our current CAKE Reviewing Committee are
 
 - Sam Bland (SEI University of York & N8CIR)
 - Eleanor Broadway (EPCC, University of Edinburgh)
@@ -18,6 +18,8 @@ Our current CAKE Reviwing Committee are
 - Michael Umeokoli (Manchester Metropolitan University)
 - Marion Weinzierl (University of Cambridge)
 - Tobias Weinzierl (Durham University)
+
+Some reviewers might not have agreed to be listed here, and are therefore missing from this list.
 
 ## Why join? 
 
