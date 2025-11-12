@@ -10,6 +10,7 @@ We are currently seeking reviewers to join the CAKE Review Committee.
 
 Our current CAKE Reviewing Committee are
 
+- Sayantika Banik (DataJourneyHQ)
 - Sam Bland (SEI University of York & N8CIR)
 - Eleanor Broadway (EPCC, University of Edinburgh)
 - Nick Brown (EPCC, University of Edinburgh)
