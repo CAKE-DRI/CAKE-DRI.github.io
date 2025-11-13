@@ -46,7 +46,7 @@ If you have any questions, please don't hesitate to get in touch via our [Contac
 
 ### Institutional Support
 
-Interested in getting involved with CAKE, apply to our calls for [fellows](/about/ke-fellowships/),[reviewers](/about/reviewers/), interships and placements, or other initiatives?
+Interested in getting involved with CAKE, apply to our calls for [fellows](/about/ke-fellowships/), [reviewers](/about/reviewers/), interships and placements, or other initiatives?
 
 The following institutions have confirmed their support for staff joining CAKE activities:
 - University College London
