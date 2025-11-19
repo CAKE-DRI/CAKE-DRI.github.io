@@ -17,4 +17,4 @@ location: Department of Computer Science, Durham
 
 The Durham HPC Days bring together researchers, developers, and practitioners to explore the frontiers of high-performance computing, data analysis, and scientific innovation.
 
-[Visit the website](https://hpc-days.github.io/Durham-HPC-Days-2026/){: .btn .btn--info .btn--large}
+[Visit the website](https://hpc-days.github.io/Durham-HPC-Days-2026/)
