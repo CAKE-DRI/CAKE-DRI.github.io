@@ -14,6 +14,7 @@ Our current CAKE Reviewing Committee are
 - Sam Bland (SEI University of York & N8CIR)
 - Eleanor Broadway (EPCC, University of Edinburgh)
 - Nick Brown (EPCC, University of Edinburgh)
+- Danny Garside (Digital Research Academy)
 - Andrew Gillen (University of Glasgow)
 - Cassandra Gould van Praag (RCM Cooperative)
 - Michael Umeokoli (Manchester Metropolitan University)
