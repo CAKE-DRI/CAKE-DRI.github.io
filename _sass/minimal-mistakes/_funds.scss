@@ -1,40 +1,34 @@
-/* Make Funds cards shorter without changing image size */
+/* Funds = mirror Events defaults */
 .events-block__wrapper.funds-card {
-  margin: 0 0 14px;           /* tighter gap between cards */
+  margin: 0 0 30px;           /* Events default */
 }
 
 @media (min-width: 992px) {
   .events-block__wrapper.funds-card {
-    min-height: 50px;        /* was 220px in events */
+    min-height: 220px;        /* Events default */
     display: flex;
     align-items: stretch;
   }
 }
 
-/* Reduce the inner padding + remove big bottom padding used by events */
+/* Events default for the “landscape” info block */
 .events-block__wrapper.funds-card .landscape-block__infos {
-  padding: 12px 14px;         /* was 30px */
-  min-height: auto;           /* override 200px */
-  padding-bottom: 12px;       /* was 80px */
+  padding: 30px;              /* Events default */
+  background-color: #f8f5f2;
 }
 
-/* Tighten text spacing only (leave .events-image as-is) */
-.events-block__wrapper.funds-card .event-title {
-  margin: 0 0 4px;
-  line-height: 1.15;
+@media (min-width: 992px) {
+  .events-block__wrapper.funds-card .landscape-block__infos {
+    min-height: 200px;        /* Events default */
+    padding-bottom: 80px;     /* Events default */
+  }
 }
 
-.events-block__wrapper.funds-card p {
-  margin: 4px 0;
-  line-height: 1.3;
-}
-
+/* Events default image */
 .events-block__wrapper.funds-card .events-image {
   border-radius: 6px;
   width: 20%;
-  height: 100px;
+  height: 200px;
   float: right;
   margin-left: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
