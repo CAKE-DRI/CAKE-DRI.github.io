@@ -47,7 +47,11 @@ The following reviewing criteria will be applied:
 
 ## Application
 
-To apply, please fill in the form below and submit before 30.11.2025 . You will be notified of the outcome by 18.12.2025, and the fellowship term will start on 01.01.2026.
+Applications are currently closed. Thanks to everyone who applied for the first KE Fellows cohort! 
+
+Applications for the second cohort are expected to open in April/May 2026.
+
+<!-- To apply, please fill in the form below and submit before 30.11.2025 . You will be notified of the outcome by 18.12.2025, and the fellowship term will start on 01.01.2026.
 
 Before applying you have to discuss and get approval from your linemanager. There are a number of institutions who have already confirmed their support for staff participating in this programme.  See [the "get involved" page](/involved/).
 
@@ -57,7 +61,7 @@ Applicants must be from UK institutions which are eligible for UKRI funding.
 
 The data in the form will be stored and used for the purposes of the fellowship and the CAKE project only, and not shared with external parties.
 
-[APPLY HERE](https://docs.google.com/forms/d/e/1FAIpQLSdhwvavSkr7T_B_OCQPd-ATFjspyb0W_Ga0qM0qOLBD-sp9DQ/viewform?usp=header)
+[APPLY HERE](https://docs.google.com/forms/d/e/1FAIpQLSdhwvavSkr7T_B_OCQPd-ATFjspyb0W_Ga0qM0qOLBD-sp9DQ/viewform?usp=header) -->
 
 ---
 
