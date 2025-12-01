@@ -9,7 +9,7 @@ feature_row:
     alt: "slack"    
     url: "/about/ke-fellowships/"
     btn_class: "btn--primary btn-archive-centre"
-    btn_label: "Apply to be a knowledge exchange fellow"
+    btn_label: "Learn more about KE Fellowships - the next call opens in May 2026"
   - image_path: /assets/images/placements_call.png
     max-height: 250px
     alt: "email"    
