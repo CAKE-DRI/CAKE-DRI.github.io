@@ -17,6 +17,7 @@ Our current CAKE Reviewing Committee are
 - Danny Garside (Digital Research Academy)
 - Andrew Gillen (University of Glasgow)
 - Cassandra Gould van Praag (RCM Cooperative)
+- Oscar Seip (University of Manchester, Software Sustainability Institute)
 - Michael Umeokoli (Manchester Metropolitan University)
 - Marion Weinzierl (University of Cambridge)
 - Tobias Weinzierl (Durham University)
