@@ -34,7 +34,7 @@ We define a placement and visit opportunity as including (but not limited to):
 * Engagements that foster cross-disciplinary or cross-sector collaboration within the DRI ecosystem
 * Attendance at community workshops, training and events
 
-For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake-management@mlist.ed.ac.uk](cake-management@mlist.ed.ac.uk)) to discuss eligibility.
+For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake-management@mlist.is.ed.ac.uk](cake-management@mlist.is.ed.ac.uk)) to discuss eligibility.
 
 ## EDI
 We are committed to fostering a diverse and inclusive environment, reflecting the diversity of the CAKE network and wider UK DRI community. We actively encourage applications from all members of the community, regardless of background, discipline, or career stage. To support this commitment, we provide: 
