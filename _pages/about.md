@@ -11,7 +11,7 @@ We remove barriers that prevent effective knowledge exchange: taking care of the
 ## What we provide
 
 - **Support:** CAKE runs events and [fellowship programmes](/about/ke-fellowships) to facilitate and encourage knowledge exchange between the various DRI projects and the wider UK community.
-- **Outreach:** CAKE represents DRI projects on national and international conferences, such as CIUK and the Supercomputing conference series. If your project has outreach material - giveaways, posters, videos, flyers, etc. - but you're unavle to attend, CAKE can present your materials to the right audience on your behalf. 
+- **Outreach:** CAKE represents DRI projects on national and international conferences, such as CIUK and the Supercomputing conference series. If your project has outreach material - giveaways, posters, videos, flyers, etc. - but you're unable to attend, CAKE can present your materials to the right audience on your behalf. 
 - **Best Practices:** Developing EDI guidelines, Code of Conducts, conference instructions, and similar resources can quickly become an overwhelming task. CAKE collects templates and examples to help projects focus on their unique core mission while maintaining high standards.
 
 ## Engage
