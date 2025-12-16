@@ -12,6 +12,7 @@ project-type: National events
 web-page: https://indico.ph.qmul.ac.uk/event/2367/overview
 location: M Shed, Bristol
 summary: The NFCS NetworkPlus 3rd National Conference will bring together all 26 project partners to review the initial Federation Roadmap findings from the 13 first phase projects and to hear what the 13 second phase projects plan to contribute as they begin their work.
+---
 
 The NFCS NetworkPlus 3rd National Conference will bring together all 26 project partners to review the initial Federation Roadmap findings 
 from the 13 first phase projects and to hear what the 13 second phase projects plan to contribute as they begin their work.
