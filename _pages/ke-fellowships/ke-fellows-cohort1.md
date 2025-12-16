@@ -20,6 +20,7 @@ Many high quality learning resources and tools have been developed for the Fortr
 
 This fellowship aims to introduce members of the DRI community to the container orchestration platform Kubernetes (K8s). This platform is widely used throughout industry but has not been utilised as much across academia. Although not a one size fits all solution for research infrastructure, I am hoping to break the ice into the K8s world for RSEs, enable them to feel comfortable experimenting with the platform, and bring relevant members of the community together to encourage shared resources and reduced duplication of effort.
 
-## CAKE Fellow 3
+## Louise Chisholm
+### CONNECT DRI:  Community of Practice for UKRI DRI facility leaders 
 
-Short project description
+CONNECT DRI’s objective is to establish and develop a community of practice (CoP) for leaders responsible for grant funded DRI facilities who are navigating the rapidly evolving DRI landscape. It  brings together leaders across different facility types (e.g. data  and/or compute) and disciplines. The CoP is focused on developing good practice regarding: 1)  Approaches to inform the design, development and operations of DRI facilities and 2) Approaches to maximise use and impact. The CoP will be delivered via a mixture of in person and online activities which will enable members to share their experience, lessons learned, hear from invited speakers and to develop good practice. It will foster new relationships and develop the network of UKRI DRI facility leaders.
