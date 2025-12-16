@@ -15,9 +15,10 @@ We are looking forward to see how their projects will develop over the coming ye
 
 Many high quality learning resources and tools have been developed for the Fortran programming language over its seven decades of usage. However, their visibility is generally poor in the community. This fellowship builds on the work of the [Fortran index](https://github.com/fortran-index/fortran-index) hackathon series to facilitate better sharing of knowledge by making adding to, correcting, and curating the information presented in the [fortran-lang](https://fortran-lang.org/) community resource.
 
-## CAKE Fellow 2
+## Lewis Sampson
+### Basic introductions for the DRI community to the benefits and processes of Kubernetes. 
 
-Short project description
+This fellowship aims to introduce members of the DRI community to the container orchestration platform Kubernetes (K8s). This platform is widely used throughout industry but has not been utilised as much across academia. Although not a one size fits all solution for research infrastructure, I am hoping to break the ice into the K8s world for RSEs, enable them to feel comfortable experimenting with the platform, and bring relevant members of the community together to encourage shared resources and reduced duplication of effort.
 
 ## CAKE Fellow 3
 
