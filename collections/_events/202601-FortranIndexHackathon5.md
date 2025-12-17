@@ -24,5 +24,7 @@ Interest Group for Reasonable Performance Computing
 common Fortran optimisation patterns on their website, with the goal of helping
 researchers to write efficient Fortran code.
 
-Register for the hackathon by filling out the following form:
-https://forms.gle/J8W772hy38auCeX29.
+The event will be hosted online, running from Monday 26th January 2026 between
+14:00 and 16:30 UTC. Register for the hackathon by filling out the following
+form:
+[https://forms.gle/J8W772hy38auCeX29](https://forms.gle/J8W772hy38auCeX29).
