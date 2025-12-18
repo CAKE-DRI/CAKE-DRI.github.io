@@ -12,7 +12,7 @@ We are looking forward to see how their projects will develop over the coming ye
 
 ## Joe Wallwork
 
-<p align="middle">
+<p align="left">
   <img src="/assets/images/ke_fellows/joe_w.jpeg" width="200" />
 </p>
 
@@ -23,7 +23,7 @@ Many high quality learning resources and tools have been developed for the Fortr
 
 ## Lewis Sampson
 
-<p align="middle">
+<p align="left">
   <img src="/assets/images/ke_fellows/lewis_s.jpg" width="200" />
 </p>
 
@@ -33,7 +33,7 @@ This fellowship aims to introduce members of the DRI community to the container 
 
 ## Louise Chisholm
 
-<p align="middle">
+<p align="left">
   <img src="/assets/images/ke_fellows/louise_c.png" width="200" />
 </p>
 
