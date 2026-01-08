@@ -5,9 +5,9 @@ categories:
   - National
 group: events
 date: 2026-02-25
-layout: post
+layout: event
 image: assets/images/landscape/shareing.png
-project-type: National Event
+project-type: National Events
 web-page: https://indico.global/e/shareing-performance-monitoring
 location: Hybrid Swansea University/Zoom
 summary: A workshop to understand options for monitoring performance of shared accelerated compute
