@@ -1,5 +1,5 @@
 ---
-title: "Event"
+title: "SHAREing Performance Monitoring of Accelerated Compute Workshop"
 icon_alt: Award icon
 categories:
   - National
