@@ -4,7 +4,6 @@ icon_alt: Award icon
 categories:
   - National
 group: events
-start_date: 2026-03-17
 date: 2026-03-17
 layout: event
 image: https://nfcs-networkplus.ac.uk/app/uploads/2025/09/NFCS_motion_graphic.gif
