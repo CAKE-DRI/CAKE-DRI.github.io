@@ -22,4 +22,4 @@ summary: This will be ​the first in-person meeting of the regional group for r
 ​- Develop the community of RSEs and associated technical professionals in Scotland;
 - Explore collaboration opportunities across institutions in Scotland
 
-​For more information about ScotRSE: [https://scotrse.github.io/](https://scotrse.github.io/)
+​Register [here](https://luma.com/rpnv7vjo0) and for more information about ScotRSE see [https://scotrse.github.io/](https://scotrse.github.io/)
