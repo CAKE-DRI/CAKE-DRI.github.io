@@ -16,7 +16,7 @@ Cambridge, jw2423@cam.ac.uk*
 
 October this year will mark seventy years since the first Fortran manual, making it a very well established
 programming language for scientific computing. Over its seven decades of usage,
-many high quality learning resources and tools have been developed for the
+many high quality learning resources and tools have been developed for
 Fortran. However, their visibility has historically been poor in the community,
 with groups often sticking to the resources and tools that they were aware of.
 
