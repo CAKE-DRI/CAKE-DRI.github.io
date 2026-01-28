@@ -3,7 +3,7 @@ title: "Fortran Index CAKE Fellowship"
 date: 2026-01-30
 full-width: true 
 classes: wide
-summary-image: /assets/images/fellows_call.png
+summary-image: /assets/images/Fortran_logo.png
 categories:
   - news
 tags:
