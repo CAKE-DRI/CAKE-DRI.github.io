@@ -41,6 +41,9 @@ I am happy to announce that I was recently awarded a
 [Computational Abilities Knowledge Exchange (CAKE) fellowship](https://www.cake.ac.uk/ke-fellowships/cohort1#joe-wallwork)
 to further the efforts of Fortran index in 2026. Watch this space for useful
 improvements. The funding associated with the fellowship will support attending
+events to network with potential contributors both inside and outside the
+Fortran community (e.g., web developers) and also hosting the first in-person
+hackathon in Cambridge in the autumn... along with a 70th Fortran birthday for
 Fortran! This will be a hybrid event and cake will be provided for in-person
 attendees, of course. (Further details to follow.)
 events to network with potential contributors both inside and outside the
