@@ -21,8 +21,8 @@ Fortran. However, their visibility has historically been poor in the community,
 with groups often sticking to the resources and tools that they were aware of.
 
 The situation has been greatly improved by the fortran-lang community
-initiative, which provides standard tooling, community platforms, and this
-website, which holds a large volume of useful information. However, there are
+initiative, which provides standard tooling, community platforms, and the
+[fortran-lang website](https://fortran-lang.org/), which holds a large volume of useful information. However, there are
 still enchancements that could be made to allow fortran-lang to better serve the
 community. For example, having finer-grained categories and the ability to
 search by tags in the [package index](https://fortran-lang.org/packages/) would
