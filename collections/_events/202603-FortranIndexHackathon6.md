@@ -5,7 +5,7 @@ categories:
   - National
 group: events
 date: 2026-03-05
-layout: post
+layout: event
 image: https://fortran-lang.org/_static/fortran-logo-256x256.png
 project-type: National Event
 web-page: https://forms.gle/o2MDWaxDfDtUb8JD8
