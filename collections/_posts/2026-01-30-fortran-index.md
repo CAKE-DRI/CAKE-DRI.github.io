@@ -28,6 +28,8 @@ community. For example, having finer-grained categories and the ability to
 search by tags in the [package index](https://fortran-lang.org/packages/) would
 be very useful.
 
+<p align="center"><img src="/assets/images/fortranindex_joe.png" alt="Young man (Joe) in red checkered shirt and brown trousers giving a talk in front of slides titled 'Fortran Index - It starts with one...' " width="250"/></p> 
+
 [Fortran index](https://github.com/fortran-index/fortran-index) is a hackathon
 series that was born out of the Back to the Fortran Future satellite event of
 [RSECon](https://rsecon24.society-rse.org/) back in 2024. Roughly every two
