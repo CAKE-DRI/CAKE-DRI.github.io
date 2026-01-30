@@ -48,3 +48,7 @@ Fortran community (e.g., web developers) and also hosting the first in-person
 hackathon in Cambridge in the autumn... along with a 70th Fortran birthday for
 Fortran! This will be a hybrid event and cake will be provided for in-person
 attendees, of course. (Further details to follow.)
+
+The next hackathon will be held virtually on 5th March 2026 - see the
+[event page](https://www.cake.ac.uk/events/202603-FortranIndexHackathon6/) for
+more details.
