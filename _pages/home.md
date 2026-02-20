@@ -24,11 +24,11 @@ feature_row:
     url: "/events/"
     btn_class: "btn--primary"
     btn_label: "View Events"
-  - image_path: /assets/images/home-resources.webp
+  - image_path: /assets/images/cake-logo/CAKEbox-rectangle.png
     alt: "resources"
     title: "Resources"
     excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community."
-    url: "https://cake-dri.github.io/CAKEbox/"
+    url: "https://www.cake.ac.uk/CAKEbox/"
     btn_class: "btn--primary"
     btn_label: "Go to CAKEbox"
 

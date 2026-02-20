@@ -3,6 +3,8 @@ main:
     sublinks:
     - title: "What is CAKE?"
       url: /about/who-are-we
+    - title: "How can I get involved?"
+      url: /involved
     - title: "CAKE Partners"
       url: /about/who-are-we#partners
     - title: "KE Fellowships"

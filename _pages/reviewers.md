@@ -41,7 +41,7 @@ As a reviewer, you’ll be added to our CAKE Review Committee Pool. This means:
 - We aim to ensure reviewer workload is distributed fairly across the committee and will monitor how many assignments each reviewer receives throughout the year.
 - If you accept an assignment, we ask that you provide fair, respectful, and constructive feedback.
 
-**For full details, please refer to the [CAKE Review Committee Terms of Reference](https://www.cake.ac.uk/CAKEbox/working-groups/reviewers/).**
+**For full details, please refer to the [CAKE Review Committee Terms of Reference](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/reviewer-terms-of-reference/).**
 
 ## What sort of applications will you be reviewing? 
 

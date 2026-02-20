@@ -95,7 +95,7 @@ footer:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@cake-dri"
     - label: "Code of Conduct"
-      url: "https://cake-dri.github.io/CAKEbox/code-of-conduct/"
+      url: "https://www.cake.ac.uk/CAKEbox/code-of-conduct/"
     - label: "Contact us"
       url: "https://cake-dri.github.io/contact-us/"
 

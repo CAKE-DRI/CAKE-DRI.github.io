@@ -46,8 +46,8 @@ We are committed to fostering a diverse and inclusive environment, reflecting th
 * [A structured framework to help hosts and participants get the most from their placement or visit - whether virtual or in-person](#structured-framework-for-placements-and-visits)
 * [Mentoring opportunities for all applicants](#mentoring-opportunities)
 * [Match-making support to connect participants and hosts](#match-making-support)
-* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/how-to/how-to-placement-and-visit/) 
-* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/how-to/how-to-review/)
+* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/) 
+* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/submissions-and-reviews/)
 
 All engaged in the CAKE network must abide by the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
 
