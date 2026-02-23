@@ -6,7 +6,7 @@ categories:
 group: events
 start_date: 2026-03-19
 date: 2026-03-20
-layout: post
+layout: event
 image: assets/images/event-images/202603-AI-RadioAstro.jpg
 project-type: National Event
 web-page: https://www.uksrc.org/events/AI-in-Radio-Astronomy-Workshop/
