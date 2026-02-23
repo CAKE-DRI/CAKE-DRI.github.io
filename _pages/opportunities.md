@@ -9,21 +9,21 @@ feature_row:
     alt: "slack"    
     url: "/about/ke-fellowships/"
     btn_class: "btn--primary btn-archive-centre"
-    btn_label: "Learn more about KE Fellowships - the next call opens in May 2026"
-  - image_path: /assets/images/placements_call.png
+    btn_label: "CAKE KE Fellowships"
+  - image_path: /assets/images/CAKE-placements-thumbnail.png
     max-height: 250px
     alt: "email"    
     url: "/about/placements/"
     btn_class: "btn--primary btn-archive-centre"
-    btn_label: "Obtain funding for a placement or visit"
+    btn_label: "CAKE Placements & Visits"
   - image_path: /assets/images/reviewers_call.png
     max-height: 250px
     alt: "resources"   
     url: "/about/reviewers/"
     btn_class: "btn--primary btn-archive-centre"
-    btn_label: "Become a CAKE reviewer"
+    btn_label: "CAKE Reviewers"
 ---
 
-The following funding opportunities are currently open, see the respective pages for more details
+CAKE supports the following funding opportunities, check out each page for more details.
 
 {% include feature_row %}    

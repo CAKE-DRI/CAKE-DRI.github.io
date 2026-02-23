@@ -1,23 +1,23 @@
 ---
-title: DRI Knowledge Exchange Placements and Visits
+title: CAKE Placements & Visits
 permalink: /about/placements/
-layout: title-page
+layout: no-title-page
 ---
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="/assets/images/CAKE-placements-banner.png" width="90%">
+</div>
 
-- [About](#about)
+
+**CAKE Placements and Visits** reduce the barriers to collaboration. We provide financial support to help individuals connect and work together on projects that strengthen the future of the DRI landscape.
+
+These opportunities are designed to build new partnerships and spark collaborations that last beyond the placement or visit.
+
 - [Application](#application)
 - Support 
     - [Structured Framework for Placements and Visits](#structured-framework-for-placements-and-visits)
     - [Match-making Support](#match-making-support)
     - [Mentoring Opportunities](#mentoring-opportunities)
 
-<br>
-
-# About 
-
-**CAKE Placements and Visits** reduce the barriers to collaboration. We provide financial support to help individuals connect and work together on projects that strengthen the future of the DRI landscape.
-
-These opportunities are designed to build new partnerships and spark collaborations that last beyond the placement or visit.
 
 ## What makes CAKE different? 
 
