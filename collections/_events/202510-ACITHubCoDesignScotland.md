@@ -5,7 +5,7 @@ categories:
   - National
 group: events
 layout: event
-date: 2026-03-01
+date: 2026-02-22
 summary-image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_square.png
 image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_draft_04_01.png
 project-type: National events
