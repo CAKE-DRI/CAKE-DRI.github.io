@@ -24,8 +24,11 @@ If you are interested in participating, please complete the Expression of Intere
 ## Event Highlights
 
 **What:** A one-day hackathon to build performance monitoring dashboards and explore GPU efficiency.
+
 **When:** 21st of April 2026
+
 **Where:** University of Surrey, Guildford, UK
+
 **Who:** Research infrastructure engineers (RIEs),research software engineers (RSEs), users of accelerated compute.
 
 ## Why Participate?
