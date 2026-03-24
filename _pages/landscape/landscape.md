@@ -10,6 +10,6 @@ Welcome to the DRI Landscape! This section will provide an overview of the UK’
 * [New approaches to skills](dri-new-skills.md)
 * [Embedded GPU CSE (eCSE)](ecse-gpu.md)
 * [RTP skills, hubs and platforms](rtp.md) 
+* [Interactive landscape map](map/)
 
 Is your project missing? [Submit a pull request](https://github.com/CAKE-DRI/cake.github.io) to have it featured and help connect others with your work!
-

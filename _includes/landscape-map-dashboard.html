@@ -1,0 +1,103 @@
+<div class="landscape-map-dashboard" data-map-dashboard data-map-data-url="{{ '/assets/data/landscape-map.json' | relative_url }}">
+  <div class="landscape-map-dashboard__intro">
+    <p>
+      Explore how DRI projects connect to activities around the world. Curved arcs are shown
+      only when both the project city and the activity location can be matched to coordinates.
+    </p>
+  </div>
+
+  <div class="landscape-map-dashboard__stats" data-map-stats>
+    <article class="landscape-map-stat">
+      <span class="landscape-map-stat__label">Visible arcs</span>
+      <strong class="landscape-map-stat__value" data-stat-visible-arcs>0</strong>
+    </article>
+    <article class="landscape-map-stat">
+      <span class="landscape-map-stat__label">Visible projects</span>
+      <strong class="landscape-map-stat__value" data-stat-visible-projects>0</strong>
+    </article>
+    <article class="landscape-map-stat">
+      <span class="landscape-map-stat__label">Mapped cities</span>
+      <strong class="landscape-map-stat__value" data-stat-visible-cities>0</strong>
+    </article>
+    <article class="landscape-map-stat landscape-map-stat--warning">
+      <span class="landscape-map-stat__label">Unmapped records</span>
+      <strong class="landscape-map-stat__value" data-stat-unmapped>0</strong>
+    </article>
+  </div>
+
+  <div class="landscape-map-dashboard__controls">
+    <label class="landscape-map-field">
+      <span>Project</span>
+      <select data-filter-project>
+        <option value="">All projects</option>
+      </select>
+    </label>
+
+    <label class="landscape-map-field">
+      <span>Activity location</span>
+      <select data-filter-activity-location>
+        <option value="">All activity locations</option>
+      </select>
+    </label>
+
+    <label class="landscape-map-field">
+      <span>Relationship</span>
+      <select data-filter-relationship>
+        <option value="">All relationships</option>
+      </select>
+    </label>
+
+    <label class="landscape-map-checkbox">
+      <input type="checkbox" data-filter-mapped-only checked>
+      <span>Show mapped arcs only</span>
+    </label>
+
+    <button type="button" class="btn" data-filter-reset>Reset filters</button>
+  </div>
+
+  <div class="landscape-map-dashboard__canvas">
+    <div class="landscape-map-dashboard__map-wrap">
+      <div class="landscape-map-legend">
+        <span><i class="landscape-map-legend__dot landscape-map-legend__dot--project"></i> Project</span>
+        <span><i class="landscape-map-legend__dot landscape-map-legend__dot--activity"></i> Activity</span>
+        <span><i class="landscape-map-legend__line"></i> Participation arc</span>
+      </div>
+      <div id="landscape-map" class="landscape-map" aria-label="Map of project and activity links"></div>
+    </div>
+
+    <aside class="landscape-map-dashboard__panel">
+      <section class="landscape-map-panel">
+        <h2>Selected connection</h2>
+        <div data-selected-connection>
+          <p>Select an arc or marker to inspect one project-to-activity link.</p>
+        </div>
+      </section>
+
+      <section class="landscape-map-panel">
+        <h2>Missing data</h2>
+        <div data-missing-summary></div>
+      </section>
+    </aside>
+  </div>
+
+  <div class="landscape-map-dashboard__table-wrap">
+    <table class="landscape-map-table">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Project city</th>
+          <th>Activity</th>
+          <th>Activity location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody data-connection-table>
+        <tr>
+          <td colspan="5">Loading map data...</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="landscape-map-dashboard__error" data-map-error hidden></div>
+</div>

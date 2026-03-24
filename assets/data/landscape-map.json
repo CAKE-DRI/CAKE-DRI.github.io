@@ -1,0 +1,1746 @@
+{
+  "generated_at": "2026-03-23T16:36:41.060002+00:00",
+  "source_workbook": "/Users/ruanxingran/Downloads/DRI explore.xlsx",
+  "stats": {
+    "total_connections": 64,
+    "mapped_connections": 18,
+    "unmapped_connections": 46,
+    "project_count": 13,
+    "city_count_with_coordinates": 9,
+    "mapped_city_count": 7
+  },
+  "relationship_counts": {
+    "Hosts": 29,
+    "Participates": 21,
+    "Unspecified": 14
+  },
+  "projects": [
+    {
+      "name": "ARDC Nectar Research Cloud",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 1,
+      "total_connections": 1
+    },
+    {
+      "name": "BioFAIR",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 4,
+      "total_connections": 4
+    },
+    {
+      "name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 8,
+      "total_connections": 8
+    },
+    {
+      "name": "Computational Science Centre for Research Communities (CoSeC)",
+      "lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "city": "Warrington",
+      "mapped_connections": 4,
+      "unmapped_connections": 3,
+      "total_connections": 7
+    },
+    {
+      "name": "DARE UK",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 2,
+      "total_connections": 2
+    },
+    {
+      "name": "Environmental Data Service",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 14,
+      "total_connections": 14
+    },
+    {
+      "name": "Federated data access tools",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 1,
+      "total_connections": 1
+    },
+    {
+      "name": "Harmony: federated data discovery tool",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 2,
+      "total_connections": 2
+    },
+    {
+      "name": "Isambard 3",
+      "lead_organisation": "University of Bristol",
+      "city": "Bristol",
+      "mapped_connections": 3,
+      "unmapped_connections": 1,
+      "total_connections": 4
+    },
+    {
+      "name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "lead_organisation": "University of Edinburgh",
+      "city": "Edinburgh",
+      "mapped_connections": 6,
+      "unmapped_connections": 2,
+      "total_connections": 8
+    },
+    {
+      "name": "Support for compute centres",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 5,
+      "total_connections": 5
+    },
+    {
+      "name": "eCSE: ARCHER Code",
+      "lead_organisation": "EPCC, University of Edinburgh",
+      "city": "Edinburgh",
+      "mapped_connections": 5,
+      "unmapped_connections": 2,
+      "total_connections": 7
+    },
+    {
+      "name": "the Australian Access Federation (AAF)",
+      "lead_organisation": "",
+      "city": "",
+      "mapped_connections": 0,
+      "unmapped_connections": 1,
+      "total_connections": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "connection-1",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "CIUK conference (2025)",
+      "activity_location": "Manchester",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-2",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "EuroHPC",
+      "activity_location": "Luxembourg",
+      "activity_location_resolved": "Luxembourg",
+      "activity_focus": "Interconnected DRI, Human DRI, FAIR DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Luxembourg",
+        "lat": 49.611622,
+        "lon": 6.131935
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-3",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Durham HPC days (2025)",
+      "activity_location": "Durham",
+      "activity_location_resolved": "Durham",
+      "activity_focus": "Interconnected DRI, Human DRI, FAIR DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-4",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Durham HPC days (2026)",
+      "activity_location": "Durham",
+      "activity_location_resolved": "Durham",
+      "activity_focus": "Interconnected DRI, Human DRI, FAIR DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-5",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "ISC High Performance (2026)",
+      "activity_location": "Hamburg",
+      "activity_location_resolved": "Hamburg",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Hamburg",
+        "lat": 53.551086,
+        "lon": 9.993682
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-6",
+      "project_name": "ARDC Nectar Research Cloud",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "ARDC & Pawsey Nectar Research Cloud Showcase",
+      "activity_location": "Kensington",
+      "activity_location_resolved": "Kensington",
+      "activity_focus": "Human DRI, FAIR DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-7",
+      "project_name": "the Australian Access Federation (AAF)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Digital Archipelagos: Digital Humanities Australasia",
+      "activity_location": "Canberra",
+      "activity_location_resolved": "Canberra",
+      "activity_focus": "FAIR DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-8",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Inclusive Pathways for the Futures of National Federated Compute Services",
+      "activity_location": "London",
+      "activity_location_resolved": "London",
+      "activity_focus": "Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-9",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Championing Green Digital Research Workshop - Day 0 of ARCHER2 Celebration of Science 2026 (2026)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-10",
+      "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Workshop on AI in Radio Astronomy",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-11",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "CoSeC 2025 Year-end Forum (2025)",
+      "activity_location": "Manchester",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-12",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "Energy Efficient Computing workshop",
+      "activity_location": "Oxfordshire",
+      "activity_location_resolved": "Oxfordshire",
+      "activity_focus": "Interconnected DRI, Human DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-13",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "CoSeC Conference (2025)",
+      "activity_location": "Mancherster",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Technical staff, Non-technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-14",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "June 2025 Community Forum",
+      "activity_location": "Sheffield",
+      "activity_location_resolved": "Sheffield",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-15",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "CoSeC Conference (2024)",
+      "activity_location": "Mancherster",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-16",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "CIL User Meeting (2024)",
+      "activity_location": "Oxfordshire",
+      "activity_location_resolved": "Oxfordshire",
+      "activity_focus": "Interconnected DRI, Human DRI",
+      "activity_audience": "Researchers, Non-technical staff, Technical staff, Research students",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-17",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Warrington",
+      "project_city_resolved": "Warrington",
+      "project_lead_organisation": "STFC Daresbury Laboratory and STFC Rutherford Appleton Laboratory",
+      "activity_name": "Town Hall Meeting",
+      "activity_location": "Manchester",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Warrington",
+        "lat": 53.3899497,
+        "lon": -2.5943178
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-18",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "ARCHER2 Celebration of Science (2026)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-19",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "ARCHER2 Celebration of Science (2025)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-20",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "Modern C++ for Computational Scientists",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Human DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-21",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "HPC Ready: Developing RSE and HPC skills (UNIVERSE-HPC)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-22",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "Using ARCHER2 Efficiently",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Human DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-23",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "ARCHER2 Celebration of Science (2024)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-24",
+      "project_name": "eCSE: ARCHER Code",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "EPCC, University of Edinburgh",
+      "activity_name": "ISC High Performance (2024)",
+      "activity_location": "Hamburg",
+      "activity_location_resolved": "Hamburg",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Hamburg",
+        "lat": 53.551086,
+        "lon": 9.993682
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-25",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "project_city_resolved": "Bristol",
+      "project_lead_organisation": "University of Bristol",
+      "activity_name": "CoSeC Conference (2024)",
+      "activity_location": "Mancherster",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-26",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "project_city_resolved": "Bristol",
+      "project_lead_organisation": "University of Bristol",
+      "activity_name": "HPC-SIG Hartree Meeting (2025)",
+      "activity_location": "Cambridge",
+      "activity_location_resolved": "Cambridge",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Cambridge",
+        "lat": 52.1975846499999,
+        "lon": 0.139153737368743
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-27",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "project_city_resolved": "Bristol",
+      "project_lead_organisation": "University of Bristol",
+      "activity_name": "Isambard Day (2025)",
+      "activity_location": "Bristol",
+      "activity_location_resolved": "Bristol",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-28",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "project_city_resolved": "Bristol",
+      "project_lead_organisation": "University of Bristol",
+      "activity_name": "Dirac day 2024",
+      "activity_location": "Cardiff",
+      "activity_location_resolved": "Cardiff",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-29",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "Environmental Sciences Workshop",
+      "activity_location": "London",
+      "activity_location_resolved": "London",
+      "activity_focus": "Interconnected DRI, FAIR DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-30",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "Exploring the Role of HPC in the Built Environment",
+      "activity_location": "Birmingham",
+      "activity_location_resolved": "Birmingham",
+      "activity_focus": "Interconnected DRI, FAIR DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-31",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "NFCS \u2013 NetworkPlus Spring Conference (2026)",
+      "activity_location": "Bristol",
+      "activity_location_resolved": "Bristol",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-32",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "Understanding challenges and enablers to the use of HPC to enhance healthcare research",
+      "activity_location": "London",
+      "activity_location_resolved": "London",
+      "activity_focus": "Interconnected DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-33",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "NFCS \u2013 NetworkPlus Autumn Conference (2025)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-34",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "Connected for Impact: Exploring federation for industry and public sector",
+      "activity_location": "Cheshire",
+      "activity_location_resolved": "Cheshire",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-35",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "NFCS \u2013 NetworkPlus Launch Event (2025)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Non-technical staff, Technical staff, Research students",
+      "relationship": "Hosts",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-36",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "Edinburgh",
+      "project_city_resolved": "Edinburgh",
+      "project_lead_organisation": "University of Edinburgh",
+      "activity_name": "CIUK 2024 \u2013 UKRI National Federated Compute Services NetworkPlus session",
+      "activity_location": "Manchester",
+      "activity_location_resolved": "Manchester",
+      "activity_focus": "Interconnected DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true,
+      "missing_reasons": []
+    },
+    {
+      "id": "connection-37",
+      "project_name": "Support for compute centres",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "HPC-SIG Comes to Cambridge",
+      "activity_location": "Cambridge",
+      "activity_location_resolved": "Cambridge",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Cambridge",
+        "lat": 52.1975846499999,
+        "lon": 0.139153737368743
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-38",
+      "project_name": "Support for compute centres",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Society of Research Software Engineers Conference 2025",
+      "activity_location": "Warwick",
+      "activity_location_resolved": "Warwick",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-39",
+      "project_name": "Support for compute centres",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "EPCC HPC Summer School (2024)",
+      "activity_location": "Edinburgh",
+      "activity_location_resolved": "Edinburgh",
+      "activity_focus": "Human DRI",
+      "activity_audience": "Research students",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-40",
+      "project_name": "Support for compute centres",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "NI-HPC User Conference (2025)",
+      "activity_location": "Belfast",
+      "activity_location_resolved": "Belfast",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Technical staff, Research students",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-41",
+      "project_name": "Support for compute centres",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Monthly Kelvin Training + Unix shell tutorial series",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Human DRI",
+      "activity_audience": "Research students, Technical staff, Researchers, Non-technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-42",
+      "project_name": "BioFAIR",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "UKAN Ageing Networks Joint Meeting",
+      "activity_location": "Liverpool",
+      "activity_location_resolved": "Liverpool",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-43",
+      "project_name": "BioFAIR",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "DRI webinar series: BioFAIR",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Interconnected DRI, Human DRI",
+      "activity_audience": "Research students, Researchers",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-44",
+      "project_name": "BioFAIR",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "BioFAIR Roadshow (2024)",
+      "activity_location": "Manchester, Bradford, Exeter, Cardiff, Edinburgh, Belfast, Birmingham, London",
+      "activity_location_resolved": "Manchester, Bradford, Exeter, Cardiff, Edinburgh, Belfast, Birmingham, London",
+      "activity_focus": "Interconnected DRI, FAIR DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-45",
+      "project_name": "BioFAIR",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "ELIXIR All Hands (2024)",
+      "activity_location": "Uppsala, Sweden",
+      "activity_location_resolved": "Uppsala, Sweden",
+      "activity_focus": "Interconnected DRI, Human DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-46",
+      "project_name": "DARE UK",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "ADR UK Conference (2025)",
+      "activity_location": "Cardiff",
+      "activity_location_resolved": "Cardiff",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Research students, Researchers, Technical staff, Non-technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-47",
+      "project_name": "DARE UK",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "HDR UK Conference (2025)",
+      "activity_location": "Glasgow",
+      "activity_location_resolved": "Glasgow",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Technical staff, Researchers, Non-technical staff",
+      "relationship": "Participates",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_coordinates"
+      ]
+    },
+    {
+      "id": "connection-48",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Trusted Research for Repository/Data Managers",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-49",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Data Reuse Workshop",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Sustainable DRI, Human DRI",
+      "activity_audience": "Researchers",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-50",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "FAIR Interoperability in EOSC and Beyond: Climate Change Adaptation and Mitigation Approach",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "FAIR DRI, Sustainable DRI",
+      "activity_audience": "Researchers, Research students, Non-technical staff, Technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-51",
+      "project_name": "Federated data access tools",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Federated Analytics Webinar Series",
+      "activity_location": "Online",
+      "activity_location_resolved": null,
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students, Technical staff, Non-technical staff",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "non_geographic_activity_location"
+      ]
+    },
+    {
+      "id": "connection-52",
+      "project_name": "Harmony: federated data discovery tool",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "NLP and generative models for psychology research",
+      "activity_location": "London",
+      "activity_location_resolved": "London",
+      "activity_focus": "Human DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-53",
+      "project_name": "Harmony: federated data discovery tool",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "Harmony, Open source AI tool for psychology research",
+      "activity_location": "London",
+      "activity_location_resolved": "London",
+      "activity_focus": "Interconnected DRI",
+      "activity_audience": "Researchers, Research students",
+      "relationship": "Hosts",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city"
+      ]
+    },
+    {
+      "id": "connection-54",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-55",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-56",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-57",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-58",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-59",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-60",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-61",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-62",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-63",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    },
+    {
+      "id": "connection-64",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "project_city_resolved": null,
+      "project_lead_organisation": "",
+      "activity_name": "",
+      "activity_location": "",
+      "activity_location_resolved": null,
+      "activity_focus": "",
+      "activity_audience": "",
+      "relationship": "Unspecified",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false,
+      "missing_reasons": [
+        "missing_project_city",
+        "missing_activity_location"
+      ]
+    }
+  ],
+  "issues": {
+    "projects_missing_location_or_city": [
+      {
+        "label": "Environmental Data Service",
+        "count": 14,
+        "examples": [
+          "Trusted Research for Repository/Data Managers",
+          "Data Reuse Workshop",
+          "FAIR Interoperability in EOSC and Beyond: Climate Change Adaptation and Mitigation Approach"
+        ]
+      },
+      {
+        "label": "Computational Abilities Knowledge Exchange (CAKE)",
+        "count": 8,
+        "examples": [
+          "CIUK conference (2025)",
+          "EuroHPC",
+          "Durham HPC days (2025)"
+        ]
+      },
+      {
+        "label": "Support for compute centres",
+        "count": 5,
+        "examples": [
+          "HPC-SIG Comes to Cambridge",
+          "Society of Research Software Engineers Conference 2025",
+          "EPCC HPC Summer School (2024)"
+        ]
+      },
+      {
+        "label": "BioFAIR",
+        "count": 4,
+        "examples": [
+          "UKAN Ageing Networks Joint Meeting",
+          "DRI webinar series: BioFAIR",
+          "BioFAIR Roadshow (2024)"
+        ]
+      },
+      {
+        "label": "DARE UK",
+        "count": 2,
+        "examples": [
+          "ADR UK Conference (2025)",
+          "HDR UK Conference (2025)"
+        ]
+      },
+      {
+        "label": "Harmony: federated data discovery tool",
+        "count": 2,
+        "examples": [
+          "NLP and generative models for psychology research",
+          "Harmony, Open source AI tool for psychology research"
+        ]
+      },
+      {
+        "label": "ARDC Nectar Research Cloud",
+        "count": 1,
+        "examples": [
+          "ARDC & Pawsey Nectar Research Cloud Showcase"
+        ]
+      },
+      {
+        "label": "Federated data access tools",
+        "count": 1,
+        "examples": [
+          "Federated Analytics Webinar Series"
+        ]
+      },
+      {
+        "label": "the Australian Access Federation (AAF)",
+        "count": 1,
+        "examples": [
+          "Digital Archipelagos: Digital Humanities Australasia"
+        ]
+      }
+    ],
+    "project_cities_missing_coordinates": [],
+    "activity_locations_missing_coordinates": [
+      {
+        "label": "Cardiff",
+        "count": 2,
+        "examples": [
+          "Dirac day 2024",
+          "ADR UK Conference (2025)"
+        ]
+      },
+      {
+        "label": "Oxfordshire",
+        "count": 2,
+        "examples": [
+          "Energy Efficient Computing workshop",
+          "CIL User Meeting (2024)"
+        ]
+      },
+      {
+        "label": "Belfast",
+        "count": 1,
+        "examples": [
+          "NI-HPC User Conference (2025)"
+        ]
+      },
+      {
+        "label": "Birmingham",
+        "count": 1,
+        "examples": [
+          "Exploring the Role of HPC in the Built Environment"
+        ]
+      },
+      {
+        "label": "Canberra",
+        "count": 1,
+        "examples": [
+          "Digital Archipelagos: Digital Humanities Australasia"
+        ]
+      },
+      {
+        "label": "Cheshire",
+        "count": 1,
+        "examples": [
+          "Connected for Impact: Exploring federation for industry and public sector"
+        ]
+      },
+      {
+        "label": "Glasgow",
+        "count": 1,
+        "examples": [
+          "HDR UK Conference (2025)"
+        ]
+      },
+      {
+        "label": "Kensington",
+        "count": 1,
+        "examples": [
+          "ARDC & Pawsey Nectar Research Cloud Showcase"
+        ]
+      },
+      {
+        "label": "Liverpool",
+        "count": 1,
+        "examples": [
+          "UKAN Ageing Networks Joint Meeting"
+        ]
+      },
+      {
+        "label": "Manchester, Bradford, Exeter, Cardiff, Edinburgh, Belfast, Birmingham, London",
+        "count": 1,
+        "examples": [
+          "BioFAIR Roadshow (2024)"
+        ]
+      },
+      {
+        "label": "Sheffield",
+        "count": 1,
+        "examples": [
+          "June 2025 Community Forum"
+        ]
+      },
+      {
+        "label": "Uppsala, Sweden",
+        "count": 1,
+        "examples": [
+          "ELIXIR All Hands (2024)"
+        ]
+      },
+      {
+        "label": "Warwick",
+        "count": 1,
+        "examples": [
+          "Society of Research Software Engineers Conference 2025"
+        ]
+      }
+    ],
+    "non_geographic_activity_locations": [
+      {
+        "label": "Online",
+        "count": 8,
+        "examples": [
+          "Modern C++ for Computational Scientists",
+          "Using ARCHER2 Efficiently",
+          "Monthly Kelvin Training + Unix shell tutorial series"
+        ]
+      }
+    ],
+    "activities_missing_explicit_location": [
+      {
+        "label": "Blank activity location",
+        "count": 11,
+        "examples": []
+      }
+    ]
+  }
+}
