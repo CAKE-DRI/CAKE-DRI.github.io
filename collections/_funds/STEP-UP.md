@@ -6,7 +6,8 @@ contact: info@step-up.ac.uk
 contact_person: Jeremy Cohen
 contact_person_web: 
 web-page: https://step-up.ac.uk/training/
-closing-deadline: 
+format: future
+closing_deadline: 
 ---
 
 STEP-UP is a UK-based research project funded under the UK Engineering and Physical Sciences Research Council (EPSRC)’s 2023 Strategic Technical Platforms call.

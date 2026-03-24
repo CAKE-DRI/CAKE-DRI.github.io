@@ -15,7 +15,7 @@
   {% assign entry_image = entry_image | relative_url %}
 {% endunless %}
 
-<!-- {%assign web_page = entry['web-page']%} -->
+{%assign web_page = entry['web-page']%}
 
 {%if entry.contact%}
   {%assign contact = entry.contact%}
@@ -25,14 +25,13 @@
 
 {% assign now = 'now' | date: '%s' | plus: 0 %}
 
-{% if entry.closing_deadline %}
-  {% assign end_day = entry.closing_deadline | date: "%d" %}
-  {% assign end_month_year = entry.closing_deadline | date: "%b %Y" %}
-{% endif %}
-
 <div class="events-block__wrapper">  
-  <div class="events-block__date">      
+  <div class="events-block__date">     
     <div class="events-block__date_wrapper">
+      {% if entry.format == "deadline" and entry.closing_deadline %}
+        {% assign end_day = entry.closing_deadline | date: "%d" %}
+        {% assign end_month_year = entry.closing_deadline | date: "%b %Y" %}
+
         <div class="flex-event">
           <div class="event-day">
             {{ end_day }}
@@ -42,15 +41,28 @@
           </div>
         </div>
       {% if closing_deadline < now %}
-      	<span class="events-block__closed">CLOSED</span>            
+      	<span class="events-block__closed"><strong>CLOSED</strong></span>            
       {% endif %}
       {% if closing_deadline >= now %}
-      	<span class="events-block__closed"><strong>Closing Deadline</strong></span>            
+      	<span class="events-block__closed"><strong>Deadline Closing!</strong></span>            
       {% endif %}
+    {% elsif entry.format == "open" %}
+
+      <div class="event-badge event-badge--open">
+        <strong>Always Open</strong>
+      </div>
+
+    {% elsif entry.format == "future" %}
+
+      <div class="event-badge event-badge--future">
+        <strong>Coming Soon</strong>
+      </div>
+
+    {% endif %}
 
       </div>  
   </div> 
-  
+
   <div class="landscape-block__infos">
     <div class="event-title"><a href="{{ web_page }}" target="_blank" rel="noopener">{{ title }}</a></div>
     <img class="events-image" src="{{ entry_image }}" alt="{{ title }}">

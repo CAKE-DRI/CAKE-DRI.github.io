@@ -1,10 +1,9 @@
 ---
+title: UK DRI Funding Opportunities
 layout: funds-collection
 permalink: /funds/
 collection: funds
 entries_layout: grid
-sort_by: closing_deadline
-sort_order: normal
 classes: wide
 ---
 

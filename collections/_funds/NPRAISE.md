@@ -6,7 +6,8 @@ contact:
 contact_person: Jeyan Thiyagalingam
 contact_person_web: https://eng.ox.ac.uk/people/jeyan-thiyagalingam
 web-page:
-closing-deadline: 
+format: future
+closing_deadline: 
 ---
 
 Establish a national and interdisciplinary platform that nurtures a community of RTPs who specialise in developing and applying AI to scientific and engineering challenges by providing: training, support, development opportunities, and advocacy.

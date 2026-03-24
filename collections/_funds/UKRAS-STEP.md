@@ -6,7 +6,8 @@ contact: info@ukras-steps.org
 contact_person: Robert Richardson
 contact_person_web: 
 web-page: https://www.ukras-steps.org/
-closing-deadline: 
+format: future
+closing_deadline: 
 ---
 
 UK RAS STEPS is a community-driven platform supporting research technicians in robotics and autonomous systems. It aims to build a collaborative, inclusive environment, raise the profile of technician careers, and promote responsible innovation. It offers ongoing professional development, networking, and community support across the UK and beyond.
