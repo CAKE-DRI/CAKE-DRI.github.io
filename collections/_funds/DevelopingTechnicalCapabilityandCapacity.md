@@ -5,8 +5,8 @@ image: assets/images/fundings_images/generic_4.jpg
 contact: 
 contact_person: Philip Couch
 contact_person_web: https://research.manchester.ac.uk/en/persons/philip.couch
-web-page: https://drtp-skills.ac.uk/funds/
-format: future
+web-page: https://sdertp.org/
+format: closed
 closing_deadline: 
 ---
-Will work to attract individuals who want to apply technical skills to a societal cause at different career stages and build a community of RTPs across the north-west of England. Will also work to provide at least six short-term student placements for those studying on undergraduate or masters programmes in relevant subjects.
+This project provides placement and training opportunities through targeted skills development activities. Developing Technical Capability and Capacity for UK Secure Data Environments has delivered student placement opportunities to build capability in secure data environments. While future placement calls are not currently advertised, the 2026 retreat (11–13 November 2026) is aimed at Early Career Research Technical Professionals and offers an opportunity to develop skills, exchange knowledge, and engage with the wider community working in secure data infrastructure.

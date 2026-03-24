@@ -1,15 +1,13 @@
 ---
-title: A Strategic TEchnical Platform for University Technical Professionals (STEP-UP)
+title: A Strategic TEchnical Platform for University Technical Professionals (STEP-UP) - Placements
 layout: landscape
 image: assets/images/fundings_images/stepup.png
 contact: info@step-up.ac.uk
 contact_person: Jeremy Cohen
 contact_person_web: 
-web-page: https://step-up.ac.uk/training/
-format: future
+web-page: https://step-up.ac.uk/placements/
+format: deadline
 closing_deadline: 
 ---
 
-STEP-UP is a UK-based research project funded under the UK Engineering and Physical Sciences Research Council (EPSRC)’s 2023 Strategic Technical Platforms call.
-
-The project is building a regional, London-based, platform to support the development of communities, skills and career opportunities for "digital Research Technical Professionals (dRTPs)".
+This project offers flexible funding opportunities to support relevant activities and collaborations. STEP-UP provides funded career placement and bridging opportunities for individuals working with research data, software, and computing infrastructure to undertake short-term (1–3 month) visits with dRTP teams at Imperial College London, King’s College London, UCL, or the University of Westminster. The scheme supports the development of technical and professional skills, knowledge exchange, and continuity between funded activities. Awards of up to £15,550 per placement contribute towards salary costs and relevant placement expenses. Applications are reviewed monthly throughout 2026 (subject to available funds), with placements to be completed by October 2027.

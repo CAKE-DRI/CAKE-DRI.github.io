@@ -5,8 +5,8 @@ image: assets/images/fundings_images/alanturing.png
 contact: PeopleInData@turing.ac.uk
 contact_person: 
 contact_person_web: 
-web-page: https://www.turing.ac.uk/research/research-projects/people-data
-format: future
+web-page: 
+format: closed
 closing_deadline: 
 ---
 
