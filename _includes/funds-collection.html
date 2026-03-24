@@ -1,6 +1,30 @@
 {% assign entries = site[include.collection] %}
-{% assign entries = entries | sort_natural: "title" %}
+{% assign now = 'now' | date: '%s' | plus: 0 %}
 
-{%- for entry in entries -%}
-  {% include funds-entry.html entry=entry %}
-{%- endfor -%}
+{% if entries %}
+
+  {% if include.sort_by == 'closing_deadline' %}
+    {% assign entries = entries | sort: 'closing_deadline' %}
+  {% elsif include.sort_by == 'title' %}
+    {% assign entries = entries | sort: 'title' %}
+  {% endif %}
+
+  {%- for entry in entries -%}
+
+    {% assign closing_deadline = entry.closing_deadline | date: '%s' | plus: 0 %}
+
+    {% if include.archive %}
+      {% if closing_deadline < now %}
+        {% include funds-entry.html entry=entry %}
+      {% endif %}
+    {% else %}
+      {% if closing_deadline >= now %}
+        {% include funds-entry.html entry=entry %}
+      {% endif %}
+    {% endif %}
+
+  {%- endfor -%}
+
+{% else %}
+  <p>No entries found in collection: {{ include.collection }}</p>
+{% endif %}
