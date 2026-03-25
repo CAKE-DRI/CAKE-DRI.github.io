@@ -7,4 +7,4 @@ web-page: "https://www.cake.ac.uk/about/placements/"
 closing_deadline: 2028-4-1
 format: open
 ---
-This project offers flexible funding opportunities to support relevant activities and collaborations. CAKE Placements and Visits reduce barriers to collaboration by providing financial support that enables individuals to connect and work together on projects that strengthen the future of the DRI landscape. These opportunities are designed to build new partnerships and foster collaborations that continue beyond the placement or visit.
+This project offers flexible funding opportunities to support relevant activities and collaborations from October 2025 through to April 2028. CAKE Placements and Visits reduce barriers to collaboration by providing financial support that enables individuals to connect and work together on projects that strengthen the future of the DRI landscape. These opportunities are designed to build new partnerships and foster collaborations that continue beyond the placement or visit.
