@@ -5,6 +5,6 @@ image: assets/images/fundings_images/CaSDaR_Words_Main-2.png
 contact: "casdar@soton.ac.uk"
 web-page: "https://casdar.ac.uk/casdar-bursaries/"
 format: open
-closing_deadline: 2026-4-22
+closing_deadline: 
 ---
 This project offers financial assistance to support people who require it in order to be able to attend CaSDaR events. CaSDaR provides bursary funding to reduce financial barriers to event participation, offering support for costs such as travel, accommodation, childcare, caring responsibilities, and other access needs where alternative funding is not available. Bursaries are reviewed for each event, with application deadlines published alongside event announcements, helping enable broader participation in careers and skills development activities across the data-driven research community.
