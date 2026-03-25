@@ -6,7 +6,7 @@ contact: info@ukras-steps.org
 contact_person: Robert Richardson
 contact_person_web: 
 web-page: https://www.ukras-steps.org/personal-development/conference-training-funding-scheme/
-format: deadline
+format: open
 closing_deadline: 2026-9-30
 ---
 

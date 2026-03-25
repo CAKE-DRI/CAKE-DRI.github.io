@@ -6,7 +6,7 @@ contact: info@step-up.ac.uk
 contact_person: Jeremy Cohen
 contact_person_web: 
 web-page: https://step-up.ac.uk/placements/
-format: deadline
+format: open
 closing_deadline: 2027-9-30
 ---
 
