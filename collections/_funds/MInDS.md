@@ -6,7 +6,7 @@ contact:
 contact_person: Andreas Kyprianou
 contact_person_web: https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/kyprianou/
 web-page: https://warwick.ac.uk/fac/sci/camacs/minds/apply/
-format: open
+format: deadline
 closing_deadline: 2026-5-25
 ---
 

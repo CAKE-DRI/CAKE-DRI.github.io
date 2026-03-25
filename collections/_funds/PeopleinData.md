@@ -3,9 +3,9 @@ title: People in Data
 layout: landscape
 image: assets/images/fundings_images/alanturing.png
 contact: PeopleInData@turing.ac.uk
-contact_person: 
-contact_person_web: 
-web-page: 
+contact_person: PeopleInData
+contact_person_web: PeopleInData@turing.ac.uk
+web-page: https://www.turing.ac.uk/research/research-projects/people-data
 format: closed
 closing_deadline: 
 ---
