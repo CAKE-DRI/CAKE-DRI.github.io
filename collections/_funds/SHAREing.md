@@ -5,8 +5,9 @@ image: assets/images/fundings_images/sharing.png
 contact: 
 contact_person: Tobias Weinzierl
 contact_person_web: https://tobiasweinzierl.webspace.durham.ac.uk/
-web-page: https://shareing-dri.github.io/about/organigram#working-groups-how-we-identify-what-shareing-should-provide
-closing-deadline: 
+web-page: https://shareing-dri.github.io/about/flexible-funds
+format: future
+closing_deadline:  
 ---
 
-SHAREing is a UK research initiative that funds and shapes future digital research infrastructure activities. It aims to identify priority actions through working groups that run scoping exercises and develop miniproject proposals. It offers funded miniprojects (after consortium approval) and early participation via working groups—currently for members, with plans to open to the wider community. Please contact the working group leads (https://shareing-dri.github.io/about/workinggroups) if you would like to participate.
+This project offers flexible funding opportunities to support relevant activities and collaborations. SHAREing (Skills Hub for Accelerated Research Environments), funded through the UKRI Digital Research Infrastructure Programme, administers flexible funding across four work packages aligned with evolving skills priorities. Individual awards typically range from £5,000 to £25,000, contributing to a total fund of £1.6m over the lifetime of the project. For each funding call, the Hub defines the scope of work and eligibility criteria based on identified needs within the research infrastructure skills landscape.
