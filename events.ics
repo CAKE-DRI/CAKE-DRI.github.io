@@ -23,7 +23,7 @@ METHOD:PUBLISH
 {%- if e.summary %}{{ e.summary | strip_html | strip_newlines }}{% endif -%}
 {%- if e.summary and body_text %}\n\n{% endif -%}
 {%- if body_text %}{{ body_text }}{% endif -%}
-{%- if e.web-page %}\n\nExternal link: {{ e.web-page }}{% endif -%}
+\n\nMore details: {{ site.url }}{{ e.url }}
 {%- endcapture %}
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:{{ ics_start }}
