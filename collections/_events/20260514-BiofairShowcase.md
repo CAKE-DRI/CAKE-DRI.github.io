@@ -11,7 +11,6 @@ image: https://biofair.uk/wp-content/uploads/2023/04/BioFAIR-logo-2048x950.png
 project-type: National events
 web-page: https://biofair.uk/biofair-annual-showcase-2026/
 location: Hilton Cambridge City Centre 20 Downing Street, Cambridge, CB2 3DT
-summary: Join us to explore practical ways to embed FAIR practices into your research workflows. Whether you’re new to FAIR or looking to streamline data management, the event is designed to give you actionable insights and connections to help your work.
 ---
 
 
