@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /events.ics
+---
+{%- comment -%}Combined ICS calendar feed for all events{%- endcomment -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//{{ site.title }}//EN
+X-WR-CALNAME:{{ site.title }} Events
+METHOD:PUBLISH
+{%- for e in site.events %}
+{%- if e.start_date -%}
+  {%- assign ics_start = e.start_date | date: "%Y%m%d" -%}
+{%- else -%}
+  {%- assign ics_start = e.date | date: "%Y%m%d" -%}
+{%- endif -%}
+{%- assign end_epoch = e.date | date: "%s" | plus: 86400 -%}
+{%- assign ics_end = end_epoch | date: "%Y%m%d" -%}
+{%- assign ics_title = e.title | strip_html | strip_newlines -%}
+{%- assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" -%}
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:{{ ics_start }}
+DTEND;VALUE=DATE:{{ ics_end }}
+SUMMARY:{{ ics_title }}
+{%- if e.summary %}
+DESCRIPTION:{{ e.summary | strip_html | strip_newlines | truncate: 200, '' }}
+{%- endif %}
+{%- if e.location %}
+LOCATION:{{ e.location | strip_html | strip_newlines }}
+{%- endif %}
+{%- if e.web-page %}
+URL:{{ e.web-page }}
+{%- endif %}
+UID:{{ ics_uid }}
+END:VEVENT
+{%- endfor %}
+END:VCALENDAR
