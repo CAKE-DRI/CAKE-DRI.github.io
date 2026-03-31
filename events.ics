@@ -17,7 +17,7 @@ METHOD:PUBLISH
 {%- assign end_epoch = e.date | date: "%s" | plus: 86400 -%}
 {%- assign ics_end = end_epoch | date: "%Y%m%d" -%}
 {%- assign ics_title = e.title | strip_html | strip_newlines -%}
-{%- assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" -%}
+{%- assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" %}
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:{{ ics_start }}
 DTEND;VALUE=DATE:{{ ics_end }}
