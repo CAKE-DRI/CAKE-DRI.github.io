@@ -1,7 +1,8 @@
 ---
-title: BioFAIR Showcase 2026
+title: "BioFAIR Showcase 2026"
 icon_alt: Award icon
-categories: National
+categories: 
+  - National
 group: events
 start-date: 2026-05-14
 date: 2026-05-15
