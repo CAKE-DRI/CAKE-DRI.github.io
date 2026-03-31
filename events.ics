@@ -17,20 +17,25 @@ METHOD:PUBLISH
 {%- assign end_epoch = e.date | date: "%s" | plus: 86400 -%}
 {%- assign ics_end = end_epoch | date: "%Y%m%d" -%}
 {%- assign ics_title = e.title | strip_html | strip_newlines -%}
-{%- assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" %}
+{%- assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" -%}
+{%- assign body_text = e.content | strip_html | strip_newlines | strip | truncate: 500, '...' -%}
+{%- capture ics_desc -%}
+{%- if e.summary %}{{ e.summary | strip_html | strip_newlines }}{% endif -%}
+{%- if e.summary and body_text %}\n\n{% endif -%}
+{%- if body_text %}{{ body_text }}{% endif -%}
+{%- if e.web-page %}\n\nExternal link: {{ e.web-page }}{% endif -%}
+{%- endcapture %}
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:{{ ics_start }}
 DTEND;VALUE=DATE:{{ ics_end }}
 SUMMARY:{{ ics_title }}
-{%- if e.summary %}
-DESCRIPTION:{{ e.summary | strip_html | strip_newlines | truncate: 200, '' }}
+{%- if ics_desc != blank %}
+DESCRIPTION:{{ ics_desc | strip_newlines }}
 {%- endif %}
 {%- if e.location %}
 LOCATION:{{ e.location | strip_html | strip_newlines }}
 {%- endif %}
-{%- if e.web-page %}
-URL:{{ e.web-page }}
-{%- endif %}
+URL:{{ site.url }}{{ e.url }}
 UID:{{ ics_uid }}
 END:VEVENT
 {%- endfor %}
