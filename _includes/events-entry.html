@@ -78,6 +78,9 @@
     {% endif %}
       </a>
     </p>
+    <p class="events-block__calendar">
+      {% include event-ics-link.html entry=entry %}
+    </p>
   </div>
 </div>    
 {% if date < now %}

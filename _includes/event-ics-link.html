@@ -1,0 +1,28 @@
+{% comment %}
+  Renders an "Add to Calendar" link that downloads an .ics file for the event.
+  Usage: {% include event-ics-link.html entry=entry %}
+{% endcomment %}
+
+{% assign e = include.entry %}
+
+{% if e.start_date %}
+  {% assign ics_start = e.start_date | date: "%Y%m%d" %}
+{% else %}
+  {% assign ics_start = e.date | date: "%Y%m%d" %}
+{% endif %}
+
+{% comment %}ICS DTEND is exclusive for all-day events, so add 1 day{% endcomment %}
+{% assign end_epoch = e.date | date: "%s" | plus: 86400 %}
+{% assign ics_end = end_epoch | date: "%Y%m%d" %}
+
+{% assign ics_title = e.title | strip_html | strip_newlines %}
+{% assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" %}
+
+{% capture ics_description %}{% if e.summary %}{{ e.summary | strip_html | strip_newlines }}{% endif %}{% endcapture %}
+{% capture ics_location %}{% if e.location %}{{ e.location | strip_html | strip_newlines }}{% endif %}{% endcapture %}
+{% capture ics_url %}{% if e.web-page %}{{ e.web-page }}{% endif %}{% endcapture %}
+
+<a href="#" class="event-ics-link" aria-label="Add to Calendar"
+   onclick="(function(){var t='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//{{ site.title | replace: "'", "" }}//EN\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:{{ ics_start }}\r\nDTEND;VALUE=DATE:{{ ics_end }}\r\nSUMMARY:{{ ics_title | replace: "'", "\\'" | replace: '\', '\\\\' }}\r\n{% if ics_description != '' %}DESCRIPTION:{{ ics_description | replace: "'", "\\'" | replace: '\', '\\\\' | truncate: 200, '' }}\r\n{% endif %}{% if ics_location != '' %}LOCATION:{{ ics_location | replace: "'", "\\'" }}\r\n{% endif %}{% if ics_url != '' %}URL:{{ ics_url }}\r\n{% endif %}UID:{{ ics_uid }}\r\nEND:VEVENT\r\nEND:VCALENDAR';var b=new Blob([t],{type:'text/calendar;charset=utf-8'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='{{ e.title | slugify }}.ics';document.body.appendChild(a);a.click();document.body.removeChild(a);})();return false;">
+  <i class="fas fa-fw fa-calendar-plus" aria-hidden="true"></i> Add to Calendar
+</a>
