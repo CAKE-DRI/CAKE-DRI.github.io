@@ -23,10 +23,46 @@
   {%assign contact = entry.contact_person%}
 {% endif %}
 
-{%- assign closing_deadline = entry['closing-deadline'] | default: 'TBD' -%}
+{% assign now = 'now' | date: '%s' | plus: 0 %}
 
+<div class="events-block__wrapper">  
+  <div class="events-block__date">     
+    <div class="events-block__date_wrapper">
+      {% if entry.format == "deadline" and entry.closing_deadline %}
+        {% assign end_day = entry.closing_deadline | date: "%d" %}
+        {% assign end_month_year = entry.closing_deadline | date: "%b %Y" %}
 
-<div class="events-block__wrapper funds-card">
+        <div class="flex-event">
+          <div class="event-day">
+            {{ end_day }}
+          </div>
+          <div>
+            <p>{{ end_month_year }}</p>
+          </div>
+        </div>
+      {% if closing_deadline < now %}
+      	<span class="events-block__closed"><strong>CLOSED</strong></span>            
+      {% endif %}
+      {% if closing_deadline >= now %}
+      	<span class="events-block__closed"><strong>Deadline Closing!</strong></span>            
+      {% endif %}
+    {% elsif entry.format == "open" %}
+
+      <div class="event-badge event-badge--open">
+        <strong>Always Open</strong>
+      </div>
+
+    {% elsif entry.format == "future" %}
+
+      <div class="event-badge event-badge--future">
+        <strong>Coming Soon</strong>
+      </div>
+
+    {% endif %}
+
+      </div>  
+  </div> 
+
   <div class="landscape-block__infos">
     <div class="event-title"><a href="{{ web_page }}" target="_blank" rel="noopener">{{ title }}</a></div>
     <img class="events-image" src="{{ entry_image }}" alt="{{ title }}">

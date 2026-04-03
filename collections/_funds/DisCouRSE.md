@@ -1,9 +1,10 @@
 ---
-title: "DisCouRSE: Developing a Community of Leaders"
+title: "DisCouRSE: Developing a Community of Leaders - Round 1"
 layout: landscape
 image: assets/images/fundings_images/DisCouRSE-Logo-Light.svg
 contact: "arc.discourse@ucl.ac.uk"
 web-page: "https://discourse-network.github.io/funding/round-1"
-closing-deadline: "2025-11-14"
+format: deadline
+closing_deadline: 2025-11-14
 ---
-The DisCouRSE Network Plus project develops leaders across digital research technical professional roles in the UK, focusing on leadership training and career pathways. It offers flexible funding for community-led projects, networking, and strategic planning. Calls run every six months to autumn 2027; first-round applications close 14 November 2025, 16:00 GMT.
+This project offers flexible funding opportunities to support relevant activities and collaborations. The DisCouRSE Flexible Fund supports the development of leadership capability across digital Research Technical Professional (dRTP) roles in the UK, helping to build a connected and empowered community able to shape the future of digital research. The fund focuses on strengthening leadership skills and supporting career pathways, enabling individuals and communities to prepare the next generation of leaders while fostering roles that provide opportunities for leadership within the evolving research landscape.

@@ -14,12 +14,14 @@ Our current CAKE Reviewing Committee are
 - Sam Bland (SEI University of York & N8CIR)
 - Eleanor Broadway (EPCC, University of Edinburgh)
 - Nick Brown (EPCC, University of Edinburgh)
+- Michael Donnay (University of Southampton, Software Sustainability Institute)
 - Danny Garside (Digital Research Academy)
 - Andrew Gillen (University of Glasgow)
 - Cassandra Gould van Praag (RCM Cooperative)
 - Oscar Seip (University of Manchester, Software Sustainability Institute)
 - Michael Umeokoli (Manchester Metropolitan University)
-- Marion Weinzierl (University of Cambridge)
+- Joe Wallwork (University of Cambridge, ICCS)
+- Marion Weinzierl (University of Cambridge, ICCS)
 - Tobias Weinzierl (Durham University)
 
 Some reviewers might not have agreed to be listed here, and are therefore missing from this list.
@@ -41,7 +43,7 @@ As a reviewer, you’ll be added to our CAKE Review Committee Pool. This means:
 - We aim to ensure reviewer workload is distributed fairly across the committee and will monitor how many assignments each reviewer receives throughout the year.
 - If you accept an assignment, we ask that you provide fair, respectful, and constructive feedback.
 
-**For full details, please refer to the [CAKE Review Committee Terms of Reference](https://www.cake.ac.uk/CAKEbox/working-groups/reviewers/).**
+**For full details, please refer to the [CAKE Review Committee Terms of Reference](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/reviewer-terms-of-reference/).**
 
 ## What sort of applications will you be reviewing? 
 

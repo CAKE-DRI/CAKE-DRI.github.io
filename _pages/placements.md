@@ -1,29 +1,34 @@
 ---
-title: DRI Knowledge Exchange Placements and Visits
+title: CAKE Placements & Visits
 permalink: /about/placements/
-layout: title-page
+layout: no-title-page
 ---
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="/assets/images/CAKE-placements-banner.png" width="90%">
+</div>
 
-Through financial support for placements and visits, CAKE enables the community to spark fresh collaborations and lasting partnerships that help to shape the future of the DRI landscape.
 
-- [About](#about)
+**CAKE Placements and Visits** reduce the barriers to collaboration. We provide financial support to help individuals connect and work together on projects that strengthen the future of the DRI landscape.
+
+These opportunities are designed to build new partnerships and spark collaborations that last beyond the placement or visit.
+
 - [Application](#application)
 - Support 
     - [Structured Framework for Placements and Visits](#structured-framework-for-placements-and-visits)
     - [Match-making Support](#match-making-support)
     - [Mentoring Opportunities](#mentoring-opportunities)
 
-<br>
-
-# About 
 
 ## What makes CAKE different? 
-Unlike existing placement schemes, CAKE is deliberately flexible and inclusive, opening up opportunities that often fall through the cracks. For example:
-* International opportunities to support outward-facing collaboration beyond the UK.
-* For those unable to travel, CAKE offers structured remote placements with regular check-ins, tailored support, and logistical coordination.
-* A defined framework to help hosts and participants get the most from their placement or visit.
 
-This flexibility means that placements are open to a wider pool of participants, including those who might not normally be able to access such opportunities.
+Most placement schemes are restricted by rigid criteria. The CAKE placements and visits are intentionally flexible to support opportunities that usually lack funding 
+
+* **International scope:** We support outward-facing collaborations beyond the UK to foster global networking.
+* **Remote placements:** For those unable to travel, we provide support for remote collaboration, including logistical coordination and regular check-ins.
+* **Culture & knowledge exchange:** While most schemes focus strictly on technical skills, or are career or domain-specific, we prioritise culture and knowledge exchange (KE) as vital drivers of innovation.
+* **Structured Framework:** We provide a clear framework to ensure both hosts and participants gain measurable value from the experience.
+
+This flexible approach ensures that placements are accessible to a broader pool of participants, particularly those often excluded from traditional professional exchange programs.
 
 ## Scope
 The CAKE Placements and Visits Programme provides support primarily for travel and subsistence (T&S) costs to enable placements and visits for the UK DRI community. 
@@ -41,15 +46,15 @@ We are committed to fostering a diverse and inclusive environment, reflecting th
 * [A structured framework to help hosts and participants get the most from their placement or visit - whether virtual or in-person](#structured-framework-for-placements-and-visits)
 * [Mentoring opportunities for all applicants](#mentoring-opportunities)
 * [Match-making support to connect participants and hosts](#match-making-support)
-* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/how-to/how-to-placement-and-visit/) 
-* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/how-to/how-to-review/)
+* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/) 
+* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/submissions-and-reviews/)
 
 All engaged in the CAKE network must abide by the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
 
 ## Eligibility 
-Applicants must be from UK institutions which are eligible for UKRI funding. Whilst the money will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
+Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the money will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
 
-Awards are granted at 80% FEC, applicants must confirm their institution is able to cover the remaining 20%. 
+Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. 
 
 PhD students are eligible to apply, provided they include a letter of support from their primary supervisor emailed to the CAKE management team alongside their application. 
 
@@ -72,7 +77,7 @@ We aim for all decisions to be communicated within 4-6 weeks from when the appli
 Successful applicants will receive their allocated funds from the flexible funding stream for this programme which is held by the University of Edinburgh. The process for disbursing these funds will be confirmed at the point where successful applicants are notified of the outcome of their applications.
 
 ## Outputs
-Successful applicants are required to complete a short written report detailing the activities undertaken during the placement or visit and any outcomes. A recorded presentation or interview summarising the visit is also required and will be posted to the network’s YouTube channel - placements and visits which include community workshops and events are encouraged and may provide a suitable venue for this. 
+Successful applicants are required to complete a short written report detailing the activities undertaken during the placement or visit and any outcomes. A recorded presentation or interview summarising the visit is also required and will be posted to the network’s YouTube channel. Placements and visits which include community workshops and events are encouraged and may provide a suitable venue for such videos. 
 
 Documentary evidence must be kept to show how the allocated funds have been spent.
 

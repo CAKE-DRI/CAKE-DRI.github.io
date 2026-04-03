@@ -1,6 +1,43 @@
 {% assign entries = site[include.collection] %}
-{% assign entries = entries | sort_natural: "title" %}
 
-{%- for entry in entries -%}
-  {% include funds-entry.html entry=entry %}
-{%- endfor -%}
+{% if include.format %}
+  {% assign entries = entries | where: "format", include.format %}
+{% endif %}
+
+{% assign now = 'now' | date: '%s' | plus: 0 %}
+
+{% if entries %}
+
+  {% if include.sort_by == 'closing_deadline' %}
+    {% assign entries = entries | sort: 'closing_deadline' %}
+  {% elsif include.sort_by == 'title' %}
+    {% assign entries = entries | sort: 'title' %}
+  {% endif %}
+
+  {% for entry in entries %}
+
+    {% assign show = true %}
+
+    {% if entry.format == "deadline" and entry.closing_deadline %}
+      {% assign closing_deadline = entry.closing_deadline | date: '%s' | plus: 0 %}
+
+      {% if include.archive %}
+        {% if closing_deadline >= now %}
+          {% assign show = false %}
+        {% endif %}
+      {% else %}
+        {% if closing_deadline < now %}
+          {% assign show = false %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    {% if show %}
+      {% include funds-entry.html entry=entry %}
+    {% endif %}
+
+  {% endfor %}
+
+{% else %}
+  <p>No entries found.</p>
+{% endif %}

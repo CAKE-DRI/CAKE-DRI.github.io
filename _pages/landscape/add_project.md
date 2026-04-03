@@ -1,5 +1,5 @@
 ---
-title: Add a new event
+title: Add details about a new CAKE-related project
 layout: title-page
 permalink: /landscape/add_project/
 ---

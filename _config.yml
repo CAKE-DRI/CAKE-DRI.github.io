@@ -17,7 +17,7 @@ title: CAKE
 subtitle: Computational Abilities Knowledge Exchange
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  The CAKE Network+ facilitates knowledge exchange and sustainable collaboration across the UK Digital Research Infrastructure (DRI) communities. 
+  The CAKE NetworkPlus facilitates knowledge exchange and sustainable collaboration across the UK Digital Research Infrastructure (DRI) communities. 
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: cake
@@ -95,7 +95,7 @@ footer:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@cake-dri"
     - label: "Code of Conduct"
-      url: "https://cake-dri.github.io/CAKEbox/code-of-conduct/"
+      url: "https://www.cake.ac.uk/CAKEbox/code-of-conduct/"
     - label: "Contact us"
       url: "https://cake-dri.github.io/contact-us/"
 

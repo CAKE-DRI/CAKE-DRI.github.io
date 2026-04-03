@@ -1,0 +1,47 @@
+{% comment %}
+  Renders an "Add to Calendar" link that downloads an .ics file for the event.
+  Usage: {% include event-ics-link.html entry=entry %}
+{% endcomment %}
+{%- assign e = include.entry -%}
+
+{%- if e.start_date -%}
+  {%- assign ics_start = e.start_date | date: "%Y%m%d" -%}
+{%- else -%}
+  {%- assign ics_start = e.date | date: "%Y%m%d" -%}
+{%- endif -%}
+
+{%- comment -%}ICS DTEND is exclusive for all-day events, so add 1 day{%- endcomment -%}
+{%- assign end_epoch = e.date | date: "%s" | plus: 86400 -%}
+{%- assign ics_end = end_epoch | date: "%Y%m%d" -%}
+
+{%- assign ics_title = e.title | strip_html | strip_newlines -%}
+{%- assign ics_uid = e.slug | append: "@" | append: site.url | remove: "https://" | remove: "http://" -%}
+
+{%- capture ics_content -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//{{ site.title }}//EN
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:{{ ics_start }}
+DTEND;VALUE=DATE:{{ ics_end }}
+SUMMARY:{{ ics_title }}
+{%- if e.summary %}
+DESCRIPTION:{{ e.summary | strip_html | strip_newlines | truncate: 200, '' }}
+{%- endif %}
+{%- if e.location %}
+LOCATION:{{ e.location | strip_html | strip_newlines }}
+{%- endif %}
+{%- if e.web-page %}
+URL:{{ e.web-page }}
+{%- endif %}
+UID:{{ ics_uid }}
+END:VEVENT
+END:VCALENDAR
+{%- endcapture -%}
+
+<a href="data:text/calendar;charset=utf-8,{{ ics_content | strip | url_encode }}"
+   download="{{ e.title | slugify }}.ics"
+   class="event-ics-link"
+   aria-label="Add to Calendar">
+  <i class="fas fa-fw fa-calendar-plus" aria-hidden="true"></i> Add to Calendar
+</a>

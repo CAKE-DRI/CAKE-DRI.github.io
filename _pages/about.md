@@ -1,22 +1,78 @@
 ---
 permalink: /about/who-are-we
-title: "What is CAKE?"
-layout: title-page
+title: "Welcome to CAKE"
+layout: no-title-page
+
+feature_row:
+  - image_path: /assets/images/fundings_images/Funding.png
+    max-height: "180px"
+    alt: "email"    
+    url: "https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=CAKE-ANNOUNCE"
+    btn_class: "btn--primary btn-archive-centre"
+    btn_label: "Join the email announce list"
+  - image_path: /assets/images/Slack-logo.png
+    max-height: "120px"
+    alt: "slack"    
+    url: "https://join.slack.com/t/cake-dri/shared_invite/zt-3dvw46q4g-eode0z4zTvpzoBv~fsQv~w"
+    btn_class: "btn--primary btn-archive-centre"
+    btn_label: "Chat on Slack"
+
+  - image_path: /assets/images/cakebox-logo/CAKEbox.png
+    max-height: "180px"
+    alt: "resources"   
+    url: "https://www.cake.ac.uk/CAKEbox/"
+    btn_class: "btn--primary btn-archive-centre"
+    btn_label: "Contribute to CAKEbox"
+
 ---
 
-The Computational Abilities Knowledge Exchange (CAKE) Network+ is dedicated to providing a sense of community within the Digital Research Infrastructure (DRI) programme and the UK’s wider large-scale computing community. Outward facing and keen to attract new communities, this network is a central hub that brings projects together to enable them to share their successes, achievements and explore how to most effectively work together and leverage each other’s work.
+<!-- ## What is CAKE? -->
+<br><br>
 
-We remove barriers that prevent effective knowledge exchange: taking care of the best practices, tools and resources, so you can focus on connecting, collaborating and driving progress.
+<div>
+  <img src="/assets/images/cake-logo/CAKE_logo1.png" style="width:20%; float:left; margin: 0 20px 20px 0;">
+  
+  <p>
+    <b>The Computational Abilities Knowledge Exchange (CAKE) NetworkPlus</b> supports collaboration and community building across the Digital Research Infrastructure (DRI) programme and the UK’s wider large-scale computing landscape. It acts as a central hub, connecting projects, sharing successes and insights, and enabling communities to work together more effectively.
+  </p>
+  <p>
+    Led by EPCC at the University of Edinburgh, in partnership with Durham University and University of Cambridge, and funded by UKRI (UKRI1799), CAKE helps to remove barriers to knowledge exchange. By sharing best practices, tools, and resources, we enable you to focus on connecting, collaborating, and driving progress.
+  </p>
 
-## What we provide
+</div>
 
-- **Support:** CAKE runs events and [fellowship programmes](/about/ke-fellowships) to facilitate and encourage knowledge exchange between the various DRI projects and the wider UK community.
+## What we do:
+
+- **Support:** CAKE runs events and provides [flexible funding opportunities](/opportunities) to facilitate and encourage knowledge exchange between the various DRI projects and the wider UK community.
 - **Outreach:** CAKE represents DRI projects on national and international conferences, such as CIUK and the Supercomputing conference series. If your project has outreach material - giveaways, posters, videos, flyers, etc. - but you're unable to attend, CAKE can present your materials to the right audience on your behalf. 
 - **Best Practices:** Developing EDI guidelines, Code of Conducts, conference instructions, and similar resources can quickly become an overwhelming task. CAKE collects templates and examples to help projects focus on their unique core mission while maintaining high standards.
 
-## Engage
+<!-- ## Engage
 
-Most of CAKE's day-to-day collaboration happens [on Slack](/involved/), which is open to the whole UK community and friends. This community is just getting started, so head on over to get involved! 
+Most of CAKE's day-to-day collaboration happens [on Slack](/involved/), which is open to the whole UK community and friends. This community is just getting started, so head on over to get involved!  -->
+
+
+
+
+
+<br><br>
+
+# Get Involved
+
+Whether you’re an expert or just getting started, looking for help or offering solutions, sharing events or opportunities, or simply wanting to support others — there are plenty of ways to get involved. 
+
+{% include feature_row %}    
+
+CAKE is here to help the DRI community share knowledge and discover what’s happening across our diverse and busy community! Here’s how you can help:
+
+* Join the community → meet us at [events](/events/), jump into conversations on Slack, and help shape the discussion
+* Showcase your work → highlight your [projects](/landscape/), advertise upcoming [events or training opportunities](/events), or post [updates](/news/) to our blog
+* Build up the knowledge base → contribute guides, tutorials, and resources to [CAKEbox](https://www.cake.ac.uk/CAKEbox/) so others can learn from your expertise
+* Spread the word → write a [blog](/news/), share (soon!) on social media, and invite your colleagues to get involved
+
+
+
+<br><br>
 
 # Partners
 
@@ -102,4 +158,13 @@ We are proud to be supported by the following project partners and thank them fo
   </td>
 </tr>
 </table>
+
+
+<br><br>
+
+# Code of Conduct
+
+To ensure a welcoming and inclusive environment, we ask that all contributors and community members follow our [Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/). It’s important that we all adhere to these guidelines to keep our space safe and friendly.
+
+If you have any questions, please don't hesitate to get in touch via our [Contact Us](/contact-us/) page.
 

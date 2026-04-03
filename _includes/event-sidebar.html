@@ -38,7 +38,9 @@
             <a href="{{ page.web-page }}" target="_blank" rel="noopener noreferrer">Event website</a>
         </p>
     {% endif %}
-    
+
+    <p class="page__date"><strong>{% include event-ics-link.html entry=page %}</strong></p>
+
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
     <div class="author__urls-wrapper">
       <ul class="author__urls social-icons">

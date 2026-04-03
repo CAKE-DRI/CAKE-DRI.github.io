@@ -17,6 +17,73 @@ layout: default
 
     <section class="page__content" itemprop="text">
       {{ content }}
+
+
+      <section class="post-cards">
+        <h2>Latest Blog Posts</h2>
+
+        <div class="card-grid">
+          {% for post in site.posts limit:4 %}
+            <div class="card">
+              <a href="{{ post.url }}">
+                <div class="card-image">
+                  <img src="{{ post.summary-image }}" alt="{{ post.title }}">
+                </div>
+
+                <div class="card-content">
+                  <h3>{{ post.title }}</h3>
+                  <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                  <span class="card-link">Read more →</span>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="{{ '/news/' | relative_url }}" class="btn btn--secondary btn--large">Find more DRI news →</a>
+      </div>
+
+
+      <section class="event-cards">
+        <h2>Upcoming Events</h2>
+
+        {% assign today = "now" | date: "%s" %}
+        {% assign events = site.events | sort: "date" %}
+        {% assign count = 0 %}
+
+        <div class="card-grid">
+          {% for event in events %}
+            {% assign event_date = event.date | date: "%s" %}
+
+            {% if event_date >= today and count < 4 %}
+              <div class="card">
+                <a href="{{ event.url }}">
+                  <div class="card-image">
+                    <img src="{{ event.image | default: '/assets/images/default.jpg' }}" alt="{{ event.title }}">
+                  </div>
+
+                  <div class="card-content">
+                    <h3>{{ event.title }}</h3>
+                    <p>{{ event.excerpt | default: event.content | strip_html | truncate: 120 }}</p>
+                    <span class="card-link">Read more →</span>
+                  </div>
+                </a>
+              </div>
+
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        </div> 
+      </section>   
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="{{ '/events/' | relative_url }}" class="btn btn--secondary btn--large">Find more DRI events →</a>
+      </div>
+
     </section>
   </article>
 </div>
+
+

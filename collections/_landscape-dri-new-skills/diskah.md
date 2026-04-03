@@ -5,7 +5,7 @@ layout: landscape
 image: assets/images/landscape/diskah.png
 contact: Karina Rodriguez Echavarria
 contact-link: https://research.brighton.ac.uk/en/persons/karina-rodriguez-echavarria
-web-page: https://culturedigitalskills.org/
+web-page: https://www.diskah.org/
 ---
 
 Digital Skills in Arts and Humanities (DISKAH) is a UK‑wide initiative to strengthen the digital capability of researchers, students, and professionals across the arts, humanities, and cultural heritage sectors. Centred on a community‑driven approach, DISKAH brings together universities, galleries, libraries, archives and museums (GLAM), and independent practitioners to identify priority skills, share good practice, and make training opportunities easier to find and navigate. The project positions digital skills as a core enabler of research, curation, and public engagement, helping people use data, tools, and platforms confidently and responsibly.
