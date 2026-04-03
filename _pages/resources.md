@@ -28,4 +28,4 @@ This page will host a curated selection of resources to support individuals and 
 
 ### Coming Soon
 
-We’re actively gathering and curating high-quality materials. If you have a resource to recommend or would like to contribute, [get involved](/involved/)!
+We’re actively gathering and curating high-quality materials. If you have a resource to recommend or would like to contribute, [get involved](/about/who-are-we#get-involved)!

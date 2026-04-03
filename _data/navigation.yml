@@ -1,24 +1,23 @@
 main:
   - title: "About"
     sublinks:
-    - title: "What is CAKE?"
+    - title: "All about CAKE"
       url: /about/who-are-we
-    - title: "How can I get involved?"
-      url: /involved
-    - title: "CAKE Partners"
+    - title: "Get Involved"
+      url: /about/who-are-we#get-involved
+    - title: "Partners"
       url: /about/who-are-we#partners
-    - title: "KE Fellowships"
-      url: /about/ke-fellowships
-    - title: "Placement & Visits"
-      url: /about/placements
-    - title: "CAKE Review Committee"
-      url: /about/reviewers    
+    - title: "Code of Conduct"
+      url: /about/who-are-we#code-of-conduct    
+    - title: "Flexible Funds"
+      url: /opportunities/
+
   - title: "News"
     url: /news/
   - title: "DRI Landscape"
     sublinks:
-    - title: "Add your CAKE-related projects!"
-      url: /landscape/add_project
+    - title: "Welcome and Explore!"
+      url: /landscape
     - title: "Systems"
       url: /landscape/systems
     - title: "New approaches to software"
@@ -33,12 +32,18 @@ main:
       url: /landscape/research-communities   
     - title: "Centres and institutes"
       url: /landscape/centres-institutes   
+    - title: "Add missing projects"
+      url: /landscape/add_project
   - title: "Activities"
     sublinks:
     - title: "Outreach"
       url: /activities/outreach
-    - title: "Flexible Funds"
-      url: /opportunities/
+    - title: "Knowledge Exchange Fellowships"
+      url: /about/ke-fellowships
+    - title: "Placement & Visits"
+      url: /about/placements
+    - title: "Review Committee"
+      url: /about/reviewers    
 
   - title: "Calendar"
     url: /events/

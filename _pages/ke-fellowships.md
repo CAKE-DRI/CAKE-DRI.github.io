@@ -59,7 +59,7 @@ Applications for the second cohort are expected to open in April/May 2026. -->
 
 To apply, please fill in the form below and submit before 19.05.2026. You will be notified of the outcome by 10.06.2026, and the fellowship term will start on 01.07.2026.
 
-**Before applying you have to discuss and get approval from your linemanager and institution.** There are a number of institutions who have already confirmed their support for staff participating in this programme.  See [the "get involved" page](/involved/).
+**Before applying you have to discuss and get approval from your linemanager and institution.** There are a number of institutions who have already confirmed their support for staff participating in this programme.  See [the "get involved" page](/about/who-are-we#get-involved/).
 
 DRI KE Fellows are awarded £4000 fellowship money for travel, events and other activities as part of your fellowship. Awards are granted at 80% FEC, applicants must confirm their institution is able to cover the remaining 20%. 
 

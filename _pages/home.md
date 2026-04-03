@@ -7,35 +7,38 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home-banner.png
 excerpt: >
-  The CAKE Network+ facilitates knowledge exchange and sustainable collaboration across the UK Digital Research Infrastructure (DRI) communities. 
+  The CAKE NetworkPlus facilitates knowledge exchange and sustainable collaboration across the UK Digital Research Infrastructure (DRI) communities. 
 
 feature_row:
-  - image_path: /assets/images/home-projects.png
+  - image_path: /assets/images/landscape/generic/DRI-Landscape-Explore.png
+    max-height: "180px"
     alt: "projects"
     title: "DRI Landscape"
-    excerpt: "Explore the landscape of the UK's Digital Research Infrastructure (DRI)."
+    excerpt: "Explore the people, projects and capabilities within UK DRI."
     url: "/landscape/"
     btn_class: "btn--primary"
-    btn_label: "Explore DRI"
-  - image_path: /assets/images/home-events.png
-    alt: "Events schedule"
-    title: "Upcoming Events"
-    excerpt: "Discover upcoming events, training and opportunities happening across the UK."
-    url: "/events/"
-    btn_class: "btn--primary"
-    btn_label: "View Events"
-  - image_path: /assets/images/cake-logo/CAKEbox-rectangle.png
+    btn_label: "Explore the DRI Landscape"
+  - image_path: /assets/images/cakebox-logo/CAKEbox.png
+    max-height: "180px"
     alt: "resources"
-    title: "Resources"
-    excerpt: "CAKEbox is our knowledge base of DRI resources, contributed by the community."
+    title: "KE Resources"
+    excerpt: "CAKEbox is a community-driven knowledge base of DRI resources."
     url: "https://www.cake.ac.uk/CAKEbox/"
     btn_class: "btn--primary"
-    btn_label: "Go to CAKEbox"
+    btn_label: "Visit CAKEbox"
+  - image_path: /assets/images/fundings_images/Funding.png
+    max-height: "180px"
+    alt: "Available Funding"
+    title: "Funding Opportunities"
+    excerpt: "Browse funding opportunities across the DRI landscape."
+    url: "/funds/"
+    btn_class: "btn--primary"
+    btn_label: "View Funding Opportunities"
 
---- 
+---
 
 {% include feature_row %}    
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '/involved/' | relative_url }}" class="btn btn--secondary btn--large">Find out more and get involved with CAKE today!</a>
+  <a href="{{ '//about/who-are-we#get-involved/' | relative_url }}" class="btn btn--secondary btn--large">How to get involved with CAKE</a>
 </div>
