@@ -15,21 +15,55 @@ main:
   - title: "News"
     url: /news/
   - title: "The DRI Landscape"
+    # url: /landscape/about
     sublinks:
-    - title: "Welcome and Explore!"
-      url: /landscape
-    - title: "Data infrastructure & services"
-      url: /landscape/infrastructure
-    - title: "Large scale compute"
-      url: /landscape/compute
-    - title: "Software"
-      url: /landscape/software
-    - title: "Foundational tools"
-      url: /landscape/tools
-    - title: "Professional skills & career pathways" 
-      url: /landscape/skills-careers
-    - title: "Add your CAKE-related projects!"
-      url: /landscape/add_project
+    # - title: "Welcome and Explore!"
+    #   url: /landscape
+    # - title: "Data infrastructure & services"
+    #   url: /landscape/infrastructure
+    # - title: "Large scale compute"
+    #   url: /landscape/compute
+    # - title: "Software"
+    #   url: /landscape/software
+    # - title: "Foundational tools"
+    #   url: /landscape/tools
+    # - title: "Professional skills & career pathways" 
+    #   url: /landscape/skills-careers
+    # - title: "Add your CAKE-related projects!"
+    #   url: /landscape/add_project
+
+
+    # - title: "Data infrastructure & services"
+    #   url: /landscape/infrastructure
+    # - title: "Large scale compute"
+    #   url: /landscape/compute
+    # - title: "Software"
+    #   url: /landscape/software
+    # - title: "Foundational tools"
+    #   url: /landscape/tools
+    # - title: "Professional skills & career pathways" 
+    #   url: /landscape/skills-careers
+
+
+    
+
+
+    - title: "Systems"
+      url: /landscape/systems
+    - title: "New approaches to software"
+      url: /landscape/dri-new-software
+    - title: "New approaches to skills"
+      url: /landscape/dri-new-skills
+    - title: "Embedded GPU CSE"
+      url: /landscape/eCSE-GPU
+    - title: "RTP skills, hubs and platforms"
+      url: /landscape/rtp    
+    - title: "Research communities"
+      url: /landscape/research-communities   
+    - title: "Centres and institutes"
+      url: /landscape/centres-institutes
+
+  
   - title: "Activities"
     sublinks:
     - title: "Outreach"
