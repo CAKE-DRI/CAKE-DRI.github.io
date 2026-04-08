@@ -1,43 +1,64 @@
+{% assign locale = include.locale | default: site.locale %}
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+<style>
+/* Only apply bold styling in the mobile/burger menu */
+.greedy-nav .hidden-links a {
+  font-weight: bold;
+}
+
+/* Keep dropdown submenu links normal (if they appear there) */
+.greedy-nav .hidden-links .dropdown-content a {
+  font-weight: normal;
+}
+</style>
+
+
 <div class="masthead">
-  <!--
-  <div class="masthead__announce">
-  </div> -->
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title | escape_once | strip }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
+        </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {% if link.sublinks %}
-              <li class="dropdown {{ class }}">
-                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+              <li class="masthead__menu-item dropdown">
+                <a href="#" class="dropdown-toggle" tabindex="0">
+                  {{ link.title }}
+                </a>
                 <ul class="dropdown-content">
                   {% for sublink in link.sublinks %}
                     <li>
-                      <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                      <a href="{{ sublink.url | relative_url }}">
+                        {{ sublink.title }}
+                      </a>
                     </li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
               <li class="masthead__menu-item">
-                <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-              </li>              
-            {% endif %}            
+                <a href="{{ link.url | relative_url }}">
+                  {{ link.title }}
+                </a>
+              </li>
+            {% endif %}
           {%- endfor -%}
-        </ul>
+        </ul>        
         {% if site.search == true %}
         <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <span class="visually-hidden">{{ site.data.ui-text[locale].search_label | default: "Toggle search" }}</span>
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <span class="visually-hidden">{{ site.data.ui-text[locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
