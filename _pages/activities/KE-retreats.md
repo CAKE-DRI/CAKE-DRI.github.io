@@ -12,7 +12,7 @@ layout: no-title-page
 
 <br>
 
-CAKE retreats funding brings communities together. By providing space for focused collaboration, this funding supports the development of shared concepts, strategic directions, and tangible outputs that enrich the UK’s large-scale computing landscape. We will organise 5 themed, 3–4 day retreats, designed to support focused collaboration and produce tangible outputs such as white papers, reports, or journal special issues. Total funding for retreats is £125,000 (£25,000 per retreat).
+CAKE retreats funding brings communities together to enrich the UK’s large-scale computing landscape. By creating space for focused engagement, the programme supports the development of shared concepts, strategic directions, and outputs such as white papers, reports, or journal special issues. We will organise 5 themed retreats, each lasting 3–4 days. Total funding for retreats is £125,000 (£25,000 per retreat).
 
 We primarily support travel and hosting for retreats, with venue and catering funded centrally. Participating organisations are encouraged to provide in-kind support to demonstrate engagement and shared commitment to the collaboration.
 
