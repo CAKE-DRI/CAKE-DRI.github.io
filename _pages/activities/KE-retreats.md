@@ -29,7 +29,7 @@ All participants in the CAKE network are expected to follow the [CAKE Code of Co
 
 Awards are made through a transparent and competitive process overseen by the Review Committee (RC). We will issue themed Expression of Interest (EoI) calls targeting strategically important topics within the UK’s Digital Research Infrastructure landscape. Applicants are expected to propose retreats aligned with the focus of each call. To support early career researchers and individuals returning after a career break, we will offer guidance and mentoring during the EoI process, and career stage will be taken into account as part of the review.
 
-Applications are reviewed by at least 4 reviewers using weighted scoring criteria adapted from the ExCALIBUR-ECP programme. Reviewers provide scores and funding recommendations, followed by a panel discussion to agree final decisions. Applicants will receive feedback, and the full review process is expected to take no longer than six weeks.
+Applications are reviewed by at least 4 reviewers using weighted scoring criteria adapted from the ExCALIBUR-ECP programme. Reviewers provide scores and funding recommendations, followed by a panel discussion to agree final decisions. Applicants will receive feedback, and the full review process is expected to take no longer than 6 weeks.
 
 ## EDI
 Considerations around equality, diversity, inclusion, and accessibility are central to ensuring these activities are open to all. All applications will be reviewed in line with the network’s EDI policy, supported by best-practice guidance for reviewers to ensure fair and inclusive assessment. In addition, all retreats will be delivered in a hybrid format to support broader participation and reduce barriers to engagement.
