@@ -40,7 +40,7 @@ Applicants must be from [UK institutions which are eligible for UKRI funding](ht
 Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. 
 
 ### Timeline 
-The programme runs from [Month/Year] to [Month/Year], during which we will organise 5 themed retreats, each lasting approximately 3–4 days. Initial retreats will be hosted at the proposers’ institutions (Durham, Edinburgh, and Cambridge).
+The programme runs from [Month/Year] to [Month/Year]. Initial retreats will be hosted at the proposers’ institutions (Durham, Edinburgh, and Cambridge).
 
 *Indicative call released timeline*:
  * Call 1 (Topic): [coming soon]
