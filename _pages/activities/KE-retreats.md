@@ -34,12 +34,12 @@ Applications are reviewed by at least four reviewers using weighted scoring crit
 ## EDI
 Considerations around equality, diversity, inclusion, and accessibility are central to ensuring these activities are open to all. All applications will be reviewed in line with the network’s EDI policy, supported by best-practice guidance for reviewers to ensure fair and inclusive assessment. In addition, all retreats will be delivered in a hybrid format to support broader participation and reduce barriers to engagement.
 
-### Eligibility 
+## Eligibility 
 Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the funding will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
 
 Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. 
 
-### Timeline 
+## Timeline 
 The programme runs from [Month/Year] to [Month/Year]. Initial retreats will be hosted at the proposers’ institutions (Durham, Edinburgh, and Cambridge).
 
 *Indicative call released timeline*:
@@ -49,7 +49,7 @@ The programme runs from [Month/Year] to [Month/Year]. Initial retreats will be h
  * Call 4 (Topic): [coming soon]
  * Call 5 (Topic): [coming soon]
 
-### Process 
+## Process 
 Scoring criteria and weightings may evolve across calls, but the current structure is:
 
 *Applications to host a retreat*
