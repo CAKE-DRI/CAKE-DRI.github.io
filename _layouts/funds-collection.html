@@ -2,11 +2,45 @@
 layout: title-page
 ---
 
-<h2>The current funding calls are open across UK DRI</h2>
+<div>
+  <img src="/assets/images/fundings_images/Funding-big.png" style="width:10%; float:left; margin: 0 20px 20px 0;">
+  <p>
+    There are many funding opportunities available across the UK DRI landscape. Browse the sections below to find the right opportunity for you.
+  </p>
+</div>
+
+
+<h2>Funding calls with deadlines:</h2>
 
 <div class="landscape-block-group">
   <div class="events-block-group__inner-container">
-    {% include funds-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
+    {% include funds-collection.html collection=page.collection format="deadline" sort_by=page.sort_by sort_order=page.sort_order archive=false %}
   </div>
 </div>
 
+
+<h2>Always open calls:</h2>
+
+<div class="landscape-block-group">
+  <div class="events-block-group__inner-container">
+    {% include funds-collection.html collection=page.collection format="open" sort_by=page.sort_by sort_order=page.sort_order %}
+  </div>
+</div>
+
+
+<h2>Upcoming opportunities:</h2>
+
+<div class="landscape-block-group">
+  <div class="events-block-group__inner-container">
+    {% include funds-collection.html collection=page.collection format="future" sort_by=page.sort_by sort_order=page.sort_order %}
+  </div>
+</div>
+
+
+<h2>Closed opportunities:</h2>
+
+<div class="landscape-block-group">
+  <div class="events-block-group__inner-container">
+    {% include funds-collection.html collection=page.collection format="deadline" sort_by=page.sort_by sort_order=page.sort_order archive=true %}
+  </div>
+</div>

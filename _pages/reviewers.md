@@ -14,12 +14,14 @@ Our current CAKE Reviewing Committee are
 - Sam Bland (SEI University of York & N8CIR)
 - Eleanor Broadway (EPCC, University of Edinburgh)
 - Nick Brown (EPCC, University of Edinburgh)
+- Michael Donnay (University of Southampton, Software Sustainability Institute)
 - Danny Garside (Digital Research Academy)
 - Andrew Gillen (University of Glasgow)
 - Cassandra Gould van Praag (RCM Cooperative)
 - Oscar Seip (University of Manchester, Software Sustainability Institute)
 - Michael Umeokoli (Manchester Metropolitan University)
-- Marion Weinzierl (University of Cambridge)
+- Joe Wallwork (University of Cambridge, ICCS)
+- Marion Weinzierl (University of Cambridge, ICCS)
 - Tobias Weinzierl (Durham University)
 
 Some reviewers might not have agreed to be listed here, and are therefore missing from this list.
