@@ -25,7 +25,7 @@ We primarily support travel and hosting for retreats, with venue and catering fu
 
 <br>
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+  <a href="{{ 'https://docs.google.com/forms/d/1ijbU7__7lMFs1geutegaaEKY85H0Bo9bWFjhSomEq3M/preview' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
 </div>
 <br>
 
