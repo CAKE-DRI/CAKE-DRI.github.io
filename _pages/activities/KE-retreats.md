@@ -66,6 +66,7 @@ Scoring criteria and weightings may evolve across calls, but the current structu
 
 **(For attending applications, will they be reviewed by CAKE or retreat hosters?)**
 **(if reviewed by CAKE how the budget is allocated to them? use [Placements \& Vists](https://www.cake.ac.uk/about/placements/)?) or a part of £25,000**
+
 *Applications to attend a retreat*
  * Value of the participant’s contribution to the retreat (30%)
  * Benefit to the applicant (20%)
