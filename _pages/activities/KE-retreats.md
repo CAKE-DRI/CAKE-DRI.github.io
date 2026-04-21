@@ -19,11 +19,16 @@ We are committed to fostering a diverse and inclusive environment that reflects 
 
 All participants in the CAKE network are expected to follow the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
 
-In order to ensure a range of fellows across strategically important areas we will issue themed calls. The exact theme of each call will be discussed and approved by the steering group. Each retreat will also be themed, focussing on a specific topic, with the difference being that the DRI community will bid for retreats in specific area(s) to be held. In total, there will be 5 themed retreats, each lasting 3–4 days. Total funding for retreats is £125,000 (£25,000 per retreat).
+In order to ensure a range of fellows across strategically important areas we will issue themed calls. The exact theme of each call will be discussed and approved by the steering group. Each retreat will also be themed, focussing on a specific topic, with the difference being that the DRI community will bid for retreats in specific area(s) to be held. In total, there will be 5 themed retreats, each lasting 3–4 days. Total funding for retreats is £125,000.
 
 <br>
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ 'https://docs.google.com/forms/d/1ijbU7__7lMFs1geutegaaEKY85H0Bo9bWFjhSomEq3M/preview' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+  <a href="{{ 'https://docs.google.com/forms/d/1ijbU7__7lMFs1geutegaaEKY85H0Bo9bWFjhSomEq3M/preview' | relative_url }}" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
+    Apply to host!
+  </a>
+  <a href="YOUR_ATTEND_LINK_HERE" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
+    Apply to attend!
+  </a>
 </div>
 <br>
 
@@ -33,9 +38,7 @@ Considerations around equality, diversity, inclusion, and accessibility are cent
 ## Eligibility 
 Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the funding will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
 
-Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. 
-
-**Note that: The only exception is the venue and catering for the retreats which will be paid for centrally by the network (Q: who is this 'network'?). This does mean that the individual’s organisation will have some buy-in to these activities, potentially supporting the individual longer term and seeing their participation as having greater value due to the investment.**
+Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. The only exception is the venue and catering for the retreats which will be paid for centrally by the network.
 
 ## Timeline 
 The programme runs from [Month/Year] to [Month/Year]. Initial retreats will be hosted at the proposers’ institutions (Durham, Edinburgh, and Cambridge).
@@ -63,9 +66,6 @@ Scoring criteria and weightings may evolve across calls, but the current structu
  * Potential to attract diverse participants and new communities (30%)
  * Importance of expected outcomes (20%)
  * Added value beyond existing activities (20%)
-
-**(For attending applications, will they be reviewed by CAKE or retreat hosters?)**
-**(if reviewed by CAKE how the budget is allocated to them? use [Placements \& Vists](https://www.cake.ac.uk/about/placements/)?) or a part of £25,000**
 
 *Applications to attend a retreat*
  * Value of the participant’s contribution to the retreat (30%)
