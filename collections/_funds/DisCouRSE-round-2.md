@@ -1,14 +1,11 @@
 ---
-title: "DisCouRSE Flexible Fund round 2 launched"
-date: 2026-04-23
-full-width: true 
-classes: wide
-summary-image: /assets/images/fundings_images/DisCouRSE-Logo-Light.svg
-categories:
-  - news
-tags:
-  - community
-  - funding
+title: "DisCouRSE Flexible Fund round 2"
+layout: landscape
+image: /assets/images/fundings_images/DisCouRSE-Logo-Light.svg
+contact: "arc.discourse@ucl.ac.uk"
+web-page: "https://discourse-network.github.io/funding/round-2"
+closing_deadline: 2026-06-05
+format: open
 ---
 
 Round 2 of the DisCouRSE [flexible funding scheme](https://discourse-network.github.io/funding) is now open for applications!
