@@ -5,7 +5,7 @@ image: /assets/images/fundings_images/DisCouRSE-Logo-Light.svg
 contact: "arc.discourse@ucl.ac.uk"
 web-page: "https://discourse-network.github.io/funding/round-2"
 closing_deadline: 2026-06-05
-format: open
+format: deadline
 ---
 
 Round 2 of the DisCouRSE [flexible funding scheme](https://discourse-network.github.io/funding) is now open for applications!
