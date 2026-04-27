@@ -26,7 +26,7 @@ In order to ensure a range of fellows across strategically important areas we wi
   <a href="{{ 'https://docs.google.com/forms/d/1ijbU7__7lMFs1geutegaaEKY85H0Bo9bWFjhSomEq3M/preview' | relative_url }}" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
     Apply to host!
   </a>
-  <a href="YOUR_ATTEND_LINK_HERE" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
+  <a href="https://www.cake.ac.uk/about/placements/" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
     Apply to attend!
   </a>
 </div>
