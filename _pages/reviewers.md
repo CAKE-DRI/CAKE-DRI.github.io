@@ -15,6 +15,7 @@ Our current CAKE Reviewing Committee are
 - Eleanor Broadway (EPCC, University of Edinburgh)
 - Nick Brown (EPCC, University of Edinburgh)
 - Michael Donnay (University of Southampton, Software Sustainability Institute)
+- John Fozard (Lancaster University)
 - Danny Garside (Digital Research Academy)
 - Andrew Gillen (University of Glasgow)
 - Cassandra Gould van Praag (RCM Cooperative)
