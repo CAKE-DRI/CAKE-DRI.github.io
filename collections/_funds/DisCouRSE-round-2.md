@@ -4,7 +4,7 @@ layout: landscape
 image: /assets/images/fundings_images/DisCouRSE-Logo-Light.svg
 contact: "arc.discourse@ucl.ac.uk"
 web-page: "https://discourse-network.github.io/funding/round-2"
-closing_deadline: 2026-06-05
+closing_deadline: "2026-06-05"
 format: deadline
 ---
 
