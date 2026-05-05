@@ -12,8 +12,6 @@ main:
     - title: "Flexible Funds"
       url: /opportunities/
 
-  - title: "News"
-    url: /news/
   - title: "DRI Landscape"
     sublinks:
     - title: "Welcome and Explore!"
@@ -49,4 +47,6 @@ main:
     url: /events/
 
   - title: "Funds"
-    url: /funds/        
+    url: /funds/
+   - title: "Blog"
+    url: /blog/
