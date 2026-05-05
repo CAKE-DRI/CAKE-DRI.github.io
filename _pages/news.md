@@ -1,5 +1,5 @@
 ---
-title: Latest News
+title: What's going on
 layout: news-collection
 permalink: /blog/
 collection: news
