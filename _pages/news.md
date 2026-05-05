@@ -1,7 +1,7 @@
 ---
 title: Latest News
 layout: news-collection
-permalink: /news/
+permalink: /blog/
 collection: news
 entries_layout: grid
 sort_by: order
