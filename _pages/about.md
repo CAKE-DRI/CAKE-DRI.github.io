@@ -34,9 +34,11 @@ feature_row:
   
   <p>
     <b>The Computational Abilities Knowledge Exchange (CAKE) NetworkPlus</b> supports collaboration and community building across the Digital Research Infrastructure (DRI) programme and the UK’s wider large-scale computing landscape. It acts as a central hub, connecting projects, sharing successes and insights, and enabling communities to work together more effectively.
+
+    CAKE removes the barriers to knowledge exchange. By sharing best practices, tools, and resources, we enable you to focus on connecting, collaborating, and driving progress.
   </p>
   <p>
-    Led by EPCC at the University of Edinburgh, in partnership with Durham University and University of Cambridge, and funded by UKRI (UKRI1799), CAKE helps to remove barriers to knowledge exchange. By sharing best practices, tools, and resources, we enable you to focus on connecting, collaborating, and driving progress.
+    Led by EPCC at the University of Edinburgh, in partnership with Durham University and University of Cambridge, CAKE has received funding through the UKRI Digital Research Infrastructure Programme under project reference UKRI1799. 
   </p>
 
 </div>
