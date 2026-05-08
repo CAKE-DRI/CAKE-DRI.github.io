@@ -23,11 +23,8 @@ In order to ensure a range of fellows across strategically important areas we wi
 
 <br>
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ 'https://docs.google.com/forms/d/1ijbU7__7lMFs1geutegaaEKY85H0Bo9bWFjhSomEq3M/preview' | relative_url }}" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
-    Apply to host!
-  </a>
-  <a href="https://www.cake.ac.uk/about/placements/" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
-    Apply to attend!
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog" class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
+    Apply to organise a retreat!
   </a>
 </div>
 <br>
@@ -41,7 +38,7 @@ Applicants must be from [UK institutions which are eligible for UKRI funding](ht
 Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. The only exception is the venue and catering for the retreats which will be paid for centrally by the network.
 
 ## Timeline 
-The programme runs from [Month/Year] to [Month/Year]. Initial retreats will be hosted at the proposers’ institutions (Durham, Edinburgh, and Cambridge).
+The programme runs from [Month/Year] to [Month/Year].
 
 *Indicative call released timeline*:
  * Call 1 (Topic): [coming soon]
@@ -61,30 +58,18 @@ To support early career researchers and individuals returning after a career bre
 
 Scoring criteria and weightings may evolve across calls, but the current structure is:
 
-*Applications to host a retreat*
- * Relevance of the topic to DRI priorities (30%)
- * Potential to attract diverse participants and new communities (30%)
- * Importance of expected outcomes (20%)
- * Added value beyond existing activities (20%)
+*Applications to organise a retreat*
+ * Suitability of topic in relation to DRI needs (30%)
+ * Likelihood in attracting a wide-ranging audience and new communities  (30%)
+ * Importance of planned outcomes  (20%)
+ * Retreat will provide an opportunity that is not available elsewhere  (20%)
 
-*Applications to attend a retreat*
- * Value of the participant’s contribution to the retreat (30%)
- * Benefit to the applicant (20%)
- * Potential to engage new communities (20%)
- * Potential for longer-term impact (20%)
- * Consideration of environmental impact (10%)
 
 All awarded funds will be monitored by the corresponding task leader and progress made will be reported to the steering group. Awardees must keep documentary evidence to show how the allocated funds have been spent and this will be submitted at the same time as the expenses claim (to the University of Edinburgh finance). UoE has extensive experience of dealing with schemes like this, e.g. by administering calls including the eCSE programme and the SSI fellowship. 
 
 Documentary evidence must be kept to show how the allocated funds have been spent.
 
 ## Outputs
-A network-wide summary of the impact from all these activities will be provided to UKRI in the yearly report deliverables. We expect each funded activity to generate tangible outputs: 
-
-*Hosting a retreat*
-  * Publications (ranging from a whitepaper to a journal special issue) and where appropriate software (ideally open source).
-
-*Attending a retreat*
- * An article for the website detailing what they learnt.
+A network-wide summary of the impact from all these activities will be provided to UKRI in the yearly report deliverables. We expect each funded activity to generate tangible outputs: publications (ranging from a whitepaper to a journal special issue) and where appropriate software (ideally open source).
 
 <b>If you have any questions, don't hesitate to reach out via our [Contact Us](/contact-us/) page.</b>
