@@ -3,68 +3,65 @@ title: CAKE Placements & Visits
 permalink: /about/placements/
 layout: no-title-page
 ---
+<br>
+
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="/assets/images/CAKE-placements-banner.png" width="90%">
 </div>
 
+<br>
 
-**CAKE Placements and Visits** reduce the barriers to collaboration. We provide financial support to help individuals connect and work together on projects that strengthen the future of the DRI landscape.
+Great collaborations start with connection. CAKE supports placements and visits that bring people together, creating the space to share ideas, build relationships, and spark new ways of working. This funding is designed to build new collaborations or strengthen existing ones, with a focus on creating lasting partnerships by providing the time and space to connect.
 
-These opportunities are designed to build new partnerships and spark collaborations that last beyond the placement or visit.
+We primarily support travel and subsistence (T&S) costs to enable placements and visits for the UK DRI community, helping you connect both within the UK and with international partners. Most placement schemes are usually restricted by rigid criteria, so the CAKE placements and visits are intentionally flexible to support opportunities that usually lack funding. [Get in touch](/contact-us/) if you have an idea or need! 
 
-- [Application](#application)
-- Support 
-    - [Structured Framework for Placements and Visits](#structured-framework-for-placements-and-visits)
-    - [Match-making Support](#match-making-support)
-    - [Mentoring Opportunities](#mentoring-opportunities)
+### Some ideas include:
+
+* International collaboration (with funds paid to a UKRI-funding eligible organisation)
+* In-person placements to embed into a research team 
+* Remote placements with tailored support if you are unable to travel
+* Attendance at community workshops, training and events to connect with the wider community 
+
+<!-- See some detailed examples and application help here... -->
+
+We focus on finding new opportunities for collaborations, not just skills and expertise, but transforming your ways of working by collaborating with a new perspective. This flexible approach ensures that placements are accessible to a broader pool of participants, particularly those often excluded from traditional professional exchange programs, ensuring you can still connect and collaborate meaningfully, regardless of your circumstances.
+
+<br>
 
 
-## What makes CAKE different? 
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+</div>
 
-Most placement schemes are restricted by rigid criteria. The CAKE placements and visits are intentionally flexible to support opportunities that usually lack funding 
 
-* **International scope:** We support outward-facing collaborations beyond the UK to foster global networking.
-* **Remote placements:** For those unable to travel, we provide support for remote collaboration, including logistical coordination and regular check-ins.
-* **Culture & knowledge exchange:** While most schemes focus strictly on technical skills, or are career or domain-specific, we prioritise culture and knowledge exchange (KE) as vital drivers of innovation.
-* **Structured Framework:** We provide a clear framework to ensure both hosts and participants gain measurable value from the experience.
+<br>
 
-This flexible approach ensures that placements are accessible to a broader pool of participants, particularly those often excluded from traditional professional exchange programs.
+## Application information
 
-## Scope
-The CAKE Placements and Visits Programme provides support primarily for travel and subsistence (T&S) costs to enable placements and visits for the UK DRI community. 
+We are committed to fostering a diverse and inclusive environment that reflects the breadth of the CAKE network and wider UK DRI community. We actively encourage applications from all members of the community, regardless of background, discipline, or career stage. 
 
-We define a placement and visit opportunity as including (but not limited to): 
-* Short-term collaborative placements between institutions or organisations
-* Visits to share best practices, tools, or infrastructure approaches
-* Engagements that foster cross-disciplinary or cross-sector collaboration within the DRI ecosystem
-* Attendance at community workshops, training and events
+All participants in the CAKE network are expected to follow the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
 
-For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake-management@mlist.is.ed.ac.uk](cake-management@mlist.is.ed.ac.uk)) to discuss eligibility.
+Applications are reviewed on a rolling basis, with a deadline on the 1st of each month. Applications submitted by this date will be collated and considered together. We aim to communicate decisions within 4–6 weeks of submission.
 
-## EDI
-We are committed to fostering a diverse and inclusive environment, reflecting the diversity of the CAKE network and wider UK DRI community. We actively encourage applications from all members of the community, regardless of background, discipline, or career stage. To support this commitment, we provide: 
-* [A structured framework to help hosts and participants get the most from their placement or visit - whether virtual or in-person](#structured-framework-for-placements-and-visits)
-* [Mentoring opportunities for all applicants](#mentoring-opportunities)
-* [Match-making support to connect participants and hosts](#match-making-support)
-* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/) 
-* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/submissions-and-reviews/)
+Any data provided as part of your application will be used solely for the purposes of the CAKE Placements & Visits scheme and will not be shared with external parties.
 
-All engaged in the CAKE network must abide by the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
+For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake-management@mlist.is.ed.ac.uk](cake-management@mlist.is.ed.ac.uk)) to discuss.
 
-## Eligibility 
-Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the money will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
+### Eligibility 
+Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the funding will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
 
 Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. 
 
 PhD students are eligible to apply, provided they include a letter of support from their primary supervisor emailed to the CAKE management team alongside their application. 
 
-## Timeline 
-The CAKE Placements and Visits Programme runs from October 2025 through to April 2028, at which time all visits must be complete and expenses claimed.
+### Timeline 
+The programme runs from October 2025 through to April 2028, at which time all visits must be complete and expenses claimed.
 
-## Process 
-There is a rolling deadline of the 1st of each month, where applications received by then will be collated and reviewed. Each application will be assessed by a minimum of three reviewers from the CAKE Review Committee.
+### Process 
+Applications are <b>open</b> with a rolling deadline. We aim for all decisions to be communicated within 4-6 weeks from when the application was submitted. 
 
-The following reviewing criteria will be applied:
+Each application will be assessed by a minimum of three reviewers from the CAKE Review Committee, using the following reviewing criteria:
 * Importance of the benefits from this visit and UKRI-wide relevance of specific outputs (40%), 
 * Potential to drive long term collaboration (20%), 
 * Eminence of the partners in HPC and/or the specific field being investigated (10%), 
@@ -72,30 +69,30 @@ The following reviewing criteria will be applied:
 * Consideration of environmental impact (10%), 
 * Link to DRI projects and activities (10%).
 
-We aim for all decisions to be communicated within 4-6 weeks from when the application was submitted. 
-
 Successful applicants will receive their allocated funds from the flexible funding stream for this programme which is held by the University of Edinburgh. The process for disbursing these funds will be confirmed at the point where successful applicants are notified of the outcome of their applications.
 
 ## Outputs
-Successful applicants are required to complete a short written report detailing the activities undertaken during the placement or visit and any outcomes. A recorded presentation or interview summarising the visit is also required and will be posted to the network’s YouTube channel. Placements and visits which include community workshops and events are encouraged and may provide a suitable venue for such videos. 
+Successful applicants are required to complete a short written report detailing the activities undertaken during the placement or visit and any outcomes. A blog post for the CAKE website is also required. 
 
 Documentary evidence must be kept to show how the allocated funds have been spent.
 
-If you have any questions, don't hesitate to reach out via our [Contact Us](/contact-us/) page.
+<b>If you have any questions, don't hesitate to reach out via our [Contact Us](/contact-us/) page.</b>
 
----
 
-## Application
 
-To apply, click the button below. 
+<!-- When we get blog posts, could have a carousel of previous ones! -->
 
-There is a rolling deadline of the 1st of each month, where applications received by then will be collated and reviewed. We aim for all decisions to be communicated within 4-6 weeks from when the application was submitted. 
+<!-- 
+## EDI
 
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
-</div>
+REMOVED while refactoring 
 
-This data will be stored and used for the purposes of the CAKE Placements & Visits only, and not shared with external parties.  
+To support this commitment, we provide: 
+* [A structured framework to help hosts and participants get the most from their placement or visit - whether virtual or in-person](#structured-framework-for-placements-and-visits)
+* [Mentoring opportunities for all applicants](#mentoring-opportunities)
+* [Match-making support to connect participants and hosts](#match-making-support)
+* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/) 
+* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/submissions-and-reviews/)
 
 ---
 
@@ -118,4 +115,4 @@ CAKE will soon offer mentoring support for all applicants, connecting you with e
 ## Match-making Support 
 
 We’re building tools and support to help participants find the right hosts, and vice versa, so that collaborations are effective, meaningful, and aligned with your research interests.
-
+ -->

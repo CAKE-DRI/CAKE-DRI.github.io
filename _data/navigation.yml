@@ -11,9 +11,8 @@ main:
       url: /about/who-are-we#code-of-conduct    
     - title: "Flexible Funds"
       url: /opportunities/
-  - title: "News"
-    url: /news/
-  - title: "The DRI Landscape"
+      
+  - title: "DRI Landscape"
     sublinks:
     - title: "Welcome and Explore!"
       url: /landscape
@@ -44,4 +43,7 @@ main:
     url: /events/
 
   - title: "Funds"
-    url: /funds/        
+    url: /funds/
+    
+  - title: "Blog"
+    url: /blog/

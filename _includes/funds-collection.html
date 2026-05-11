@@ -13,6 +13,9 @@
   {% elsif include.sort_by == 'title' %}
     {% assign entries = entries | sort: 'title' %}
   {% endif %}
+  {% if include.sort_order == 'latest' %}
+    {% assign entries = entries | reverse %}
+  {% endif %}
 
   {% for entry in entries %}
 
