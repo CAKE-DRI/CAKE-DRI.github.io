@@ -14,7 +14,7 @@ title: Welcome to the DRI Landscape
 
 * [The high-level infrastructure programmes](/landscape/infrastructure): these provide frameworks to support researchers
 * [The Compute facilities available to researchers](/landscape/compute)
-* [New approaches to skills & careers](/landscape/dri-new-skills): includes communities which help foster a supportive environment for RTPs at all career stages
+* [New approaches to skills & careers](/landscape/skills): includes communities which help foster a supportive environment for RTPs at all career stages
 * [New approaches to software](/landscape/software): showcases examples of software that has been created, and support for GPU architecture
 * [New approaches to tools](/landscape/tools)
 

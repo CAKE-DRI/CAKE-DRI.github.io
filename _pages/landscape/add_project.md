@@ -1,7 +1,7 @@
 ---
 title: Add details about a new CAKE-related project
 layout: title-page
-permalink: /landscape/add_project/
+permalink: /landscape/add_project
 ---
 
 We've got various examples of projects within the DRI-space in this section of the website, but we want more!
