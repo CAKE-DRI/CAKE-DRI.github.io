@@ -29,6 +29,12 @@ In order to ensure a range of fellows across strategically important areas we wi
 </div>
 <br>
 
+If you are need support to attend a retreat, please check our <div style="text-align: center; margin-top: 2rem;">
+  <a href=/about/placements/ class="btn btn--secondary btn--x-large" style="margin: 0 0.5rem;">
+    Placements and Visits page
+  </a>
+</div>
+
 ## EDI
 Considerations around equality, diversity, inclusion, and accessibility are central to ensuring these activities are open to all. All applications will be reviewed in line with the network’s EDI policy, supported by best-practice guidance for reviewers to ensure fair and inclusive assessment. We have ambitions for specific targets, including aiming for around 50% of participants to come from non-academic organisations. In addition, all retreats will be delivered in a hybrid format to support broader participation and reduce barriers to engagement.
 
