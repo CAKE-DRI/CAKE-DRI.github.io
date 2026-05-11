@@ -32,7 +32,7 @@ In order to ensure a range of fellows across strategically important areas we wi
 </div>
 <br>
 
-If you are need support to attend a retreat, please check our  [ Placements and Visits paget](https://www.cake.ac.uk/about/placements/).
+If you are need support to attend a retreat, please check our  [Placements and Visits page](https://www.cake.ac.uk/about/placements/).
 
 ## EDI
 Considerations around equality, diversity, inclusion, and accessibility are central to ensuring these activities are open to all. All applications will be reviewed in line with the network’s EDI policy, supported by best-practice guidance for reviewers to ensure fair and inclusive assessment. We have ambitions for specific targets, including aiming for around 50% of participants to come from non-academic organisations. In addition, all retreats will be delivered in a hybrid format to support broader participation and reduce barriers to engagement.
