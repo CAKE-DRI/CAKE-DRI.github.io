@@ -1,19 +1,30 @@
 ---
-title: UKRI Digital Skills Catalyst
+title: "UKRI Digital Research Skills Catalyst"
 group: landscape-dri-new-skills
-layout: landscape
-image: assets/images/landscape/generic/generic_2.jpg
-contact: Emma Rand
-contact-link: https://www.york.ac.uk/biology/people/emma-rand/
-web-page: https://www.york.ac.uk/biology/about/news/2025/ukridigitalresearchskillscatalyst/
+layout: post
+image: assets/images/catalyst-logo.svg
+pi: Emma Rand
+pi-link: https://www.york.ac.uk/biology/people/emma-rand/
+web-page: https://digitalskillscatalyst.ac.uk/
 ---
 
-The UKRI Digital Research Skills Catalyst will connect researchers and innovators to a catalogue of CPD training materials through the provision of a dynamic learning portal. The portal will provide a sophisticated search function to enable researchers to easily locate training resources appropriate to their level of expertise, research theme and preferred study mode. The portal will also feature an online support service capable of assisting researchers with their project specific enquiries. 
+The **UKRI Digital Research Skills Catalyst** is a national training platform that connects researchers and innovators across the UK to a curated catalogue of CPD training materials and expert support. Funded by UKRI and led by Professor Emma Rand at the University of York, the project brings together expertise from seven university partners and the nine UKRI-funded DaSH (Data Science in Healthcare & Biosciences) projects to help researchers apply digital research skills to their own work.
 
-The Digital Skills Catalyst Portal will empower researchers to navigate their professional development with the following features:
+Training is available from foundational to advanced level, covering areas relevant to the BBSRC, MRC, EPSRC and NERC remits — including programming, statistics, machine learning, data stewardship, and more.
 
-- Streamlined access to all the courses provided by the above DaSH projects
+## What the Catalyst offers
+
+The Catalyst's Learning Portal empowers researchers to navigate their professional development with:
+
+- A searchable hub of 50+ peer-reviewed, UKRI-funded training resources spanning foundation to advanced level
 - Detailed pre-requisites and outcomes for courses and materials to help assess learning requirements
-- Bookable time slots for one-to-one bespoke guidance with a Digital Research Infrastructure specialist from one of the DaSH projects
+- Bookable 1-to-1 sessions with research software engineers and data scientists for project-specific support
 - Additional accreditation for new and existing courses to cater for Continuing Professional Development needs
-- Occasional in-person workshops and networking events to help address ever evolving training needs
+- Custom workshops for teams or cohorts, alongside networking and training events
+
+## Get involved
+
+You can explore everything the Catalyst offers at [digitalskillscatalyst.ac.uk](https://digitalskillscatalyst.ac.uk/), or contact the team directly at [research-digital-skills@york.ac.uk](mailto:research-digital-skills@york.ac.uk) to discuss bespoke training for your team or cohort.
+
+This project is funded by UKRI from October 2024 to March 2027.
+
