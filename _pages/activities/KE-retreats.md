@@ -41,7 +41,7 @@ Please check our [Equality, Diversity, Inclusion & Accessibility](https://www.ca
 
 
 ## Timeline 
-The programme runs from October 2025 through to April 2028, at which time all visits must be complete and expenses claimed.
+The programme runs from October 2025 through to April 2028, at which time all retreats must be complete and expenses claimed.
 
 ## Process 
 Applications are open with a rolling deadline.
