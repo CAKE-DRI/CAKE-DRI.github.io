@@ -30,6 +30,8 @@ We invite the community to propose retreat themes and topics that they believe a
   <a href="{{ '[https://forms.gle/qe5jCLPkBJ9tGNKg6](https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog)' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
 </div>
 
+
+
 If you need support to attend a retreat, please check our  [Placements and Visits page](https://www.cake.ac.uk/about/placements/).
 
 ## EDI
