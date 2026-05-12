@@ -26,7 +26,7 @@ main:
       url: /landscape/software
     - title: "Foundational tools"
       url: /landscape/tools
-    - title: "Add your CAKE-related projects!"
+    - title: "Add your DRI projects!"
       url: /landscape/add_project  
   - title: "Activities"
     sublinks:
