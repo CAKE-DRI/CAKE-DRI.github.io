@@ -32,12 +32,12 @@ We invite the community to propose retreat themes and topics that they believe a
 
 
 
-If you need support to attend a retreat, please check our  [Placements and Visits page](https://www.cake.ac.uk/about/placements/).
+If you need support to attend a retreat, please check our  [Placements and Visits](https://www.cake.ac.uk/about/placements/) page.
 
 ## EDI
 Considerations around equality, diversity, inclusion, and accessibility are central to ensuring these activities are open to all. All applications will be reviewed in line with the network’s EDI policy, supported by best-practice guidance for reviewers to ensure fair and inclusive assessment. We have ambitions for specific targets, including aiming for around 50% of participants to come from non-academic organisations. In addition, all retreats will be delivered in a hybrid format to support broader participation and reduce barriers to engagement.
 
-Please check our [Equality, Diversity, Inclusion & Accessibility](https://www.cake.ac.uk/CAKEbox/edia/) on our [CAKEbox](https://www.cake.ac.uk/CAKEbox/)
+Please check our [Equality, Diversity, Inclusion & Accessibility](https://www.cake.ac.uk/CAKEbox/edia/) page on our [CAKEbox](https://www.cake.ac.uk/CAKEbox/)
 
 
 ## Timeline 
@@ -46,7 +46,7 @@ The programme runs from October 2025 through to April 2028, at which time all re
 ## Process 
 Applications are open with a rolling deadline.
 
-Awards of retreats will be administered through a robust and transparent competitive process overseen by the Review Committee (RC). Please check our [Submissions & Reviewing page](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/) on the CAKEbox.
+Awards of retreats will be administered through a robust and transparent competitive process overseen by the Review Committee (RC). Please check our [Submissions & Reviewing](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/) page on the CAKEbox.
 
 Retreat themes will be proposed by the community as part of the application process. These applications should describe the proposed theme, its relevance for the UK DRI landscape and the anticipated outcomes and benefits for the wider community
 
