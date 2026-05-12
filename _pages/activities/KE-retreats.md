@@ -66,11 +66,9 @@ All awarded funds will be monitored by the relevant task leader, with progress r
 
 
 ## Outputs
-A network-wide summary of the impact from all these activities will be provided to UKRI in the yearly report deliverables. We expect each funded activity to generate tangible outputs: publications (ranging from a whitepaper to a journal special issue) and where appropriate software (ideally open source).
-
 All funded retreats will be expected to produce a blog post for the CAKE website summarising the retreat activities, outputs and community impact. These blog post will contribute to the yearly UKRI report and highlight the value of the programme for the wider community.
 
-Retreat organisers are also encouraged to share resources, outputs and materials arising from their retreat through the [CAKEbox](https://www.cake.ac.uk/CAKEbox/), helping to support the knowledge exchange.
+We also expect each funded activity to generate tangible outputs: publications (ranging from a whitepaper to a journal special issue) and, where appropriate, software (ideally open source). Retreat organisers are also encouraged to share resources, outputs and materials arising from their retreat through the [CAKEbox](https://www.cake.ac.uk/CAKEbox/), helping to support the knowledge exchange.
 
 
 <b>If you have any questions, don't hesitate to reach out via our [Contact Us](/contact-us/) page.</b>
