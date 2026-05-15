@@ -19,6 +19,7 @@ Our current CAKE Reviewing Committee are
 - Danny Garside (Digital Research Academy)
 - Andrew Gillen (University of Glasgow)
 - Cassandra Gould van Praag (RCM Cooperative)
+- Jenny McHugh (UK-Ireland Digital Humanities Association / School of Advanced Study, University of London)
 - Oscar Seip (University of Manchester, Software Sustainability Institute)
 - Michael Umeokoli (Manchester Metropolitan University)
 - Joe Wallwork (University of Cambridge, ICCS)
