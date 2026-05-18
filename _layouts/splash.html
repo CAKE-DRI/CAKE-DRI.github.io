@@ -78,9 +78,27 @@ layout: default
                       {% if event.date %}
                         <p class="card-date">
                           {% if event.start_date and event.start_date != event.date %}
-                            <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b %Y" }}</time>
-                            &ndash;
-                            <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% assign start_year = event.start_date | date: "%Y" %}
+                            {% assign end_year = event.date | date: "%Y" %}
+                            {% assign start_month = event.start_date | date: "%b" %}
+                            {% assign end_month = event.date | date: "%b" %}
+
+                            {% if start_year == end_year and start_month == end_month %}
+                              {%- comment -%} Same month and year: "11 – 22 May 2026" {%- endcomment -%}
+                              <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d" }}</time>
+                              &ndash;
+                              <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% elsif start_year == end_year %}
+                              {%- comment -%} Same year, different month: "30 Jun – 03 Jul 2026" {%- endcomment -%}
+                              <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b" }}</time>
+                              &ndash;
+                              <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% else %}
+                              {%- comment -%} Different years: full date both sides {%- endcomment -%}
+                              <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b %Y" }}</time>
+                              &ndash;
+                              <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% endif %}
                           {% else %}
                             <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
                           {% endif %}
