@@ -32,13 +32,15 @@ layout: default
 
                 <div class="card-content">
                   <h3>{{ post.title }}</h3>
-                  {% if post.date %}
-                    <p class="card-date">
-                      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
-                    </p>
-                  {% endif %}
-                  <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
-                  <span class="card-link">Read more →</span>
+                  <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                  <div class="card-footer">
+                    {% if post.date %}
+                      <p class="card-date">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+                      </p>
+                    {% endif %}
+                    <span class="card-link">Read more →</span>
+                  </div>
                 </div>
               </a>
             </div>
@@ -71,19 +73,21 @@ layout: default
 
                   <div class="card-content">
                     <h3>{{ event.title }}</h3>
-                    {% if event.date %}
-                      <p class="card-date">
-                        {% if event.start_date and event.start_date != event.date %}
-                          <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b %Y" }}</time>
-                          &ndash;
-                          <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
-                        {% else %}
-                          <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
-                        {% endif %}
-                      </p>
-                    {% endif %}
-                    <p>{{ event.excerpt | default: event.content | strip_html | truncate: 120 }}</p>
-                    <span class="card-link">Read more →</span>
+                    <p class="card-excerpt">{{ event.excerpt | default: event.content | strip_html | truncate: 120 }}</p>
+                    <div class="card-footer">
+                      {% if event.date %}
+                        <p class="card-date">
+                          {% if event.start_date and event.start_date != event.date %}
+                            <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b %Y" }}</time>
+                            &ndash;
+                            <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                          {% else %}
+                            <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                          {% endif %}
+                        </p>
+                      {% endif %}
+                      <span class="card-link">Read more →</span>
+                    </div>
                   </div>
                 </a>
               </div>
