@@ -280,6 +280,10 @@
   letter-spacing: 0.02em;
 }
 
+.card-content .card-date time {
+  white-space: nowrap;
+}
+
 .card-link {
   display: inline-block;
   font-weight: bold;
