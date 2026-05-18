@@ -32,7 +32,21 @@ layout: default
 
                 <div class="card-content">
                   <h3>{{ post.title }}</h3>
-                  <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                  {% comment %}
+                    Pick the best available preview text:
+                    1. Author-provided `summary` or `excerpt` front matter, if set.
+                    2. Otherwise, strip HTML from the full post content (which drops <img>
+                       tags entirely) and take the first ~30 words. This avoids the
+                       "blank card" problem when a post starts with an image.
+                  {% endcomment %}
+                  {% if post.summary and post.summary != "" %}
+                    {% assign preview = post.summary %}
+                  {% elsif post.description and post.description != "" %}
+                    {% assign preview = post.description %}
+                  {% else %}
+                    {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 30 %}
+                  {% endif %}
+                  <p class="card-excerpt">{{ preview }}</p>
                   <div class="card-footer">
                     {% if post.date %}
                       <p class="card-date">
@@ -73,7 +87,14 @@ layout: default
 
                   <div class="card-content">
                     <h3>{{ event.title }}</h3>
-                    <p class="card-excerpt">{{ event.excerpt | default: event.content | strip_html | truncate: 120 }}</p>
+                    {% if event.summary and event.summary != "" %}
+                      {% assign event_preview = event.summary %}
+                    {% elsif event.excerpt and event.excerpt != "" %}
+                      {% assign event_preview = event.excerpt | strip_html | normalize_whitespace | truncatewords: 30 %}
+                    {% else %}
+                      {% assign event_preview = event.content | strip_html | normalize_whitespace | truncatewords: 30 %}
+                    {% endif %}
+                    <p class="card-excerpt">{{ event_preview }}</p>
                     <div class="card-footer">
                       {% if event.date %}
                         <p class="card-date">
