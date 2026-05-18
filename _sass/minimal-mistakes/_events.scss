@@ -223,12 +223,18 @@
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card a {
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 100%;
 }
 
 .card:hover {
@@ -244,6 +250,9 @@
 
 .card-content {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 
 .card-content h3 {
@@ -251,14 +260,32 @@
   font-size: 1.2rem;
 }
 
-.card-content p {
+.card-content .card-excerpt {
   font-size: 0.9rem;
   color: #555;
+  flex: 1 1 auto;
+}
+
+.card-footer {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+.card-content .card-date {
+  margin: 0 0 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.card-content .card-date time {
+  white-space: nowrap;
 }
 
 .card-link {
   display: inline-block;
-  margin-top: 0.5rem;
   font-weight: bold;
   color: #007acc;
 }
