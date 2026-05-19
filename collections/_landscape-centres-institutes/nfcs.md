@@ -1,7 +1,7 @@
 ---
 title: "National Federated Compute Services NetworkPlus"
 group: landscape-centres-institutes
-layout: post
+layout: landscape
 image: assets/images/landscape/nfcs.svg
 pi: Jon Hays
 pi-link: https://nfcs-networkplus.ac.uk/team/jon-hayes/
