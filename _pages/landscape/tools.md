@@ -1,5 +1,5 @@
 ---
-title: 
+title: Foundational Tools
 layout: landscape-collection
 permalink: /landscape/tools
 collection: landscape-tools
