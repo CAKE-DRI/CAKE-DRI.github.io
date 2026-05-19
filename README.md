@@ -53,7 +53,7 @@ Create a new `.md` file under `collections/_events` for your funding opportunity
 title: Funding title
 layout: landscape
 image: assets/images/fundings_images/your_image.png       # Upload a new image, use a URL, or select from our existing generic ones in here: `assets/images/`
-contact: "cake-management@mlist.is.ed.ac.uk"
+contact: "cake@jiscmail.ac.uk"
 web-page: "https://www.cake.ac.uk/opportunities"
 closing_deadline: 2026-5-19
 format: deadline
