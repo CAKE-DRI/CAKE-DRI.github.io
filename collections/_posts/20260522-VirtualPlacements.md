@@ -3,7 +3,7 @@ title: "Virtual Placements"
 date: 2026-05-22
 full-width: true
 classes: wide
-summary-image: https://isc-hpc.com/wp-content/uploads/2024/03/ISC_hp_logo_small_72dpi_rgb.png
+summary-image: https://www.cake.ac.uk/assets/images/CAKE-placements-banner.png
 categories:
   - news
 tags:
