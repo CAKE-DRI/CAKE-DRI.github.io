@@ -1,5 +1,5 @@
 ---
-title: 
+title: Large-Scale Compute
 layout: landscape-collection
 permalink: /landscape/compute
 collection: landscape-compute
