@@ -2,7 +2,7 @@
 title: Computational Abilities Knowledge Exchange (CAKE) - Placement & Visits
 layout: landscape
 image: assets/images/cake-logo/CAKE_logo1.png
-contact: "cake-management@mlist.is.ed.ac.uk"
+contact: "cake@jiscmail.ac.uk"
 web-page: "https://www.cake.ac.uk/about/placements/"
 closing_deadline: "2028-04-01"
 format: open
