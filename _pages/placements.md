@@ -46,7 +46,7 @@ Applications are reviewed on a rolling basis, with a deadline on the 1st of each
 
 Any data provided as part of your application will be used solely for the purposes of the CAKE Placements & Visits scheme and will not be shared with external parties.
 
-For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake-management@mlist.is.ed.ac.uk](cake-management@mlist.is.ed.ac.uk)) to discuss.
+For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake@jiscmail.ac.uk](cake@jiscmail.ac.uk)) to discuss.
 
 ### Eligibility 
 Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the funding will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
