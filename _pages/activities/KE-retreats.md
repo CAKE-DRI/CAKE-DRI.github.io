@@ -12,7 +12,7 @@ layout: no-title-page
 
 <br>
 
-The CAKE Retreats programme provides funding for community-led retreats to shape the future of the UK's digital research infrastructure and large-scale computing ecosystem.
+The CAKE Retreats programme provides funding for community-led retreats to shape the future of the UK's Digital Research Infrastructure (DRI) and large-scale computing ecosystem.
 
 The programme supports the organisation of retreats that create dedicated time and space for focused collaboration, enabling communities to develop new ideas, build partnerships, identify strategic priorities, and produce shared outputs such as white papers, reports, or journal special issues. We encourage participation and engagement across academia, industry, and the wider research and innovation landscape. 
 
