@@ -2,7 +2,7 @@
 title: Computational Abilities Knowledge Exchange (CAKE) - DRI Knowledge Exchange Fellowships
 layout: landscape
 image: assets/images/cake-logo/CAKE_logo1.png
-contact: "cake-management@mlist.is.ed.ac.uk"
+contact: "cake@jiscmail.ac.uk"
 web-page: "https://www.cake.ac.uk/about/ke-fellowships/"
 closing_deadline: "2026-05-19"
 format: deadline
