@@ -32,7 +32,7 @@ We invite the community to propose retreat themes and topics that they believe a
   <a href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
 </div>
 
-
+We also welcome suggestions for future retreat themes and topics from the wider community. If you would like to propose an idea or highlight an important area for discussion - even if you are not planning to host a retreat yourself - please get in touch with us at: cake@jiscmail.ac.uk.
 
 If you need support to attend a retreat, please check our  [Placements and Visits](https://www.cake.ac.uk/about/placements/) page.
 
@@ -65,6 +65,7 @@ The current scoring criteria and weightings are:
 
 
 All awarded funds will be monitored by the relevant task leader, with progress reported regularly to the Steering Group. Awardees will be required to retain appropriate documentary evidence demonstrating how allocated funds have been spent. This documentation must be submitted alongside any expenses claim to the University of Edinburgh Finance team.
+
 
 
 ## Outputs
