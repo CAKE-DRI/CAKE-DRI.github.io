@@ -8,16 +8,9 @@
   var mapContainer = dashboard.querySelector("#landscape-map");
   var popupEl = dashboard.querySelector("[data-map-popup]");
   var errorEl = dashboard.querySelector("[data-map-error]");
-  var projectFilter = dashboard.querySelector("[data-filter-project]");
-  var activityLocationFilter = dashboard.querySelector("[data-filter-activity-location]");
-  var relationshipFilter = dashboard.querySelector("[data-filter-relationship]");
-  var mappedOnlyFilter = dashboard.querySelector("[data-filter-mapped-only]");
-  var resetButton = dashboard.querySelector("[data-filter-reset]");
 
   var state = {
     dataset: null,
-    filteredConnections: [],
-    selectedProjectKey: null,
     selectedConnectionId: null,
     svg: null,
     map: null,
@@ -30,11 +23,13 @@
 
   function initialiseMap() {
     state.map = L.map(mapContainer, {
-      minZoom: 1,
-      maxZoom: 6,
+      minZoom: 4,
+      maxZoom: 7,
       worldCopyJump: false,
-      zoomControl: true,
+      zoomControl: false,
     }).setView([24, 5], 2);
+
+    L.control.zoom({ position: "topright" }).addTo(state.map);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -43,74 +38,21 @@
 
     L.svg({ clickable: true }).addTo(state.map);
     state.svg = state.map.getPanes().overlayPane.querySelector("svg");
-    state.map.on("zoomend moveend resize", renderMap);
-  }
-
-  function populateSelect(select, values, placeholder) {
-    select.innerHTML = "";
-    var defaultOption = document.createElement("option");
-    defaultOption.value = "";
-    defaultOption.textContent = placeholder;
-    select.appendChild(defaultOption);
-
-    values.forEach(function (value) {
-      var option = document.createElement("option");
-      option.value = value;
-      option.textContent = value;
-      select.appendChild(option);
+    state.svg.style.pointerEvents = "auto";
+    state.map.getPanes().overlayPane.style.pointerEvents = "auto";
+    state.map.on("zoomend moveend resize", function () {
+      renderMap();
+      //renderInfoBox();
     });
   }
 
-  function loadFilters(dataset) {
-    populateSelect(
-      projectFilter,
-      dataset.projects.map(function (project) {
-        return project.name;
-      }),
-      "All projects"
-    );
-
-    populateSelect(
-      activityLocationFilter,
-      Array.from(
-        new Set(
-          dataset.connections
-            .map(function (connection) {
-              return connection.activity_location;
-            })
-            .filter(Boolean)
-        )
-      ).sort(),
-      "All activity locations"
-    );
-
-    populateSelect(
-      relationshipFilter,
-      Object.keys(dataset.relationship_counts || {}),
-      "All relationships"
-    );
-  }
-
-  function getFilteredConnections() {
-    var selectedProject = projectFilter.value;
-    var selectedLocation = activityLocationFilter.value;
-    var selectedRelationship = relationshipFilter.value;
-    var mappedOnly = mappedOnlyFilter.checked;
+  function getConnections() {
+    if (!state.dataset) {
+      return [];
+    }
 
     return state.dataset.connections.filter(function (connection) {
-      if (selectedProject && connection.project_name !== selectedProject) {
-        return false;
-      }
-      if (selectedLocation && connection.activity_location !== selectedLocation) {
-        return false;
-      }
-      if (selectedRelationship && connection.relationship !== selectedRelationship) {
-        return false;
-      }
-      if (mappedOnly && !connection.is_mappable) {
-        return false;
-      }
-      return true;
+      return connection.is_mappable;
     });
   }
 
@@ -147,10 +89,6 @@
     element.appendChild(title);
   }
 
-  function normaliseKey(value) {
-    return String(value || "").trim().toLowerCase();
-  }
-
   function escapeHtml(value) {
     return String(value || "")
       .replace(/&/g, "&amp;")
@@ -160,65 +98,70 @@
       .replace(/'/g, "&#39;");
   }
 
-  function buildProjectPopupHtml(projectName, connectionId) {
-    var projectConnections = state.filteredConnections.filter(function (connection) {
-      return connection.project_name === projectName;
-    });
-
-    if (!projectConnections.length) {
-      return "<strong>" + escapeHtml(projectName) + "</strong>";
-    }
-
-    var uniqueLocations = Array.from(
-      new Set(
-        projectConnections.map(function (connection) {
-          return connection.activity_location;
-        }).filter(Boolean)
-      )
-    ).sort();
-
-    return (
-      "<div class='landscape-map-popup'>" +
-      "<strong>Project " + escapeHtml(projectName) + "</strong>" +
-      "<div>'s activities: " + escapeHtml(uniqueLocations.join(", ")) + ".</div>" +
-      "</div>"
-    );
-  }
-
   function clamp(value, min, max) {
     return Math.max(min, Math.min(max, value));
   }
 
-  function hideProjectPopup() {
+  function getSelectedConnection() {
+    if (!state.selectedConnectionId) {
+      return null;
+    }
+
+    return getConnections().find(function (connection) {
+      return connection.id === state.selectedConnectionId;
+    }) || null;
+  }
+
+  function hideInfoBox() {
     popupEl.hidden = true;
   }
 
-  function openProjectPopup(projectName, connectionId, latlng) {
-    if (!latlng || !popupEl) {
+  function renderInfoBox() {
+    var connection = getSelectedConnection();
+    if (!connection || !popupEl) {
+      hideInfoBox();
       return;
     }
 
-    popupEl.innerHTML = buildProjectPopupHtml(projectName, connectionId);
+    popupEl.innerHTML =
+      "<div class='landscape-map-popup'>" +
+      "<button type='button' class='landscape-map-popup__close' data-popup-close aria-label='Close'>x</button>" +
+      "<strong>" + escapeHtml(connection.project_name) + "</strong>" +
+      "<div>" + escapeHtml(connection.activity_name) + "</div>" +
+      "</div>";
     popupEl.hidden = false;
 
-    var point = state.map.latLngToContainerPoint(latlng);
+    var point = state.map.latLngToContainerPoint([
+      connection.activity_coordinates.lat,
+      connection.activity_coordinates.lon,
+    ]);
     var mapWidth = mapContainer.clientWidth;
     var mapHeight = mapContainer.clientHeight;
     var popupWidth = popupEl.offsetWidth || 260;
     var popupHeight = popupEl.offsetHeight || 90;
-
-    var left = clamp(point.x + 14, 10, Math.max(10, mapWidth - popupWidth - 10));
-    var top = clamp(point.y - popupHeight - 14, 10, Math.max(10, mapHeight - popupHeight - 10));
+    var mapLeft = mapContainer.offsetLeft;
+    var mapTop = mapContainer.offsetTop;
+    var left = clamp(mapLeft + 0.02*mapWidth, 10, Math.max(10, mapLeft + mapWidth));
+    var top = clamp(mapTop + 0.2*mapHeight, 10, Math.max(10, mapTop + mapHeight));
 
     popupEl.style.left = left + "px";
     popupEl.style.top = top + "px";
+
+    var closeButton = popupEl.querySelector("[data-popup-close]");
+    if (closeButton) {
+      closeButton.addEventListener("click", function () {
+        state.selectedConnectionId = null;
+        hideInfoBox();
+        renderMap();
+      });
+    }
   }
 
-  function selectProject(projectName, connectionId, latlng) {
-    state.selectedProjectKey = normaliseKey(projectName);
-    state.selectedConnectionId = connectionId || null;
+  function showInfoBox(connection) {
+    console.log("get click, run showInfoBox");
+    state.selectedConnectionId = connection.id;
     renderMap();
-    openProjectPopup(projectName, connectionId, latlng);
+    renderInfoBox();
   }
 
   function renderMap() {
@@ -231,9 +174,11 @@
       existingGroup.remove();
     }
 
-    if (!state.filteredConnections.length) {
-      setError("No mapped connections match the current filters.");
-      hideProjectPopup();
+    var connections = getConnections();
+
+    if (!connections.length) {
+      setError("No mapped connections are available.");
+      hideInfoBox();
       return;
     }
 
@@ -260,39 +205,36 @@
     defs.appendChild(marker);
     group.appendChild(defs);
 
-    state.filteredConnections.forEach(function (connection) {
+    connections.forEach(function (connection) {
       if (!connection.is_mappable) {
         return;
       }
 
       var fromPoint = state.map.latLngToLayerPoint([connection.project_coordinates.lat, connection.project_coordinates.lon]);
       var toPoint = state.map.latLngToLayerPoint([connection.activity_coordinates.lat, connection.activity_coordinates.lon]);
-      var isProjectActive = normaliseKey(connection.project_name) === state.selectedProjectKey;
       var isConnectionActive = connection.id === state.selectedConnectionId;
 
       var path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      path.setAttribute("class", "landscape-map-arc" + ((isProjectActive || isConnectionActive) ? " is-active" : ""));
+      path.setAttribute("class", "landscape-map-arc" + (isConnectionActive ? " is-active" : ""));
       path.setAttribute("d", buildCurvePath(fromPoint, toPoint));
       appendTitle(
         path,
         connection.project_name + " (" + connection.project_city + ") -> " +
           connection.activity_name + " (" + connection.activity_location + ")"
       );
-      path.addEventListener("click", function () {
-        selectProject(
-          connection.project_name,
-          connection.id,
-          L.latLng(
-            (connection.project_coordinates.lat + connection.activity_coordinates.lat) / 2,
-            (connection.project_coordinates.lon + connection.activity_coordinates.lon) / 2
-          )
-        );
+      
+      path.style.pointerEvents = "stroke";
+      path.addEventListener("pointerdown", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        console.log("pointerdown fired", connection.id);
+        showInfoBox(connection);
       });
       group.appendChild(path);
     });
 
     var projectPoints = {};
-    state.filteredConnections.forEach(function (connection) {
+    connections.forEach(function (connection) {
       if (!connection.is_mappable) {
         return;
       }
@@ -319,88 +261,37 @@
       var point = projectPoints[key];
       var layerPoint = state.map.latLngToLayerPoint([point.coords.lat, point.coords.lon]);
       var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-      var isActive = normaliseKey(point.projectName) === state.selectedProjectKey;
-      circle.setAttribute("class", "landscape-map-point landscape-map-point--project" + (isActive ? " is-active" : ""));
+      circle.setAttribute("class", "landscape-map-point landscape-map-point--project");
       circle.setAttribute("cx", layerPoint.x);
       circle.setAttribute("cy", layerPoint.y);
-      circle.setAttribute("r", 5.8);
+      circle.setAttribute("r", 1.8);
       appendTitle(circle, point.title + " | " + point.count + " mapped activities");
-      circle.addEventListener("click", function () {
-        selectProject(
-          point.projectName,
-          null,
-          L.latLng(point.coords.lat, point.coords.lon)
-        );
-      });
       group.appendChild(circle);
     });
+
+    console.log("arc count", group.querySelectorAll(".landscape-map-arc").length);
   }
 
-  function applyFilters(options) {
-    state.filteredConnections = getFilteredConnections().filter(function (connection) {
-      return connection.is_mappable;
-    });
+  function renderDashboard() {
+    var connections = getConnections();
 
     if (
-      state.selectedProjectKey &&
-      !state.filteredConnections.some(function (connection) {
-        return normaliseKey(connection.project_name) === state.selectedProjectKey;
-      })
-    ) {
-      state.selectedProjectKey = null;
-      state.selectedConnectionId = null;
-      hideProjectPopup();
-    } else if (
       state.selectedConnectionId &&
-      !state.filteredConnections.some(function (connection) {
+      !connections.some(function (connection) {
         return connection.id === state.selectedConnectionId;
       })
     ) {
       state.selectedConnectionId = null;
+      hideInfoBox();
     }
 
-    if (options && options.fitBounds) {
-      var bounds = getConnectionBounds(state.filteredConnections);
-      if (bounds) {
-        state.map.fitBounds(bounds.pad(0.3));
-      }
+    var bounds = getConnectionBounds(connections);
+    if (bounds) {
+      state.map.fitBounds(bounds.pad(0.3));
     }
 
     renderMap();
-
-    if (state.selectedProjectKey) {
-      var selectedConnection = state.filteredConnections.find(function (connection) {
-        return connection.id === state.selectedConnectionId;
-      }) || state.filteredConnections.find(function (connection) {
-        return normaliseKey(connection.project_name) === state.selectedProjectKey;
-      });
-
-      if (selectedConnection) {
-        openProjectPopup(
-          selectedConnection.project_name,
-          state.selectedConnectionId,
-          L.latLng(selectedConnection.project_coordinates.lat, selectedConnection.project_coordinates.lon)
-        );
-      }
-    } else {
-      hideProjectPopup();
-    }
-  }
-
-  function bindControls() {
-    [projectFilter, activityLocationFilter, relationshipFilter, mappedOnlyFilter].forEach(function (control) {
-      control.addEventListener("change", function () {
-        applyFilters({ fitBounds: true });
-      });
-    });
-
-    resetButton.addEventListener("click", function () {
-      projectFilter.value = "";
-      activityLocationFilter.value = "";
-      relationshipFilter.value = "";
-      mappedOnlyFilter.checked = true;
-      applyFilters({ fitBounds: true });
-    });
+    renderInfoBox();
   }
 
   initialiseMap();
@@ -414,12 +305,11 @@
     })
     .then(function (dataset) {
       state.dataset = dataset;
-      loadFilters(dataset);
-      bindControls();
-      applyFilters({ fitBounds: true });
+      renderDashboard();
       setError("");
     })
     .catch(function (error) {
       setError(error.message || "Unable to load landscape map data.");
+      hideInfoBox();
     });
 })();

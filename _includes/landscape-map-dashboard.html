@@ -1,39 +1,8 @@
 <div class="landscape-map-dashboard" data-map-dashboard data-map-data-url="{{ '/assets/data/landscape-map.json' | relative_url }}">
   <div class="landscape-map-dashboard__intro">
     <p>
-      Explore how DRI projects connect to activities around the world. Each project is shown as an
-      origin point, and directional arcs show where that project connects to activities.
+      See where DRI projects are building connections and creating impact.
     </p>
-  </div>
-
-  <div class="landscape-map-dashboard__controls">
-    <label class="landscape-map-field">
-      <span>Project</span>
-      <select data-filter-project>
-        <option value="">All projects</option>
-      </select>
-    </label>
-
-    <label class="landscape-map-field">
-      <span>Activity location</span>
-      <select data-filter-activity-location>
-        <option value="">All activity locations</option>
-      </select>
-    </label>
-
-    <label class="landscape-map-field">
-      <span>Relationship</span>
-      <select data-filter-relationship>
-        <option value="">All relationships</option>
-      </select>
-    </label>
-
-    <label class="landscape-map-checkbox">
-      <input type="checkbox" data-filter-mapped-only checked>
-      <span>Show mapped arcs only</span>
-    </label>
-
-    <button type="button" class="btn" data-filter-reset>Reset filters</button>
   </div>
 
   <div class="landscape-map-dashboard__map-wrap">

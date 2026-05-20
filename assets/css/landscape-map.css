@@ -119,7 +119,7 @@
 .landscape-map-point--project {
   fill: #9b3d12;
   stroke: rgba(255, 255, 255, 0.92);
-  stroke-width: 1.8;
+  stroke-width: 1;
 }
 
 .landscape-map-arc {
@@ -151,10 +151,27 @@
   color: #4b3729;
   font-size: 0.92rem;
   line-height: 1.45;
+  position: relative;
 }
 
 .landscape-map-popup strong {
   color: #2d2118;
+  display: block;
+  margin-right: 1.5rem;
+}
+
+.landscape-map-popup__close {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #7b5a43;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .landscape-map-popup-card {
@@ -162,9 +179,11 @@
   border: 1px solid #ebdcc8;
   border-radius: 0.95rem;
   box-shadow: 0 1rem 2rem rgba(74, 56, 36, 0.16);
-  max-width: 18rem;
+  width: 420px;
+  height: 135px;
+  box-sizing: border-box;
   padding: 0.7rem 0.85rem;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   transform: translate(12px, -100%);
   z-index: 1000;
