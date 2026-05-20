@@ -9,4 +9,4 @@ Outreach is a core part of knowledge exchange activities for most DRI projects. 
 
 We handle booth presence and logistics almost like a a service: you provide outreach materials, handouts, videos, and presentations, and we present them at the venue. This coordinated outreach approach is part of CAKE's central mission to increase value for money, raise the visibility of your project, and lets you focus on your core work.
 
-Want to learn about where CAKE will be next and if your project can get involved? Contact the <a href="mailto:cake-management@mlist.is.ed.ac.uk">CAKE Management Team</a> to discuss.
+Want to learn about where CAKE will be next and if your project can get involved? Contact the <a href="mailto:cake@jiscmail.ac.uk">CAKE Management Team</a> to discuss.
