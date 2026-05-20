@@ -1,5 +1,5 @@
 ---
-title: 
+title: Professional Skills & Career Pathways
 layout: landscape-collection
 permalink: /landscape/skills
 collection: landscape-skills-careers
