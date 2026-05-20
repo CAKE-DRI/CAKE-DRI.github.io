@@ -29,7 +29,7 @@ We invite the community to propose retreat themes and topics that they believe a
  In total, there will be 5 themed retreats, each lasting 3-4 days. Total funding for retreats is £125,000.
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '[https://forms.gle/qe5jCLPkBJ9tGNKg6](https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog)' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+  <a href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
 </div>
 
 
