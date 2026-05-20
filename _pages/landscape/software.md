@@ -1,5 +1,5 @@
 ---
-title: 
+title: Software
 layout: landscape-collection
 permalink: /landscape/software
 collection: landscape-software
