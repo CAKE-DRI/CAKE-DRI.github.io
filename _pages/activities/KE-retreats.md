@@ -26,7 +26,7 @@ All participants in the CAKE network are expected to follow the [CAKE Code of Co
 
 We invite the community to propose retreat themes and topics that they believe are important, timely and beneficial to the UK digital research infrastructure community. These retreats should create opportunities for community building, collaboration and the creation of shared outputs and strategic priorities.
 
- In total, there will be 5 themed retreats, each lasting 3-4 days. Total funding for retreats is £125,000.
+ In total, there will be 5 themed retreats, each lasting 3-4 days.
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
