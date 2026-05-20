@@ -1,5 +1,5 @@
 ---
-title: 
+title: Data infrastructure & Services
 layout: landscape-collection
 permalink: /landscape/infrastructure
 collection: landscape-infrastructure
