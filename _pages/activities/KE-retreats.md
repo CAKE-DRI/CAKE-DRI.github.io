@@ -24,9 +24,9 @@ We are committed to fostering a diverse and inclusive environment that reflects 
 
 All participants in the CAKE network are expected to follow the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
 
-We invite the community to propose retreat themes and topics that they believe are important, timely and beneficial to the UK digital research infrastructure community. These retreats should create opportunities for community building, collaboration and the creation of shared outputs and strategic priorities.
+We invite the community to propose, organise and deliver retreats on themes and topics that they believe are important, timely and beneficial to the UK digital research infrastructure community. These retreats should create opportunities for community building, collaboration and the creation of shared outputs and strategic priorities.
 
- In total, there will be 5 themed retreats, each lasting 3-4 days.
+In total, there will be 5 themed retreats, each lasting 3-4 days.
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="{{ 'https://docs.google.com/forms/d/e/1FAIpQLSc-NjBIF7YXGjzUX1KMh__8TtZx_u-eM8DzZNVZp2-ixmffww/viewform?usp=dialog' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
@@ -50,7 +50,7 @@ Applications are open with a rolling deadline.
 
 Awards of retreats will be administered through a robust and transparent competitive process overseen by the Review Committee (RC). Please check our [Submissions & Reviewing](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/) page on the CAKEbox.
 
-Retreat themes will be proposed by the community as part of the application process. These applications should describe the proposed theme, its relevance for the UK DRI landscape and the anticipated outcomes and benefits for the wider community
+Retreat themes will be proposed by the community as part of the application process. These applications should describe the proposed theme, its relevance for the UK DRI landscape and the anticipated outcomes and benefits for the wider community.
 
 Applicants will complete and submit the corresponding application form, which will then be sent to the CAKE Review Committee (RC) for consideration. CAKE will provide review guidance to the RC to ensure a transparent, fair and consistent assessment process. Reviewers will score applications out of 100 using a set of weighted assessment criteria and give an overall funding recommendation ("yes", "no" or "unsure"). Each application will receive at-least four reviews. Following the review process, the task leader will convene a virtual meeting with reviewers to discuss applications in detail before the final funding decision is made. Applicants will then receive feedback alongside the outcome of their application.
 
