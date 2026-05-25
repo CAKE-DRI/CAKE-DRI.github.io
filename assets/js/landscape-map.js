@@ -189,6 +189,7 @@
     state.svg.appendChild(group);
 
     var defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+
     var marker = document.createElementNS("http://www.w3.org/2000/svg", "marker");
     marker.setAttribute("id", "landscape-map-arrow");
     marker.setAttribute("markerWidth", "5");
@@ -214,9 +215,31 @@
       var toPoint = state.map.latLngToLayerPoint([connection.activity_coordinates.lat, connection.activity_coordinates.lon]);
       var isConnectionActive = connection.id === state.selectedConnectionId;
 
+      var gradientId = "landscape-map-arc-gradient-" + connection.id;
+      var gradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+      gradient.setAttribute("id", gradientId);
+      gradient.setAttribute("gradientUnits", "userSpaceOnUse");
+      gradient.setAttribute("x1", fromPoint.x);
+      gradient.setAttribute("y1", fromPoint.y);
+      gradient.setAttribute("x2", toPoint.x);
+      gradient.setAttribute("y2", toPoint.y);
+
+      var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      stop1.setAttribute("offset", "0%");
+      stop1.setAttribute("stop-color", "#f7efe7");
+
+      var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      stop2.setAttribute("offset", "100%");
+      stop2.setAttribute("stop-color", "#7b3f26");
+
+      gradient.appendChild(stop1);
+      gradient.appendChild(stop2);
+      defs.appendChild(gradient);
+
       var path = document.createElementNS("http://www.w3.org/2000/svg", "path");
       path.setAttribute("class", "landscape-map-arc" + (isConnectionActive ? " is-active" : ""));
       path.setAttribute("d", buildCurvePath(fromPoint, toPoint));
+      path.style.stroke = "url(#" + gradientId + ")";
       appendTitle(
         path,
         connection.project_name + " (" + connection.project_city + ") -> " +

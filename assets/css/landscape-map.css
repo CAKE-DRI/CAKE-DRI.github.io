@@ -127,7 +127,6 @@
   fill: none;
   marker-end: url(#landscape-map-arrow);
   pointer-events: auto;
-  stroke: rgba(111, 78, 55, 0.52);
   stroke-linecap: round;
   stroke-width: 2.1;
 }
@@ -144,7 +143,7 @@
 }
 
 .landscape-map-arrowhead {
-  fill: rgba(111, 78, 55, 0.74);
+  fill: transparent;
 }
 
 .landscape-map-popup {
