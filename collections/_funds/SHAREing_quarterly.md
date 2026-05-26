@@ -1,13 +1,11 @@
 ---
-title: SHAREing - Propose a Solution to an Open Task
+title: "SHAREing - Propose a Solution to an Open Task"
 layout: landscape
 image: assets/images/fundings_images/sharing.png
-contact: 
-contact_person: Tobias Weinzierl
-contact_person_web: https://tobiasweinzierl.webspace.durham.ac.uk/
-web-page: https://shareing-dri.github.io/about/propose-a-solution
+contact: "shareing@durham.ac.uk"
+web-page: "https://shareing-dri.github.io/"
+closing_deadline: "2026-07-08"
 format: deadline
-closing_deadline: 2026-07-08
 ---
 
 SHAREing invites eligible contributors to apply for Flexible Fund support to deliver solutions to approved open Tasks.
