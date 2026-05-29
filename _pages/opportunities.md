@@ -41,10 +41,6 @@ CAKE supports the following funding opportunities — explore each page for more
 </div>
 
 
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '/about/who-are-we#get-involved' | relative_url }}" class="btn btn--secondary btn--x-large">How to get involved with CAKE</a>
-</div>
-
 
 ## Institutional Support
 
