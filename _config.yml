@@ -128,25 +128,19 @@ future: true
 # Collections
 collections_dir: collections
 collections:
-  landscape-rtp:
+  landscape-compute:
     output: true
     permalink: /:collection/:path/
-  landscape-dri-new-software:
+  landscape-infrastructure:
     output: true
     permalink: /:collection/:path/
-  landscape-dri-new-skills:
-    output: true
-    permalink: /:collection/:path/  
-  landscape-ecse-gpu:
-    output: true
-    permalink: /:collection/:path/    
-  landscape-systems:
+  landscape-skills-careers:
     output: true
     permalink: /:collection/:path/
-  landscape-centres-institutes:
+  landscape-software:
     output: true
     permalink: /:collection/:path/
-  landscape-research-communities:
+  landscape-tools:
     output: true
     permalink: /:collection/:path/
   events:
@@ -155,7 +149,6 @@ collections:
   funds:
     output: true
     permalink: /:collection/:path/
-
 category_archive:
   type: liquid
   path: /categories/

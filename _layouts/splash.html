@@ -32,8 +32,29 @@ layout: default
 
                 <div class="card-content">
                   <h3>{{ post.title }}</h3>
-                  <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
-                  <span class="card-link">Read more →</span>
+                  {% comment %}
+                    Pick the best available preview text:
+                    1. Author-provided `summary` or `excerpt` front matter, if set.
+                    2. Otherwise, strip HTML from the full post content (which drops <img>
+                       tags entirely) and take the first ~30 words. This avoids the
+                       "blank card" problem when a post starts with an image.
+                  {% endcomment %}
+                  {% if post.summary and post.summary != "" %}
+                    {% assign preview = post.summary %}
+                  {% elsif post.description and post.description != "" %}
+                    {% assign preview = post.description %}
+                  {% else %}
+                    {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 30 %}
+                  {% endif %}
+                  <p class="card-excerpt">{{ preview }}</p>
+                  <div class="card-footer">
+                    {% if post.date %}
+                      <p class="card-date">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+                      </p>
+                    {% endif %}
+                    <span class="card-link">Read more →</span>
+                  </div>
                 </div>
               </a>
             </div>
@@ -66,8 +87,46 @@ layout: default
 
                   <div class="card-content">
                     <h3>{{ event.title }}</h3>
-                    <p>{{ event.excerpt | default: event.content | strip_html | truncate: 120 }}</p>
-                    <span class="card-link">Read more →</span>
+                    {% if event.summary and event.summary != "" %}
+                      {% assign event_preview = event.summary %}
+                    {% elsif event.excerpt and event.excerpt != "" %}
+                      {% assign event_preview = event.excerpt | strip_html | normalize_whitespace | truncatewords: 30 %}
+                    {% else %}
+                      {% assign event_preview = event.content | strip_html | normalize_whitespace | truncatewords: 30 %}
+                    {% endif %}
+                    <p class="card-excerpt">{{ event_preview }}</p>
+                    <div class="card-footer">
+                      {% if event.date %}
+                        <p class="card-date">
+                          {% if event.start_date and event.start_date != event.date %}
+                            {% assign start_year = event.start_date | date: "%Y" %}
+                            {% assign end_year = event.date | date: "%Y" %}
+                            {% assign start_month = event.start_date | date: "%b" %}
+                            {% assign end_month = event.date | date: "%b" %}
+
+                            {% if start_year == end_year and start_month == end_month %}
+                              {%- comment -%} Same month and year: "11 – 22 May 2026" {%- endcomment -%}
+                              <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d" }}</time>
+                              &ndash;
+                              <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% elsif start_year == end_year %}
+                              {%- comment -%} Same year, different month: "30 Jun – 03 Jul 2026" {%- endcomment -%}
+                              <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b" }}</time>
+                              &ndash;
+                              <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% else %}
+                              {%- comment -%} Different years: full date both sides {%- endcomment -%}
+                              <time datetime="{{ event.start_date | date_to_xmlschema }}">{{ event.start_date | date: "%d %b %Y" }}</time>
+                              &ndash;
+                              <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                            {% endif %}
+                          {% else %}
+                            <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%d %b %Y" }}</time>
+                          {% endif %}
+                        </p>
+                      {% endif %}
+                      <span class="card-link">Read more →</span>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -85,5 +144,3 @@ layout: default
     </section>
   </article>
 </div>
-
-
