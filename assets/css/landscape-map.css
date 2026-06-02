@@ -209,7 +209,7 @@
   marker-end: url(#landscape-map-arrow);
   pointer-events: auto;
   stroke-linecap: round;
-  stroke-width: 2.1;
+  stroke-width: 3.9;
 }
 
 .landscape-map-arc.is-active,
@@ -220,11 +220,13 @@
 
 .landscape-map-point.is-active {
   fill: #c6581d;
-  stroke-width: 2.2;
+  stroke-width: 4;
 }
 
 .landscape-map-arrowhead {
-  fill: transparent;
+  fill: none;
+  stroke: #345583;
+  stroke-width: 0.5;
 }
 
 .landscape-map-popup {

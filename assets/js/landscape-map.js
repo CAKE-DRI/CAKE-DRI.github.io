@@ -20,10 +20,9 @@
     map: null,
   };
 
-  function setError(message) {
-    errorEl.hidden = !message;
-    errorEl.textContent = message || "";
-  }
+  initialiseMap();
+  registerProjectFilterDismiss();
+  loadDataset();
 
   function initialiseMap() {
     state.map = L.map(mapContainer, {
@@ -46,90 +45,64 @@
     state.map.getPanes().overlayPane.style.pointerEvents = "auto";
     state.map.on("zoomend moveend resize", function () {
       renderMap();
-      //renderInfoBox();
     });
   }
 
-  function getConnections() {
-    if (!state.dataset) {
-      return [];
+  function registerProjectFilterDismiss() {
+    if (!projectFilterEl) {
+      return;
     }
 
-    if (!state.selectedProjects.length) {
-      return [];
-    }
-
-    var selectedProjectLookup = state.selectedProjects.reduce(function (lookup, projectName) {
-      lookup[projectName] = true;
-      return lookup;
-    }, {});
-
-    return state.dataset.connections.filter(function (connection) {
-      return (
-        connection.is_mappable &&
-        selectedProjectLookup[connection.project_name]
-      );
-    });
-  }
-
-  function getProjectNames() {
-    if (!state.dataset) {
-      return [];
-    }
-
-    var projectLookup = {};
-    state.dataset.connections.forEach(function (connection) {
-      if (connection.is_mappable && connection.project_name) {
-        projectLookup[connection.project_name] = true;
+    document.addEventListener("click", function (event) {
+      if (!projectFilterEl.open || projectFilterEl.contains(event.target)) {
+        return;
       }
-    });
 
-    return Object.keys(projectLookup).sort(function (a, b) {
-      return a.localeCompare(b);
+      projectFilterEl.open = false;
     });
   }
 
-  function syncSelectedProjects() {
-    var availableProjectNames = getProjectNames();
-    if (!availableProjectNames.length) {
-      state.selectedProjects = [];
-      return;
-    }
-
-    state.selectedProjects = state.selectedProjects.filter(function (projectName) {
-      return availableProjectNames.indexOf(projectName) !== -1;
-    });
+  function loadDataset() {
+    fetch(dataUrl)
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Unable to load landscape map data.");
+        }
+        return response.json();
+      })
+      .then(function (dataset) {
+        state.dataset = dataset;
+        syncSelectedProjects();
+        renderDashboard();
+        setError("");
+      })
+      .catch(function (error) {
+        setError(error.message || "Unable to load landscape map data.");
+        hideInfoBox();
+      });
   }
 
-  function updateProjectFilterSummary() {
-    if (!projectFilterSummaryEl) {
-      return;
+  function renderDashboard() {
+    var connections = getConnections();
+    renderProjectFilter();
+
+    if (
+      state.selectedConnectionId &&
+      !connections.some(function (connection) {
+        return connection.id === state.selectedConnectionId;
+      })
+    ) {
+      state.selectedConnectionId = null;
+      hideInfoBox();
     }
 
-    var totalCount = getProjectNames().length;
-    var selectedCount = state.selectedProjects.length;
-
-    if (!totalCount) {
-      projectFilterSummaryEl.textContent = "No projects";
-      return;
+    var bounds = getConnectionBounds(connections);
+    if (bounds) {
+      state.map.fitBounds(bounds.pad(0.3));
     }
 
-    if (!selectedCount) {
-      projectFilterSummaryEl.textContent = "Select projects";
-      return;
-    }
-
-    if (selectedCount === totalCount) {
-      projectFilterSummaryEl.textContent = "All projects";
-      return;
-    }
-
-    if (selectedCount === 1) {
-      projectFilterSummaryEl.textContent = state.selectedProjects[0];
-      return;
-    }
-
-    projectFilterSummaryEl.textContent = selectedCount + " projects selected";
+    renderMap();
+    renderInfoBox();
   }
 
   function renderProjectFilter() {
@@ -176,112 +149,35 @@
     });
   }
 
-  function getConnectionBounds(connections) {
-    var points = [];
-    connections.forEach(function (connection) {
-      if (connection.project_coordinates) {
-        points.push([connection.project_coordinates.lat, connection.project_coordinates.lon]);
-      }
-      if (connection.activity_coordinates) {
-        points.push([connection.activity_coordinates.lat, connection.activity_coordinates.lon]);
-      }
-    });
-    return points.length ? L.latLngBounds(points) : null;
-  }
-
-  function buildCurvePath(fromPoint, toPoint) {
-    var dx = toPoint.x - fromPoint.x;
-    var dy = toPoint.y - fromPoint.y;
-    var distance = Math.max(Math.sqrt(dx * dx + dy * dy), 1);
-    var midX = (fromPoint.x + toPoint.x) / 2;
-    var midY = (fromPoint.y + toPoint.y) / 2;
-    var normalX = -dy / distance;
-    var normalY = dx / distance;
-    var curvature = Math.max(26, Math.min(120, distance * 0.22));
-    var controlX = midX + normalX * curvature;
-    var controlY = midY + normalY * curvature - curvature * 0.1;
-    return "M " + fromPoint.x + " " + fromPoint.y + " Q " + controlX + " " + controlY + " " + toPoint.x + " " + toPoint.y;
-  }
-
-  function appendTitle(element, text) {
-    var title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-    title.textContent = text;
-    element.appendChild(title);
-  }
-
-  function escapeHtml(value) {
-    return String(value || "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-  }
-
-  function clamp(value, min, max) {
-    return Math.max(min, Math.min(max, value));
-  }
-
-  function getSelectedConnection() {
-    if (!state.selectedConnectionId) {
-      return null;
-    }
-
-    return getConnections().find(function (connection) {
-      return connection.id === state.selectedConnectionId;
-    }) || null;
-  }
-
-  function hideInfoBox() {
-    popupEl.hidden = true;
-  }
-
-  function renderInfoBox() {
-    var connection = getSelectedConnection();
-    if (!connection || !popupEl) {
-      hideInfoBox();
+  function updateProjectFilterSummary() {
+    if (!projectFilterSummaryEl) {
       return;
     }
 
-    popupEl.innerHTML =
-      "<div class='landscape-map-popup'>" +
-      "<button type='button' class='landscape-map-popup__close' data-popup-close aria-label='Close'>x</button>" +
-      "<strong>" + escapeHtml(connection.project_name) + "</strong>" +
-      "<div>" + escapeHtml(connection.activity_name) + "</div>" +
-      "</div>";
-    popupEl.hidden = false;
+    var totalCount = getProjectNames().length;
+    var selectedCount = state.selectedProjects.length;
 
-    var point = state.map.latLngToContainerPoint([
-      connection.activity_coordinates.lat,
-      connection.activity_coordinates.lon,
-    ]);
-    var mapWidth = mapContainer.clientWidth;
-    var mapHeight = mapContainer.clientHeight;
-    var popupWidth = popupEl.offsetWidth || 260;
-    var popupHeight = popupEl.offsetHeight || 90;
-    var mapLeft = mapContainer.offsetLeft;
-    var mapTop = mapContainer.offsetTop;
-    var left = clamp(mapLeft + 0.02*mapWidth, 10, Math.max(10, mapLeft + mapWidth));
-    var top = clamp(mapTop + 0.2*mapHeight, 10, Math.max(10, mapTop + mapHeight));
-
-    popupEl.style.left = left + "px";
-    popupEl.style.top = top + "px";
-
-    var closeButton = popupEl.querySelector("[data-popup-close]");
-    if (closeButton) {
-      closeButton.addEventListener("click", function () {
-        state.selectedConnectionId = null;
-        hideInfoBox();
-        renderMap();
-      });
+    if (!totalCount) {
+      projectFilterSummaryEl.textContent = "No projects";
+      return;
     }
-  }
 
-  function showInfoBox(connection) {
-    console.log("get click, run showInfoBox");
-    state.selectedConnectionId = connection.id;
-    renderMap();
-    renderInfoBox();
+    if (!selectedCount) {
+      projectFilterSummaryEl.textContent = "Select projects";
+      return;
+    }
+
+    if (selectedCount === totalCount) {
+      projectFilterSummaryEl.textContent = "All projects";
+      return;
+    }
+
+    if (selectedCount === 1) {
+      projectFilterSummaryEl.textContent = state.selectedProjects[0];
+      return;
+    }
+
+    projectFilterSummaryEl.textContent = selectedCount + " projects selected";
   }
 
   function renderMap() {
@@ -312,16 +208,16 @@
 
     var marker = document.createElementNS("http://www.w3.org/2000/svg", "marker");
     marker.setAttribute("id", "landscape-map-arrow");
-    marker.setAttribute("markerWidth", "5");
-    marker.setAttribute("markerHeight", "5");
-    marker.setAttribute("refX", "6");
-    marker.setAttribute("refY", "3.5");
+    marker.setAttribute("markerWidth", "10");
+    marker.setAttribute("markerHeight", "10");
+    marker.setAttribute("refX", "3");
+    marker.setAttribute("refY", "4");
     marker.setAttribute("orient", "auto");
     marker.setAttribute("markerUnits", "strokeWidth");
 
     var markerPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
     markerPath.setAttribute("class", "landscape-map-arrowhead");
-    markerPath.setAttribute("d", "M 1 1 L 8 3.5 L 1 6");
+    markerPath.setAttribute("d", "M 1 3 L 3 4 L 1 5");
     marker.appendChild(markerPath);
     defs.appendChild(marker);
     group.appendChild(defs);
@@ -346,11 +242,11 @@
 
       var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
       stop1.setAttribute("offset", "0%");
-      stop1.setAttribute("stop-color", "#f7efe7");
+      stop1.setAttribute("stop-color", "#f4a3b4");
 
       var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
       stop2.setAttribute("offset", "100%");
-      stop2.setAttribute("stop-color", "#7b3f26");
+      stop2.setAttribute("stop-color", "#345583");
 
       gradient.appendChild(stop1);
       gradient.appendChild(stop2);
@@ -365,7 +261,7 @@
         connection.project_name + " (" + connection.project_city + ") -> " +
           connection.activity_name + " (" + connection.activity_location + ")"
       );
-      
+
       path.style.pointerEvents = "stroke";
       path.addEventListener("pointerdown", function (event) {
         event.preventDefault();
@@ -407,63 +303,199 @@
       circle.setAttribute("class", "landscape-map-point landscape-map-point--project");
       circle.setAttribute("cx", layerPoint.x);
       circle.setAttribute("cy", layerPoint.y);
-      circle.setAttribute("r", 1.8);
+      circle.setAttribute("r", 4.2);
       appendTitle(circle, point.title + " | " + point.count + " mapped activities");
       group.appendChild(circle);
     });
-
   }
 
-  function renderDashboard() {
-    var connections = getConnections();
-    renderProjectFilter();
-
-    if (
-      state.selectedConnectionId &&
-      !connections.some(function (connection) {
-        return connection.id === state.selectedConnectionId;
-      })
-    ) {
-      state.selectedConnectionId = null;
-      hideInfoBox();
-    }
-
-    var bounds = getConnectionBounds(connections);
-    if (bounds) {
-      state.map.fitBounds(bounds.pad(0.3));
-    }
-
+  function showInfoBox(connection) {
+    console.log("get click, run showInfoBox");
+    state.selectedConnectionId = connection.id;
     renderMap();
     renderInfoBox();
   }
 
-  initialiseMap();
+  function renderInfoBox() {
+    var connection = getSelectedConnection();
+    if (!connection || !popupEl) {
+      hideInfoBox();
+      return;
+    }
 
-  if (projectFilterEl) {
-    document.addEventListener("click", function (event) {
-      if (!projectFilterEl.open || projectFilterEl.contains(event.target)) {
-        return;
-      }
+    var activityItemsHtml = getPopupActivities(connection)
+      .map(function (activityName) {
+        return "<div>" + escapeHtml(activityName) + "</div>";
+      })
+      .join("");
 
-      projectFilterEl.open = false;
+    popupEl.innerHTML =
+      "<div class='landscape-map-popup'>" +
+      "<button type='button' class='landscape-map-popup__close' data-popup-close aria-label='Close'>x</button>" +
+      "<strong>" + escapeHtml(connection.project_name) + "</strong>" +
+      activityItemsHtml +
+      "</div>";
+    popupEl.hidden = false;
+
+    var mapWidth = mapContainer.clientWidth;
+    var mapHeight = mapContainer.clientHeight;
+    var mapLeft = mapContainer.offsetLeft;
+    var mapTop = mapContainer.offsetTop;
+    var left = clamp(mapLeft + 0.02 * mapWidth, 10, Math.max(10, mapLeft + mapWidth));
+    var top = clamp(mapTop + 0.2 * mapHeight, 10, Math.max(10, mapTop + mapHeight));
+
+    popupEl.style.left = left + "px";
+    popupEl.style.top = top + "px";
+
+    var closeButton = popupEl.querySelector("[data-popup-close]");
+    if (closeButton) {
+      closeButton.addEventListener("click", function () {
+        state.selectedConnectionId = null;
+        hideInfoBox();
+        renderMap();
+      });
+    }
+  }
+
+  function hideInfoBox() {
+    popupEl.hidden = true;
+  }
+
+  function getSelectedConnection() {
+    if (!state.selectedConnectionId) {
+      return null;
+    }
+
+    return getConnections().find(function (connection) {
+      return connection.id === state.selectedConnectionId;
+    }) || null;
+  }
+
+  function getPopupActivities(selectedConnection) {
+    var activities = getConnections()
+      .filter(function (connection) {
+        return (
+          connection.project_name === selectedConnection.project_name &&
+          connection.activity_location === selectedConnection.activity_location
+        );
+      })
+      .map(function (connection) {
+        return connection.activity_name;
+      });
+
+    return activities.filter(function (activityName, index) {
+      return activities.indexOf(activityName) === index;
     });
   }
 
-  fetch(dataUrl)
-    .then(function (response) {
-      if (!response.ok) {
-        throw new Error("Unable to load landscape map data.");
-      }
-      return response.json();
-    })
-    .then(function (dataset) {
-      state.dataset = dataset;
-      syncSelectedProjects();
-      renderDashboard();
-      setError("");
-    })
-    .catch(function (error) {
-      setError(error.message || "Unable to load landscape map data.");
-      hideInfoBox();
+  function setError(message) {
+    errorEl.hidden = !message;
+    errorEl.textContent = message || "";
+  }
+
+  function getConnections() {
+    if (!state.dataset) {
+      return [];
+    }
+
+    if (!state.selectedProjects.length) {
+      return [];
+    }
+
+    var selectedProjectLookup = state.selectedProjects.reduce(function (lookup, projectName) {
+      lookup[projectName] = true;
+      return lookup;
+    }, {});
+
+    return state.dataset.connections.filter(function (connection) {
+      return connection.is_mappable && selectedProjectLookup[connection.project_name];
     });
+  }
+
+  function getProjectNames() {
+    if (!state.dataset) {
+      return [];
+    }
+
+    var projectLookup = {};
+    state.dataset.connections.forEach(function (connection) {
+      if (connection.is_mappable && connection.project_name) {
+        projectLookup[connection.project_name] = true;
+      }
+    });
+
+    return Object.keys(projectLookup).sort(function (a, b) {
+      return a.localeCompare(b);
+    });
+  }
+
+  function syncSelectedProjects() {
+    var availableProjectNames = getProjectNames();
+    if (!availableProjectNames.length) {
+      state.selectedProjects = [];
+      return;
+    }
+
+    state.selectedProjects = state.selectedProjects.filter(function (projectName) {
+      return availableProjectNames.indexOf(projectName) !== -1;
+    });
+  }
+
+  function getConnectionBounds(connections) {
+    var points = [];
+    connections.forEach(function (connection) {
+      if (connection.project_coordinates) {
+        points.push([connection.project_coordinates.lat, connection.project_coordinates.lon]);
+      }
+      if (connection.activity_coordinates) {
+        points.push([connection.activity_coordinates.lat, connection.activity_coordinates.lon]);
+      }
+    });
+    return points.length ? L.latLngBounds(points) : null;
+  }
+
+  function buildCurvePath(fromPoint, toPoint) {
+    var dx = toPoint.x - fromPoint.x;
+    var dy = toPoint.y - fromPoint.y;
+    var distance = Math.max(Math.sqrt(dx * dx + dy * dy), 1);
+
+    if (distance < 10) {
+      var loopWidth = 26;
+      var loopHeight = 18;
+      return (
+        "M " + fromPoint.x + " " + fromPoint.y +
+        " C " + (fromPoint.x + loopWidth) + " " + (fromPoint.y - loopHeight) +
+        " " + (fromPoint.x + loopWidth) + " " + (fromPoint.y + loopHeight) +
+        " " + toPoint.x + " " + toPoint.y
+      );
+    }
+
+    var midX = (fromPoint.x + toPoint.x) / 2;
+    var midY = (fromPoint.y + toPoint.y) / 2;
+    var normalX = -dy / distance;
+    var normalY = dx / distance;
+    var curvature = Math.max(26, Math.min(120, distance * 0.22));
+    var controlX = midX + normalX * curvature;
+    var controlY = midY + normalY * curvature - curvature * 0.1;
+    return "M " + fromPoint.x + " " + fromPoint.y + " Q " + controlX + " " + controlY + " " + toPoint.x + " " + toPoint.y;
+  }
+
+  function appendTitle(element, text) {
+    var title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+    title.textContent = text;
+    element.appendChild(title);
+  }
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function clamp(value, min, max) {
+    return Math.max(min, Math.min(max, value));
+  }
 })();
