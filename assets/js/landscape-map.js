@@ -8,10 +8,14 @@
   var mapContainer = dashboard.querySelector("#landscape-map");
   var popupEl = dashboard.querySelector("[data-map-popup]");
   var errorEl = dashboard.querySelector("[data-map-error]");
+  var projectFilterEl = dashboard.querySelector("[data-project-filter]");
+  var projectFilterSummaryEl = dashboard.querySelector("[data-project-filter-summary]");
+  var projectFilterOptionsEl = dashboard.querySelector("[data-project-filter-options]");
 
   var state = {
     dataset: null,
     selectedConnectionId: null,
+    selectedProjects: [],
     svg: null,
     map: null,
   };
@@ -27,7 +31,7 @@
       maxZoom: 7,
       worldCopyJump: false,
       zoomControl: false,
-    }).setView([24, 5], 2);
+    }).setView([54.5, -3], 5);
 
     L.control.zoom({ position: "topright" }).addTo(state.map);
 
@@ -51,8 +55,124 @@
       return [];
     }
 
+    if (!state.selectedProjects.length) {
+      return [];
+    }
+
+    var selectedProjectLookup = state.selectedProjects.reduce(function (lookup, projectName) {
+      lookup[projectName] = true;
+      return lookup;
+    }, {});
+
     return state.dataset.connections.filter(function (connection) {
-      return connection.is_mappable;
+      return (
+        connection.is_mappable &&
+        selectedProjectLookup[connection.project_name]
+      );
+    });
+  }
+
+  function getProjectNames() {
+    if (!state.dataset) {
+      return [];
+    }
+
+    var projectLookup = {};
+    state.dataset.connections.forEach(function (connection) {
+      if (connection.is_mappable && connection.project_name) {
+        projectLookup[connection.project_name] = true;
+      }
+    });
+
+    return Object.keys(projectLookup).sort(function (a, b) {
+      return a.localeCompare(b);
+    });
+  }
+
+  function syncSelectedProjects() {
+    var availableProjectNames = getProjectNames();
+    if (!availableProjectNames.length) {
+      state.selectedProjects = [];
+      return;
+    }
+
+    state.selectedProjects = state.selectedProjects.filter(function (projectName) {
+      return availableProjectNames.indexOf(projectName) !== -1;
+    });
+  }
+
+  function updateProjectFilterSummary() {
+    if (!projectFilterSummaryEl) {
+      return;
+    }
+
+    var totalCount = getProjectNames().length;
+    var selectedCount = state.selectedProjects.length;
+
+    if (!totalCount) {
+      projectFilterSummaryEl.textContent = "No projects";
+      return;
+    }
+
+    if (!selectedCount) {
+      projectFilterSummaryEl.textContent = "Select projects";
+      return;
+    }
+
+    if (selectedCount === totalCount) {
+      projectFilterSummaryEl.textContent = "All projects";
+      return;
+    }
+
+    if (selectedCount === 1) {
+      projectFilterSummaryEl.textContent = state.selectedProjects[0];
+      return;
+    }
+
+    projectFilterSummaryEl.textContent = selectedCount + " projects selected";
+  }
+
+  function renderProjectFilter() {
+    if (!projectFilterOptionsEl) {
+      return;
+    }
+
+    var projectNames = getProjectNames();
+    syncSelectedProjects();
+    updateProjectFilterSummary();
+
+    projectFilterOptionsEl.innerHTML = "";
+
+    if (!projectNames.length) {
+      projectFilterOptionsEl.innerHTML =
+        "<p class='landscape-map-multiselect__empty'>No projects are available.</p>";
+      return;
+    }
+
+    projectNames.forEach(function (projectName) {
+      var option = document.createElement("label");
+      option.className = "landscape-map-multiselect__option";
+
+      var checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = projectName;
+      checkbox.checked = state.selectedProjects.indexOf(projectName) !== -1;
+      checkbox.addEventListener("change", function () {
+        state.selectedProjects = Array.prototype.slice
+          .call(projectFilterOptionsEl.querySelectorAll("input[type='checkbox']:checked"))
+          .map(function (input) {
+            return input.value;
+          });
+
+        renderDashboard();
+      });
+
+      var labelText = document.createElement("span");
+      labelText.textContent = projectName;
+
+      option.appendChild(checkbox);
+      option.appendChild(labelText);
+      projectFilterOptionsEl.appendChild(option);
     });
   }
 
@@ -177,7 +297,7 @@
     var connections = getConnections();
 
     if (!connections.length) {
-      setError("No mapped connections are available.");
+      setError(state.selectedProjects.length ? "No mapped connections match the selected projects." : "");
       hideInfoBox();
       return;
     }
@@ -292,11 +412,11 @@
       group.appendChild(circle);
     });
 
-    console.log("arc count", group.querySelectorAll(".landscape-map-arc").length);
   }
 
   function renderDashboard() {
     var connections = getConnections();
+    renderProjectFilter();
 
     if (
       state.selectedConnectionId &&
@@ -319,6 +439,16 @@
 
   initialiseMap();
 
+  if (projectFilterEl) {
+    document.addEventListener("click", function (event) {
+      if (!projectFilterEl.open || projectFilterEl.contains(event.target)) {
+        return;
+      }
+
+      projectFilterEl.open = false;
+    });
+  }
+
   fetch(dataUrl)
     .then(function (response) {
       if (!response.ok) {
@@ -328,6 +458,7 @@
     })
     .then(function (dataset) {
       state.dataset = dataset;
+      syncSelectedProjects();
       renderDashboard();
       setError("");
     })
