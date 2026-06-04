@@ -6,9 +6,13 @@ title: Welcome to the DRI Landscape
 
 <div>
   <img src="/assets/images/landscape/generic/DRI-Landscape-Explore-big.png" style="width:50%; float:left; margin: 0 20px 20px 0;">
-  
+
   <p>
-    This section provides a growing overview of the people, projects, and capabilities that make up the UK’s Digital Research Infrastructure (DRI). We have used [UKRI's classifications from the DRI programme](https://www.ukri.org/what-we-do/browse-our-areas-of-investment-and-support/digital-research-infrastructure-programme/) to help categorise the work that is being done. Explore the areas below to learn more.
+    This section provides a growing overview of the people, projects, and capabilities that make up the UK’s Digital Research Infrastructure (DRI). We have used 
+    <a href="https://www.ukri.org/what-we-do/browse-our-areas-of-investment-and-support/digital-research-infrastructure-programme/">
+      UKRI's classifications from the DRI programme
+    </a>
+    to help categorise the work that is being done. Explore the areas below to learn more.
   </p>
 </div>
 
