@@ -5,23 +5,31 @@
   }
 
   var dataUrl = dashboard.getAttribute("data-map-data-url");
+  var originIconUrl = dashboard.getAttribute("data-origin-icon-url");
+  var destinationIconUrl = dashboard.getAttribute("data-destination-icon-url");
   var mapContainer = dashboard.querySelector("#landscape-map");
   var popupEl = dashboard.querySelector("[data-map-popup]");
   var errorEl = dashboard.querySelector("[data-map-error]");
-  var projectFilterEl = dashboard.querySelector("[data-project-filter]");
+  var multiselectEls = dashboard.querySelectorAll("[data-map-multiselect]");
   var projectFilterSummaryEl = dashboard.querySelector("[data-project-filter-summary]");
   var projectFilterOptionsEl = dashboard.querySelector("[data-project-filter-options]");
+  var originCityFilterSummaryEl = dashboard.querySelector("[data-origin-city-filter-summary]");
+  var originCityFilterOptionsEl = dashboard.querySelector("[data-origin-city-filter-options]");
+  var destinationCityFilterSummaryEl = dashboard.querySelector("[data-destination-city-filter-summary]");
+  var destinationCityFilterOptionsEl = dashboard.querySelector("[data-destination-city-filter-options]");
 
   var state = {
     dataset: null,
     selectedConnectionId: null,
     selectedProjects: [],
+    selectedOriginCities: [],
+    selectedDestinationCities: [],
     svg: null,
     map: null,
   };
 
   initialiseMap();
-  registerProjectFilterDismiss();
+  registerFilterDismiss();
   loadDataset();
 
   function initialiseMap() {
@@ -48,17 +56,19 @@
     });
   }
 
-  function registerProjectFilterDismiss() {
-    if (!projectFilterEl) {
+  function registerFilterDismiss() {
+    if (!multiselectEls.length) {
       return;
     }
 
     document.addEventListener("click", function (event) {
-      if (!projectFilterEl.open || projectFilterEl.contains(event.target)) {
-        return;
-      }
+      Array.prototype.forEach.call(multiselectEls, function (multiselectEl) {
+        if (!multiselectEl.open || multiselectEl.contains(event.target)) {
+          return;
+        }
 
-      projectFilterEl.open = false;
+        multiselectEl.open = false;
+      });
     });
   }
 
@@ -72,7 +82,7 @@
       })
       .then(function (dataset) {
         state.dataset = dataset;
-        syncSelectedProjects();
+        syncSelectedFilters();
         renderDashboard();
         setError("");
       })
@@ -85,6 +95,8 @@
   function renderDashboard() {
     var connections = getConnections();
     renderProjectFilter();
+    renderOriginCityFilter();
+    renderDestinationCityFilter();
 
     if (
       state.selectedConnectionId &&
@@ -106,78 +118,125 @@
   }
 
   function renderProjectFilter() {
-    if (!projectFilterOptionsEl) {
+    renderFilterOptions({
+      optionsEl: projectFilterOptionsEl,
+      summaryEl: projectFilterSummaryEl,
+      values: getProjectNames(),
+      selectedValues: state.selectedProjects,
+      emptyOptionsText: "No projects are available.",
+      emptySummaryText: "No projects",
+      defaultSummaryText: "Select projects",
+      allSummaryText: "All projects",
+      onChange: function (nextSelectedValues) {
+        state.selectedProjects = nextSelectedValues;
+      },
+    });
+  }
+
+  function renderOriginCityFilter() {
+    renderFilterOptions({
+      optionsEl: originCityFilterOptionsEl,
+      summaryEl: originCityFilterSummaryEl,
+      values: getOriginCityNames(),
+      selectedValues: state.selectedOriginCities,
+      emptyOptionsText: "No origin cities are available.",
+      emptySummaryText: "No origin cities",
+      defaultSummaryText: "Select origin cities",
+      allSummaryText: "All origin cities",
+      onChange: function (nextSelectedValues) {
+        state.selectedOriginCities = nextSelectedValues;
+      },
+    });
+  }
+
+  function renderDestinationCityFilter() {
+    renderFilterOptions({
+      optionsEl: destinationCityFilterOptionsEl,
+      summaryEl: destinationCityFilterSummaryEl,
+      values: getDestinationCityNames(),
+      selectedValues: state.selectedDestinationCities,
+      emptyOptionsText: "No destination cities are available.",
+      emptySummaryText: "No destination cities",
+      defaultSummaryText: "Select destination cities",
+      allSummaryText: "All destination cities",
+      onChange: function (nextSelectedValues) {
+        state.selectedDestinationCities = nextSelectedValues;
+      },
+    });
+  }
+
+  function renderFilterOptions(config) {
+    if (!config.optionsEl) {
       return;
     }
 
-    var projectNames = getProjectNames();
-    syncSelectedProjects();
-    updateProjectFilterSummary();
+    updateFilterSummary(config.summaryEl, config.selectedValues, config.values, config.emptySummaryText, config.defaultSummaryText, config.allSummaryText);
 
-    projectFilterOptionsEl.innerHTML = "";
+    config.optionsEl.innerHTML = "";
 
-    if (!projectNames.length) {
-      projectFilterOptionsEl.innerHTML =
-        "<p class='landscape-map-multiselect__empty'>No projects are available.</p>";
+    if (!config.values.length) {
+      config.optionsEl.innerHTML =
+        "<p class='landscape-map-multiselect__empty'>" + config.emptyOptionsText + "</p>";
       return;
     }
 
-    projectNames.forEach(function (projectName) {
+    config.values.forEach(function (value) {
       var option = document.createElement("label");
       option.className = "landscape-map-multiselect__option";
 
       var checkbox = document.createElement("input");
       checkbox.type = "checkbox";
-      checkbox.value = projectName;
-      checkbox.checked = state.selectedProjects.indexOf(projectName) !== -1;
+      checkbox.value = value;
+      checkbox.checked = config.selectedValues.indexOf(value) !== -1;
       checkbox.addEventListener("change", function () {
-        state.selectedProjects = Array.prototype.slice
-          .call(projectFilterOptionsEl.querySelectorAll("input[type='checkbox']:checked"))
+        var nextSelectedValues = Array.prototype.slice
+          .call(config.optionsEl.querySelectorAll("input[type='checkbox']:checked"))
           .map(function (input) {
             return input.value;
           });
 
+        config.onChange(nextSelectedValues);
         renderDashboard();
       });
 
       var labelText = document.createElement("span");
-      labelText.textContent = projectName;
+      labelText.textContent = value;
 
       option.appendChild(checkbox);
       option.appendChild(labelText);
-      projectFilterOptionsEl.appendChild(option);
+      config.optionsEl.appendChild(option);
     });
   }
 
-  function updateProjectFilterSummary() {
-    if (!projectFilterSummaryEl) {
+  function updateFilterSummary(summaryEl, selectedValues, allValues, emptySummaryText, defaultSummaryText, allSummaryText) {
+    if (!summaryEl) {
       return;
     }
 
-    var totalCount = getProjectNames().length;
-    var selectedCount = state.selectedProjects.length;
+    var totalCount = allValues.length;
+    var selectedCount = selectedValues.length;
 
     if (!totalCount) {
-      projectFilterSummaryEl.textContent = "No projects";
+      summaryEl.textContent = emptySummaryText;
       return;
     }
 
     if (!selectedCount) {
-      projectFilterSummaryEl.textContent = "Select projects";
+      summaryEl.textContent = defaultSummaryText;
       return;
     }
 
     if (selectedCount === totalCount) {
-      projectFilterSummaryEl.textContent = "All projects";
+      summaryEl.textContent = allSummaryText;
       return;
     }
 
     if (selectedCount === 1) {
-      projectFilterSummaryEl.textContent = state.selectedProjects[0];
+      summaryEl.textContent = selectedValues[0];
       return;
     }
 
-    projectFilterSummaryEl.textContent = selectedCount + " projects selected";
+    summaryEl.textContent = selectedCount + " selected";
   }
 
   function renderMap() {
@@ -193,7 +252,7 @@
     var connections = getConnections();
 
     if (!connections.length) {
-      setError(state.selectedProjects.length ? "No mapped connections match the selected projects." : "");
+      setError(hasActiveFilters() ? "No mapped connections match the selected filters." : "");
       hideInfoBox();
       return;
     }
@@ -242,11 +301,11 @@
 
       var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
       stop1.setAttribute("offset", "0%");
-      stop1.setAttribute("stop-color", "#f4a3b4");
+      stop1.setAttribute("stop-color", "#de3a45");
 
       var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
       stop2.setAttribute("offset", "100%");
-      stop2.setAttribute("stop-color", "#345583");
+      stop2.setAttribute("stop-color", "#2db3ff");
 
       gradient.appendChild(stop1);
       gradient.appendChild(stop2);
@@ -273,6 +332,7 @@
     });
 
     var projectPoints = {};
+    var activityPoints = {};
     connections.forEach(function (connection) {
       if (!connection.is_mappable) {
         return;
@@ -294,18 +354,50 @@
       }
 
       projectPoints[key].count += 1;
+
+      var activityKey = [
+        connection.activity_location,
+        connection.activity_coordinates.lat,
+        connection.activity_coordinates.lon,
+      ].join("|");
+
+      if (!activityPoints[activityKey]) {
+        activityPoints[activityKey] = {
+          coords: connection.activity_coordinates,
+          title: connection.activity_location,
+          count: 0,
+        };
+      }
+
+      activityPoints[activityKey].count += 1;
     });
 
     Object.keys(projectPoints).forEach(function (key) {
       var point = projectPoints[key];
       var layerPoint = state.map.latLngToLayerPoint([point.coords.lat, point.coords.lon]);
-      var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-      circle.setAttribute("class", "landscape-map-point landscape-map-point--project");
-      circle.setAttribute("cx", layerPoint.x);
-      circle.setAttribute("cy", layerPoint.y);
-      circle.setAttribute("r", 4.2);
-      appendTitle(circle, point.title + " | " + point.count + " mapped activities");
-      group.appendChild(circle);
+      var marker = document.createElementNS("http://www.w3.org/2000/svg", "image");
+      marker.setAttribute("class", "landscape-map-point landscape-map-point--project");
+      marker.setAttribute("href", originIconUrl);
+      marker.setAttribute("x", layerPoint.x-20);
+      marker.setAttribute("y", layerPoint.y-30);
+      marker.setAttribute("width", 44);
+      marker.setAttribute("height", 44);
+      appendTitle(marker, point.title + " | " + point.count + " mapped activities");
+      group.appendChild(marker);
+    });
+
+    Object.keys(activityPoints).forEach(function (key) {
+      var point = activityPoints[key];
+      var layerPoint = state.map.latLngToLayerPoint([point.coords.lat, point.coords.lon]);
+      var marker = document.createElementNS("http://www.w3.org/2000/svg", "image");
+      marker.setAttribute("class", "landscape-map-point landscape-map-point--destination");
+      marker.setAttribute("href", destinationIconUrl);
+      marker.setAttribute("x", layerPoint.x - 10);
+      marker.setAttribute("y", layerPoint.y-30);
+      marker.setAttribute("width", 40);
+      marker.setAttribute("height", 40);
+      appendTitle(marker, point.title + " | " + point.count + " mapped activities");
+      group.appendChild(marker);
     });
   }
 
@@ -398,47 +490,40 @@
       return [];
     }
 
-    if (!state.selectedProjects.length) {
+    if (!hasActiveFilters()) {
       return [];
     }
 
-    var selectedProjectLookup = state.selectedProjects.reduce(function (lookup, projectName) {
-      lookup[projectName] = true;
-      return lookup;
-    }, {});
+    var selectedProjectLookup = buildLookup(state.selectedProjects);
+    var selectedOriginCityLookup = buildLookup(state.selectedOriginCities);
+    var selectedDestinationCityLookup = buildLookup(state.selectedDestinationCities);
 
     return state.dataset.connections.filter(function (connection) {
-      return connection.is_mappable && selectedProjectLookup[connection.project_name];
+      return (
+        connection.is_mappable &&
+        (!state.selectedProjects.length || selectedProjectLookup[connection.project_name]) &&
+        (!state.selectedOriginCities.length || selectedOriginCityLookup[connection.project_city]) &&
+        (!state.selectedDestinationCities.length || selectedDestinationCityLookup[connection.activity_location])
+      );
     });
   }
 
   function getProjectNames() {
-    if (!state.dataset) {
-      return [];
-    }
-
-    var projectLookup = {};
-    state.dataset.connections.forEach(function (connection) {
-      if (connection.is_mappable && connection.project_name) {
-        projectLookup[connection.project_name] = true;
-      }
-    });
-
-    return Object.keys(projectLookup).sort(function (a, b) {
-      return a.localeCompare(b);
-    });
+    return getUniqueMappedValues("project_name");
   }
 
-  function syncSelectedProjects() {
-    var availableProjectNames = getProjectNames();
-    if (!availableProjectNames.length) {
-      state.selectedProjects = [];
-      return;
-    }
+  function getOriginCityNames() {
+    return getUniqueMappedValues("project_city");
+  }
 
-    state.selectedProjects = state.selectedProjects.filter(function (projectName) {
-      return availableProjectNames.indexOf(projectName) !== -1;
-    });
+  function getDestinationCityNames() {
+    return getUniqueMappedValues("activity_location");
+  }
+
+  function syncSelectedFilters() {
+    state.selectedProjects = syncSelectedValues(state.selectedProjects, getProjectNames());
+    state.selectedOriginCities = syncSelectedValues(state.selectedOriginCities, getOriginCityNames());
+    state.selectedDestinationCities = syncSelectedValues(state.selectedDestinationCities, getDestinationCityNames());
   }
 
   function getConnectionBounds(connections) {
@@ -497,5 +582,47 @@
 
   function clamp(value, min, max) {
     return Math.max(min, Math.min(max, value));
+  }
+
+  function hasActiveFilters() {
+    return !!(
+      state.selectedProjects.length ||
+      state.selectedOriginCities.length ||
+      state.selectedDestinationCities.length
+    );
+  }
+
+  function buildLookup(values) {
+    return values.reduce(function (lookup, value) {
+      lookup[value] = true;
+      return lookup;
+    }, {});
+  }
+
+  function getUniqueMappedValues(fieldName) {
+    if (!state.dataset) {
+      return [];
+    }
+
+    var valueLookup = {};
+    state.dataset.connections.forEach(function (connection) {
+      if (connection.is_mappable && connection[fieldName]) {
+        valueLookup[connection[fieldName]] = true;
+      }
+    });
+
+    return Object.keys(valueLookup).sort(function (a, b) {
+      return a.localeCompare(b);
+    });
+  }
+
+  function syncSelectedValues(selectedValues, availableValues) {
+    if (!availableValues.length) {
+      return [];
+    }
+
+    return selectedValues.filter(function (value) {
+      return availableValues.indexOf(value) !== -1;
+    });
   }
 })();

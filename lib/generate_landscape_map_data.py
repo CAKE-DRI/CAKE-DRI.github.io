@@ -27,7 +27,7 @@ NON_GEOGRAPHIC_LOCATIONS = {
     "Online",
 }
 
-WORKBOOK_PATH = Path.home() / "Downloads" / "DRI explore.xlsx" #path to DRI explore.xlsx
+WORKBOOK_PATH = Path("DRI explore.xlsx") #path to DRI explore.xlsx
 OUTPUT_PATH = Path("./assets/data/landscape-map.json")
 
 

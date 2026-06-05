@@ -34,6 +34,10 @@
   margin: 0;
 }
 
+.landscape-map-field__hint--full {
+  grid-column: 1 / -1;
+}
+
 .landscape-map-field span,
 .landscape-map-checkbox span {
   color: #5d4534;
@@ -164,15 +168,11 @@
   gap: 0.45rem;
 }
 
-.landscape-map-legend__dot {
-  border-radius: 999px;
+.landscape-map-legend__icon {
   display: inline-block;
-  height: 0.8rem;
-  width: 0.8rem;
-}
-
-.landscape-map-legend__dot--project {
-  background: #9b3d12;
+  height: 1rem;
+  object-fit: contain;
+  width: 1rem;
 }
 
 .landscape-map-legend__line {
@@ -198,9 +198,11 @@
 }
 
 .landscape-map-point--project {
-  fill: #9b3d12;
-  stroke: rgba(255, 255, 255, 0.92);
-  stroke-width: 1;
+  filter: drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.65));
+}
+
+.landscape-map-point--destination {
+  filter: drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.65));
 }
 
 .landscape-map-arc {
@@ -219,8 +221,7 @@
 }
 
 .landscape-map-point.is-active {
-  fill: #c6581d;
-  stroke-width: 4;
+  filter: drop-shadow(0 0 0.45rem rgba(239, 142, 34, 0.55));
 }
 
 .landscape-map-arrowhead {

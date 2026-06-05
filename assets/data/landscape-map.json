@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-06-04T09:52:29.178084+00:00",
-  "source_workbook": "/Users/ruanxingran/Downloads/DRI explore.xlsx",
+  "generated_at": "2026-06-05T14:33:08.068373+00:00",
+  "source_workbook": "/Users/ruanxingran/git_repos/CAKE-DRI.github.io/DRI explore.xlsx",
   "connections": [
     {
       "id": "connection-1",
+      "project_name": "AIRR Dawn",
+      "project_city": "Cambridge",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Cambridge",
+        "lat": 52.1975846499999,
+        "lon": 0.139153737368743
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-2",
+      "project_name": "ARDC Community Data Lab (CDL) Project",
+      "project_city": "Melbourne",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Melbourne",
+        "lat": -37.814,
+        "lon": 144.96332
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-3",
       "project_name": "ARDC Nectar Research Cloud",
       "project_city": "Melbourne",
       "activity_name": "ARDC & Pawsey Nectar Research Cloud Showcase, 2026",
@@ -21,7 +49,35 @@
       "is_mappable": true
     },
     {
-      "id": "connection-2",
+      "id": "connection-4",
+      "project_name": "ARDC Nectar Research Cloud",
+      "project_city": "Melbourne",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Melbourne",
+        "lat": -37.814,
+        "lon": 144.96332
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-5",
+      "project_name": "Australian Access Federation (AAF)",
+      "project_city": "",
+      "activity_name": "Digital Archipelagos: Digital Humanities Australasia",
+      "activity_location": "Canberra",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-6",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -39,7 +95,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-3",
+      "id": "connection-7",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -57,7 +113,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-4",
+      "id": "connection-8",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -75,7 +131,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-5",
+      "id": "connection-9",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -93,7 +149,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-6",
+      "id": "connection-10",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -111,7 +167,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-7",
+      "id": "connection-11",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -129,7 +185,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-8",
+      "id": "connection-12",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -147,7 +203,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-9",
+      "id": "connection-13",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -165,7 +221,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-10",
+      "id": "connection-14",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "BioFAIR Roadshow, 2024",
@@ -183,7 +239,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-11",
+      "id": "connection-15",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "DRI webinar series: BioFAIR, 2026",
@@ -197,7 +253,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-12",
+      "id": "connection-16",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "ELIXIR All Hands, 2024",
@@ -215,7 +271,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-13",
+      "id": "connection-17",
       "project_name": "BioFAIR",
       "project_city": "Norwich",
       "activity_name": "UKAN Ageing Networks Joint Meeting, 2025",
@@ -233,7 +289,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-14",
+      "id": "connection-18",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "ARCHER2 Celebration of Science, 2025",
@@ -251,7 +307,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-15",
+      "id": "connection-19",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "ARCHER2 Celebration of Science, 2026",
@@ -269,7 +325,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-16",
+      "id": "connection-20",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "Championing Green Digital Research Workshop, 2026",
@@ -287,7 +343,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-17",
+      "id": "connection-21",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "CIUK conference, 2025",
@@ -305,7 +361,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-18",
+      "id": "connection-22",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "Collaborations Workshop, 2026",
@@ -323,7 +379,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-19",
+      "id": "connection-23",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "DRI Congress, 2025",
@@ -341,7 +397,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-20",
+      "id": "connection-24",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "Durham HPC days, 2025",
@@ -359,7 +415,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-21",
+      "id": "connection-25",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "Durham HPC days, 2026",
@@ -377,7 +433,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-22",
+      "id": "connection-26",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "EuroHPC, 2026",
@@ -395,7 +451,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-23",
+      "id": "connection-27",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "ISC High Performance, 2026",
@@ -413,7 +469,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-24",
+      "id": "connection-28",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "Research Software Camp, 2025",
@@ -427,7 +483,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-25",
+      "id": "connection-29",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "RSECon, 2025",
@@ -445,7 +501,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-26",
+      "id": "connection-30",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "SC, 2025",
@@ -463,7 +519,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-27",
+      "id": "connection-31",
       "project_name": "Computational Abilities Knowledge Exchange (CAKE)",
       "project_city": "Edinburgh",
       "activity_name": "ScotRSE, 2026",
@@ -481,82 +537,10 @@
       "is_mappable": true
     },
     {
-      "id": "connection-28",
-      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
-      "project_city": "Harwell",
-      "activity_name": "CIL User Meeting, 2024",
-      "activity_location": "Oxfordshire",
-      "project_coordinates": {
-        "city": "Harwell",
-        "lat": 51.59997,
-        "lon": -1.29092
-      },
-      "activity_coordinates": {
-        "city": "Oxfordshire",
-        "lat": 51.8,
-        "lon": -1.266667
-      },
-      "is_mappable": true
-    },
-    {
-      "id": "connection-29",
-      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
-      "project_city": "Harwell",
-      "activity_name": "CoSeC Year-end Forum, 2025",
-      "activity_location": "Manchester",
-      "project_coordinates": {
-        "city": "Harwell",
-        "lat": 51.59997,
-        "lon": -1.29092
-      },
-      "activity_coordinates": {
-        "city": "Manchester",
-        "lat": 53.483959,
-        "lon": -2.244644
-      },
-      "is_mappable": true
-    },
-    {
-      "id": "connection-30",
-      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
-      "project_city": "Harwell",
-      "activity_name": "CoSeC Conference, 2024",
-      "activity_location": "Manchester",
-      "project_coordinates": {
-        "city": "Harwell",
-        "lat": 51.59997,
-        "lon": -1.29092
-      },
-      "activity_coordinates": {
-        "city": "Manchester",
-        "lat": 53.483959,
-        "lon": -2.244644
-      },
-      "is_mappable": true
-    },
-    {
-      "id": "connection-31",
-      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
-      "project_city": "Harwell",
-      "activity_name": "CoSeC Conference, 2025",
-      "activity_location": "Manchester",
-      "project_coordinates": {
-        "city": "Harwell",
-        "lat": 51.59997,
-        "lon": -1.29092
-      },
-      "activity_coordinates": {
-        "city": "Manchester",
-        "lat": 53.483959,
-        "lon": -2.244644
-      },
-      "is_mappable": true
-    },
-    {
       "id": "connection-32",
       "project_name": "Computational Science Centre for Research Communities (CoSeC)",
       "project_city": "Harwell",
-      "activity_name": "Energy Efficient Computing workshop, 2025",
+      "activity_name": "CIL User Meeting, 2024",
       "activity_location": "Oxfordshire",
       "project_coordinates": {
         "city": "Harwell",
@@ -592,7 +576,7 @@
       "id": "connection-34",
       "project_name": "Computational Science Centre for Research Communities (CoSeC)",
       "project_city": "Harwell",
-      "activity_name": "Town Hall Meeting, 2024",
+      "activity_name": "CoSeC Conference, 2024",
       "activity_location": "Manchester",
       "project_coordinates": {
         "city": "Harwell",
@@ -608,6 +592,78 @@
     },
     {
       "id": "connection-35",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Harwell",
+      "activity_name": "CoSeC Conference, 2025",
+      "activity_location": "Manchester",
+      "project_coordinates": {
+        "city": "Harwell",
+        "lat": 51.59997,
+        "lon": -1.29092
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-36",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Harwell",
+      "activity_name": "CoSeC Year-end Forum, 2025",
+      "activity_location": "Manchester",
+      "project_coordinates": {
+        "city": "Harwell",
+        "lat": 51.59997,
+        "lon": -1.29092
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-37",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Harwell",
+      "activity_name": "Energy Efficient Computing workshop, 2025",
+      "activity_location": "Oxfordshire",
+      "project_coordinates": {
+        "city": "Harwell",
+        "lat": 51.59997,
+        "lon": -1.29092
+      },
+      "activity_coordinates": {
+        "city": "Oxfordshire",
+        "lat": 51.8,
+        "lon": -1.266667
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-38",
+      "project_name": "Computational Science Centre for Research Communities (CoSeC)",
+      "project_city": "Harwell",
+      "activity_name": "Town Hall Meeting, 2024",
+      "activity_location": "Manchester",
+      "project_coordinates": {
+        "city": "Harwell",
+        "lat": 51.59997,
+        "lon": -1.29092
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-39",
       "project_name": "DARE UK",
       "project_city": "London",
       "activity_name": "ADR UK Conference, 2025",
@@ -625,7 +681,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-36",
+      "id": "connection-40",
       "project_name": "DARE UK",
       "project_city": "London",
       "activity_name": "HDR UK Conference, 2025",
@@ -643,7 +699,27 @@
       "is_mappable": true
     },
     {
-      "id": "connection-37",
+      "id": "connection-41",
+      "project_name": "Developing technical capability for UK secure data environments",
+      "project_city": "",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-42",
+      "project_name": "Digital RTP Skills NetworkPlus",
+      "project_city": "",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": null,
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-43",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "ARCHER2 Celebration of Science, 2024",
@@ -661,7 +737,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-38",
+      "id": "connection-44",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "ARCHER2 Celebration of Science, 2025",
@@ -679,7 +755,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-39",
+      "id": "connection-45",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "ARCHER2 Celebration of Science, 2026",
@@ -697,7 +773,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-40",
+      "id": "connection-46",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "ISC High Performance, 2024",
@@ -715,7 +791,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-41",
+      "id": "connection-47",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Modern C++ for Computational Scientists, 2018",
@@ -729,7 +805,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-42",
+      "id": "connection-48",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Modern C++ for Computational Scientists, 2021",
@@ -743,7 +819,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-43",
+      "id": "connection-49",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Modern C++ for Computational Scientists, 2023",
@@ -757,7 +833,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-44",
+      "id": "connection-50",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Modern C++ for Computational Scientists, 2024",
@@ -771,7 +847,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-45",
+      "id": "connection-51",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Modern C++ for Computational Scientists, 2025",
@@ -789,7 +865,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-46",
+      "id": "connection-52",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Modern C++ for Computational Scientists, 2026",
@@ -803,7 +879,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-47",
+      "id": "connection-53",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Using ARCHER2 Efficiently, 2021",
@@ -817,7 +893,7 @@
       "is_mappable": false
     },
     {
-      "id": "connection-48",
+      "id": "connection-54",
       "project_name": "eCSE: ARCHER Code",
       "project_city": "Edinburgh",
       "activity_name": "Using ARCHER2 Efficiently, 2025",
@@ -831,40 +907,164 @@
       "is_mappable": false
     },
     {
-      "id": "connection-49",
+      "id": "connection-55",
       "project_name": "Environmental Data Service",
       "project_city": "",
-      "activity_name": "Data Reuse Workshop",
-      "activity_location": "Online",
+      "activity_name": "API for AI Project Kick-off Workshop, 2024",
+      "activity_location": "Nottingham",
       "project_coordinates": null,
-      "activity_coordinates": null,
+      "activity_coordinates": {
+        "city": "Nottingham",
+        "lat": 52.871,
+        "lon": -1.09
+      },
       "is_mappable": false
     },
     {
-      "id": "connection-50",
+      "id": "connection-56",
       "project_name": "Environmental Data Service",
       "project_city": "",
-      "activity_name": "NERC Environmental Data Services: API 4 AI Project Kickoff Workshop",
-      "activity_location": "",
+      "activity_name": "Community Workshop on Environmental Model Code of Long-Term Value, 2023",
+      "activity_location": "Lancaster",
       "project_coordinates": null,
-      "activity_coordinates": null,
+      "activity_coordinates": {
+        "city": "Lancaster",
+        "lat": 54.047,
+        "lon": -2.801
+      },
       "is_mappable": false
     },
     {
-      "id": "connection-51",
-      "project_name": "Federated data access tools",
+      "id": "connection-57",
+      "project_name": "Environmental Data Service",
       "project_city": "",
-      "activity_name": "Federated Analytics Webinar Series",
-      "activity_location": "Online",
+      "activity_name": "EGU General Assembly, 2024",
+      "activity_location": "Vienna",
       "project_coordinates": null,
-      "activity_coordinates": null,
+      "activity_coordinates": {
+        "city": "Vienna",
+        "lat": 48.2082,
+        "lon": 16.3738
+      },
       "is_mappable": false
     },
     {
-      "id": "connection-52",
+      "id": "connection-58",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "EGU General Assembly, 2025",
+      "activity_location": "Vienna",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Vienna",
+        "lat": 48.2082,
+        "lon": 16.3738
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-59",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "Federation Across Domains World Caf\u00e9, 2023",
+      "activity_location": "Norwich",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Norwich",
+        "lat": 52.6278,
+        "lon": 1.29834
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-60",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "Harwell Open Day, 2024",
+      "activity_location": "Harwell",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Harwell",
+        "lat": 51.59997,
+        "lon": -1.29092
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-61",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "NERC Digital Gathering, 2024",
+      "activity_location": "Manchester",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-62",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "NERC Digital Gathering, 2025",
+      "activity_location": "Cranfield",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Cranfield",
+        "lat": 52.073,
+        "lon": -0.627
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-63",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "NERC Digital Gathering, 2026",
+      "activity_location": "Stirling",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Stirling",
+        "lat": 56.1165,
+        "lon": -3.9369
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-64",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "PCST, 2025",
+      "activity_location": "Aberdeen",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Aberdeen",
+        "lat": 57.1497,
+        "lon": -2.0943
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-65",
+      "project_name": "Environmental Data Service",
+      "project_city": "",
+      "activity_name": "PV, 2023",
+      "activity_location": "Geneva",
+      "project_coordinates": null,
+      "activity_coordinates": {
+        "city": "Geneva",
+        "lat": 46.2044,
+        "lon": 6.1432
+      },
+      "is_mappable": false
+    },
+    {
+      "id": "connection-66",
       "project_name": "Harmony: federated data discovery tool",
       "project_city": "London",
-      "activity_name": "Harmony Hackathon",
+      "activity_name": "19th AI and Deep Learning for Enterprise Meetup, 2024",
       "activity_location": "London",
       "project_coordinates": {
         "city": "London",
@@ -879,10 +1079,10 @@
       "is_mappable": true
     },
     {
-      "id": "connection-53",
+      "id": "connection-67",
       "project_name": "Harmony: federated data discovery tool",
       "project_city": "London",
-      "activity_name": "Harmony, Open source AI tool for psychology research",
+      "activity_name": "AI UK, 2025",
       "activity_location": "London",
       "project_coordinates": {
         "city": "London",
@@ -897,10 +1097,82 @@
       "is_mappable": true
     },
     {
-      "id": "connection-54",
+      "id": "connection-68",
       "project_name": "Harmony: federated data discovery tool",
       "project_city": "London",
-      "activity_name": "MethodsCon: Futures in Manchester",
+      "activity_name": "Building AI for Good, 2025",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-69",
+      "project_name": "Harmony: federated data discovery tool",
+      "project_city": "London",
+      "activity_name": "GenAI and LLMs Night at Google London, 2024",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-70",
+      "project_name": "Harmony: federated data discovery tool",
+      "project_city": "London",
+      "activity_name": "Harmony at PyData London, 2024",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-71",
+      "project_name": "Harmony: federated data discovery tool",
+      "project_city": "London",
+      "activity_name": "Harmony Hackathon, 2024",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-72",
+      "project_name": "Harmony: federated data discovery tool",
+      "project_city": "London",
+      "activity_name": "Methods Showcase and MethodsCon: Futures, 2024",
       "activity_location": "Manchester",
       "project_coordinates": {
         "city": "London",
@@ -915,10 +1187,10 @@
       "is_mappable": true
     },
     {
-      "id": "connection-55",
+      "id": "connection-73",
       "project_name": "Harmony: federated data discovery tool",
       "project_city": "London",
-      "activity_name": "MQ and DataMind Data Science Workshop",
+      "activity_name": "MQ and DATAMIND Early Career Researcher Workshop, 2025",
       "activity_location": "London",
       "project_coordinates": {
         "city": "London",
@@ -933,60 +1205,100 @@
       "is_mappable": true
     },
     {
-      "id": "connection-56",
-      "project_name": "Harmony: federated data discovery tool",
-      "project_city": "London",
-      "activity_name": "NLP and generative models for psychology research",
-      "activity_location": "London",
-      "project_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "activity_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "is_mappable": true
-    },
-    {
-      "id": "connection-57",
-      "project_name": "Harmony: federated data discovery tool",
-      "project_city": "London",
-      "activity_name": "Transforming data management with the Harmony Data Tool: A hands-on introduction",
-      "activity_location": "Online",
-      "project_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-58",
-      "project_name": "Harmony: federated data discovery tool",
-      "project_city": "London",
-      "activity_name": "Women In Data\u2122\ufe0f",
-      "activity_location": "London",
-      "project_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "activity_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "is_mappable": true
-    },
-    {
-      "id": "connection-59",
+      "id": "connection-74",
       "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
       "project_city": "Oxford",
-      "activity_name": "PyCon Nigeria 2026",
+      "activity_name": "Accessing and Interacting with Multidimensional Media Workshop, 2023",
+      "activity_location": "Brighton",
+      "project_coordinates": {
+        "city": "Oxford",
+        "lat": 51.752022,
+        "lon": -1.257677
+      },
+      "activity_coordinates": {
+        "city": "Brighton",
+        "lat": 50.8225,
+        "lon": -0.1372
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-75",
+      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
+      "project_city": "Oxford",
+      "activity_name": "AHRC iDAH/Exeter Digital Summer School, 2023",
+      "activity_location": "Exeter",
+      "project_coordinates": {
+        "city": "Oxford",
+        "lat": 51.752022,
+        "lon": -1.257677
+      },
+      "activity_coordinates": {
+        "city": "Exeter",
+        "lat": 50.716667,
+        "lon": -3.533333
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-76",
+      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
+      "project_city": "Oxford",
+      "activity_name": "Digital Humanities Congress, 2024",
+      "activity_location": "Sheffield",
+      "project_coordinates": {
+        "city": "Oxford",
+        "lat": 51.752022,
+        "lon": -1.257677
+      },
+      "activity_coordinates": {
+        "city": "Sheffield",
+        "lat": 53.383331,
+        "lon": -1.466667
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-77",
+      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
+      "project_city": "Oxford",
+      "activity_name": "Digital Skills in Visual and Material Culture Workshop, 2023",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "Oxford",
+        "lat": 51.752022,
+        "lon": -1.257677
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-78",
+      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
+      "project_city": "Oxford",
+      "activity_name": "iDAH Research Software Engineering Steering Group Workshops I and II, 2022",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "Oxford",
+        "lat": 51.752022,
+        "lon": -1.257677
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-79",
+      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
+      "project_city": "Oxford",
+      "activity_name": "PyCon Nigeria, 2026",
       "activity_location": "Lagos",
       "project_coordinates": {
         "city": "Oxford",
@@ -1001,10 +1313,10 @@
       "is_mappable": true
     },
     {
-      "id": "connection-60",
+      "id": "connection-80",
       "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
       "project_city": "Oxford",
-      "activity_name": "UK DARIAH Day 2025 \u2013 Imagining Future Digital Research Infrastructures",
+      "activity_name": "UK DARIAH Day, 2025",
       "activity_location": "Edinburgh",
       "project_coordinates": {
         "city": "Oxford",
@@ -1019,203 +1331,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-61",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-62",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-63",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-64",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-65",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-66",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-67",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-68",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-69",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-70",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-71",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-72",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-73",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-74",
-      "project_name": "Infrastructure for Digital Arts and Humanities (iDAH)",
-      "project_city": "Oxford",
-      "activity_name": "",
-      "activity_location": "",
-      "project_coordinates": {
-        "city": "Oxford",
-        "lat": 51.752022,
-        "lon": -1.257677
-      },
-      "activity_coordinates": null,
-      "is_mappable": false
-    },
-    {
-      "id": "connection-75",
+      "id": "connection-81",
       "project_name": "Isambard 3",
       "project_city": "Bristol",
       "activity_name": "CoSeC Conference, 2024",
@@ -1233,10 +1349,28 @@
       "is_mappable": true
     },
     {
-      "id": "connection-76",
+      "id": "connection-82",
       "project_name": "Isambard 3",
       "project_city": "Bristol",
-      "activity_name": "Dirac day, 2024",
+      "activity_name": "CUG, 2025",
+      "activity_location": "Jersey",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Jersey",
+        "lat": 40.7178,
+        "lon": -74.0431
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-83",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "activity_name": "DiRAC Day, 2024",
       "activity_location": "Cardiff",
       "project_coordinates": {
         "city": "Bristol",
@@ -1251,7 +1385,25 @@
       "is_mappable": true
     },
     {
-      "id": "connection-77",
+      "id": "connection-84",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "activity_name": "DRI Cybersecurity Strategy Workshop, 2024",
+      "activity_location": "Abingdon",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Abingdon",
+        "lat": 51.6708,
+        "lon": -1.2829
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-85",
       "project_name": "Isambard 3",
       "project_city": "Bristol",
       "activity_name": "HPC-SIG Hartree Meeting, 2025",
@@ -1269,7 +1421,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-78",
+      "id": "connection-86",
       "project_name": "Isambard 3",
       "project_city": "Bristol",
       "activity_name": "Isambard Day, 2025",
@@ -1287,10 +1439,64 @@
       "is_mappable": true
     },
     {
-      "id": "connection-79",
+      "id": "connection-87",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "activity_name": "Isambard Summit, 2026",
+      "activity_location": "Bristol",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-88",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "activity_name": "ISC, 2023",
+      "activity_location": "Hamburg",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Hamburg",
+        "lat": 53.551086,
+        "lon": 9.993682
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-89",
+      "project_name": "Isambard 3",
+      "project_city": "Bristol",
+      "activity_name": "ISC, 2024",
+      "activity_location": "Hamburg",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": {
+        "city": "Hamburg",
+        "lat": 53.551086,
+        "lon": 9.993682
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-90",
       "project_name": "JASMIN-X",
       "project_city": "Harwell",
-      "activity_name": "JASMIN Conference, 2023",
+      "activity_name": "Celebrating 30 Years of the Centre for Environmental Data Analysis, 2024",
       "activity_location": "Oxfordshire",
       "project_coordinates": {
         "city": "Harwell",
@@ -1305,49 +1511,189 @@
       "is_mappable": true
     },
     {
-      "id": "connection-80",
+      "id": "connection-91",
       "project_name": "JASMIN-X",
       "project_city": "Harwell",
-      "activity_name": "JASMIN Training Workshop",
-      "activity_location": "Online",
+      "activity_name": "First EERIE Hackathon, 2023",
+      "activity_location": "Bremerhaven",
       "project_coordinates": {
         "city": "Harwell",
         "lat": 51.59997,
         "lon": -1.29092
       },
-      "activity_coordinates": null,
-      "is_mappable": false
+      "activity_coordinates": {
+        "city": "Bremerhaven",
+        "lat": 53.5396,
+        "lon": 8.5809
+      },
+      "is_mappable": true
     },
     {
-      "id": "connection-81",
+      "id": "connection-92",
       "project_name": "JASMIN-X",
       "project_city": "Harwell",
-      "activity_name": "JASMIN User Seminar Series",
-      "activity_location": "Online",
+      "activity_name": "JASMIN User Conference, 2023",
+      "activity_location": "Oxfordshire",
       "project_coordinates": {
         "city": "Harwell",
         "lat": 51.59997,
         "lon": -1.29092
       },
-      "activity_coordinates": null,
-      "is_mappable": false
+      "activity_coordinates": {
+        "city": "Oxfordshire",
+        "lat": 51.8,
+        "lon": -1.266667
+      },
+      "is_mappable": true
     },
     {
-      "id": "connection-82",
-      "project_name": "JASMIN-X",
-      "project_city": "Harwell",
-      "activity_name": "JASMIN Webinar, 2025",
-      "activity_location": "Online",
+      "id": "connection-93",
+      "project_name": "Meeting future needs of antenna measurements and radio frequency (RF) characterisation (MUSCAT)",
+      "project_city": "London",
+      "activity_name": "",
+      "activity_location": "",
       "project_coordinates": {
-        "city": "Harwell",
-        "lat": 51.59997,
-        "lon": -1.29092
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
       },
       "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-83",
+      "id": "connection-94",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "ADAC14 Symposium, 2024",
+      "activity_location": "Sydney",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-95",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "ADAC14 Workshop, 2024",
+      "activity_location": "North Wollongong",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": {
+        "city": "North Wollongong",
+        "lat": -34.415,
+        "lon": 150.8931
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-96",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "Australasian Leadership Computing Symposium, 2023",
+      "activity_location": "Canberra",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-97",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "CMIP7 Workshop, 2023",
+      "activity_location": "Melborne",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-98",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "Integrated Earth, 2023",
+      "activity_location": "Canberra",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-99",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "Supercomputing Asia, 2023",
+      "activity_location": "Singapore",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": {
+        "city": "Singapore",
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-100",
+      "project_name": "National Computational Infrastructure\u2019s (NCI)",
+      "project_city": "Canberra",
+      "activity_name": "Supercomputing Asia, 2024",
+      "activity_location": "Sydney",
+      "project_coordinates": {
+        "city": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-101",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "London",
+      "activity_name": "ARCHER2 Celebration of Science, 2026",
+      "activity_location": "Edinburgh",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-102",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
       "activity_name": "CIUK, 2024",
@@ -1365,43 +1711,25 @@
       "is_mappable": true
     },
     {
-      "id": "connection-84",
+      "id": "connection-103",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
-      "activity_name": "Connected for Impact: Exploring federation for industry and public sector",
-      "activity_location": "Cheshire",
+      "activity_name": "Connected for Impact: Exploring federation for industry and public sector, 2025",
+      "activity_location": "Daresbury",
       "project_coordinates": {
         "city": "London",
         "lat": 51.507351,
         "lon": -0.127758
       },
       "activity_coordinates": {
-        "city": "Cheshire",
-        "lat": 53.249,
-        "lon": -2.149
+        "city": "Daresbury",
+        "lat": 53.3392,
+        "lon": -2.6315
       },
       "is_mappable": true
     },
     {
-      "id": "connection-85",
-      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
-      "project_city": "London",
-      "activity_name": "Environmental Sciences Workshop",
-      "activity_location": "London",
-      "project_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "activity_coordinates": {
-        "city": "London",
-        "lat": 51.507351,
-        "lon": -0.127758
-      },
-      "is_mappable": true
-    },
-    {
-      "id": "connection-86",
+      "id": "connection-104",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
       "activity_name": "Exploring the Role of HPC in the Built Environment",
@@ -1419,7 +1747,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-87",
+      "id": "connection-105",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
       "activity_name": "NFCS \u2013 NetworkPlus Autumn Conference, 2025",
@@ -1437,7 +1765,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-88",
+      "id": "connection-106",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
       "activity_name": "NFCS \u2013 NetworkPlus Launch Event, 2025",
@@ -1455,7 +1783,7 @@
       "is_mappable": true
     },
     {
-      "id": "connection-89",
+      "id": "connection-107",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
       "activity_name": "NFCS \u2013 NetworkPlus Spring Conference, 2026",
@@ -1473,7 +1801,25 @@
       "is_mappable": true
     },
     {
-      "id": "connection-90",
+      "id": "connection-108",
+      "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
+      "project_city": "London",
+      "activity_name": "NFCS NetworkPlus Launch Event, 2025",
+      "activity_location": "London",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-109",
       "project_name": "National Federated Compute Services (NFCS) NetworkPlus",
       "project_city": "London",
       "activity_name": "Understanding challenges and enablers to the use of HPC to enhance healthcare research",
@@ -1491,169 +1837,269 @@
       "is_mappable": true
     },
     {
-      "id": "connection-91",
-      "project_name": "NCI",
+      "id": "connection-110",
+      "project_name": "National platform for research technical professionals on AI for science and engineering (NPRAISE)",
       "project_city": "",
-      "activity_name": "ADAC14 Symposium",
-      "activity_location": "Sydney",
+      "activity_name": "",
+      "activity_location": "",
       "project_coordinates": null,
       "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-92",
-      "project_name": "NCI",
-      "project_city": "",
-      "activity_name": "ADAC14 Workshop",
-      "activity_location": "North Wollongong",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "North Wollongong",
-        "lat": -34.415,
-        "lon": 150.8931
+      "id": "connection-111",
+      "project_name": "People in data",
+      "project_city": "Oxford",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Oxford",
+        "lat": 51.752022,
+        "lon": -1.257677
       },
+      "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-93",
-      "project_name": "NCI",
-      "project_city": "",
-      "activity_name": "Australasian Leadership Computing Symposium, 2023",
-      "activity_location": "Canberra",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Canberra",
-        "lat": -35.2809,
-        "lon": 149.13
+      "id": "connection-112",
+      "project_name": "Physical Sciences Data Infrastructure (PSDI)",
+      "project_city": "Harwell",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Harwell",
+        "lat": 51.59997,
+        "lon": -1.29092
       },
+      "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-94",
-      "project_name": "NCI",
+      "id": "connection-113",
+      "project_name": "Review of existing skills and needs: optimising data professional success",
+      "project_city": "Bristol",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Bristol",
+        "lat": 51.4538022,
+        "lon": -2.5972985
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-114",
+      "project_name": "RSE-AUNZ",
       "project_city": "",
-      "activity_name": "CMIP7 Workshop: updates and new challenges",
-      "activity_location": "Melborne",
+      "activity_name": "",
+      "activity_location": "",
       "project_coordinates": null,
       "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-95",
-      "project_name": "NCI",
+      "id": "connection-115",
+      "project_name": "RSE@SUN",
       "project_city": "",
-      "activity_name": "Integrated Earth 2023",
-      "activity_location": "Canberra",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Canberra",
-        "lat": -35.2809,
-        "lon": 149.13
-      },
-      "is_mappable": false
-    },
-    {
-      "id": "connection-96",
-      "project_name": "NCI",
-      "project_city": "",
-      "activity_name": "Supercomputing Asia 2023 Sustainable Supercomputing\nFor a Greener Future",
-      "activity_location": "Singapore",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Singapore",
-        "lat": 1.3521,
-        "lon": 103.8198
-      },
-      "is_mappable": false
-    },
-    {
-      "id": "connection-97",
-      "project_name": "NCI",
-      "project_city": "",
-      "activity_name": "Supercomputing Asia 2024",
-      "activity_location": "Sydney",
+      "activity_name": "",
+      "activity_location": "",
       "project_coordinates": null,
       "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-98",
-      "project_name": "Support for compute centres",
+      "id": "connection-116",
+      "project_name": "RSSE Africa",
       "project_city": "",
-      "activity_name": "EPCC HPC Summer School (2024)",
-      "activity_location": "Edinburgh",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Edinburgh",
-        "lat": 55.9533456,
-        "lon": -3.1883749
-      },
-      "is_mappable": false
-    },
-    {
-      "id": "connection-99",
-      "project_name": "Support for compute centres",
-      "project_city": "",
-      "activity_name": "HPC-SIG Comes to Cambridge",
-      "activity_location": "Cambridge",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Cambridge",
-        "lat": 52.1975846499999,
-        "lon": 0.139153737368743
-      },
-      "is_mappable": false
-    },
-    {
-      "id": "connection-100",
-      "project_name": "Support for compute centres",
-      "project_city": "",
-      "activity_name": "Monthly Kelvin Training + Unix shell tutorial series",
-      "activity_location": "Online",
+      "activity_name": "",
+      "activity_location": "",
       "project_coordinates": null,
       "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-101",
-      "project_name": "Support for compute centres",
-      "project_city": "",
-      "activity_name": "NI-HPC User Conference (2025)",
+      "id": "connection-117",
+      "project_name": "RTP Hubs",
+      "project_city": "Durham",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-118",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "Collaboration Workshop, 2026",
       "activity_location": "Belfast",
-      "project_coordinates": null,
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
       "activity_coordinates": {
         "city": "Belfast",
         "lat": 54.607868,
         "lon": -5.926437
       },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-119",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "Computing Insight UK, 2025",
+      "activity_location": "Manchester",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-120",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "DRI Retreat 2026",
+      "activity_location": "Manchester",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": {
+        "city": "Manchester",
+        "lat": 53.483959,
+        "lon": -2.244644
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-121",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "HPC-AI Advisory Council 7th Annual UK Conference, 2025",
+      "activity_location": "Leicester",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": {
+        "city": "Leicester",
+        "lat": 52.6369,
+        "lon": -1.1398
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-122",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "Performance Monitoring of Accelerated Compute Workshop, 2026",
+      "activity_location": "Swansea",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": {
+        "city": "Swansea",
+        "lat": 51.6214,
+        "lon": -3.9436
+      },
+      "is_mappable": true
+    },
+    {
+      "id": "connection-123",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "SC, 2025",
+      "activity_location": "St Louis",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-102",
+      "id": "connection-124",
+      "project_name": "SHAREing Hub",
+      "project_city": "Durham",
+      "activity_name": "SIAM Conference on Parallel Processing for Scientific Computing, 2026",
+      "activity_location": "Berlin",
+      "project_coordinates": {
+        "city": "Durham",
+        "lat": 54.7761,
+        "lon": -1.5733
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-125",
+      "project_name": "Software Sustainability Institute (SSI)",
+      "project_city": "Edinburgh",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Edinburgh",
+        "lat": 55.9533456,
+        "lon": -3.1883749
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-126",
+      "project_name": "Strategic technical platform for university professionals (STEP-UP)",
+      "project_city": "London",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "London",
+        "lat": 51.507351,
+        "lon": -0.127758
+      },
+      "activity_coordinates": null,
+      "is_mappable": false
+    },
+    {
+      "id": "connection-127",
       "project_name": "Support for compute centres",
       "project_city": "",
-      "activity_name": "Society of Research Software Engineers Conference 2025",
-      "activity_location": "Warwick",
+      "activity_name": "",
+      "activity_location": "",
       "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Warwick",
-        "lat": 52.28333,
-        "lon": -1.58333
-      },
+      "activity_coordinates": null,
       "is_mappable": false
     },
     {
-      "id": "connection-103",
-      "project_name": "Australian Access Federation (AAF)",
-      "project_city": "",
-      "activity_name": "Digital Archipelagos: Digital Humanities Australasia",
-      "activity_location": "Canberra",
-      "project_coordinates": null,
-      "activity_coordinates": {
-        "city": "Canberra",
-        "lat": -35.2809,
-        "lon": 149.13
+      "id": "connection-128",
+      "project_name": "UK robotics and autonomous systems strategic technical platform (UKRAS-STEP)",
+      "project_city": "Leeds",
+      "activity_name": "",
+      "activity_location": "",
+      "project_coordinates": {
+        "city": "Leeds",
+        "lat": 53.801277,
+        "lon": -1.548567
       },
+      "activity_coordinates": null,
       "is_mappable": false
     }
   ]

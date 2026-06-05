@@ -1,4 +1,10 @@
-<div class="landscape-map-dashboard" data-map-dashboard data-map-data-url="{{ '/assets/data/landscape-map.json' | relative_url }}">
+<div
+  class="landscape-map-dashboard"
+  data-map-dashboard
+  data-map-data-url="{{ '/assets/data/landscape-map.json' | relative_url }}"
+  data-origin-icon-url="{{ '/assets/images/origin_mark.png' | relative_url }}"
+  data-destination-icon-url="{{ '/assets/images/destination_mark.png' | relative_url }}"
+>
   <div class="landscape-map-dashboard__intro">
     <p>
       📍 Explore how DRI projects, events, and partnerships connect communities and create impact across locations.
@@ -8,26 +14,52 @@
   <div class="landscape-map-dashboard__controls">
     <div class="landscape-map-field">
       <span>Projects</span>
-      <details class="landscape-map-multiselect" data-project-filter>
+      <details class="landscape-map-multiselect" data-map-multiselect data-project-filter>
         <summary class="landscape-map-multiselect__summary" data-project-filter-summary>
-          All projects
+          Select projects
         </summary>
         <div class="landscape-map-multiselect__panel" data-project-filter-options>
           <p class="landscape-map-multiselect__empty">Loading projects...</p>
         </div>
       </details>
-      <p class="landscape-map-field__hint">
-        Select one or more projects to filter the map arcs. We are actively collecting DRI projects. If your
-        project or event is not shown on this map, please
-        <a href="https://forms.gle/E6QeNXD5wnhG12HV7" target="_blank" rel="noopener noreferrer">submit it here</a>.
-        Once your response is verified, we will add it to the map.
-      </p>
     </div>
+
+    <div class="landscape-map-field">
+      <span>Origin Cities</span>
+      <details class="landscape-map-multiselect" data-map-multiselect data-origin-city-filter>
+        <summary class="landscape-map-multiselect__summary" data-origin-city-filter-summary>
+          Select origin cities
+        </summary>
+        <div class="landscape-map-multiselect__panel" data-origin-city-filter-options>
+          <p class="landscape-map-multiselect__empty">Loading origin cities...</p>
+        </div>
+      </details>
+    </div>
+
+    <div class="landscape-map-field">
+      <span>Destination Cities</span>
+      <details class="landscape-map-multiselect" data-map-multiselect data-destination-city-filter>
+        <summary class="landscape-map-multiselect__summary" data-destination-city-filter-summary>
+          Select destination cities
+        </summary>
+        <div class="landscape-map-multiselect__panel" data-destination-city-filter-options>
+          <p class="landscape-map-multiselect__empty">Loading destination cities...</p>
+        </div>
+      </details>
+    </div>
+
+    <p class="landscape-map-field__hint landscape-map-field__hint--full">
+      Select one or more projects to filter the map arcs. We are actively collecting DRI projects. If your
+      project or event is not shown on this map, please
+      <a href="https://forms.gle/E6QeNXD5wnhG12HV7" target="_blank" rel="noopener noreferrer">submit it here</a>.
+      Once your response is verified, we will add it to the map.
+    </p>
   </div>
 
   <div class="landscape-map-dashboard__map-wrap">
     <div class="landscape-map-legend">
-      <span><i class="landscape-map-legend__dot landscape-map-legend__dot--project"></i> Project origin</span>
+      <span><img class="landscape-map-legend__icon" src="{{ '/assets/images/origin_mark.png' | relative_url }}" alt=""> Project origin</span>
+      <span><img class="landscape-map-legend__icon" src="{{ '/assets/images/destination_mark.png' | relative_url }}" alt=""> Activity destination</span>
       <span><i class="landscape-map-legend__line"></i> Project to activity</span>
     </div>
     <div id="landscape-map" class="landscape-map" aria-label="Map of project and activity links"></div>
