@@ -1,7 +1,7 @@
 ---
 title: CAKE Placements & Visits
 permalink: /about/placements/
-layout: no-title-page
+layout: placements
 ---
 <br>
 
@@ -9,13 +9,16 @@ layout: no-title-page
   <img src="/assets/images/CAKE-placements-banner.png" width="90%">
 </div>
 
-<br>
+<!-- <br> -->
+
+* TOC
+{:toc}
+
+## About
 
 Great collaborations start with connection. CAKE supports placements and visits that bring people together, creating the space to share ideas, build relationships, and spark new ways of working. This funding is designed to build new collaborations or strengthen existing ones, with a focus on creating lasting partnerships by providing the time and space to connect.
 
 We primarily support travel and subsistence (T&S) costs to enable placements and visits for the UK DRI community, helping you connect both within the UK and with international partners. Most placement schemes are usually restricted by rigid criteria, so the CAKE placements and visits are intentionally flexible to support opportunities that usually lack funding. [Get in touch](/contact-us/) if you have an idea or need! 
-
-### Some ideas include:
 
 * International collaboration (with funds paid to a UKRI-funding eligible organisation)
 * In-person placements to embed into a research team 
@@ -42,26 +45,28 @@ We are committed to fostering a diverse and inclusive environment that reflects 
 
 All participants in the CAKE network are expected to follow the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
 
-Applications are reviewed on a rolling basis, with a deadline on the 1st of each month. Applications submitted by this date will be collated and considered together. We aim to communicate decisions within 4–6 weeks of submission.
+### Summary 
 
-Any data provided as part of your application will be used solely for the purposes of the CAKE Placements & Visits scheme and will not be shared with external parties.
-
-For larger award requests (over £6,000) or non-T&S related costs, please contact the CAKE management team ([cake@jiscmail.ac.uk](cake@jiscmail.ac.uk)) to discuss.
+* Rolling deadline 
+* Decisions typically communicated within 4-6 weeks 
+* The UK institution involved must be eligible for UKRI funding 
+* PhD students are eligible with a supervisor support letter
 
 ### Eligibility 
-Applicants must be from [UK institutions which are eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Whilst the funding will be awarded to the applying institution it can, for example, be used to cover expenses of those travelling from other countries to the UK. 
+Applicants must be based at [UK institutions eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Funding may be used to support international travel and be used to cover the expenses of those travelling from other countries to the UK. 
 
-Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/), applicants must confirm their institution is able to cover the remaining 20% to be eligible for this funding. 
+Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/). Applicants must confirm their institution can provide the remaining 20% contribution to be eligible. 
 
-PhD students are eligible to apply, provided they include a letter of support from their primary supervisor emailed to the CAKE management team alongside their application. 
+PhD students are welcome to apply, provided they include a letter of support from their primary supervisor, sent alongside the application to the CAKE management team.
 
 ### Timeline 
 The programme runs from October 2025 through to April 2028, at which time all visits must be complete and expenses claimed.
 
-### Process 
-Applications are <b>open</b> with a rolling deadline. We aim for all decisions to be communicated within 4-6 weeks from when the application was submitted. 
+### Application process 
 
-Each application will be assessed by a minimum of three reviewers from the CAKE Review Committee, using the following reviewing criteria:
+Applications are assessed on a rolling monthly basis. Decisions are typically communicated within 4–6 weeks.
+
+Each application is reviewed by at least three members of the CAKE Review Committee, using the following reviewing criteria:
 * Importance of the benefits from this visit and UKRI-wide relevance of specific outputs (40%), 
 * Potential to drive long term collaboration (20%), 
 * Eminence of the partners in HPC and/or the specific field being investigated (10%), 
@@ -69,16 +74,22 @@ Each application will be assessed by a minimum of three reviewers from the CAKE 
 * Consideration of environmental impact (10%), 
 * Link to DRI projects and activities (10%).
 
-Successful applicants will receive their allocated funds from the flexible funding stream for this programme which is held by the University of Edinburgh. The process for disbursing these funds will be confirmed at the point where successful applicants are notified of the outcome of their applications.
+For larger awards (over £6,000) or requests outside travel and subsistence costs, applicants should contact the CAKE management team at [cake@jiscmail.ac.uk](cake@jiscmail.ac.uk) before applying.
 
-## Outputs
-Successful applicants are required to complete a short written report detailing the activities undertaken during the placement or visit and any outcomes. A blog post for the CAKE website is also required. 
+Successful applicants will be notified directly and provided with details on how funding will be administered.
 
-Documentary evidence must be kept to show how the allocated funds have been spent.
+### Outcome
+All successful applicants are required to:
 
-<b>If you have any questions, don't hesitate to reach out via our [Contact Us](/contact-us/) page.</b>
+* Submit a short written report outlining activities and outcomes
+* Produce a blog post for the CAKE website
+* Documentary evidence must be kept to show how the allocated funds have been spent.
 
+### Contact 
 
+If you have any questions, don't hesitate to reach out to us at [cake@jiscmail.ac.uk](cake@jiscmail.ac.uk). 
+
+## Need inspiration? Read the latest CAKE Placement & Visit blog posts
 
 <!-- When we get blog posts, could have a carousel of previous ones! -->
 

@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<main id="main" class="main-content" aria-label="Content">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+      </header>
+      <div class="page-content">
+        {{ content }}
+        <section class="post-cards">
+            <!-- <h2>Latest Placement & Visit Blog Posts</h2> -->
+
+             {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %}
+
+
+            <div class="card-grid">
+               
+            {% for post in placement_posts limit:4 %}
+                <div class="card">
+                <a href="{{ post.url }}">
+                    <div class="card-image">
+                    <img src="{{ post.summary-image }}" alt="{{ post.title }}">
+                    </div>
+
+                    <div class="card-content">
+                    <h3>{{ post.title }}</h3>
+                    {% comment %}
+                        Pick the best available preview text:
+                        1. Author-provided `summary` or `excerpt` front matter, if set.
+                        2. Otherwise, strip HTML from the full post content (which drops <img>
+                        tags entirely) and take the first ~30 words. This avoids the
+                        "blank card" problem when a post starts with an image.
+                    {% endcomment %}
+                    {% if post.summary and post.summary != "" %}
+                        {% assign preview = post.summary %}
+                    {% elsif post.description and post.description != "" %}
+                        {% assign preview = post.description %}
+                    {% else %}
+                        {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 15 %}
+                    {% endif %}
+                    <p class="card-excerpt">{{ preview }}</p>
+                    <div class="card-footer">
+                        {% if post.date %}
+                        <p class="card-date">
+                            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+                        </p>
+                        {% endif %}
+                        <span class="card-link">Read more →</span>
+                    </div>
+                    </div>
+                </a>
+                </div>
+            {% endfor %}
+            </div>
+        </section>
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+      </div>
+    </div>
+</main>
