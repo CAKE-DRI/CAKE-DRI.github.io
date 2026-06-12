@@ -43,20 +43,22 @@ We are looking forward to see how their projects will develop over the coming ye
 
 
 <p align="left">
-  <img src="/assets/images/ke_fellows/.jpeg" width="200" />
+  <img src="/assets/images/ke_fellows/raquel_mg.jpeg" width="200" />
 </p>
 
+### Responsible Generative AI in Biomedical Research: A practical knowledge-exchange toolkit for safe AI use around human and sensitive data
 
-### 
+This fellowship will identify how generative AI is being used in biomedical research, where misconceptions or uncertainty remain, and what support researchers and research-support staff actually need. We will use these findings to develop, deliver and evaluate practical training, decision tools and reusable guidance for safer and more standardised AI use across the wider DRI community.
 
 ## Connor Aird
 
 <p align="left">
-  <img src="/assets/images/ke_fellows/.jpg" width="200" />
+  <img src="/assets/images/ke_fellows/connor_a.jpg" width="200" />
 </p>
 
-### 
+### Improving software sustainability and testing practices within the Fortran research software community
 
+Fortran research software underpins much of the UK's scientific computing infrastructure, yet key software engineering practices such as unit testing are not widely adopted across the community. Although tools such as pFUnit exist, awareness and uptake remain limited. Through this fellowship, I will develop and deliver workshops to introduce Fortran developers to unit testing and demonstrate how these tools can be applied in practice. Feedback from these workshops, alongside broader community engagement, will help identify gaps in existing tools and guide future improvements to the Fortran ecosystem, strengthening the sustainability and reliability of Fortran research software.
 
 ## Mashy Green
 
