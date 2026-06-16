@@ -29,7 +29,7 @@ This fellowship will develop a practical knowledge exchange pathway to help the 
   <img src="/assets/images/ke_fellows/.jpg" width="200" />
 </p>
 
-### 
+### Building Data and Coding Literacy in Business Education: Introducing R-Based Digital Skills for Undergraduate Management Students
 
 
 ## Saranjeet Kaur Bhogal
@@ -39,7 +39,7 @@ This fellowship will develop a practical knowledge exchange pathway to help the 
 </p>
 
 
-### 
+### Research Software Auditing: Knowledge exchange in the age of AI-assisted programming
 
 
 ## Raquel Manzano
@@ -70,4 +70,4 @@ Fortran research software underpins much of the UK's scientific computing infras
 </p>
 
 
-### 
+### DRMeX: a digital research methodological knowledge exchange framework
