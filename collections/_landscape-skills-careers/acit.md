@@ -2,7 +2,7 @@
 title: "ACIT Hub"
 group: landscape-rtp
 layout: landscape
-image: assets/images/landscape/acit_hub.png
+image: assets/images/ACIT_logo_full_square.png
 contact: Helen Cooper
 contact-link: https://www.surrey.ac.uk/people/helen-cooper
 web-page: https://acit.surrey.ac.uk/
