@@ -26,11 +26,12 @@ This fellowship will develop a practical knowledge exchange pathway to help the 
 ## Marco Campenni
 
 <p align="left">
-  <img src="/assets/images/ke_fellows/.jpg" width="200" />
+  <img src="/assets/images/ke_fellows/marco_c.jpg" width="200" />
 </p>
 
-### Building Data and Coding Literacy in Business Education: Introducing R-Based Digital Skills for Undergraduate Management Students
+### Building Data and Coding Literacy in Business Education
 
+This project aims to promote coding, data analysis, and digital literacy among undergraduate business and management students through the development of an accessible, practice-oriented learning programme centred on the use of R.
 
 ## Saranjeet Kaur Bhogal
 
