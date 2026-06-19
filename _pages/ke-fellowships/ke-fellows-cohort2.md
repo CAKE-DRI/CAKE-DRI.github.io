@@ -6,7 +6,7 @@ layout: title-page
 
 # Our second cohort of DRI Knowledge Exchange Fellows
 
-On the July 1, 2026, CAKE's second cohort of KE Fellows will start their twelve months term! 
+On July 1, 2026, CAKE's second cohort of KE Fellows will start their twelve months term! 
 
 We are looking forward to see how their projects will develop over the coming year. 
 
