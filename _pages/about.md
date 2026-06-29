@@ -70,7 +70,7 @@ CAKE is here to help the DRI community share knowledge and discover what’s hap
 * Join the community → meet us at [events](/events/), jump into conversations on Slack, and help shape the discussion
 * Showcase your work → highlight your [projects](/landscape/), advertise upcoming [events or training opportunities](/events), or post [updates](/news/) to our blog
 * Build up the knowledge base → contribute guides, tutorials, and resources to [CAKEbox](https://www.cake.ac.uk/CAKEbox/) so others can learn from your expertise
-* Spread the word → write a [blog](/news/), share (soon!) on social media, and invite your colleagues to get involved
+* Spread the word → write a [blog](/news/), share on social media, and invite your colleagues to get involved
 
 
 
