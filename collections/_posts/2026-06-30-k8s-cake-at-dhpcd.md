@@ -11,13 +11,11 @@ tags:
   - fellowships
 ---
 
-[]()
-
 *Lewis Sampson, United Kingdom Research and Innovation, STFC, DAFNI, lewis.sampson@stfc.ac.uk*
 
 # Reflections from Durham HPC Days
 
-Towards the end of June, I was fortunate enough to attend and present at Durham HPC Days. The conference brings together researchers, developers, and practitioners to explore the frontiers of high-performance computing, data analysis, and scientific innovation. Now that the dust has settled and I have finally caught up with my emails, I wanted to reflect on the experience.
+Recently, I was fortunate enough to attend and present at Durham HPC Days. The conference does an amazing job of bringing together researchers, developers, and practitioners to explore the frontiers of high-performance computing, data analysis, and scientific innovation. Now that the dust has settled and I have finally caught up with my emails, I wanted to reflect on the experience.
 
 For me, Durham HPC Days provided an excellent opportunity to develop and deliver a new Kubernetes (K8s) tutorial for the HPC and DRI communities. Alongside all the benefits of bringing communities together (🥘&🍹), the event offered a valuable space to introduce cloud-native technologies to researchers and research software engineers who may have had little or no prior exposure to them.
 
@@ -33,13 +31,13 @@ Once the tutorial had concluded, I was able to enjoy more of the conference prog
 
 My contributions to the conference were not quite finished. The following morning I joined my fellow CAKE Fellows to present our fellowship activities and share our experiences. It was fascinating to hear about the projects and initiatives that other fellows have been developing, and I left with several ideas for future engagement opportunities—particularly the prospect of attending the [Fortran 70th Birthday celebrations](https://fortran-index.github.io/fortran-index/page/fortran_birthday.html).
 
-The session also provided an excellent opportunity to engage directly with the DRI community and introduce attendees to the K8s CAKE Fellowship. Although I have only delivered two tutorials so far this year, discussions throughout the conference generated numerous ideas for future activities and highlighted a clear interest in building Kubernetes knowledge across the DRI community.
+Through this fellowship, I have already delivered two Kubernetes tutorials, reaching more than 60 research software engineers through both Minikube and Raspberry Pi-based sessions. Alongside developing the training materials themselves, I have also strengthened my own skills and confidence in delivering technical training. The fellowship has enabled me to connect with a range of institutes and communities, and discussions throughout this conference alone generated numerous ideas for future activities. Highlighting a clear interest in developing the Kubernetes knowledge across the DRI community. Reaching the halfway point of the fellowship also made this session a valuable opportunity to engage directly with the DRI community and introduce attendees to the aims and objectives of the K8s CAKE Fellowship.
 
 Balancing these activities with maintaining the platform infrastructure for DAFNI remains an ongoing challenge, but knowledge exchange continues to be one of the most rewarding aspects of the fellowship, and I am always keen to explore new opportunities to engage with the community.
 
 The remainder of the conference was equally enjoyable. There were plenty of interesting conversations, constructive networking opportunities, discussions on developments across the HPC landscape, and important sessions focused on equality, diversity, and inclusion.
 
-Some particular highlights for me included the [Lincoln Lab Keynote](https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days-2026/keynote-thursday-session-11-00/), [CoSeC knowledge exchange](https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days-2026/cosec-wednesday-session-13/), and [the EDI Implementation Gap workshop](https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days-2026/we-know-what-we-have-to-do-thursday-session-13-00/). I left Durham with a substantial list of follow-up activities, including exploring upcoming ACIT Hub events, learning more about CoSeC and the UKRI compute roadmap, promoting the newly launched CAKE DRI Retreats, and continuing to improve the Raspberry Pi workshop materials.
+Some particular highlights for me included the [Lincoln Lab Keynote](https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days-2026/keynote-thursday-session-11-00/), [CoSeC knowledge exchange](https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days-2026/cosec-wednesday-session-13/), and [the EDI Implementation Gap workshop](https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days-2026/we-know-what-we-have-to-do-thursday-session-13-00/). I left Durham with a substantial list of follow-up activities, including exploring upcoming ACIT Hub events, learning more about CoSeC and the UKRI compute roadmap, investigating the newly launched CAKE DRI Retreats, and continuing to improve the Raspberry Pi workshop materials.
 
 Looking ahead, the next event for the K8s CAKE Fellowship will most likely be RSECon 2026, although I hope to deliver additional events and training opportunities before then. The conversations and connections made at Durham HPC Days have provided plenty of momentum, so watch this space! 👀
 
