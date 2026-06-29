@@ -48,7 +48,7 @@ fit with other existing and planned training courses for Fortran. Our project
 was awarded third prize following the presentation session at the end of the
 day.
 
-<p align="center"><img src="/assets/images/CW26-FortranPrize.png" alt="Four men (Dimitri, Joe, Connor, Alan) posing with third prize certificates." width="250"/></p> 
+<p align="center"><img src="/assets/images/CW26-FortranPrize.png" alt="Four men (Dimitri, Joe, Connor, Alan) posing with third prize certificates." width="350"/></p> 
 
 Hackday team receiving third place at Collaborations Workshop 2026 (minus Paola
 who was attending remotely)
@@ -61,7 +61,7 @@ Community session along with the other fellows from the
 session, the three of us sat on a panel, chaired by Marion Weinzierl, and
 discussed KE in our specific domains and more broadly.
 
-<p align="center"><img src="/assets/images/HPCDays26_KEDRI_Joe.jpg" alt="Man (Joe) in red checkered shirt giving a talk in front of slides titled 'Fortran Index - Facilitating better knowledge exchange within the Fortran Community' " width="250"/></p> 
+<p align="center"><img src="/assets/images/HPCDays26_KEDRI_Joe.jpg" alt="Man (Joe) in red checkered shirt giving a talk in front of slides titled 'Fortran Index - Facilitating better knowledge exchange within the Fortran Community' " width="350"/></p> 
 
 Lightning talk in the Knowledge Exchange in the DRI Community session at Durham
 HPC Days 2026
@@ -71,8 +71,8 @@ session, which consisted of lightning talks and associated breakout discussions.
 My lighting talk acted as the announcement of the
 [*Celebrating 70 years of Fortran*](https://fortran-index.github.io/fortran-index/page/fortran_birthday.html)
 event, which will receive financial support from my CAKE fellowship. The event
-will be held at the Science and Industry Museum in Manchester, UK, on 1 December
-2026. This timing was chosen to align with the Computing Insights UK conference,
+will be held at the Science and Industry Museum in Manchester, UK, on 1 December 2026. 
+This timing was chosen to align with the Computing Insights UK conference,
 which will be held nearby on 2-4 December. The birthday event will include small
 community meetings in the morning, a workshop in the afternoon, and a reception
 in the evening. It will act as a retrospective looking back over the successes
