@@ -6,7 +6,7 @@ categories:
 group: events
 date: 2026-4-21
 layout: event
-image: assets/images/event-images/ACIT_logo_square.png
+image: assets/images/ACIT_logo_full_square.png
 project-type: National Event
 web-page: https://acit.surrey.ac.uk/events/2026-04-21_Hackathon.html
 location: University of Surrey, Guildford, UK

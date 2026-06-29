@@ -8,7 +8,7 @@ layout: title-page
 
 ---
 
-[**Find out more about our current knowledge exchange fellows and their projects here!**](/ke-fellowships/cohort1)
+[**Find out more about our current knowledge exchange fellows and their projects here!**](/ke-fellowships/cohorts)
 
 ---
 

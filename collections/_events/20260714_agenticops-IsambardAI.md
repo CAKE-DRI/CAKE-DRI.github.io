@@ -6,7 +6,7 @@ categories:
 group: events
 date: 14-07-2026
 layout: event
-image: https://acit.surrey.ac.uk/assets/img/ACIT_logo_draft_04_01.png
+image: assets/images/ACIT_logo_full_square.png
 project-type: National Event
 web-page: https://acit.surrey.ac.uk/events/2026-07-14_AgenticOps_Webinar.html
 location: Online
