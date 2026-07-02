@@ -44,9 +44,9 @@ More information on how to contribute can be found on CAKEBox: [https://www.cake
 
 ---
 
-### Adding a funding opportunity 
+### Adding a funding opportunity 
 
-Create a new `.md` file under `collections/_events` for your funding opportunity, using the following template: 
+Create a new `.md` file under `collections/_funds` for your funding opportunity, using the following template: 
 
 ```bash 
 ---
@@ -64,7 +64,7 @@ Provide a description of the funding opportunity here.
 
 #### Funding Formats
 
-The `format` and `closing_deadline` fields determine how opportunities are displayed:
+The `format` and `closing_deadline` fields determine how opportunities are displayed - make sure to give them in `YYYY-MM-DD` format:
 
 | `format` | `closing_deadline` | Type | 
 | ---- | ----| ---| 
@@ -124,22 +124,20 @@ This is the content for the blog, lots of information can be added here. Check o
 ## How to: add your DRI project 
 
 If your project is not yet listed or needs updating, identify the relevant DRI area:
-* Systems
-* New approaches to software
-* New approaches to skills
-* Embedded GPU CSE
-* RTP skills, hubs and platforms
-* Research communities
-* Centres and institutes
+* Data Infrastructure & Services
+* Large Scale Compute
+* Professional Skills & Career Pathways
+* Software
+* Foundational Tools
 
 If your project does not fit one of these categories, please contact the CAKE team.
 
-Each category has its own directory under `collections`. Projects are stored as individual `.md` files.
+Each category has its own directory under `collections` (`collections/_landscape-*`). Projects are stored as individual `.md` files.
 
 ```bash 
 ---
 title: "Project"
-group: landscape-ecse-gpu     # Select the appropriate one based on your rubric
+group: landscape-<section>     # Select the appropriate one based on your rubric
 layout: post
 image: assets/images/project-images/project_1.webp      # Upload a new image, use a URL, or select from our existing generic ones in here: `assets/images/`
 contact: Test Person
