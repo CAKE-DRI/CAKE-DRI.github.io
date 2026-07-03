@@ -30,16 +30,16 @@ main:
       url: /landscape/add_project  
   - title: "Activities"
     sublinks:
-    - title: "Outreach"
-      url: /activities/outreach
     - title: "Knowledge Exchange Fellowships"
       url: /about/ke-fellowships
-    - title: "Retreats"
-      url: /about/retreats
     - title: "Placement & Visits"
       url: /about/placements
+    - title: "Retreats"
+      url: /about/retreats
     - title: "Review Committee"
-      url: /about/reviewers    
+      url: /about/reviewers
+    - title: "Outreach"
+      url: /activities/outreach
 
   - title: "Calendar"
     url: /events/

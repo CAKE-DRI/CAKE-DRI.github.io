@@ -249,7 +249,7 @@
 }
 
 .card-content {
-  padding: 1rem;
+  padding: 0.75rem;
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
@@ -257,11 +257,11 @@
 
 .card-content h3 {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .card-content .card-excerpt {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #555;
   flex: 1 1 auto;
 }
