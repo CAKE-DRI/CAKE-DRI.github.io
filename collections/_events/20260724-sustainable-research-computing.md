@@ -4,7 +4,7 @@ icon_alt: Award icon
 categories:
   - National
 group: events
-start_date: 2026-07-24
+date: 2026-07-24
 layout: event
 image: https://step-up.ac.uk/assets/images/step-up.png
 project-type: National Event
