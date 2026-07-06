@@ -4,7 +4,7 @@ icon_alt: Award icon
 categories:
   - National
 group: events
-start_date: 2026-07-07
+date: 2026-07-07
 layout: event
 image: 
 project-type: National Event
