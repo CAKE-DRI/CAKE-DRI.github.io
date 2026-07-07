@@ -25,7 +25,7 @@ Applications are open year-round, with decisions typically made within 4–6 wee
   <div class="quick-facts">
   <span>✈️ Travel & subsistence funding</span>
   <span>🌍 UK & international collaborations</span>
-  <span>🤝 In-person & remote placements</span> 
+  <span>🤝 In-person & [remote placements](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/virtual_placements/)</span> 
   <span>📅 Rolling applications</span>
   <span>⏱ Decisions in 4–6 weeks</span>
   <span>🎓 PhD students eligible</span>
