@@ -1,5 +1,5 @@
 ---
-title: "Save the Date: Hybrid CaSDaR Data Stewardship Conference 2026"
+title: "Register for the Hybrid CaSDaR Data Stewardship Conference 2026"
 icon_alt: Award icon
 categories:
   - National
@@ -9,12 +9,12 @@ date: 2026-11-18
 layout: event
 image: assets/images/fundings_images/CaSDaR_Words_Main-2.png
 project-type: National Event
-web-page: [Register for CaSDaR's Data Steward Conference](https://casdar.ac.uk/registration-open-for-the-casdar-conference-2026/)
+web-page: https://casdar.ac.uk/registration-open-for-the-casdar-conference-2026/
 location: The Midland Hotel, Manchester, UK, https://www.themidlandhotel.co.uk/
 summary: A year on from the launch of the Careers and Skills for Data-driven Research (CaSDaR) Network, this 2-day hybrid conference brings together the growing data stewardship community to share progress, showcase impact, and shape the next phase of activity.
 ---
 
-Registration is now open for the Data Steward’s Conference 2026 hosted by Careers and Skills for Data-driven Research (CaSDaR), taking place on the 17th-18th November 2026 at the Midland Hotel in Manchester and online. 
+Registration is now open for the Hybrid Data Steward’s Conference 2026 hosted by Careers and Skills for Data-driven Research (CaSDaR), taking place on the 17th-18th November 2026 at the Midland Hotel in Manchester and online. 
 
 A year on from the launch of the Careers and Skills for Data-driven Research (CaSDaR) Network, this conference brings together the growing data stewardship community to share progress, showcase impact, and shape the next phase of activity.
 
