@@ -25,7 +25,7 @@ Applications are open year-round, with decisions typically made within 4–6 wee
   <div class="quick-facts">
   <span>✈️ Travel & subsistence funding</span>
   <span>🌍 UK & international collaborations</span>
-  <span>🤝 In-person & [remote placements](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/virtual_placements/)</span> 
+  <span>🤝 In-person & <a href="https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/virtual_placements/">remote placements</a></span>
   <span>📅 Rolling applications</span>
   <span>⏱ Decisions in 4–6 weeks</span>
   <span>🎓 PhD students eligible</span>
@@ -39,7 +39,7 @@ Applications are open year-round, with decisions typically made within 4–6 wee
 
 ## What we fund: 
 
-We support activities that enable collaboration, exchange, and shared research development:
+We support activities that enable collaboration, two-way knowledge exchange, and shared research development, creating benefits for both hosts and applicants:
 
 <div class="placement-grid">
 <div class="placement-card">
@@ -98,8 +98,7 @@ Funding is open to researchers across the UK DRI community and wider UKRI-eligib
 ### Need inspiration? Read the latest CAKE Placement & Visit blog posts
 
 <section class="post-cards">
-    <!-- {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %} -->
-    {% assign placement_posts = site.posts %}
+    {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %}
     <div class="card-grid">
         {% for post in placement_posts limit:4 %}
         <div class="card">
