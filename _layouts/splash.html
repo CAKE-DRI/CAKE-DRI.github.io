@@ -44,7 +44,7 @@ layout: default
                   {% elsif post.description and post.description != "" %}
                     {% assign preview = post.description %}
                   {% else %}
-                    {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 30 %}
+                    {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 15 %}
                   {% endif %}
                   <p class="card-excerpt">{{ preview }}</p>
                   <div class="card-footer">

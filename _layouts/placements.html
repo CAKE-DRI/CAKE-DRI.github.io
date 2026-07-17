@@ -9,14 +9,9 @@ layout: default
       </header>
       <div class="page-content">
         {{ content }}
-        <section class="post-cards">
-            <!-- <h2>Latest Placement & Visit Blog Posts</h2> -->
-
+        <!-- <section class="post-cards">
              {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %}
-
-
             <div class="card-grid">
-               
             {% for post in placement_posts limit:4 %}
                 <div class="card">
                 <a href="{{ post.url }}">
@@ -25,21 +20,8 @@ layout: default
                     </div>
 
                     <div class="card-content">
-                    <h3>{{ post.title }}</h3>
-                    {% comment %}
-                        Pick the best available preview text:
-                        1. Author-provided `summary` or `excerpt` front matter, if set.
-                        2. Otherwise, strip HTML from the full post content (which drops <img>
-                        tags entirely) and take the first ~30 words. This avoids the
-                        "blank card" problem when a post starts with an image.
-                    {% endcomment %}
-                    {% if post.summary and post.summary != "" %}
-                        {% assign preview = post.summary %}
-                    {% elsif post.description and post.description != "" %}
-                        {% assign preview = post.description %}
-                    {% else %}
-                        {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 15 %}
-                    {% endif %}
+                    <h3>{{ post.title | truncatewords: 5 }}</h3>
+
                     <p class="card-excerpt">{{ preview }}</p>
                     <div class="card-footer">
                         {% if post.date %}
@@ -54,8 +36,7 @@ layout: default
                 </div>
             {% endfor %}
             </div>
-        </section>
-
+        </section> -->
         {% if page.share %}
           {% include social-share.html %}
         {% endif %}
