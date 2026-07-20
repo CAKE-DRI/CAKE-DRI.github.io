@@ -7,6 +7,7 @@ group: events
 date: 2026-08-06
 layout: event
 image: assets/images/event-images/UKRI_logo.png
+web-page: https://events.teams.microsoft.com/event/8ee13916-4bce-489f-942e-5d9fca034c75@8bb7e08e-daa4-4a8e-927e-fca38db04b7e
 project-type: National events
 location: Online, MSTeams
 ---
