@@ -28,6 +28,39 @@
     map: null,
   };
 
+  var FILTER_CONFIGS = [
+    {
+      stateKey: "selectedProjects",
+      fieldName: "project_name",
+      summaryEl: projectFilterSummaryEl,
+      optionsEl: projectFilterOptionsEl,
+      emptyOptionsText: "No projects are available.",
+      emptySummaryText: "No projects",
+      defaultSummaryText: "Select projects",
+      allSummaryText: "All projects",
+    },
+    {
+      stateKey: "selectedOriginCities",
+      fieldName: "project_city",
+      summaryEl: originCityFilterSummaryEl,
+      optionsEl: originCityFilterOptionsEl,
+      emptyOptionsText: "No origin cities are available.",
+      emptySummaryText: "No origin cities",
+      defaultSummaryText: "Select origin cities",
+      allSummaryText: "All origin cities",
+    },
+    {
+      stateKey: "selectedDestinationCities",
+      fieldName: "activity_location",
+      summaryEl: destinationCityFilterSummaryEl,
+      optionsEl: destinationCityFilterOptionsEl,
+      emptyOptionsText: "No destination cities are available.",
+      emptySummaryText: "No destination cities",
+      defaultSummaryText: "Select destination cities",
+      allSummaryText: "All destination cities",
+    },
+  ];
+
   initialiseMap();
   registerFilterDismiss();
   loadDataset();
@@ -94,9 +127,7 @@
 
   function renderDashboard() {
     var connections = getConnections();
-    renderProjectFilter();
-    renderOriginCityFilter();
-    renderDestinationCityFilter();
+    renderFilters();
 
     if (
       state.selectedConnectionId &&
@@ -117,50 +148,24 @@
     renderInfoBox();
   }
 
-  function renderProjectFilter() {
-    renderFilterOptions({
-      optionsEl: projectFilterOptionsEl,
-      summaryEl: projectFilterSummaryEl,
-      values: getProjectNames(),
-      selectedValues: state.selectedProjects,
-      emptyOptionsText: "No projects are available.",
-      emptySummaryText: "No projects",
-      defaultSummaryText: "Select projects",
-      allSummaryText: "All projects",
-      onChange: function (nextSelectedValues) {
-        state.selectedProjects = nextSelectedValues;
-      },
+  function renderFilters() {
+    FILTER_CONFIGS.forEach(function (filterConfig) {
+      renderFilter(filterConfig);
     });
   }
 
-  function renderOriginCityFilter() {
+  function renderFilter(filterConfig) {
     renderFilterOptions({
-      optionsEl: originCityFilterOptionsEl,
-      summaryEl: originCityFilterSummaryEl,
-      values: getOriginCityNames(),
-      selectedValues: state.selectedOriginCities,
-      emptyOptionsText: "No origin cities are available.",
-      emptySummaryText: "No origin cities",
-      defaultSummaryText: "Select origin cities",
-      allSummaryText: "All origin cities",
+      optionsEl: filterConfig.optionsEl,
+      summaryEl: filterConfig.summaryEl,
+      values: getFilterValues(filterConfig),
+      selectedValues: state[filterConfig.stateKey],
+      emptyOptionsText: filterConfig.emptyOptionsText,
+      emptySummaryText: filterConfig.emptySummaryText,
+      defaultSummaryText: filterConfig.defaultSummaryText,
+      allSummaryText: filterConfig.allSummaryText,
       onChange: function (nextSelectedValues) {
-        state.selectedOriginCities = nextSelectedValues;
-      },
-    });
-  }
-
-  function renderDestinationCityFilter() {
-    renderFilterOptions({
-      optionsEl: destinationCityFilterOptionsEl,
-      summaryEl: destinationCityFilterSummaryEl,
-      values: getDestinationCityNames(),
-      selectedValues: state.selectedDestinationCities,
-      emptyOptionsText: "No destination cities are available.",
-      emptySummaryText: "No destination cities",
-      defaultSummaryText: "Select destination cities",
-      allSummaryText: "All destination cities",
-      onChange: function (nextSelectedValues) {
-        state.selectedDestinationCities = nextSelectedValues;
+        state[filterConfig.stateKey] = nextSelectedValues;
       },
     });
   }
@@ -282,10 +287,6 @@
     group.appendChild(defs);
 
     connections.forEach(function (connection) {
-      if (!connection.is_mappable) {
-        return;
-      }
-
       var fromPoint = state.map.latLngToLayerPoint([connection.project_coordinates.lat, connection.project_coordinates.lon]);
       var toPoint = state.map.latLngToLayerPoint([connection.activity_coordinates.lat, connection.activity_coordinates.lon]);
       var isConnectionActive = connection.id === state.selectedConnectionId;
@@ -334,10 +335,6 @@
     var projectPoints = {};
     var activityPoints = {};
     connections.forEach(function (connection) {
-      if (!connection.is_mappable) {
-        return;
-      }
-
       var key = [
         connection.project_name,
         connection.project_coordinates.lat,
@@ -347,7 +344,6 @@
       if (!projectPoints[key]) {
         projectPoints[key] = {
           coords: connection.project_coordinates,
-          projectName: connection.project_name,
           title: connection.project_name + " (" + connection.project_city + ")",
           count: 0,
         };
@@ -375,13 +371,14 @@
     Object.keys(projectPoints).forEach(function (key) {
       var point = projectPoints[key];
       var layerPoint = state.map.latLngToLayerPoint([point.coords.lat, point.coords.lon]);
-      var marker = document.createElementNS("http://www.w3.org/2000/svg", "image");
-      marker.setAttribute("class", "landscape-map-point landscape-map-point--project");
-      marker.setAttribute("href", originIconUrl);
-      marker.setAttribute("x", layerPoint.x-20);
-      marker.setAttribute("y", layerPoint.y-30);
-      marker.setAttribute("width", 44);
-      marker.setAttribute("height", 44);
+      var marker = createImageMarker({
+        className: "landscape-map-point landscape-map-point--project",
+        href: originIconUrl,
+        x: layerPoint.x - 20,
+        y: layerPoint.y - 30,
+        width: 44,
+        height: 44,
+      });
       appendTitle(marker, point.title + " | " + point.count + " mapped activities");
       group.appendChild(marker);
     });
@@ -389,13 +386,14 @@
     Object.keys(activityPoints).forEach(function (key) {
       var point = activityPoints[key];
       var layerPoint = state.map.latLngToLayerPoint([point.coords.lat, point.coords.lon]);
-      var marker = document.createElementNS("http://www.w3.org/2000/svg", "image");
-      marker.setAttribute("class", "landscape-map-point landscape-map-point--destination");
-      marker.setAttribute("href", destinationIconUrl);
-      marker.setAttribute("x", layerPoint.x - 10);
-      marker.setAttribute("y", layerPoint.y-30);
-      marker.setAttribute("width", 40);
-      marker.setAttribute("height", 40);
+      var marker = createImageMarker({
+        className: "landscape-map-point landscape-map-point--destination",
+        href: destinationIconUrl,
+        x: layerPoint.x - 10,
+        y: layerPoint.y - 30,
+        width: 40,
+        height: 40,
+      });
       appendTitle(marker, point.title + " | " + point.count + " mapped activities");
       group.appendChild(marker);
     });
@@ -508,22 +506,13 @@
     });
   }
 
-  function getProjectNames() {
-    return getUniqueMappedValues("project_name");
-  }
-
-  function getOriginCityNames() {
-    return getUniqueMappedValues("project_city");
-  }
-
-  function getDestinationCityNames() {
-    return getUniqueMappedValues("activity_location");
-  }
-
   function syncSelectedFilters() {
-    state.selectedProjects = syncSelectedValues(state.selectedProjects, getProjectNames());
-    state.selectedOriginCities = syncSelectedValues(state.selectedOriginCities, getOriginCityNames());
-    state.selectedDestinationCities = syncSelectedValues(state.selectedDestinationCities, getDestinationCityNames());
+    FILTER_CONFIGS.forEach(function (filterConfig) {
+      state[filterConfig.stateKey] = syncSelectedValues(
+        state[filterConfig.stateKey],
+        getFilterValues(filterConfig)
+      );
+    });
   }
 
   function getConnectionBounds(connections) {
@@ -599,6 +588,10 @@
     }, {});
   }
 
+  function getFilterValues(filterConfig) {
+    return getUniqueMappedValues(filterConfig.fieldName);
+  }
+
   function getUniqueMappedValues(fieldName) {
     if (!state.dataset) {
       return [];
@@ -617,12 +610,19 @@
   }
 
   function syncSelectedValues(selectedValues, availableValues) {
-    if (!availableValues.length) {
-      return [];
-    }
-
     return selectedValues.filter(function (value) {
       return availableValues.indexOf(value) !== -1;
     });
+  }
+
+  function createImageMarker(config) {
+    var marker = document.createElementNS("http://www.w3.org/2000/svg", "image");
+    marker.setAttribute("class", config.className);
+    marker.setAttribute("href", config.href);
+    marker.setAttribute("x", config.x);
+    marker.setAttribute("y", config.y);
+    marker.setAttribute("width", config.width);
+    marker.setAttribute("height", config.height);
+    return marker;
   }
 })();
