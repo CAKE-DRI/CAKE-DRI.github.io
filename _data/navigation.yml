@@ -16,6 +16,8 @@ main:
     sublinks:
     - title: "Welcome and Explore!"
       url: /landscape
+    - title: "Interactive map"
+      url: /landscape/map/
     - title: "Data infrastructure & services"
       url: /landscape/infrastructure
     - title: "Large scale compute"
