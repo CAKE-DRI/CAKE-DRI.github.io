@@ -19,7 +19,7 @@ community by adding, correcting, and curating the information available in the
 [fortran-lang](https://fortran-lang.org) community resource.
 
 Following some great progress with improving navigability via tags in the
-[previous hackathon]()
+[previous hackathon](https://www.cake.ac.uk/events/202607-FortranIndexHackathon7/)
 we will continue work on overhauling the
 [package index](https://fortran-lang.org/packages/) to make it more useful for
 the Fortran community, e.g., enabling filtering by attributes such as GitHub
