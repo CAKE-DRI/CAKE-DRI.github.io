@@ -1,5 +1,5 @@
 ---
-title: "Five CAKE Placement Ideas You Should Steal"
+title: "Five CAKE Placement & Visit Ideas You Should Steal"
 date: 2026-07-24
 full-width: true 
 classes: wide
