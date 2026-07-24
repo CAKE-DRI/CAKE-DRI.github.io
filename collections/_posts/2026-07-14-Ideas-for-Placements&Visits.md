@@ -9,6 +9,7 @@ categories:
 tags:
   - HPC
   - community
+  - placements
 ---
 
 One of the occupational hazards of leading the CAKE Placements & Visits work package is that I'm not actually allowed to apply for funding myself... Which is a shame, because every time I speak to someone about the scheme I come away with another idea for how I would use it. 
