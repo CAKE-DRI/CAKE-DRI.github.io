@@ -149,6 +149,9 @@ collections:
   funds:
     output: true
     permalink: /:collection/:path/
+  reports:
+    output: true
+    permalink: /:collection/:path/
 category_archive:
   type: liquid
   path: /categories/

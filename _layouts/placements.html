@@ -4,42 +4,17 @@ layout: default
 
 <main id="main" class="main-content" aria-label="Content">
     {% include page-image.html %}
+    
     <div class="page-wrapper">
-      <header class="page-header">
-      </header>
-      <div class="page-content">
-        {{ content }}
-        <!-- <section class="post-cards">
-             {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %}
-            <div class="card-grid">
-            {% for post in placement_posts limit:4 %}
-                <div class="card">
-                <a href="{{ post.url }}">
-                    <div class="card-image">
-                    <img src="{{ post.summary-image }}" alt="{{ post.title }}">
-                    </div>
+        <header class="page-header">
+        </header>
 
-                    <div class="card-content">
-                    <h3>{{ post.title | truncatewords: 5 }}</h3>
+        <div class="page-content">
+            {{ content }}
 
-                    <p class="card-excerpt">{{ preview }}</p>
-                    <div class="card-footer">
-                        {% if post.date %}
-                        <p class="card-date">
-                            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
-                        </p>
-                        {% endif %}
-                        <span class="card-link">Read more →</span>
-                    </div>
-                    </div>
-                </a>
-                </div>
-            {% endfor %}
-            </div>
-        </section> -->
-        {% if page.share %}
-          {% include social-share.html %}
-        {% endif %}
-      </div>
+            {% if page.share %}
+                {% include social-share.html %}
+            {% endif %}
+        </div>
     </div>
 </main>

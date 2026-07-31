@@ -1,7 +1,7 @@
 ---
 title: CAKE Placements & Visits
 permalink: /about/placements/
-layout: placements
+layout: no-title-page
 ---
 <br>
 
@@ -95,7 +95,28 @@ Funding is open to researchers across the UK DRI community and wider UKRI-eligib
 </div>
 </div>
 
-### Need inspiration? Read the latest CAKE Placement & Visit blog posts
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="#application-information" class="btn btn--secondary btn--x-large">
+    Application Information
+  </a>
+</div>
+
+
+<br>
+
+---
+
+<br>
+
+# Need inspiration? 
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="{{ '/about/placements/p+v-outputs/' | relative_url }}" class="btn btn--primary btn--large">Explore opportunities we've funded and see what others have been working on.</a>
+</div> 
+
+## Latest Updates
+
+<!-- Read the latest news and stories. -->
 
 <section class="post-cards">
     {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %}
@@ -106,9 +127,8 @@ Funding is open to researchers across the UK DRI community and wider UKRI-eligib
             <div class="card-image">
                 <img src="{{ post.summary-image }}" alt="{{ post.title }}">
             </div>
-
             <div class="card-content">
-                <h3>{{ post.title | truncatewords: 5 }}</h3>
+                <h3>{{ post.title }}</h3>
                 <p class="card-excerpt">{{ preview }}</p>
                 <div class="card-footer">
                     {% if post.date %}
@@ -125,6 +145,34 @@ Funding is open to researchers across the UK DRI community and wider UKRI-eligib
     </div>
 </section>
 
+
+## Recently completed activities
+
+<!-- Explore recently completed placements and see where the funding has taken our researchers. -->
+
+<section class="post-cards">
+    {% assign placement_reports = site.reports
+    | where_exp: "post", "post.tags contains 'placements'"
+    | sort: "date"
+    | reverse
+    %}    
+    <div class="card-content">
+        {% for post in placement_reports limit:3 %}
+        <div class="card">
+           <a href="/about/placements/p+v-outputs/#{{ post.slug }}">
+            <div class="card-content">
+                <p class="card-excerpt"> <em>{{ post.excerpt | strip_html | truncatewords: 50 }}</em></p>
+                <div class="card-footer">
+                    <h3>{{ post.name }}</h3>
+                    <h3>{{ post.placement }}</h3>                    
+                    <span class="card-link">Read more →</span>
+                </div>
+            </div>
+            </a>
+        </div>
+    {% endfor %}
+    </div>
+</section>
 
 <br>
 
