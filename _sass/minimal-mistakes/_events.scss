@@ -266,6 +266,18 @@
   flex: 1 1 auto;
 }
 
+.card-content .card-excerpt a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.report-card {
+  background-color: #d2e5f3;
+  border-left: 4px solid #4687d7;
+}
+
 .card-footer {
   margin-top: auto;
   padding-top: 0.75rem;
