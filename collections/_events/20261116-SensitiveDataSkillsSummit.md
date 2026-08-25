@@ -6,7 +6,7 @@ categories:
 group: events
 date: 2026-11-16
 layout: event
-image: assets/images/landscape/sensitive_data.jpg
+image: https://www.hdruk.ac.uk/wp-content/themes/hdruk/assets/img/logo.svg
 project-type: National Event
 web-page: https://www.hdruk.ac.uk/study-and-train/transforming-sensitive-data-curation/
 location: UK TRE Conference, venue TBC
