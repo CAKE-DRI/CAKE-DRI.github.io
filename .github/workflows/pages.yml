@@ -1,0 +1,61 @@
+# Builds and deploys the site to GitHub Pages.
+#
+# Runs on every push to main (as before), on a daily schedule so that
+# posts dated in the future appear on the day they are due, and on demand
+# from the Actions tab.
+#
+# Requires: Settings -> Pages -> "Build and deployment" -> Source = "GitHub Actions"
+
+name: Build and deploy site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 00:30 UTC daily (01:30 BST / 00:30 GMT). Posts dated "today" are
+    # included from this build onwards.
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time; don't cancel one already in progress
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # Same github-pages gem / plugin set as the built-in Pages build,
+      # so no change to how the site is rendered.
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
