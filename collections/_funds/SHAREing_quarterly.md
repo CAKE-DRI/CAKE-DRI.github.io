@@ -2,14 +2,10 @@
 title: "SHAREing - Propose a Solution to an Open Task"
 layout: landscape
 image: assets/images/fundings_images/sharing.png
-contact: "shareing@durham.ac.uk"
-web-page: "https://shareing-dri.github.io/"
-closing_deadline: "2026-07-08"
-format: deadline
+contact_person: SHAREing team
+contact_person_web: https://shareing-dri.github.io/contact/
+web-page: https://shareing-dri.github.io/task-map/
+format: future
 ---
 
-SHAREing invites eligible contributors to apply for Flexible Fund support to deliver solutions to approved open Tasks.
-
-Open Tasks are activities that have been reviewed and approved by the SHAREing consortium and aligned with one of the programme’s Work Packages. If you have the expertise, capacity, and institutional eligibility to deliver one of these Tasks, you may submit a proposal to lead its implementation.
-
-All funding is provided through the SHAREing Flexible Fund and must comply with UKRI funding rules and eligibility criteria.
+SHAREing invites eligible contributors to apply for Flexible Fund support to deliver solutions to approved Open Tasks.
