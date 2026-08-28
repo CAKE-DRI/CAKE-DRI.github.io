@@ -1,6 +1,6 @@
 ---
 title: "Building skills for sensitive data curation: early insights from the Evidence-based Curation Skills project"
-date: 2026-09-02
+date: 2026-09-01
 full-width: true
 classes: wide
 summary-image: https://www.hdruk.ac.uk/wp-content/themes/hdruk/assets/img/logo.svg
