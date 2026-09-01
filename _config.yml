@@ -123,7 +123,7 @@ defaults:
       layout: single
       author_profile: false
 
-future: false
+future: true
 
 # Collections
 collections_dir: collections
