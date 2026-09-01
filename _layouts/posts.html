@@ -6,7 +6,7 @@ layout: news-archive
 
 <ul class="taxonomy__index">
   {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | where_exp: "item", "item.date <= site.time" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-  {% for year in postsInYear %}
+  {% for year in postsByYear %}
     <li>
       <a href="#{{ year.name }}">
         <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
