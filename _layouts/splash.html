@@ -23,7 +23,8 @@ layout: default
         <h2>Latest Blog Posts</h2>
 
         <div class="card-grid">
-          {% for post in site.posts limit:4 %}
+          {% assign live_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+          {% for post in live_posts limit:4 %}
             <div class="card">
               <a href="{{ post.url }}">
                 <div class="card-image">
