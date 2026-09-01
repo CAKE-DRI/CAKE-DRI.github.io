@@ -130,9 +130,9 @@ We are proud to be supported by the following project partners and thank them fo
   </td>
 </tr>
 <tr>
-  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://www.software.ac.uk/"><img src="/assets/images/partners/ssi.png"></a></td>
+  <td style="min-width:210px; max-width:210px; text-align: center"><a href="https://www.software.ac.uk/"><img src="/assets/images/institute-for-research-software-logo.png"></a></td>
   <td>
-   The SSI was founded in 2010 as the first organisation in the world dedicated to improving software in research. It was founded on the premise that helping individuals and institutions understand the vital role that software plays in research would accelerate progress in every field of scientific and academic endeavour.
+   The Institute for Research Software was founded as the SSI in 2010 as the first organisation in the world dedicated to improving software in research. It was founded on the premise that helping individuals and institutions understand the vital role that software plays in research would accelerate progress in every field of scientific and academic endeavour.
   </td>
 </tr>
 <tr>
