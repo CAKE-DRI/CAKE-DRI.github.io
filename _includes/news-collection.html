@@ -2,7 +2,7 @@
 {% assign entries = site[include.collection] %}
 
 
-{% assign entries = entries | sort: 'date' | reverse %}
+{% assign entries = entries | where_exp: "entry", "entry.date <= site.time" | sort: 'date' | reverse %}
 
 {%- for entry in entries -%}
   {% include news-entry.html %}
