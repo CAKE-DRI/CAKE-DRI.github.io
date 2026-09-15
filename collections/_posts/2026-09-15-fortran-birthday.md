@@ -48,7 +48,7 @@ topics.
 ## Sponsors
 
 This event is make possible by the generous support of our sponsors. These
-include platinum sponsors [AMD](2026-01-30-fortran-index.md) and
+include platinum sponsors [AMD](https://www.amd.com/en.html) and
 [Dell Technologies](https://www.dell.com/en-uk), as well as bronze sponsors
 [CAKE](https://www.cake.ac.uk/) (through my
 [fellowship](https://www.cake.ac.uk/ke-fellowships/cohort1#joe-wallwork)),
@@ -74,4 +74,4 @@ for all further details about the event, including the full programme and
 instructions on how to submit lightning talks and posters.
 
 This blog post was also published on the Fortran-lang website at
-https://fortran-lang.org/news/2026/09-15-Fortran-Birthday/.
+[https://fortran-lang.org/news/2026/09-15-Fortran-Birthday/](https://fortran-lang.org/news/2026/09-15-Fortran-Birthday/).
