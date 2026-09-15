@@ -35,7 +35,7 @@ in Manchester, United Kingdom, on 1st December 2026.
 The main workshop will be held from 14:30-18:15 in the museum conference suite
 and will be followed by an evening drinks reception in the exhibition hall
 (including a demonstration of the 1940's experimental computer,
-['Baby'](https://fortran-lang.org/news/2026/01-23-Fortran-index-blogpost/)).
+['Baby'](https://en.wikipedia.org/wiki/Manchester_Baby)).
 
 The workshop will take the form of a retrospective, with a keynote address from
 **Damian Rouson, Lawrence Berkeley National Laboratory** looking back on how far
