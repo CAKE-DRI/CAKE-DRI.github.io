@@ -15,11 +15,10 @@ tags:
 *Joe Wallwork, Institute of Computing for Climate Science (ICCS), University of
 Cambridge, jw2423@cam.ac.uk*
 
-One month from today (15th October) marks seventy years since the first Fortran
-manual was published, making it an extremely well established programming
+One month from today (15th October) marks seventy years since the
+[first Fortran manual](https://archive.computerhistory.org/resources/text/Fortran/102649787.05.01.acc.pdf)
+was published, making it an extremely well established programming
 language for scientific computing.
-
-<!-- TODO: Link to manual -->
 
 Over Fortran's seven decades of usage, it has supported critical infrastructure
 and technological advances in a range of scientific fields such as nuclear
@@ -74,5 +73,5 @@ See the
 for all further details about the event, including the full programme and
 instructions on how to submit lightning talks and posters.
 
-This blog post was also published on the Fortran-lang website at...
-<!-- TODO: Link -->
+This blog post was also published on the Fortran-lang website at
+https://fortran-lang.org/news/2026/09-15-Fortran-Birthday/.
