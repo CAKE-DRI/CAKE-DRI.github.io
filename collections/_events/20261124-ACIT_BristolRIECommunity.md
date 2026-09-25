@@ -1,27 +1,28 @@
 ---
-title: "Federated Data Transfer and Sharing Webinar"
+title: "Bristol RIE Community and Co-design Day"
 icon_alt: Award icon
 categories:
   - National
 group: events
-date: 2026-11-11
+date: 2026-11-24
 layout: event
 image: assets/images/ACIT_logo_full_square.png
 project-type: National Event
 web-page: https://acit.surrey.ac.uk/events/2026-11-11_CodesignEdinburgh.html
-location: Online
-summary:  Join us in Edinburgh to meet other RIEs, discover new ways of working, and share your experiences.
+location: University of Bristol, UK
+summary:  Join us in Bristol to meet other RIEs, discover new ways of working, and share your experiences.
+
 
 ---
 
-11th November 2026, 10am - 4pm
-EPCC, University of Edinburgh, UK
+24th November 2026, 10am - 4pm
+University of Bristol, UK
 
 What is an RIE community and co-design day?
 
 The research infrastructure engineer (RIE) community and co-design days bring together RIEs from across a region and beyond to share knowledge and experience, build networks, and contribute to the ACIT Hub's training plans.
 
-Join us in Edinburgh to meet other RIEs, discover new ways of working, and share your experiences.
+Join us in Bristol to meet other RIEs, discover new ways of working, and share your experiences.
 
 The day will combine short, scene-setting talks to guide the day's discussions and structured interactive sessions where participants will explore and develop RIE training ideas.
 
@@ -51,11 +52,10 @@ The day is suitable for RIEs of any level to attend.
 
 Event Logistics
 
-The event will take place at EPCC, University of Edinburgh. The programme will start at 10am with registrations and refreshments available from 9:30am. Lunch and refreshments will be provided. The day will wrap up by 4pm.
+The event will take place at EPCC, part of the University of Edinburgh. The programme will start at 10am with registrations and refreshments available from 9:30am. Lunch will be provided and the hub is able to assist with travel costs for those coming from UKRI eligible institutions. The day will wrap up by 4pm.
 
-Another co-design day will take place on 24th November at the University of Brisol.
+Another co-design day will take place on 11th November at EPCC, University of Edinburgh.
 
- 
 Registration
 
 Please complete the registration form. Registration is on a first-come, first-served basis, with a review of registrants to ensure suitability.

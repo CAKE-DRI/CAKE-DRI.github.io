@@ -1,5 +1,5 @@
 ---
-title: "Federated Data Transfer and Sharing Webinar"
+title: "Edinburgh RIE Community and Co-design Day"
 icon_alt: Award icon
 categories:
   - National
@@ -9,7 +9,7 @@ layout: event
 image: assets/images/ACIT_logo_full_square.png
 project-type: National Event
 web-page: https://acit.surrey.ac.uk/events/2026-11-11_CodesignEdinburgh.html
-location: Online
+location: EPCC, University of Edinburgh, UK
 summary:  Join us in Edinburgh to meet other RIEs, discover new ways of working, and share your experiences.
 
 ---
