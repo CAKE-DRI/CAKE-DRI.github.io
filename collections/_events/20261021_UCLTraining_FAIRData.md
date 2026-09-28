@@ -9,7 +9,7 @@ layout: event
 image: assets/images/landscape/stepup.png
 project-type: National Event
 web-page: https://pretix.eu/ARC/2026-10-21-FAIR/
-location: [Foster Court, University College London ](https://maps.ucl.ac.uk/foster-court)
+location: Foster Court, University College London
 summary: "Are you a researcher or a research technical professional? Do you want to make your research data sustainable so that it can benefit research into the future? Have you heard of the FAIR (Findable, Accessible, Interoperable and Reusable) Principles but aren’t sure how to implement them? Do you want to learn through practical examples and exercises? Then this is the training for you.
 
 This training takes place in person at Foster Court, University College London and is delivered by the UCL Advanced Research Computing team." 
