@@ -1,34 +1,37 @@
 ---
-title: "In Person Training: Data Modelling and Database Design"
+title: "In Person Training: Making Data FAIR and sustainable"
 icon_alt: Award icon
 categories:
   - National
 group: events
-date: 2026-10-07
+date: 2026-10-21
 layout: event
 image: assets/images/landscape/stepup.png
 project-type: National Event
-web-page: https://pretix.eu/ARC/2026-10-07-datab/
-location: Imperial South Kensington Campus, SW7 2AZ 
-summary: Do you want to learn how to model your data for a database? Are you interested in understanding how to design a database schema that is efficient and effective? If so, this course is for you! In this course, you will explore the fundamentals of relational database modelling, including how to identify entities, define relationships, and create a suitable schema. You will also explore best practices for designing databases. This training takes place in person at the Imperial South Kensington campus and is delivered by the UCL Advanced Research Computing team.
+web-page: https://pretix.eu/ARC/2026-10-21-FAIR/
+location: [Foster Court, University College London ](https://maps.ucl.ac.uk/foster-court)
+summary: "Are you a researcher or a research technical professional? Do you want to make your research data sustainable so that it can benefit research into the future? Have you heard of the FAIR (Findable, Accessible, Interoperable and Reusable) Principles but aren’t sure how to implement them? Do you want to learn through practical examples and exercises? Then this is the training for you.
+
+This training takes place in person at Foster Court, University College London and is delivered by the UCL Advanced Research Computing team." 
 
 ---
 
-Do you want to learn how to model your data for a database?
-Are you interested in understanding how to design a database schema that is efficient and effective?
-If so, this course is for you!
+Are you a researcher or a research technical professional? Do you want to make your research data sustainable so that it can benefit research into the future? Have you heard of the FAIR (Findable, Accessible, Interoperable and Reusable) Principles but aren’t sure how to implement them? Do you want to learn through practical examples and exercises?
 
-In this course, you will explore the fundamentals of relational database modelling, including how to identify entities, define relationships, and create a suitable schema. You will also explore best practices for designing databases.
 
-By the end of this course, you will have an understanding of how to model your data for a structured database and be able to apply these concepts to real-world scenarios. Whether you are a beginner or an experienced developer, this course will provide you with the knowledge and skills you need to design effective database schemas.
+By the end of this course you will be able to:
 
-This course is designed for anyone who wants to learn how to model data for a relational database, especially all the research technology professionals. No prior experience with database design is required, but a basic understanding of programming concepts will be helpful.
+· understand research digital objects and persistent identifiers
 
-We will provide a case study and a dataset for the course, which will be used throughout the sessions. Participants will learn how to analyze the dataset, identify key entities, and design a database schema that meets the requirements of the case study. You are welcome to bring your own dataset if you prefer, but it is not required. If you choose to bring your own dataset, please ensure it is in a flat structured format (i.e., CSV, or similar) that can be easily modelled in a database system and please send us a copy of your dataset at least two days before the course starts so we can prepare accordingly.
+· identify open tools for interoperability and sustainable reuse
 
-The course will run on three sessions, each lasting 2 hours with breaks in between, in the following schedule:
-Session 1: Introduction to Database Modeling
-Session 2: Implementation of Design
-Session 3: Data Insertion and Retrieval
+· create data terms of use and access protocols
+
+· describe datasets and give examples of data description practices from various research fields
+
+· understand rich metadata and its role in long-term reuse
+
+This in-person course is adapted from the FAIR Research Data Coursebook and is being piloted as part of the STEP-UP project which supports digital research technical professionals through training, mentoring and career support.
+
 
 Participants are expected to attend all three sessions to gain the full benefit of the course. Each session will include a mix of lectures, discussions, and hands-on exercises to reinforce learning. Participants will work in small groups to apply the concepts learned in each session to practical examples.
