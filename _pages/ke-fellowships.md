@@ -53,9 +53,9 @@ The following reviewing criteria will be applied:
 
 ## Application
 
-**Applications are currently closed. Thanks to everyone who applied to be a DRI KE Fellow so far!**
+<!--**Applications are currently closed. Thanks to everyone who applied to be a DRI KE Fellow so far!**
 
-<!--Applications for the third cohort are expected to open in October 2026.--> 
+Applications for the third cohort are expected to open in October 2026.--> 
 
 To apply, please fill in the form below and submit before 12.11.2026. You will be notified of the outcome by 14.12.2026, and the fellowship term will start on 01.01.2027.
 
