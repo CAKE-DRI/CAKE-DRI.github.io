@@ -81,9 +81,6 @@ To try this concept out, I started a small initiative at ARC called ARC
 Computational Methods Exchange (ACME) - which led to lots of fun memes in the
 talks! - where I had the opportunity to learn a bit about Automatic
 Differentiation and Neighbour Searching with CUDA.
-
-![ACME acronym slide](https://qiuip.github.io/assets/images/acme-acronym-slide.jpg){: style="max-width: 480px; width: 100%; display: block; margin: 1rem auto;" }
-
 These talks however were delivered to our High Performance Computing (HPC)
 sub-group, which was a bit like preaching to the choir. Eventually, I found a
 spot in our weekly wider meetings, ARC Forum, where I was able to present a
