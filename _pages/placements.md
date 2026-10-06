@@ -18,7 +18,7 @@ layout: no-title-page
 
 **CAKE Placements & Visits** support the UK DRI community to build new collaborations and strengthen existing ones through flexible funding for travel, subsistence, and in-person or remote placements and visits. 
 
-Applications are open year-round, with decisions typically made within 4–6 weeks.
+Applications are open year-round, decisions typically made within 4–6 weeks.
 
 <div style="text-align: center; margin-top: 2rem;">
 
@@ -29,6 +29,7 @@ Applications are open year-round, with decisions typically made within 4–6 wee
   <span>📅 Rolling applications</span>
   <span>⏱ Decisions in 4–6 weeks</span>
   <span>🎓 PhD students eligible</span>
+  <span>🎂 Application mentoring</span>
   </div>
 
   <br>
@@ -94,6 +95,10 @@ Funding is open to researchers across the UK DRI community and wider UKRI-eligib
 </div>
 </div>
 </div>
+
+<h3>Have an idea but aren’t sure who to collaborate with?</h3>
+
+The CAKE team is well positioned to connect you with the best people to help amplify your ideas. Get in touch with us via Slack or email, and we’ll help connect you with the people who can help bring your idea to life.
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="#application-information" class="btn btn--secondary btn--x-large">
