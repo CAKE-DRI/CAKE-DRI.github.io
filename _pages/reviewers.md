@@ -27,6 +27,7 @@ Our current CAKE Reviewing Committee are
 - Marion Weinzierl (University of Cambridge, ICCS)
 - Tobias Weinzierl (Durham University)
 - Abhijeet Dada Mote (Lead Python AI Engineer, PSF Diversity & Inclusion Workgroup Volunteer)
+- Cheuk Lun Ko (MathWorks)
 
 Some reviewers might not have agreed to be listed here, and are therefore missing from this list.
 
