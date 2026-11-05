@@ -98,6 +98,8 @@ Funding is open to researchers across the UK DRI community and wider UKRI-eligib
 
 <h3>Have an idea but aren’t sure who to collaborate with?</h3>
 
+Read our guidance on when a [placement or visit is useful and how to develop the idea into an application](https://www.cake.ac.uk/CAKEbox/placements-resources/developing-an-idea-and-application/).
+
 The CAKE team is well positioned to connect you with the best people to help amplify your ideas. Get in touch with us via Slack or email, and we’ll help connect you with the people who can help bring your idea to life.
 
 <div style="text-align: center; margin-top: 2rem;">
@@ -245,6 +247,7 @@ All successful applicants are required to:
   <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
 </div>
 
+Don't forget to checkout our guidance on [how to plan your placement or visit](https://www.cake.ac.uk/CAKEbox/placements-resources/planning-a-placement-visit/). 
 
 ### Contact 
 
@@ -253,39 +256,3 @@ If you have any questions about eligibility, developing an idea, or preparing an
 📧 **cake@jiscmail.ac.uk**
 
 We’re happy to help!
-
-
-
-<!-- 
-## EDI
-
-REMOVED while refactoring 
-
-To support this commitment, we provide: 
-* [A structured framework to help hosts and participants get the most from their placement or visit - whether virtual or in-person](#structured-framework-for-placements-and-visits)
-* [Mentoring opportunities for all applicants](#mentoring-opportunities)
-* [Match-making support to connect participants and hosts](#match-making-support)
-* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/) 
-* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/submissions-and-reviews/)
-
----
-
-<br>
-
-# Support 
-
-**Coming soon!**
-We have several support opportunities that will soon be in place to help you make the most of your placements and visits. In the meantime, please contact the CAKE management team, who are very happy to assist, helping you navigate options and connect with the right collaborators.
-
-## Structured Framework for Placements and Visits
-
-We’re developing a clear framework to help participants and hosts get the most out of every placement and visit. Stay tuned for guidance, templates, and tips to make your experience as productive and rewarding as possible.
-
-## Mentoring Opportunities 
-
-CAKE will soon offer mentoring support for all applicants, connecting you with experienced members of the network to guide your placement, provide advice, and help you achieve your goals.
-
-## Match-making Support 
-
-We’re building tools and support to help participants find the right hosts, and vice versa, so that collaborations are effective, meaningful, and aligned with your research interests.
- -->
