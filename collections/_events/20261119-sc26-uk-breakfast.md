@@ -46,7 +46,7 @@ summary: Heading to SC26 from the UK? Join CAKE for a free networking breakfast 
 </style>
 
 <div class="uk-breakfast-cta">
-  <a class="uk-breakfast-btn" href="https://forms.gle/REPLACE-WITH-SIGNUP-FORM" target="_blank" rel="noopener">Sign up for free breakfast and UK networking at SC26</a>
+  <a class="uk-breakfast-btn" href="https://forms.gle/UszkMqNwqCux92aR6" target="_blank" rel="noopener">Sign up for free breakfast and UK networking at SC26</a>
   <span class="uk-breakfast-note">Thursday 19 November 2026 • 7:30am - 8:30am (CST) • The Spoke &amp; Bird, Chicago</span>
 </div>
 
@@ -54,7 +54,7 @@ SC is enormous, and it is surprisingly easy to spend the whole week without cros
 
 Come along to meet other people from the UK research computing community, make new connections, catch up on how the conference is going for everyone and swap tips on what not to miss for the rest of the week. Best of all, breakfast is free!
 
-**[Sign up for the UK Networking Breakfast](https://forms.gle/REPLACE-WITH-SIGNUP-FORM)**
+**[Sign up for the UK Networking Breakfast](https://forms.gle/UszkMqNwqCux92aR6)**
 
 ## Who is it for?
 
