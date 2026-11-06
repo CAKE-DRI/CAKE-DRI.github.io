@@ -10,7 +10,7 @@ permalink: /sc26-breakfast/
 image: https://sc26.supercomputing.org/wp-content/uploads/2025/10/sc26_headerlogo_02.svg
 project-type: International events
 web-page: https://sc26.supercomputing.org/
-location: The Spoke & Bird, 205 E 18th St, Chicago, US
+location: The Spoke & Bird (South Loop), 205 E 18th St, Chicago, US
 location-link: https://www.google.com/maps/search/?api=1&query=The+Spoke+%26+Bird+205+E+18th+St+Chicago+IL+60616
 summary: Heading to SC26 from the UK? Join CAKE for a free networking breakfast on Thursday 19 November, 7:30am - 8:30am, at The Spoke & Bird in Chicago's South Loop. Meet others from the UK, compare notes on the conference so far and enjoy breakfast on us. Free, but places must be booked in advance.
 ---
@@ -66,9 +66,9 @@ Places are limited, so please sign up in advance using the form above. If you si
 
 **When:** Thursday 19 November 2026, 7:30am - 8:30am (CST)
 
-**Where:** The Spoke & Bird, 205 E 18th St, Chicago, IL 60616 ([map](https://www.google.com/maps/search/?api=1&query=The+Spoke+%26+Bird+205+E+18th+St+Chicago+IL+60616))
+**Where:** The Spoke & Bird (South Loop), 205 E 18th St, Chicago, IL 60616 ([map](https://www.google.com/maps/search/?api=1&query=The+Spoke+%26+Bird+205+E+18th+St+Chicago+IL+60616))
 
-The Spoke & Bird is in Chicago's South Loop, a short walk from McCormick Place, so you'll have plenty of time to get to the convention centre for the start of Thursday's programme.
+The Spoke & Bird is in Chicago's South Loop, a short walk from McCormick Place, so you'll have plenty of time to get to the convention centre for the start of Thursday's programme. **IMPORTANT NOTE: There are two Spoke & Birds in Chicago, this is the one in South Loop.**
 
 ## While you're at SC26
 
