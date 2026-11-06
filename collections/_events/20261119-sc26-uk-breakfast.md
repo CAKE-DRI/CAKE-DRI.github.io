@@ -47,7 +47,7 @@ summary: Heading to SC26 from the UK? Join CAKE for a free networking breakfast 
 
 <div class="uk-breakfast-cta">
   <a class="uk-breakfast-btn" href="https://forms.gle/UszkMqNwqCux92aR6" target="_blank" rel="noopener">Sign up for free breakfast and UK networking at SC26</a>
-  <span class="uk-breakfast-note">Thursday 19 November 2026 • 7:30am - 8:30am (CST) • The Spoke &amp; Bird, Chicago</span>
+  <span class="uk-breakfast-note">Thursday 19 November 2026 • 7:30am - 8:30am (CST) • The Spoke &amp; Bird (South Loop), Chicago</span>
 </div>
 
 SC is enormous, and it is surprisingly easy to spend the whole week without crossing paths with colleagues from back home. So CAKE is hosting a breakfast for everyone from the UK at SC26.
