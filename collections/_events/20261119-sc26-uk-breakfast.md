@@ -68,7 +68,9 @@ Places are limited, so please sign up in advance using the form above. If you si
 
 **Where:** The Spoke & Bird (South Loop), 205 E 18th St, Chicago, IL 60616 ([map](https://www.google.com/maps/search/?api=1&query=The+Spoke+%26+Bird+205+E+18th+St+Chicago+IL+60616))
 
-The Spoke & Bird is in Chicago's South Loop, a short walk from McCormick Place, so you'll have plenty of time to get to the convention centre for the start of Thursday's programme. **IMPORTANT NOTE: There are two Spoke & Birds in Chicago, this is the one in South Loop.**
+The Spoke & Bird is in Chicago's South Loop, a short walk from McCormick Place, so you'll have plenty of time to get to the convention centre for the start of Thursday's programme. 
+
+***IMPORTANT NOTE: There are two Spoke & Birds in Chicago, this is the one in South Loop.***
 
 ## While you're at SC26
 
