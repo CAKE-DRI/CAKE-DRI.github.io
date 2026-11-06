@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes CAKE - A Year of Learning, Connecting and Looking Ahead"
+title: "Kubernetes, CAKE and Community: A Year of Learning, Connecting and Looking Ahead"
 date: 2026-11-10
 full-width: true 
 classes: wide
@@ -19,9 +19,9 @@ tags:
 
 ## Introduction
 
-Over the past year, I have had the opportunity to take part in the CAKE Fellowship. It has been a fantastic experience: meeting new people, exploring different areas of research infrastructure, developing new skills, and reflecting on my own professional journey.
+Over the past year, I have had the opportunity to take part in the CAKE Fellowship. It has been a genuinely enjoyable and rewarding experience, giving me the chance to meet new people, explore different areas of research infrastructure, develop new skills, and reflect on my own professional journey.
 
-As the fellowship draws to a close, I wanted to take some time to reflect on the experiences that have stood out to me, what I have learned along the way, and, importantly, what I would like to take forward.
+As the fellowship draws to a close, I wanted to take a little time to reflect on the experiences that have stood out to me, the things I have learned along the way, and, importantly, what I would like to carry forward into the next chapter.
 
 ## 1. Experiences, Highlights and Lessons Learned
 
@@ -29,21 +29,21 @@ There have been three experiences throughout the fellowship that particularly st
 
 ### Kubernetes Community Days – Gaining Industry Insight
 
-Kubernetes Community Days was one of my highlights of the year. It was a great opportunity to step outside the research infrastructure bubble and get a better understanding of how Kubernetes is being used across the wider industry.
+Kubernetes Community Days was one of the highlights of my year. It was a great opportunity to step outside the research infrastructure bubble and get a better understanding of how Kubernetes is being used across the wider industry.
 
-Seeing different experiences, hearing about large-scale real-world deployments and understanding some of the challenges bigger organisations are tackling gave me plenty to think about.
+Seeing different experiences, hearing about large-scale real-world deployments, and understanding some of the challenges bigger organisations are tackling gave me plenty to think about.
 
-I particularly enjoyed gaining insight into how the wider Kubernetes ecosystem is evolving and trying to decipher how these developments might influence the way we approach infrastructure within research.
+I particularly enjoyed gaining insight into how the wider Kubernetes ecosystem is evolving and trying to work out what that might mean for the way we approach infrastructure in research.
 
-One of my biggest takeaways has been the value of looking beyond your immediate domain. Although I work in research infrastructure, there are so many technical skills and challenges shared across different industries. By reaching outside your immediate circle, I can discover new approaches to familiar problems, while also contributing my own experiences.
+One of my biggest takeaways has been the value of looking beyond your immediate domain. Although I work in research infrastructure, there are so many technical skills and challenges shared across different industries. By reaching outside my usual circle, I can discover new approaches to familiar problems while also bringing my own experience into the conversation.
 
 ### Durham HPC Days – Technical Challenges and New Learning Opportunities
 
 Durham HPC Days was another standout experience, particularly because of the technical challenge and the opportunity to take part in a new workshop. The details of this workshop are within another blog post [here](https://www.cake.ac.uk/news/k8s-cake-at-dhpcd/).
 
-I always enjoy opportunities to get hands-on with new technologies and approaches, and this event provided a different environment in which to learn and challenge myself.
+I always enjoy opportunities to get hands-on with new technologies and approaches, and this event gave me exactly that opportunity in a different setting.
 
-It was also a valuable opportunity to engage with the HPC community, explore technical topics and consider how different approaches to research computing, and Raspberry Pi's in general, can complement the infrastructure I'm familiar with. 
+It was also a valuable chance to engage with the HPC community, explore technical topics, and think about how different approaches to research computing, and Raspberry Pi's in general, can complement the infrastructure I am used to working with.
 
 ### RSE Regional Meetup – Building Local Connections
 
@@ -51,7 +51,7 @@ The RSE Regional Meetup offered something a little different from the larger con
 
 Having more time to network with a smaller, local community was particularly valuable. It created a more relaxed environment for conversations, sharing experiences and getting to know people working on similar challenges.
 
-Sometimes the most useful part of an event isn't necessarily the presentations, but the conversations you have around them. This meetup was a good reminder of the importance of maintaining local connections and having a community of people you can learn from and share ideas with.
+Sometimes the most useful part of an event is not necessarily the presentations, but the conversations you have around them. This meetup was a good reminder of the importance of maintaining local connections and having a community of people you can learn from and share ideas with.
 
 ### Knowledge Exchange – Learning to Share Knowledge Effectively
 
@@ -124,12 +124,12 @@ Beyond the planned SIG activities, there are a few things I want to continue mak
 
 ## 4. Final Reflections
 
-The CAKE Fellowship has been a valuable opportunity to develop professionally, meet new people and engage with communities beyond my usual working environment.
+The CAKE Fellowship has been a valuable opportunity to develop professionally, meet new people, and engage with communities beyond my usual working environment.
 
-It's reinforced the value of getting involved, sharing experiences and learning from others. More importantly, it's given me the confidence and motivation to continue exploring opportunities outside my immediate role.
+It has reinforced the value of getting involved, sharing experiences, and learning from others. More importantly, it has given me the confidence and motivation to continue exploring opportunities outside my immediate role.
 
-While the formal fellowship may be coming to an end, I don't see this as the end of the journey. There are still events to attend, people to stay in touch with and plenty more to learn.
+While the formal fellowship may be coming to an end, I do not see this as the end of the journey. There are still events to attend, people to stay in touch with, and plenty more to learn.
 
-I'm grateful to everyone involved in making the fellowship possible and everyone I've met along the way.
+I am very grateful to everyone involved in making the fellowship possible, and to everyone I have met along the way.
 
-**Here's to keeping the connections going and seeing what comes next!**
+**Here’s to keeping the connections going and seeing what comes next!**
