@@ -41,4 +41,4 @@ Some particular highlights for me included the [Lincoln Lab Keynote](https://hpc
 
 Looking ahead, the next event for the K8s CAKE Fellowship will most likely be RSECon 2026, although I hope to deliver additional events and training opportunities before then. The conversations and connections made at Durham HPC Days have provided plenty of momentum, so watch this space! 👀
 
-<p align="center"><img src="/assets/images/ke_fellows/lewis-cake-dhpcd.jpg" alt="A still of Lewis talking about the Kubernetes CAKE fellowship at Durham HPC days." width="250"/></p> 
+<p align="center"><img src="/assets/images/ke_fellows/lewis-cake-dhpcd.jpg" alt="A still of Lewis talking about the Kubernetes CAKE fellowship at Durham HPC days." width="350"/></p> 

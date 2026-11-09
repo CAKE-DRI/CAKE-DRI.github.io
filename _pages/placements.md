@@ -1,65 +1,221 @@
 ---
 title: CAKE Placements & Visits
 permalink: /about/placements/
-layout: placements
+layout: no-title-page
 ---
 <br>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+# CAKE Placements & Visits 
+
+<!-- <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="/assets/images/CAKE-placements-banner.png" width="90%">
-</div>
+</div> -->
+
+<!-- * TOC
+{:toc} -->
 
 <!-- <br> -->
 
-* TOC
-{:toc}
+**CAKE Placements & Visits** support the UK DRI community to build new collaborations and strengthen existing ones through flexible funding for travel, subsistence, and in-person or remote placements and visits. 
 
-## About
-
-Great collaborations start with connection. CAKE supports placements and visits that bring people together, creating the space to share ideas, build relationships, and spark new ways of working. This funding is designed to build new collaborations or strengthen existing ones, with a focus on creating lasting partnerships by providing the time and space to connect.
-
-We primarily support travel and subsistence (T&S) costs to enable placements and visits for the UK DRI community, helping you connect both within the UK and with international partners. Most placement schemes are usually restricted by rigid criteria, so the CAKE placements and visits are intentionally flexible to support opportunities that usually lack funding. [Get in touch](/contact-us/) if you have an idea or need! 
-
-* International collaboration (with funds paid to a UKRI-funding eligible organisation)
-* In-person placements to embed into a research team 
-* Remote placements with tailored support if you are unable to travel
-* Attendance at community workshops, training and events to connect with the wider community 
-
-<!-- See some detailed examples and application help here... -->
-
-We focus on finding new opportunities for collaborations, not just skills and expertise, but transforming your ways of working by collaborating with a new perspective. This flexible approach ensures that placements are accessible to a broader pool of participants, particularly those often excluded from traditional professional exchange programs, ensuring you can still connect and collaborate meaningfully, regardless of your circumstances.
-
-<br>
-
+Applications are open year-round, decisions typically made within 4–6 weeks.
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+
+  <div class="quick-facts">
+  <span>✈️ Travel & subsistence funding</span>
+  <span>🌍 UK & international collaborations</span>
+  <span>🤝 In-person & <a href="https://www.cake.ac.uk/CAKEbox/placements-resources/virtual_placements/">remote placements</a></span>
+  <span>📅 Rolling applications</span>
+  <span>⏱ Decisions in 4–6 weeks</span>
+  <span>🎓 PhD students eligible</span>
+  <span>🎂 Application mentoring</span>
+  </div>
+
+  <br>
+
+  <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply now</a>
+</div> 
+
+
+## What we fund: 
+
+We support activities that enable collaboration, two-way knowledge exchange, and shared research development, creating benefits for both hosts and applicants:
+
+<div class="placement-grid">
+<div class="placement-card">
+<h3>🏢 In-person placements</h3>
+<p>Spend time embedded in another group to share knowledge, methods and ideas.</p>
+</div>
+
+<div class="placement-card">
+<h3>💻 Remote placements</h3>
+<p>Collaborate flexibly when travel is not possible or practical.</p>
+</div>
+
+<div class="placement-card">
+<h3>🌍 International </h3>
+<p>Travel to or host international collaborators.</p>
+</div>
+
+<div class="placement-card">
+<h3>🤝 Workshops & Events</h3>
+<p>Attend community meetings, training and networking events.</p>
+</div>
+</div>
+
+<div class="notice--success">
+💡 <strong>Not sure if your idea fits?</strong><br> The scheme is intentionally flexible, so get in touch and we can help shape your idea or match you with potential collaborators.
+</div>
+ 
+<div class="columns">
+<div>
+<h3>Benefits:</h3> 
+
+Placements and visits are designed to create space for meaningful collaboration beyond day-to-day research.
+
+<div class="checklist">
+<div>🤝   Time to explore new collaborations and ideas</div>
+<div>🤝   Opportunity to share skills and learn new approaches</div>
+<div>🤝   Access to new environments and perspectives</div>
+<div>🤝   Strengthening connections across the UK DRI community and beyond</div>
+</div>
+</div>
+
+<div>
+<h3>Eligibility:</h3>
+
+Funding is open to researchers across the UK DRI community and wider UKRI-eligible institutions.
+
+<div class="checklist">
+<div>✅   Based at a UKRI-eligible institution</div>
+<div>✅   Funding awarded at 80% Full Economic Cost (FEC)</div>
+<div>✅   Host institution must cover remaining 20%</div>
+<div>✅   PhD students welcome with supervisor support</div>
+</div>
+</div>
+</div>
+
+<h3>Have an idea but aren’t sure who to collaborate with?</h3>
+
+Read our guidance on when a [placement or visit is useful and how to develop the idea into an application](https://www.cake.ac.uk/CAKEbox/placements-resources/developing-an-idea-and-application/).
+
+The CAKE team is well positioned to connect you with the best people to help amplify your ideas. Get in touch with us via Slack or email, and we’ll help connect you with the people who can help bring your idea to life.
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="#application-information" class="btn btn--secondary btn--x-large">
+    Application Information
+  </a>
 </div>
 
 
 <br>
 
-## Application information
+---
 
-We are committed to fostering a diverse and inclusive environment that reflects the breadth of the CAKE network and wider UK DRI community. We actively encourage applications from all members of the community, regardless of background, discipline, or career stage. 
+<br>
 
-All participants in the CAKE network are expected to follow the [CAKE Code of Conduct](https://www.cake.ac.uk/CAKEbox/code-of-conduct/), ensuring a supportive and respectful environment for everyone involved.
+# Need inspiration? 
 
-### Summary 
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="{{ '/about/placements/p+v-outputs/' | relative_url }}" class="btn btn--primary btn--large">Explore opportunities we've funded and see what others have been working on.</a>
+</div> 
 
-* Rolling deadline 
-* Decisions typically communicated within 4-6 weeks 
-* The UK institution involved must be eligible for UKRI funding 
-* PhD students are eligible with a supervisor support letter
+## Latest Updates
+
+<!-- Read the latest news and stories. -->
+
+<section class="post-cards">
+    {% assign placement_posts = site.posts | where_exp: "post", "post.tags contains 'placements'" %}
+    <div class="card-grid">
+        {% for post in placement_posts limit:4 %}
+        <div class="card">
+            <a href="{{ post.url }}">
+            <div class="card-image">
+                <img src="{{ post.summary-image }}" alt="{{ post.title }}">
+            </div>
+            <div class="card-content">
+                <h3>{{ post.title }}</h3>
+                <p class="card-excerpt">{{ preview }}</p>
+                <div class="card-footer">
+                    {% if post.date %}
+                    <p class="card-date">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+                    </p>
+                    {% endif %}
+                    <span class="card-link">Read more →</span>
+                </div>
+            </div>
+            </a>
+        </div>
+    {% endfor %}
+    </div>
+</section>
+
+
+## Recently completed activities
+
+<!-- Explore recently completed placements and see where the funding has taken our researchers. -->
+
+<section class="post-cards">
+    {% assign placement_reports = site.reports
+    | where_exp: "post", "post.tags contains 'placements'"
+    | sort: "date"
+    | reverse
+    %}    
+    <div class="card-content">
+        {% for post in placement_reports limit:3 %}
+        <div class="card">
+           <a href="/about/placements/p+v-outputs/#{{ post.slug }}">
+            <div class="card-content">
+                <p class="card-excerpt"> <em>{{ post.excerpt | strip_html | truncatewords: 50 }}</em></p>
+                <div class="card-footer">
+                    <h3>{{ post.name }}</h3>
+                    <h3>{{ post.placement }}</h3>                    
+                    <span class="card-link">Read more →</span>
+                </div>
+            </div>
+            </a>
+        </div>
+    {% endfor %}
+    </div>
+</section>
+
+<br>
+
+---
+
+<br>
+
+# Application information
+
+- [Eligibility](#eligibility)
+- [Timeline](#timeline)
+- [Application process](#application-process)
+- [Outputs](#outputs)
+- [Contact](#contact)
+
+CAKE Placements & Visits are designed to spark new collaborations across the UK DRI community by creating opportunities for researchers to connect, exchange ideas, and develop new ways of working.
+
+The scheme primarily funds travel and subsistence costs, making it easier for researchers to undertake placements and visits that would otherwise be difficult to support. The programme is intentionally flexible, enabling collaborations that may not fit within traditional funding schemes.
 
 ### Eligibility 
-Applicants must be based at [UK institutions eligible for UKRI funding](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/). Funding may be used to support international travel and be used to cover the expenses of those travelling from other countries to the UK. 
 
-Awards are granted at [80% FEC](https://www.ukri.org/councils/epsrc/guidance-for-applicants/costs-you-can-apply-for/principles-of-full-economic-costing-fec/). Applicants must confirm their institution can provide the remaining 20% contribution to be eligible. 
+Applicants must:
 
-PhD students are welcome to apply, provided they include a letter of support from their primary supervisor, sent alongside the application to the CAKE management team.
+* Be based at a [UK institution eligible for UKRI funding.](https://www.ukri.org/publications/organisation-eligibility/research-organisations-eligible-for-ukri-funding/)
+* Confirm that their institution can provide the remaining 20% contribution, as awards are made at 80% Full Economic Costing (FEC).
+    * Check if your organisation has confirmed their support for staff joining CAKE activities [here](/opportunities/).
+
+Additional information:
+
+* Funding may support international travel, including the travel expenses of collaborators visiting the UK.
+* PhD students are welcome to apply but must submit a letter of support from their primary supervisor alongside their application.
+
+We are committed to building a diverse and inclusive CAKE community and welcome applications from researchers of all backgrounds, disciplines, and career stages.
 
 ### Timeline 
+
 The programme runs from October 2025 through to April 2028, at which time all visits must be complete and expenses claimed.
 
 ### Application process 
@@ -78,52 +234,25 @@ For larger awards (over £6,000) or requests outside travel and subsistence cost
 
 Successful applicants will be notified directly and provided with details on how funding will be administered.
 
-### Outcome
+### Outputs
+
 All successful applicants are required to:
 
 * Submit a short written report outlining activities and outcomes
-* Produce a blog post for the CAKE website
+* Contribute a blog post for the CAKE website
 * Documentary evidence must be kept to show how the allocated funds have been spent.
+
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="{{ 'https://forms.gle/qe5jCLPkBJ9tGNKg6' | relative_url }}" class="btn btn--secondary btn--x-large">Apply here!</a>
+</div>
+
+Don't forget to checkout our guidance on [how to plan your placement or visit](https://www.cake.ac.uk/CAKEbox/placements-resources/planning-a-placement-visit/). 
 
 ### Contact 
 
-If you have any questions, don't hesitate to reach out to us at [cake@jiscmail.ac.uk](cake@jiscmail.ac.uk). 
+If you have any questions about eligibility, developing an idea, or preparing an application, please get in touch:
 
-## Need inspiration? Read the latest CAKE Placement & Visit blog posts
+📧 **cake@jiscmail.ac.uk**
 
-<!-- When we get blog posts, could have a carousel of previous ones! -->
-
-<!-- 
-## EDI
-
-REMOVED while refactoring 
-
-To support this commitment, we provide: 
-* [A structured framework to help hosts and participants get the most from their placement or visit - whether virtual or in-person](#structured-framework-for-placements-and-visits)
-* [Mentoring opportunities for all applicants](#mentoring-opportunities)
-* [Match-making support to connect participants and hosts](#match-making-support)
-* [Best practices for successful placements and visits](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/) 
-* [Guidance for reviewers to support fair, respectful, and constructive reviews](https://www.cake.ac.uk/CAKEbox/submissions-and-reviews/)
-
----
-
-<br>
-
-# Support 
-
-**Coming soon!**
-We have several support opportunities that will soon be in place to help you make the most of your placements and visits. In the meantime, please contact the CAKE management team, who are very happy to assist, helping you navigate options and connect with the right collaborators.
-
-
-## Structured Framework for Placements and Visits
-
-We’re developing a clear framework to help participants and hosts get the most out of every placement and visit. Stay tuned for guidance, templates, and tips to make your experience as productive and rewarding as possible.
-
-## Mentoring Opportunities 
-
-CAKE will soon offer mentoring support for all applicants, connecting you with experienced members of the network to guide your placement, provide advice, and help you achieve your goals.
-
-## Match-making Support 
-
-We’re building tools and support to help participants find the right hosts, and vice versa, so that collaborations are effective, meaningful, and aligned with your research interests.
- -->
+We’re happy to help!

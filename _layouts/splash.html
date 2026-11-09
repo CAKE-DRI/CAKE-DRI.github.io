@@ -23,7 +23,8 @@ layout: default
         <h2>Latest Blog Posts</h2>
 
         <div class="card-grid">
-          {% for post in site.posts limit:4 %}
+          {% assign live_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+          {% for post in live_posts limit:4 %}
             <div class="card">
               <a href="{{ post.url }}">
                 <div class="card-image">
@@ -44,7 +45,7 @@ layout: default
                   {% elsif post.description and post.description != "" %}
                     {% assign preview = post.description %}
                   {% else %}
-                    {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 30 %}
+                    {% assign preview = post.content | strip_html | normalize_whitespace | truncatewords: 15 %}
                   {% endif %}
                   <p class="card-excerpt">{{ preview }}</p>
                   <div class="card-footer">
@@ -63,7 +64,7 @@ layout: default
       </section>
 
       <div style="text-align: center; margin-top: 2rem;">
-        <a href="{{ '/news/' | relative_url }}" class="btn btn--secondary btn--large">Find more DRI news →</a>
+        <a href="{{ '/blog/' | relative_url }}" class="btn btn--secondary btn--large">Find more DRI news →</a>
       </div>
 
 

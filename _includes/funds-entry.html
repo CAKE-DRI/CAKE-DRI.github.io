@@ -71,7 +71,7 @@
     
     <p class="events-block__description">
       <span style="font-weight:normal;text-decoration:none;">
-        {{ entry.content | strip_html }}
+        {{ entry.content | strip_html | truncatewords: 30 }}
       </span>
     </p>
 

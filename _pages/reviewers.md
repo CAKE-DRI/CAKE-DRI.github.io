@@ -27,6 +27,7 @@ Our current CAKE Reviewing Committee are
 - Marion Weinzierl (University of Cambridge, ICCS)
 - Tobias Weinzierl (Durham University)
 - Abhijeet Dada Mote (Lead Python AI Engineer, PSF Diversity & Inclusion Workgroup Volunteer)
+- Cheuk Lun Ko (MathWorks)
 
 Some reviewers might not have agreed to be listed here, and are therefore missing from this list.
 
@@ -47,7 +48,7 @@ As a reviewer, you’ll be added to our CAKE Review Committee Pool. This means:
 - We aim to ensure reviewer workload is distributed fairly across the committee and will monitor how many assignments each reviewer receives throughout the year.
 - If you accept an assignment, we ask that you provide fair, respectful, and constructive feedback.
 
-**For full details, please refer to the [CAKE Review Committee Terms of Reference](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/reviewer-terms-of-reference/).**
+**For full details, please refer to the [CAKE Review Committee Terms of Reference](https://www.cake.ac.uk/CAKEbox/reviewing/reviewer-terms-of-reference/).**
 
 ## What sort of applications will you be reviewing? 
 

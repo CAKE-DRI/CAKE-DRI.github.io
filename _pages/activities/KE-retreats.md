@@ -48,7 +48,7 @@ The programme runs from October 2025 through to April 2028, at which time all re
 ## Process 
 Applications are open with a rolling deadline.
 
-Awards of retreats will be administered through a robust and transparent competitive process overseen by the Review Committee (RC). Please check our [Submissions & Reviewing](https://www.cake.ac.uk/CAKEbox/submissions-and-reviewing/) page on the CAKEbox.
+Awards of retreats will be administered through a robust and transparent competitive process overseen by the Review Committee (RC). Please check our [Submissions & Reviewing](https://www.cake.ac.uk/CAKEbox/reviewing/) page on the CAKEbox.
 
 Retreat themes will be proposed by the community as part of the application process. These applications should describe the proposed theme, its relevance for the UK DRI landscape and the anticipated outcomes and benefits for the wider community.
 

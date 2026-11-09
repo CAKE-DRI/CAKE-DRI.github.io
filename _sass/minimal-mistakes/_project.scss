@@ -2,6 +2,65 @@
    PROJECT
    ========================================================================== */
 
+.placement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.6rem;
+  margin: 2rem 0;
+}
+
+.placement-card {
+  padding: 0.75rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #fafafa;
+
+  font-size: 0.8rem;
+  line-height: 1.35;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* Title inside cards */
+.placement-card h3 {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Body text inside cards */
+.placement-card p {
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+.quick-facts{
+display:flex;
+flex-wrap:wrap;
+gap:.75rem;
+margin:1.5rem 0;
+}
+
+.quick-facts span{
+padding:.6rem 1rem;
+background:#eef6ff;
+border-radius:999px;
+}
+
+.columns{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:2rem;
+}
+
+@media(max-width:800px){
+.columns{
+grid-template-columns:1fr;
+}
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

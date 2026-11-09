@@ -24,7 +24,7 @@ Virtual placements, while not offering the same level of immersion as an in-pers
 
 While you won’t need to think about office keys or desks, successful virtual placements do require thoughtful planning. It’s important to ensure the placee is fully integrated into the team, with clear opportunities for regular communication, structured collaboration time, and informal interaction wherever possible.
 
-CAKE provides [guidance on how to design and run successful virtual placements](https://www.cake.ac.uk/CAKEbox/collaboration-and-community-building/virtual_placements/). This includes practical advice on structuring the experience so that participants are fully embedded within the team and able to contribute effectively.
+CAKE provides [guidance on how to design and run successful virtual placements](https://www.cake.ac.uk/CAKEbox/placements-resources/virtual_placements/). This includes practical advice on structuring the experience so that participants are fully embedded within the team and able to contribute effectively.
 
 The [CAKE flexible fund for placements and visits](https://www.cake.ac.uk/about/placements/) can also support costs associated with short in-person visits or joint activities. These can play an important role in strengthening virtual placements by adding valuable face-to-face interaction where possible.
 
