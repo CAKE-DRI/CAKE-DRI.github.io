@@ -62,3 +62,9 @@ This visit was also a great opportunity to reflect on what it takes to plan a su
 Read the guide to successful placements & visits here: [https://www.cake.ac.uk/CAKEbox/placements-resources/](https://www.cake.ac.uk/CAKEbox/placements-resources/)
 
 Do you have collaborators you'd like to visit? Ideas that need some time to breathe and think through? Consider applying for your own Placement & Visit with CAKE! Learn more here: [https://www.cake.ac.uk/about/placements/](https://www.cake.ac.uk/about/placements/)
+
+
+*Written by: Eleanor Broadway*
+
+🎂
+
