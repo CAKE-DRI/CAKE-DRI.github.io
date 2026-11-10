@@ -75,7 +75,7 @@ I appreciate that remote attendance is, for many people, the most practical or a
 
 ### A Thank You
 
-Throughout the fellowship, I've had support from the entire CAKE committee, and I'm incredibly grateful for that. In particular, I'd like to thank Marion Weinzerl for her advice and continuous assistance over the past year. Having that support has made a real difference to my experience.
+Throughout the fellowship, I've had support from the entire CAKE committee, and I'm incredibly grateful for that. In particular, I'd like to thank Marion Weinzierl for her advice and continuous assistance over the past year. Having that support has made a real difference to my experience.
 
 ## 2. The Year at a Glance
 
