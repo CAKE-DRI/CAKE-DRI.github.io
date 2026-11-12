@@ -57,7 +57,7 @@ The following reviewing criteria will be applied:
 
 Applications for the third cohort are expected to open in October 2026.--> 
 
-To apply, please fill in the form below and submit before 12.11.2026. You will be notified of the outcome by 14.12.2026, and the fellowship term will start on 01.01.2027.
+To apply, please fill in the form below and submit on or before 12.11.2026. You will be notified of the outcome by 14.12.2026, and the fellowship term will start on 01.01.2027.
 
 **Before applying you have to discuss and get approval from your line manager and institution.** There are a number of institutions who have already confirmed their support for staff participating in this programme.  See [the "Flexible Funds" page](/opportunities/).
 
