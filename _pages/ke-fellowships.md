@@ -53,11 +53,11 @@ The following reviewing criteria will be applied:
 
 ## Application
 
-<!--**Applications are currently closed. Thanks to everyone who applied to be a DRI KE Fellow so far!**
+**Applications are currently closed. Thanks to everyone who applied to be a DRI KE Fellow so far!**
 
-Applications for the third cohort are expected to open in October 2026.--> 
+Applications for the fourth cohort are expected to open in March/April 2027.
 
-To apply, please fill in the form below and submit until 12.11.2026. You will be notified of the outcome by 14.12.2026, and the fellowship term will start on 01.01.2027.
+<!--To apply, please fill in the form below and submit until 12.11.2026. You will be notified of the outcome by 14.12.2026, and the fellowship term will start on 01.01.2027.--> 
 
 **Before applying you have to discuss and get approval from your line manager and institution.** There are a number of institutions who have already confirmed their support for staff participating in this programme.  See [the "Flexible Funds" page](/opportunities/).
 
@@ -67,7 +67,7 @@ Applicants must be from UK institutions which are eligible for UKRI funding.
 
 The data in the form will be stored and used for the purposes of the fellowship and the CAKE project only, and not shared with external parties.
 
-[**APPLY HERE**](https://forms.gle/rnh53W7QznnfpBsp9)
+<!--[**APPLY HERE**](https://forms.gle/rnh53W7QznnfpBsp9)--> 
  
 
 ---
