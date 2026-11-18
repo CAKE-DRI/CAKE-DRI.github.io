@@ -12,7 +12,7 @@ project-type: International events
 web-page: https://sc26.supercomputing.org/
 location: The Spoke & Bird (South Loop), 205 E 18th St, Chicago, US
 location-link: https://www.google.com/maps/search/?api=1&query=The+Spoke+%26+Bird+205+E+18th+St+Chicago+IL+60616
-summary: Heading to SC26 from the UK? Join CAKE for a free networking breakfast on Thursday 19 November, 7:30am - 8:30am, at The Spoke & Bird in Chicago's South Loop. Meet others from the UK, compare notes on the conference so far and enjoy breakfast on us. Free, but places must be booked in advance.
+summary: Heading to SC26 from the UK? Join CAKE for a free networking breakfast on Thursday 19 November, 7:30am - 8:30am, at The Spoke & Bird in Chicago's South Loop. Meet others from the UK, compare notes on the conference so far and enjoy breakfast on us. 
 ---
 
 <style>
@@ -54,7 +54,7 @@ SC is enormous, and it is surprisingly easy to spend the whole week without cros
 
 Come along to meet other people from the UK research computing community, make new connections, catch up on how the conference is going for everyone and swap tips on what not to miss for the rest of the week. Best of all, breakfast is free!
 
-**[Sign up for the UK Networking Breakfast](https://forms.gle/UszkMqNwqCux92aR6)**
+**No need to signup to attend, just turn up**
 
 ## Who is it for?
 
