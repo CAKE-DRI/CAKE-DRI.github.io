@@ -54,7 +54,7 @@ SC is enormous, and it is surprisingly easy to spend the whole week without cros
 
 Come along to meet other people from the UK research computing community, make new connections, catch up on how the conference is going for everyone and swap tips on what not to miss for the rest of the week. Best of all, breakfast is free!
 
-**No need to signup to attend, just turn up**
+**No need to signup, just turn up**
 
 ## Who is it for?
 
