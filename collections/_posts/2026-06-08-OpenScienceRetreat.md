@@ -79,3 +79,5 @@ With the event now over, we organisers are taking some time to rest and reflect,
 To see some of the things people made at the 2026 Global Open Science Retreat, see [our collection on Research Equals](https://doi.org/10.53962/vwam-tx4m). To read more about Open Science Retreats visit [https://open.science-retreat.org/](https://open.science-retreat.org/).
 
 The event was co-organised by the [Digital Research Academy](https://digital-research.academy/), [UKRN](https://www.ukrn.org/), and [OLS](https://we-are-ols.org/). Thank you to [Research Equals](https://www.researchequals.com/), [Society of Research Software Engineering](https://society-rse.org/), [COS](https://www.cos.io/), [SSI](https://www.software.ac.uk/), [UKRN](https://www.ukrn.org/), and [CAKE](https://www.cake.ac.uk/) for financial support.
+
+Written by: Danny Garside (Digital Research Academy).
